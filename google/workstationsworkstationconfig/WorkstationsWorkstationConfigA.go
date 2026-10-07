@@ -5,14 +5,14 @@ package workstationsworkstationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/workstationsworkstationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/workstationsworkstationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workstations_workstation_config google_workstations_workstation_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workstations_workstation_config google_workstations_workstation_config}.
 type WorkstationsWorkstationConfigA interface {
 	cdktn.TerraformResource
 	AllowedPorts() WorkstationsWorkstationConfigAllowedPortsList
@@ -992,7 +992,7 @@ func (j *jsiiProxy_WorkstationsWorkstationConfigA) WorkstationConfigIdInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
 func NewWorkstationsWorkstationConfigA(scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigAConfig) WorkstationsWorkstationConfigA {
 	_init_.Initialize()
 
@@ -1010,7 +1010,7 @@ func NewWorkstationsWorkstationConfigA(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workstations_workstation_config google_workstations_workstation_config} Resource.
 func NewWorkstationsWorkstationConfigA_Override(w WorkstationsWorkstationConfigA, scope constructs.Construct, id *string, config *WorkstationsWorkstationConfigAConfig) {
 	_init_.Initialize()
 

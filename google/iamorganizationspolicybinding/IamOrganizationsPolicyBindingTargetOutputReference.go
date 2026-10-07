@@ -5,9 +5,9 @@ package iamorganizationspolicybinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iamorganizationspolicybinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iamorganizationspolicybinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type IamOrganizationsPolicyBindingTargetOutputReference interface {
 	PrincipalSet() *string
 	SetPrincipalSet(val *string)
 	PrincipalSetInput() *string
+	Resource() *string
+	SetResource(val *string)
+	ResourceInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type IamOrganizationsPolicyBindingTargetOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPrincipalSet()
+	ResetResource()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) Principal
 	_jsii_.Get(
 		j,
 		"principalSetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) Resource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) ResourceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference)SetPrincip
 	_jsii_.Set(
 		j,
 		"principalSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference)SetResource(val *string) {
+	if err := j.validateSetResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resource",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (i *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) ResetPrin
 	_jsii_.InvokeVoid(
 		i,
 		"resetPrincipalSet",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) ResetResource() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetResource",
 		nil, // no parameters
 	)
 }

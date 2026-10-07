@@ -423,6 +423,17 @@ func (c *jsiiProxy_CesAgent) validatePutModelSettingsParameters(value *CesAgentM
 	return nil
 }
 
+func (c *jsiiProxy_CesAgent) validatePutRemoteA2AAgentParameters(value *CesAgentRemoteA2AAgent) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CesAgent) validatePutRemoteDialogflowAgentParameters(value *CesAgentRemoteDialogflowAgent) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -470,6 +481,37 @@ func (c *jsiiProxy_CesAgent) validatePutToolsetsParameters(value interface{}) er
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CesAgentToolsets; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CesAgent) validatePutTransferRulesParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*CesAgentTransferRules:
+		value := value.(*[]*CesAgentTransferRules)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*CesAgentTransferRules:
+		value_ := value.([]*CesAgentTransferRules)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CesAgentTransferRules; received %#v (a %T)", value, value)
 		}
 	}
 

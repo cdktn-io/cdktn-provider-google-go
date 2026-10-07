@@ -7,15 +7,19 @@ package agenticapplicationsanalystagentpersona
 type AgenticApplicationsAnalystAgentPersonaArtifactsConfig struct {
 	// document_generation_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona#document_generation_options AgenticApplicationsAnalystAgentPersona#document_generation_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agentic_applications_analyst_agent_persona#document_generation_options AgenticApplicationsAnalystAgentPersona#document_generation_options}
 	DocumentGenerationOptions *AgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions `field:"optional" json:"documentGenerationOptions" yaml:"documentGenerationOptions"`
+	// methodology_export_options block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agentic_applications_analyst_agent_persona#methodology_export_options AgenticApplicationsAnalystAgentPersona#methodology_export_options}
+	MethodologyExportOptions *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions `field:"optional" json:"methodologyExportOptions" yaml:"methodologyExportOptions"`
 	// slide_generation_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona#slide_generation_options AgenticApplicationsAnalystAgentPersona#slide_generation_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agentic_applications_analyst_agent_persona#slide_generation_options AgenticApplicationsAnalystAgentPersona#slide_generation_options}
 	SlideGenerationOptions *AgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions `field:"optional" json:"slideGenerationOptions" yaml:"slideGenerationOptions"`
 	// visualization_options block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona#visualization_options AgenticApplicationsAnalystAgentPersona#visualization_options}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agentic_applications_analyst_agent_persona#visualization_options AgenticApplicationsAnalystAgentPersona#visualization_options}
 	VisualizationOptions *AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions `field:"optional" json:"visualizationOptions" yaml:"visualizationOptions"`
 }
 

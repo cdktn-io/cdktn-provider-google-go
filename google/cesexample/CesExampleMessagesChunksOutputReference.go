@@ -5,9 +5,9 @@ package cesexample
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesexample/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesexample/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -15,6 +15,8 @@ type CesExampleMessagesChunksOutputReference interface {
 	cdktn.ComplexObject
 	AgentTransfer() CesExampleMessagesChunksAgentTransferOutputReference
 	AgentTransferInput() *CesExampleMessagesChunksAgentTransfer
+	Blob() CesExampleMessagesChunksBlobOutputReference
+	BlobInput() *CesExampleMessagesChunksBlob
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -79,10 +81,12 @@ type CesExampleMessagesChunksOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAgentTransfer(value *CesExampleMessagesChunksAgentTransfer)
+	PutBlob(value *CesExampleMessagesChunksBlob)
 	PutImage(value *CesExampleMessagesChunksImage)
 	PutToolCall(value *CesExampleMessagesChunksToolCall)
 	PutToolResponse(value *CesExampleMessagesChunksToolResponse)
 	ResetAgentTransfer()
+	ResetBlob()
 	ResetImage()
 	ResetText()
 	ResetToolCall()
@@ -118,6 +122,26 @@ func (j *jsiiProxy_CesExampleMessagesChunksOutputReference) AgentTransferInput()
 	_jsii_.Get(
 		j,
 		"agentTransferInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesExampleMessagesChunksOutputReference) Blob() CesExampleMessagesChunksBlobOutputReference {
+	var returns CesExampleMessagesChunksBlobOutputReference
+	_jsii_.Get(
+		j,
+		"blob",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesExampleMessagesChunksOutputReference) BlobInput() *CesExampleMessagesChunksBlob {
+	var returns *CesExampleMessagesChunksBlob
+	_jsii_.Get(
+		j,
+		"blobInput",
 		&returns,
 	)
 	return returns
@@ -595,6 +619,17 @@ func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) PutAgentTransfer(val
 	)
 }
 
+func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) PutBlob(value *CesExampleMessagesChunksBlob) {
+	if err := c.validatePutBlobParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putBlob",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) PutImage(value *CesExampleMessagesChunksImage) {
 	if err := c.validatePutImageParameters(value); err != nil {
 		panic(err)
@@ -632,6 +667,14 @@ func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) ResetAgentTransfer()
 	_jsii_.InvokeVoid(
 		c,
 		"resetAgentTransfer",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) ResetBlob() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetBlob",
 		nil, // no parameters
 	)
 }

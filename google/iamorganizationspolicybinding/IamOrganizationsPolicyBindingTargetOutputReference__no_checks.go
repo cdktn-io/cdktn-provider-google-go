@@ -67,6 +67,10 @@ func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) validateSetResourceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamOrganizationsPolicyBindingTargetOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

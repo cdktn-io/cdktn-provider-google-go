@@ -5,14 +5,14 @@ package chronicledataexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chronicledataexport/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chronicledataexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_export google_chronicle_data_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_export google_chronicle_data_export}.
 type ChronicleDataExport interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -680,7 +680,7 @@ func (j *jsiiProxy_ChronicleDataExport) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_export google_chronicle_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_export google_chronicle_data_export} Resource.
 func NewChronicleDataExport(scope constructs.Construct, id *string, config *ChronicleDataExportConfig) ChronicleDataExport {
 	_init_.Initialize()
 
@@ -698,7 +698,7 @@ func NewChronicleDataExport(scope constructs.Construct, id *string, config *Chro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_export google_chronicle_data_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_export google_chronicle_data_export} Resource.
 func NewChronicleDataExport_Override(c ChronicleDataExport, scope constructs.Construct, id *string, config *ChronicleDataExportConfig) {
 	_init_.Initialize()
 

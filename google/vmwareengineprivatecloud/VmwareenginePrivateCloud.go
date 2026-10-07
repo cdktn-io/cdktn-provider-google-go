@@ -5,14 +5,14 @@ package vmwareengineprivatecloud
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vmwareengineprivatecloud/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vmwareengineprivatecloud/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud}.
 type VmwareenginePrivateCloud interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -727,7 +727,7 @@ func (j *jsiiProxy_VmwareenginePrivateCloud) Vcenter() VmwareenginePrivateCloudV
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
 func NewVmwareenginePrivateCloud(scope constructs.Construct, id *string, config *VmwareenginePrivateCloudConfig) VmwareenginePrivateCloud {
 	_init_.Initialize()
 
@@ -745,7 +745,7 @@ func NewVmwareenginePrivateCloud(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_private_cloud google_vmwareengine_private_cloud} Resource.
 func NewVmwareenginePrivateCloud_Override(v VmwareenginePrivateCloud, scope constructs.Construct, id *string, config *VmwareenginePrivateCloudConfig) {
 	_init_.Initialize()
 

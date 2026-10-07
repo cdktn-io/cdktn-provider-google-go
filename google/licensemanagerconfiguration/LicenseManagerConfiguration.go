@@ -5,14 +5,14 @@ package licensemanagerconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/licensemanagerconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/licensemanagerconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/license_manager_configuration google_license_manager_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/license_manager_configuration google_license_manager_configuration}.
 type LicenseManagerConfiguration interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -646,7 +646,7 @@ func (j *jsiiProxy_LicenseManagerConfiguration) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/license_manager_configuration google_license_manager_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/license_manager_configuration google_license_manager_configuration} Resource.
 func NewLicenseManagerConfiguration(scope constructs.Construct, id *string, config *LicenseManagerConfigurationConfig) LicenseManagerConfiguration {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewLicenseManagerConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/license_manager_configuration google_license_manager_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/license_manager_configuration google_license_manager_configuration} Resource.
 func NewLicenseManagerConfiguration_Override(l LicenseManagerConfiguration, scope constructs.Construct, id *string, config *LicenseManagerConfigurationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datagooglecomputeregiondisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datagooglecomputeregiondisk/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datagooglecomputeregiondisk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/compute_region_disk google_compute_region_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/compute_region_disk google_compute_region_disk}.
 type DataGoogleComputeRegionDisk interface {
 	cdktn.TerraformDataSource
 	AccessMode() *string
@@ -721,7 +721,7 @@ func (j *jsiiProxy_DataGoogleComputeRegionDisk) Users() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
 func NewDataGoogleComputeRegionDisk(scope constructs.Construct, id *string, config *DataGoogleComputeRegionDiskConfig) DataGoogleComputeRegionDisk {
 	_init_.Initialize()
 
@@ -739,7 +739,7 @@ func NewDataGoogleComputeRegionDisk(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/compute_region_disk google_compute_region_disk} Data Source.
 func NewDataGoogleComputeRegionDisk_Override(d DataGoogleComputeRegionDisk, scope constructs.Construct, id *string, config *DataGoogleComputeRegionDiskConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cestoolset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cestoolset/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cestoolset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset google_ces_toolset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_toolset google_ces_toolset}.
 type CesToolset interface {
 	cdktn.TerraformResource
 	App() *string
@@ -745,7 +745,7 @@ func (j *jsiiProxy_CesToolset) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetConfig) CesToolset {
 	_init_.Initialize()
 
@@ -763,7 +763,7 @@ func NewCesToolset(scope constructs.Construct, id *string, config *CesToolsetCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_toolset google_ces_toolset} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_toolset google_ces_toolset} Resource.
 func NewCesToolset_Override(c CesToolset, scope constructs.Construct, id *string, config *CesToolsetConfig) {
 	_init_.Initialize()
 

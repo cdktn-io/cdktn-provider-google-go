@@ -5,9 +5,9 @@ package agenticapplicationsanalystagentpersona
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/agenticapplicationsanalystagentpersona/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/agenticapplicationsanalystagentpersona/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,9 @@ type AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOu
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VisualizationExamples() AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsVisualizationExamplesList
 	VisualizationExamplesInput() interface{}
+	VisualizationMode() *string
+	SetVisualizationMode(val *string)
+	VisualizationModeInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOu
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutVisualizationExamples(value interface{})
 	ResetVisualizationExamples()
+	ResetVisualizationMode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -173,6 +177,26 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualiz
 	return returns
 }
 
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference) VisualizationMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"visualizationMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference) VisualizationModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"visualizationModeInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference {
 	_init_.Initialize()
@@ -252,6 +276,17 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualiz
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference)SetVisualizationMode(val *string) {
+	if err := j.validateSetVisualizationModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"visualizationMode",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualiz
 	_jsii_.InvokeVoid(
 		a,
 		"resetVisualizationExamples",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference) ResetVisualizationMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetVisualizationMode",
 		nil, // no parameters
 	)
 }

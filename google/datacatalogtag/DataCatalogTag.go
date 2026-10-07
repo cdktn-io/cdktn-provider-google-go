@@ -5,14 +5,14 @@ package datacatalogtag
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datacatalogtag/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datacatalogtag/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_catalog_tag google_data_catalog_tag}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_catalog_tag google_data_catalog_tag}.
 type DataCatalogTag interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DataCatalogTag) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_catalog_tag google_data_catalog_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_catalog_tag google_data_catalog_tag} Resource.
 func NewDataCatalogTag(scope constructs.Construct, id *string, config *DataCatalogTagConfig) DataCatalogTag {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewDataCatalogTag(scope constructs.Construct, id *string, config *DataCatal
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_catalog_tag google_data_catalog_tag} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_catalog_tag google_data_catalog_tag} Resource.
 func NewDataCatalogTag_Override(d DataCatalogTag, scope constructs.Construct, id *string, config *DataCatalogTagConfig) {
 	_init_.Initialize()
 

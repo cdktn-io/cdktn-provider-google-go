@@ -5,14 +5,14 @@ package computeimageiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeimageiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeimageiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_image_iam_policy google_compute_image_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_image_iam_policy google_compute_image_iam_policy}.
 type ComputeImageIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_ComputeImageIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_image_iam_policy google_compute_image_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_image_iam_policy google_compute_image_iam_policy} Resource.
 func NewComputeImageIamPolicy(scope constructs.Construct, id *string, config *ComputeImageIamPolicyConfig) ComputeImageIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewComputeImageIamPolicy(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_image_iam_policy google_compute_image_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_image_iam_policy google_compute_image_iam_policy} Resource.
 func NewComputeImageIamPolicy_Override(c ComputeImageIamPolicy, scope constructs.Construct, id *string, config *ComputeImageIamPolicyConfig) {
 	_init_.Initialize()
 

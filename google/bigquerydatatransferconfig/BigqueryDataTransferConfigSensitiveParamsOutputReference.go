@@ -5,9 +5,9 @@ package bigquerydatatransferconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigquerydatatransferconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigquerydatatransferconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -40,9 +40,9 @@ type BigqueryDataTransferConfigSensitiveParamsOutputReference interface {
 	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
 	SetSecretAccessKeyWo(val *string)
 	SecretAccessKeyWoInput() *string
-	SecretAccessKeyWoVersion() *float64
-	SetSecretAccessKeyWoVersion(val *float64)
-	SecretAccessKeyWoVersionInput() *float64
+	SecretAccessKeyWoVersion() *string
+	SetSecretAccessKeyWoVersion(val *string)
+	SecretAccessKeyWoVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -183,8 +183,8 @@ func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference) Sec
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference) SecretAccessKeyWoVersion() *float64 {
-	var returns *float64
+func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference) SecretAccessKeyWoVersion() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"secretAccessKeyWoVersion",
@@ -193,8 +193,8 @@ func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference) Sec
 	return returns
 }
 
-func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference) SecretAccessKeyWoVersionInput() *float64 {
-	var returns *float64
+func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference) SecretAccessKeyWoVersionInput() *string {
+	var returns *string
 	_jsii_.Get(
 		j,
 		"secretAccessKeyWoVersionInput",
@@ -306,7 +306,7 @@ func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference)SetS
 	)
 }
 
-func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference)SetSecretAccessKeyWoVersion(val *float64) {
+func (j *jsiiProxy_BigqueryDataTransferConfigSensitiveParamsOutputReference)SetSecretAccessKeyWoVersion(val *string) {
 	if err := j.validateSetSecretAccessKeyWoVersionParameters(val); err != nil {
 		panic(err)
 	}

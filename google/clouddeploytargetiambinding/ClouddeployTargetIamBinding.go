@@ -5,14 +5,14 @@ package clouddeploytargetiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/clouddeploytargetiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/clouddeploytargetiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding}.
 type ClouddeployTargetIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_ClouddeployTargetIamBinding) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
 func NewClouddeployTargetIamBinding(scope constructs.Construct, id *string, config *ClouddeployTargetIamBindingConfig) ClouddeployTargetIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewClouddeployTargetIamBinding(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_target_iam_binding google_clouddeploy_target_iam_binding} Resource.
 func NewClouddeployTargetIamBinding_Override(c ClouddeployTargetIamBinding, scope constructs.Construct, id *string, config *ClouddeployTargetIamBindingConfig) {
 	_init_.Initialize()
 

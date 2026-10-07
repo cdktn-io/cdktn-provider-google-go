@@ -5,14 +5,14 @@ package dataplexdatascaniambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataplexdatascaniambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataplexdatascaniambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_datascan_iam_binding google_dataplex_datascan_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_datascan_iam_binding google_dataplex_datascan_iam_binding}.
 type DataplexDatascanIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataplexDatascanIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_datascan_iam_binding google_dataplex_datascan_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_datascan_iam_binding google_dataplex_datascan_iam_binding} Resource.
 func NewDataplexDatascanIamBinding(scope constructs.Construct, id *string, config *DataplexDatascanIamBindingConfig) DataplexDatascanIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataplexDatascanIamBinding(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_datascan_iam_binding google_dataplex_datascan_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_datascan_iam_binding google_dataplex_datascan_iam_binding} Resource.
 func NewDataplexDatascanIamBinding_Override(d DataplexDatascanIamBinding, scope constructs.Construct, id *string, config *DataplexDatascanIamBindingConfig) {
 	_init_.Initialize()
 

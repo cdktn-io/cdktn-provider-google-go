@@ -5,14 +5,14 @@ package firebaseremoteconfigremoteconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/firebaseremoteconfigremoteconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/firebaseremoteconfigremoteconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebase_remote_config_remote_config google_firebase_remote_config_remote_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firebase_remote_config_remote_config google_firebase_remote_config_remote_config}.
 type FirebaseRemoteConfigRemoteConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_FirebaseRemoteConfigRemoteConfig) Version() FirebaseRemoteCon
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
 func NewFirebaseRemoteConfigRemoteConfig(scope constructs.Construct, id *string, config *FirebaseRemoteConfigRemoteConfigConfig) FirebaseRemoteConfigRemoteConfig {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewFirebaseRemoteConfigRemoteConfig(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firebase_remote_config_remote_config google_firebase_remote_config_remote_config} Resource.
 func NewFirebaseRemoteConfigRemoteConfig_Override(f FirebaseRemoteConfigRemoteConfig, scope constructs.Construct, id *string, config *FirebaseRemoteConfigRemoteConfigConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package apigeeenvreferences
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apigeeenvreferences/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeeenvreferences/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_env_references google_apigee_env_references}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_env_references google_apigee_env_references}.
 type ApigeeEnvReferences interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ApigeeEnvReferences) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_env_references google_apigee_env_references} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_env_references google_apigee_env_references} Resource.
 func NewApigeeEnvReferences(scope constructs.Construct, id *string, config *ApigeeEnvReferencesConfig) ApigeeEnvReferences {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewApigeeEnvReferences(scope constructs.Construct, id *string, config *Apig
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_env_references google_apigee_env_references} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_env_references google_apigee_env_references} Resource.
 func NewApigeeEnvReferences_Override(a ApigeeEnvReferences, scope constructs.Construct, id *string, config *ApigeeEnvReferencesConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package configdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/configdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/configdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/config_deployment google_config_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/config_deployment google_config_deployment}.
 type ConfigDeployment interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -779,7 +779,7 @@ func (j *jsiiProxy_ConfigDeployment) WorkerPoolInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/config_deployment google_config_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/config_deployment google_config_deployment} Resource.
 func NewConfigDeployment(scope constructs.Construct, id *string, config *ConfigDeploymentConfig) ConfigDeployment {
 	_init_.Initialize()
 
@@ -797,7 +797,7 @@ func NewConfigDeployment(scope constructs.Construct, id *string, config *ConfigD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/config_deployment google_config_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/config_deployment google_config_deployment} Resource.
 func NewConfigDeployment_Override(c ConfigDeployment, scope constructs.Construct, id *string, config *ConfigDeploymentConfig) {
 	_init_.Initialize()
 

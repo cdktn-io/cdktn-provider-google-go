@@ -5,14 +5,14 @@ package datapipelinepipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datapipelinepipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datapipelinepipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_pipeline_pipeline google_data_pipeline_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_pipeline_pipeline google_data_pipeline_pipeline}.
 type DataPipelinePipeline interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -686,7 +686,7 @@ func (j *jsiiProxy_DataPipelinePipeline) WorkloadInput() *DataPipelinePipelineWo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
 func NewDataPipelinePipeline(scope constructs.Construct, id *string, config *DataPipelinePipelineConfig) DataPipelinePipeline {
 	_init_.Initialize()
 
@@ -704,7 +704,7 @@ func NewDataPipelinePipeline(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_pipeline_pipeline google_data_pipeline_pipeline} Resource.
 func NewDataPipelinePipeline_Override(d DataPipelinePipeline, scope constructs.Construct, id *string, config *DataPipelinePipelineConfig) {
 	_init_.Initialize()
 

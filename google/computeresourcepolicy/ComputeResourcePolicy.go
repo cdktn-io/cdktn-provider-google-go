@@ -5,14 +5,14 @@ package computeresourcepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeresourcepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeresourcepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_resource_policy google_compute_resource_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_resource_policy google_compute_resource_policy}.
 type ComputeResourcePolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -642,7 +642,7 @@ func (j *jsiiProxy_ComputeResourcePolicy) WorkloadPolicyInput() *ComputeResource
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
 func NewComputeResourcePolicy(scope constructs.Construct, id *string, config *ComputeResourcePolicyConfig) ComputeResourcePolicy {
 	_init_.Initialize()
 
@@ -660,7 +660,7 @@ func NewComputeResourcePolicy(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_resource_policy google_compute_resource_policy} Resource.
 func NewComputeResourcePolicy_Override(c ComputeResourcePolicy, scope constructs.Construct, id *string, config *ComputeResourcePolicyConfig) {
 	_init_.Initialize()
 

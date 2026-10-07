@@ -166,6 +166,22 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetConcurrencyUtilizationParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetCpuUtilizationParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetInternalValueParameters(val *CloudRunV2ServiceTemplateScaling) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err

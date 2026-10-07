@@ -5,14 +5,14 @@ package discoveryengineservingconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryengineservingconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryengineservingconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config}.
 type DiscoveryEngineServingConfig interface {
 	cdktn.TerraformResource
 	BoostControlIds() *[]*string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_DiscoveryEngineServingConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
 func NewDiscoveryEngineServingConfig(scope constructs.Construct, id *string, config *DiscoveryEngineServingConfigConfig) DiscoveryEngineServingConfig {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewDiscoveryEngineServingConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_serving_config google_discovery_engine_serving_config} Resource.
 func NewDiscoveryEngineServingConfig_Override(d DiscoveryEngineServingConfig, scope constructs.Construct, id *string, config *DiscoveryEngineServingConfigConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package vertexaireasoningengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vertexaireasoningengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaireasoningengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -16,6 +16,8 @@ type VertexAiReasoningEngineSpecOutputReference interface {
 	AgentFramework() *string
 	SetAgentFramework(val *string)
 	AgentFrameworkInput() *string
+	BuildSpec() VertexAiReasoningEngineSpecBuildSpecOutputReference
+	BuildSpecInput() *VertexAiReasoningEngineSpecBuildSpec
 	ClassMethods() *string
 	SetClassMethods(val *string)
 	ClassMethodsInput() *string
@@ -85,11 +87,13 @@ type VertexAiReasoningEngineSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutBuildSpec(value *VertexAiReasoningEngineSpecBuildSpec)
 	PutContainerSpec(value *VertexAiReasoningEngineSpecContainerSpec)
 	PutDeploymentSpec(value *VertexAiReasoningEngineSpecDeploymentSpec)
 	PutPackageSpec(value *VertexAiReasoningEngineSpecPackageSpec)
 	PutSourceCodeSpec(value *VertexAiReasoningEngineSpecSourceCodeSpec)
 	ResetAgentFramework()
+	ResetBuildSpec()
 	ResetClassMethods()
 	ResetContainerSpec()
 	ResetDeploymentSpec()
@@ -127,6 +131,26 @@ func (j *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) AgentFrameworkInp
 	_jsii_.Get(
 		j,
 		"agentFrameworkInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) BuildSpec() VertexAiReasoningEngineSpecBuildSpecOutputReference {
+	var returns VertexAiReasoningEngineSpecBuildSpecOutputReference
+	_jsii_.Get(
+		j,
+		"buildSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) BuildSpecInput() *VertexAiReasoningEngineSpecBuildSpec {
+	var returns *VertexAiReasoningEngineSpecBuildSpec
+	_jsii_.Get(
+		j,
+		"buildSpecInput",
 		&returns,
 	)
 	return returns
@@ -665,6 +689,17 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) InterpolationForA
 	return returns
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) PutBuildSpec(value *VertexAiReasoningEngineSpecBuildSpec) {
+	if err := v.validatePutBuildSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putBuildSpec",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) PutContainerSpec(value *VertexAiReasoningEngineSpecContainerSpec) {
 	if err := v.validatePutContainerSpecParameters(value); err != nil {
 		panic(err)
@@ -713,6 +748,14 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) ResetAgentFramewo
 	_jsii_.InvokeVoid(
 		v,
 		"resetAgentFramework",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) ResetBuildSpec() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetBuildSpec",
 		nil, // no parameters
 	)
 }

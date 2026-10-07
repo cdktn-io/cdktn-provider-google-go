@@ -5,14 +5,14 @@ package dialogflowcxversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowcxversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowcxversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_version google_dialogflow_cx_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_version google_dialogflow_cx_version}.
 type DialogflowCxVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_DialogflowCxVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_version google_dialogflow_cx_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_version google_dialogflow_cx_version} Resource.
 func NewDialogflowCxVersion(scope constructs.Construct, id *string, config *DialogflowCxVersionConfig) DialogflowCxVersion {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewDialogflowCxVersion(scope constructs.Construct, id *string, config *Dial
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_version google_dialogflow_cx_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_version google_dialogflow_cx_version} Resource.
 func NewDialogflowCxVersion_Override(d DialogflowCxVersion, scope constructs.Construct, id *string, config *DialogflowCxVersionConfig) {
 	_init_.Initialize()
 

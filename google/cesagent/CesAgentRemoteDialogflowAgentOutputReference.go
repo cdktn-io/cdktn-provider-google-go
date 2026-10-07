@@ -5,9 +5,9 @@ package cesagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,9 @@ type CesAgentRemoteDialogflowAgentOutputReference interface {
 	InputVariableMappingInput() *map[string]*string
 	InternalValue() *CesAgentRemoteDialogflowAgent
 	SetInternalValue(val *CesAgentRemoteDialogflowAgent)
+	LanguageCodeVariable() *string
+	SetLanguageCodeVariable(val *string)
+	LanguageCodeVariableInput() *string
 	OutputVariableMapping() *map[string]*string
 	SetOutputVariableMapping(val *map[string]*string)
 	OutputVariableMappingInput() *map[string]*string
@@ -84,6 +87,7 @@ type CesAgentRemoteDialogflowAgentOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnvironmentId()
 	ResetInputVariableMapping()
+	ResetLanguageCodeVariable()
 	ResetOutputVariableMapping()
 	ResetRespectResponseInterruptionSettings()
 	// Produce the Token's value at resolution time.
@@ -226,6 +230,26 @@ func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) InternalValue()
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) LanguageCodeVariable() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"languageCodeVariable",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) LanguageCodeVariableInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"languageCodeVariableInput",
 		&returns,
 	)
 	return returns
@@ -392,6 +416,17 @@ func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference)SetInternalValue
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference)SetLanguageCodeVariable(val *string) {
+	if err := j.validateSetLanguageCodeVariableParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"languageCodeVariable",
 		val,
 	)
 }
@@ -638,6 +673,14 @@ func (c *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) ResetInputVaria
 	_jsii_.InvokeVoid(
 		c,
 		"resetInputVariableMapping",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) ResetLanguageCodeVariable() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetLanguageCodeVariable",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package cesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -56,6 +56,8 @@ type CesAppDefaultChannelProfileOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WebWidgetConfig() CesAppDefaultChannelProfileWebWidgetConfigOutputReference
 	WebWidgetConfigInput() *CesAppDefaultChannelProfileWebWidgetConfig
+	WhatsappConfig() CesAppDefaultChannelProfileWhatsappConfigOutputReference
+	WhatsappConfigInput() *CesAppDefaultChannelProfileWhatsappConfig
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -82,12 +84,14 @@ type CesAppDefaultChannelProfileOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPersonaProperty(value *CesAppDefaultChannelProfilePersonaProperty)
 	PutWebWidgetConfig(value *CesAppDefaultChannelProfileWebWidgetConfig)
+	PutWhatsappConfig(value *CesAppDefaultChannelProfileWhatsappConfig)
 	ResetChannelType()
 	ResetDisableBargeInControl()
 	ResetDisableDtmf()
 	ResetPersonaProperty()
 	ResetProfileId()
 	ResetWebWidgetConfig()
+	ResetWhatsappConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -288,6 +292,26 @@ func (j *jsiiProxy_CesAppDefaultChannelProfileOutputReference) WebWidgetConfigIn
 	_jsii_.Get(
 		j,
 		"webWidgetConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppDefaultChannelProfileOutputReference) WhatsappConfig() CesAppDefaultChannelProfileWhatsappConfigOutputReference {
+	var returns CesAppDefaultChannelProfileWhatsappConfigOutputReference
+	_jsii_.Get(
+		j,
+		"whatsappConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppDefaultChannelProfileOutputReference) WhatsappConfigInput() *CesAppDefaultChannelProfileWhatsappConfig {
+	var returns *CesAppDefaultChannelProfileWhatsappConfig
+	_jsii_.Get(
+		j,
+		"whatsappConfigInput",
 		&returns,
 	)
 	return returns
@@ -628,6 +652,17 @@ func (c *jsiiProxy_CesAppDefaultChannelProfileOutputReference) PutWebWidgetConfi
 	)
 }
 
+func (c *jsiiProxy_CesAppDefaultChannelProfileOutputReference) PutWhatsappConfig(value *CesAppDefaultChannelProfileWhatsappConfig) {
+	if err := c.validatePutWhatsappConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWhatsappConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesAppDefaultChannelProfileOutputReference) ResetChannelType() {
 	_jsii_.InvokeVoid(
 		c,
@@ -672,6 +707,14 @@ func (c *jsiiProxy_CesAppDefaultChannelProfileOutputReference) ResetWebWidgetCon
 	_jsii_.InvokeVoid(
 		c,
 		"resetWebWidgetConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAppDefaultChannelProfileOutputReference) ResetWhatsappConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWhatsappConfig",
 		nil, // no parameters
 	)
 }

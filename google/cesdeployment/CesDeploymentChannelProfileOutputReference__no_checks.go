@@ -55,6 +55,10 @@ func (c *jsiiProxy_CesDeploymentChannelProfileOutputReference) validatePutWebWid
 	return nil
 }
 
+func (c *jsiiProxy_CesDeploymentChannelProfileOutputReference) validatePutWhatsappConfigParameters(value *CesDeploymentChannelProfileWhatsappConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesDeploymentChannelProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

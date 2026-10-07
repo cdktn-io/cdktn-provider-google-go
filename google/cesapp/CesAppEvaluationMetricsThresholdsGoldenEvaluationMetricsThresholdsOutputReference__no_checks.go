@@ -51,6 +51,10 @@ func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThres
 	return nil
 }
 
+func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) validatePutToolMatchingSettingsParameters(value *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) validatePutTurnLevelMetricsThresholdsParameters(value *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds) error {
 	return nil
 }

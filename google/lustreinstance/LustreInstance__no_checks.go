@@ -187,6 +187,10 @@ func (j *jsiiProxy_LustreInstance) validateSetProvisionersParameters(val *[]inte
 	return nil
 }
 
+func (j *jsiiProxy_LustreInstance) validateSetTargetVersionParameters(val *string) error {
+	return nil
+}
+
 func validateNewLustreInstanceParameters(scope constructs.Construct, id *string, config *LustreInstanceConfig) error {
 	return nil
 }

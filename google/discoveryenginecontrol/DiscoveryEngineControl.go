@@ -5,14 +5,14 @@ package discoveryenginecontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryenginecontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginecontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_control google_discovery_engine_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_control google_discovery_engine_control}.
 type DiscoveryEngineControl interface {
 	cdktn.TerraformResource
 	BoostAction() DiscoveryEngineControlBoostActionOutputReference
@@ -758,7 +758,7 @@ func (j *jsiiProxy_DiscoveryEngineControl) UseCasesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
 func NewDiscoveryEngineControl(scope constructs.Construct, id *string, config *DiscoveryEngineControlConfig) DiscoveryEngineControl {
 	_init_.Initialize()
 
@@ -776,7 +776,7 @@ func NewDiscoveryEngineControl(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_control google_discovery_engine_control} Resource.
 func NewDiscoveryEngineControl_Override(d DiscoveryEngineControl, scope constructs.Construct, id *string, config *DiscoveryEngineControlConfig) {
 	_init_.Initialize()
 

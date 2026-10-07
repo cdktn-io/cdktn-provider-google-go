@@ -5,14 +5,14 @@ package bigqueryanalyticshubdataexchangeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigqueryanalyticshubdataexchangeiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigqueryanalyticshubdataexchangeiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_analytics_hub_data_exchange_iam_member google_bigquery_analytics_hub_data_exchange_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_data_exchange_iam_member google_bigquery_analytics_hub_data_exchange_iam_member}.
 type BigqueryAnalyticsHubDataExchangeIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeIamMember) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_analytics_hub_data_exchange_iam_member google_bigquery_analytics_hub_data_exchange_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_data_exchange_iam_member google_bigquery_analytics_hub_data_exchange_iam_member} Resource.
 func NewBigqueryAnalyticsHubDataExchangeIamMember(scope constructs.Construct, id *string, config *BigqueryAnalyticsHubDataExchangeIamMemberConfig) BigqueryAnalyticsHubDataExchangeIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewBigqueryAnalyticsHubDataExchangeIamMember(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_analytics_hub_data_exchange_iam_member google_bigquery_analytics_hub_data_exchange_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_data_exchange_iam_member google_bigquery_analytics_hub_data_exchange_iam_member} Resource.
 func NewBigqueryAnalyticsHubDataExchangeIamMember_Override(b BigqueryAnalyticsHubDataExchangeIamMember, scope constructs.Construct, id *string, config *BigqueryAnalyticsHubDataExchangeIamMemberConfig) {
 	_init_.Initialize()
 

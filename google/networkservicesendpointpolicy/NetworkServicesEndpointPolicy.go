@@ -5,14 +5,14 @@ package networkservicesendpointpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkservicesendpointpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkservicesendpointpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy}.
 type NetworkServicesEndpointPolicy interface {
 	cdktn.TerraformResource
 	AuthorizationPolicy() *string
@@ -697,7 +697,7 @@ func (j *jsiiProxy_NetworkServicesEndpointPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
 func NewNetworkServicesEndpointPolicy(scope constructs.Construct, id *string, config *NetworkServicesEndpointPolicyConfig) NetworkServicesEndpointPolicy {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewNetworkServicesEndpointPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_endpoint_policy google_network_services_endpoint_policy} Resource.
 func NewNetworkServicesEndpointPolicy_Override(n NetworkServicesEndpointPolicy, scope constructs.Construct, id *string, config *NetworkServicesEndpointPolicyConfig) {
 	_init_.Initialize()
 

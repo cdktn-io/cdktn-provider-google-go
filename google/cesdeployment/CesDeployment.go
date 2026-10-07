@@ -5,14 +5,14 @@ package cesdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_deployment google_ces_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_deployment google_ces_deployment}.
 type CesDeployment interface {
 	cdktn.TerraformResource
 	App() *string
@@ -58,6 +58,8 @@ type CesDeployment interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	InstagramCredentials() CesDeploymentInstagramCredentialsOutputReference
+	InstagramCredentialsInput() *CesDeploymentInstagramCredentials
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -90,6 +92,8 @@ type CesDeployment interface {
 	Timeouts() CesDeploymentTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	UpdateTime() *string
+	WhatsappCredentials() CesDeploymentWhatsappCredentialsOutputReference
+	WhatsappCredentialsInput() *CesDeploymentWhatsappCredentials
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -170,7 +174,9 @@ type CesDeployment interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutChannelProfile(value *CesDeploymentChannelProfile)
+	PutInstagramCredentials(value *CesDeploymentInstagramCredentials)
 	PutTimeouts(value *CesDeploymentTimeouts)
+	PutWhatsappCredentials(value *CesDeploymentWhatsappCredentials)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -186,11 +192,13 @@ type CesDeployment interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDeletionPolicy()
 	ResetId()
+	ResetInstagramCredentials()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetTimeouts()
+	ResetWhatsappCredentials()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -438,6 +446,26 @@ func (j *jsiiProxy_CesDeployment) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesDeployment) InstagramCredentials() CesDeploymentInstagramCredentialsOutputReference {
+	var returns CesDeploymentInstagramCredentialsOutputReference
+	_jsii_.Get(
+		j,
+		"instagramCredentials",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeployment) InstagramCredentialsInput() *CesDeploymentInstagramCredentials {
+	var returns *CesDeploymentInstagramCredentials
+	_jsii_.Get(
+		j,
+		"instagramCredentialsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesDeployment) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -598,8 +626,28 @@ func (j *jsiiProxy_CesDeployment) UpdateTime() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesDeployment) WhatsappCredentials() CesDeploymentWhatsappCredentialsOutputReference {
+	var returns CesDeploymentWhatsappCredentialsOutputReference
+	_jsii_.Get(
+		j,
+		"whatsappCredentials",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_deployment google_ces_deployment} Resource.
+func (j *jsiiProxy_CesDeployment) WhatsappCredentialsInput() *CesDeploymentWhatsappCredentials {
+	var returns *CesDeploymentWhatsappCredentials
+	_jsii_.Get(
+		j,
+		"whatsappCredentialsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploymentConfig) CesDeployment {
 	_init_.Initialize()
 
@@ -617,7 +665,7 @@ func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploym
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_deployment google_ces_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment_Override(c CesDeployment, scope constructs.Construct, id *string, config *CesDeploymentConfig) {
 	_init_.Initialize()
 
@@ -1153,6 +1201,17 @@ func (c *jsiiProxy_CesDeployment) PutChannelProfile(value *CesDeploymentChannelP
 	)
 }
 
+func (c *jsiiProxy_CesDeployment) PutInstagramCredentials(value *CesDeploymentInstagramCredentials) {
+	if err := c.validatePutInstagramCredentialsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putInstagramCredentials",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesDeployment) PutTimeouts(value *CesDeploymentTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1160,6 +1219,17 @@ func (c *jsiiProxy_CesDeployment) PutTimeouts(value *CesDeploymentTimeouts) {
 	_jsii_.InvokeVoid(
 		c,
 		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesDeployment) PutWhatsappCredentials(value *CesDeploymentWhatsappCredentials) {
+	if err := c.validatePutWhatsappCredentialsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putWhatsappCredentials",
 		[]interface{}{value},
 	)
 }
@@ -1191,6 +1261,14 @@ func (c *jsiiProxy_CesDeployment) ResetId() {
 	)
 }
 
+func (c *jsiiProxy_CesDeployment) ResetInstagramCredentials() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetInstagramCredentials",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CesDeployment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1211,6 +1289,14 @@ func (c *jsiiProxy_CesDeployment) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesDeployment) ResetWhatsappCredentials() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWhatsappCredentials",
 		nil, // no parameters
 	)
 }

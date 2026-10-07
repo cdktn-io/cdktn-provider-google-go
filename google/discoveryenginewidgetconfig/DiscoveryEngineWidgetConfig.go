@@ -5,14 +5,14 @@ package discoveryenginewidgetconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryenginewidgetconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginewidgetconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_widget_config google_discovery_engine_widget_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_widget_config google_discovery_engine_widget_config}.
 type DiscoveryEngineWidgetConfig interface {
 	cdktn.TerraformResource
 	AccessSettings() DiscoveryEngineWidgetConfigAccessSettingsOutputReference
@@ -628,7 +628,7 @@ func (j *jsiiProxy_DiscoveryEngineWidgetConfig) WidgetConfigIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
 func NewDiscoveryEngineWidgetConfig(scope constructs.Construct, id *string, config *DiscoveryEngineWidgetConfigConfig) DiscoveryEngineWidgetConfig {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewDiscoveryEngineWidgetConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_widget_config google_discovery_engine_widget_config} Resource.
 func NewDiscoveryEngineWidgetConfig_Override(d DiscoveryEngineWidgetConfig, scope constructs.Construct, id *string, config *DiscoveryEngineWidgetConfigConfig) {
 	_init_.Initialize()
 

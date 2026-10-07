@@ -5,14 +5,14 @@ package eventarcenrollment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/eventarcenrollment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/eventarcenrollment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/eventarc_enrollment google_eventarc_enrollment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_enrollment google_eventarc_enrollment}.
 type EventarcEnrollment interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -715,7 +715,7 @@ func (j *jsiiProxy_EventarcEnrollment) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
 func NewEventarcEnrollment(scope constructs.Construct, id *string, config *EventarcEnrollmentConfig) EventarcEnrollment {
 	_init_.Initialize()
 
@@ -733,7 +733,7 @@ func NewEventarcEnrollment(scope constructs.Construct, id *string, config *Event
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_enrollment google_eventarc_enrollment} Resource.
 func NewEventarcEnrollment_Override(e EventarcEnrollment, scope constructs.Construct, id *string, config *EventarcEnrollmentConfig) {
 	_init_.Initialize()
 

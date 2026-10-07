@@ -5,14 +5,14 @@ package computerouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computerouter/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computerouter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router google_compute_router}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_router google_compute_router}.
 type ComputeRouter interface {
 	cdktn.TerraformResource
 	Bgp() ComputeRouterBgpOutputReference
@@ -677,7 +677,7 @@ func (j *jsiiProxy_ComputeRouter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router google_compute_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_router google_compute_router} Resource.
 func NewComputeRouter(scope constructs.Construct, id *string, config *ComputeRouterConfig) ComputeRouter {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewComputeRouter(scope constructs.Construct, id *string, config *ComputeRou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router google_compute_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_router google_compute_router} Resource.
 func NewComputeRouter_Override(c ComputeRouter, scope constructs.Construct, id *string, config *ComputeRouterConfig) {
 	_init_.Initialize()
 

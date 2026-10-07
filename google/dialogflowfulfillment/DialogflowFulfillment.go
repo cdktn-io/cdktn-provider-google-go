@@ -5,14 +5,14 @@ package dialogflowfulfillment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowfulfillment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowfulfillment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment}.
 type DialogflowFulfillment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_DialogflowFulfillment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
 func NewDialogflowFulfillment(scope constructs.Construct, id *string, config *DialogflowFulfillmentConfig) DialogflowFulfillment {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewDialogflowFulfillment(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_fulfillment google_dialogflow_fulfillment} Resource.
 func NewDialogflowFulfillment_Override(d DialogflowFulfillment, scope constructs.Construct, id *string, config *DialogflowFulfillmentConfig) {
 	_init_.Initialize()
 

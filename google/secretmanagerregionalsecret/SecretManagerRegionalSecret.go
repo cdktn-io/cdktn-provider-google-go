@@ -5,14 +5,14 @@ package secretmanagerregionalsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/secretmanagerregionalsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/secretmanagerregionalsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret}.
 type SecretManagerRegionalSecret interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -90,6 +90,9 @@ type SecretManagerRegionalSecret interface {
 	SecretId() *string
 	SetSecretId(val *string)
 	SecretIdInput() *string
+	SecretType() *string
+	SetSecretType(val *string)
+	SecretTypeInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -221,6 +224,7 @@ type SecretManagerRegionalSecret interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetRotation()
+	ResetSecretType()
 	ResetTags()
 	ResetTimeouts()
 	ResetTopics()
@@ -644,6 +648,26 @@ func (j *jsiiProxy_SecretManagerRegionalSecret) SecretIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_SecretManagerRegionalSecret) SecretType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecret) SecretTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecretManagerRegionalSecret) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -805,7 +829,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecret) VersionDestroyTtlInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
 func NewSecretManagerRegionalSecret(scope constructs.Construct, id *string, config *SecretManagerRegionalSecretConfig) SecretManagerRegionalSecret {
 	_init_.Initialize()
 
@@ -823,7 +847,7 @@ func NewSecretManagerRegionalSecret(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
 func NewSecretManagerRegionalSecret_Override(s SecretManagerRegionalSecret, scope constructs.Construct, id *string, config *SecretManagerRegionalSecretConfig) {
 	_init_.Initialize()
 
@@ -997,6 +1021,17 @@ func (j *jsiiProxy_SecretManagerRegionalSecret)SetSecretId(val *string) {
 	_jsii_.Set(
 		j,
 		"secretId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecret)SetSecretType(val *string) {
+	if err := j.validateSetSecretTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretType",
 		val,
 	)
 }
@@ -1545,6 +1580,14 @@ func (s *jsiiProxy_SecretManagerRegionalSecret) ResetRotation() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetRotation",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecretManagerRegionalSecret) ResetSecretType() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSecretType",
 		nil, // no parameters
 	)
 }

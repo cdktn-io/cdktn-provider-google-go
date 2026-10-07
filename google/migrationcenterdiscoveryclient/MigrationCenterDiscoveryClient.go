@@ -5,14 +5,14 @@ package migrationcenterdiscoveryclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/migrationcenterdiscoveryclient/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/migrationcenterdiscoveryclient/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_discovery_client google_migration_center_discovery_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_discovery_client google_migration_center_discovery_client}.
 type MigrationCenterDiscoveryClient interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -762,7 +762,7 @@ func (j *jsiiProxy_MigrationCenterDiscoveryClient) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_discovery_client google_migration_center_discovery_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_discovery_client google_migration_center_discovery_client} Resource.
 func NewMigrationCenterDiscoveryClient(scope constructs.Construct, id *string, config *MigrationCenterDiscoveryClientConfig) MigrationCenterDiscoveryClient {
 	_init_.Initialize()
 
@@ -780,7 +780,7 @@ func NewMigrationCenterDiscoveryClient(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_discovery_client google_migration_center_discovery_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_discovery_client google_migration_center_discovery_client} Resource.
 func NewMigrationCenterDiscoveryClient_Override(m MigrationCenterDiscoveryClient, scope constructs.Construct, id *string, config *MigrationCenterDiscoveryClientConfig) {
 	_init_.Initialize()
 

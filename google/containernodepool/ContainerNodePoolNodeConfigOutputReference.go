@@ -5,9 +5,9 @@ package containernodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/containernodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/containernodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -67,8 +67,6 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	GuestAcceleratorInput() interface{}
 	Gvnic() ContainerNodePoolNodeConfigGvnicOutputReference
 	GvnicInput() *ContainerNodePoolNodeConfigGvnic
-	HostMaintenancePolicy() ContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference
-	HostMaintenancePolicyInput() *ContainerNodePoolNodeConfigHostMaintenancePolicy
 	ImageType() *string
 	SetImageType(val *string)
 	ImageTypeInput() *string
@@ -192,7 +190,6 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	PutGcfsConfig(value *ContainerNodePoolNodeConfigGcfsConfig)
 	PutGuestAccelerator(value interface{})
 	PutGvnic(value *ContainerNodePoolNodeConfigGvnic)
-	PutHostMaintenancePolicy(value *ContainerNodePoolNodeConfigHostMaintenancePolicy)
 	PutKubeletConfig(value *ContainerNodePoolNodeConfigKubeletConfig)
 	PutLinuxNodeConfig(value *ContainerNodePoolNodeConfigLinuxNodeConfig)
 	PutLocalNvmeSsdBlockConfig(value *ContainerNodePoolNodeConfigLocalNvmeSsdBlockConfig)
@@ -221,7 +218,6 @@ type ContainerNodePoolNodeConfigOutputReference interface {
 	ResetGpudirectStrategy()
 	ResetGuestAccelerator()
 	ResetGvnic()
-	ResetHostMaintenancePolicy()
 	ResetImageType()
 	ResetKubeletConfig()
 	ResetLabels()
@@ -613,26 +609,6 @@ func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) GvnicInput() *Con
 	_jsii_.Get(
 		j,
 		"gvnicInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) HostMaintenancePolicy() ContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference {
-	var returns ContainerNodePoolNodeConfigHostMaintenancePolicyOutputReference
-	_jsii_.Get(
-		j,
-		"hostMaintenancePolicy",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) HostMaintenancePolicyInput() *ContainerNodePoolNodeConfigHostMaintenancePolicy {
-	var returns *ContainerNodePoolNodeConfigHostMaintenancePolicy
-	_jsii_.Get(
-		j,
-		"hostMaintenancePolicyInput",
 		&returns,
 	)
 	return returns
@@ -1920,17 +1896,6 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) PutGvnic(value *C
 	)
 }
 
-func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) PutHostMaintenancePolicy(value *ContainerNodePoolNodeConfigHostMaintenancePolicy) {
-	if err := c.validatePutHostMaintenancePolicyParameters(value); err != nil {
-		panic(err)
-	}
-	_jsii_.InvokeVoid(
-		c,
-		"putHostMaintenancePolicy",
-		[]interface{}{value},
-	)
-}
-
 func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) PutKubeletConfig(value *ContainerNodePoolNodeConfigKubeletConfig) {
 	if err := c.validatePutKubeletConfigParameters(value); err != nil {
 		panic(err)
@@ -2190,14 +2155,6 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) ResetGvnic() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetGvnic",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) ResetHostMaintenancePolicy() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetHostMaintenancePolicy",
 		nil, // no parameters
 	)
 }

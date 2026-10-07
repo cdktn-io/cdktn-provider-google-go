@@ -5,14 +5,14 @@ package computehttphealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computehttphealthcheck/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computehttphealthcheck/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_http_health_check google_compute_http_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_http_health_check google_compute_http_health_check}.
 type ComputeHttpHealthCheck interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -677,7 +677,7 @@ func (j *jsiiProxy_ComputeHttpHealthCheck) UnhealthyThresholdInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_http_health_check google_compute_http_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_http_health_check google_compute_http_health_check} Resource.
 func NewComputeHttpHealthCheck(scope constructs.Construct, id *string, config *ComputeHttpHealthCheckConfig) ComputeHttpHealthCheck {
 	_init_.Initialize()
 
@@ -695,7 +695,7 @@ func NewComputeHttpHealthCheck(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_http_health_check google_compute_http_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_http_health_check google_compute_http_health_check} Resource.
 func NewComputeHttpHealthCheck_Override(c ComputeHttpHealthCheck, scope constructs.Construct, id *string, config *ComputeHttpHealthCheckConfig) {
 	_init_.Initialize()
 

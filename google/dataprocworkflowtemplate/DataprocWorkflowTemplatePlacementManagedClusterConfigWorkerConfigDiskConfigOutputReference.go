@@ -5,14 +5,22 @@ package dataprocworkflowtemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataprocworkflowtemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataprocworkflowtemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference interface {
 	cdktn.ComplexObject
+	AttachedDiskConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList
+	AttachedDiskConfigInput() interface{}
+	BootDiskProvisionedIops() *float64
+	SetBootDiskProvisionedIops(val *float64)
+	BootDiskProvisionedIopsInput() *float64
+	BootDiskProvisionedThroughput() *float64
+	SetBootDiskProvisionedThroughput(val *float64)
+	BootDiskProvisionedThroughputInput() *float64
 	BootDiskSizeGb() *float64
 	SetBootDiskSizeGb(val *float64)
 	BootDiskSizeGbInput() *float64
@@ -38,6 +46,9 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig
 	Fqn() *string
 	InternalValue() *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig
 	SetInternalValue(val *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig)
+	LocalSsdInterface() *string
+	SetLocalSsdInterface(val *string)
+	LocalSsdInterfaceInput() *string
 	NumLocalSsds() *float64
 	SetNumLocalSsds(val *float64)
 	NumLocalSsdsInput() *float64
@@ -73,8 +84,13 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAttachedDiskConfig(value interface{})
+	ResetAttachedDiskConfig()
+	ResetBootDiskProvisionedIops()
+	ResetBootDiskProvisionedThroughput()
 	ResetBootDiskSizeGb()
 	ResetBootDiskType()
+	ResetLocalSsdInterface()
 	ResetNumLocalSsds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -89,6 +105,66 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfig
 // The jsii proxy struct for DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference
 type jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) AttachedDiskConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList {
+	var returns DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigAttachedDiskConfigList
+	_jsii_.Get(
+		j,
+		"attachedDiskConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) AttachedDiskConfigInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"attachedDiskConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) BootDiskProvisionedIops() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedIops",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) BootDiskProvisionedIopsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedIopsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) BootDiskProvisionedThroughput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedThroughput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) BootDiskProvisionedThroughputInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"bootDiskProvisionedThroughputInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) BootDiskSizeGb() *float64 {
@@ -181,6 +257,26 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
 	return returns
 }
 
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) LocalSsdInterface() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"localSsdInterface",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) LocalSsdInterfaceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"localSsdInterfaceInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) NumLocalSsds() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -249,6 +345,28 @@ func NewDataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskCon
 	)
 }
 
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference)SetBootDiskProvisionedIops(val *float64) {
+	if err := j.validateSetBootDiskProvisionedIopsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bootDiskProvisionedIops",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference)SetBootDiskProvisionedThroughput(val *float64) {
+	if err := j.validateSetBootDiskProvisionedThroughputParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bootDiskProvisionedThroughput",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference)SetBootDiskSizeGb(val *float64) {
 	if err := j.validateSetBootDiskSizeGbParameters(val); err != nil {
 		panic(err)
@@ -300,6 +418,17 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference)SetLocalSsdInterface(val *string) {
+	if err := j.validateSetLocalSsdInterfaceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"localSsdInterface",
 		val,
 	)
 }
@@ -523,6 +652,41 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
 	return returns
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) PutAttachedDiskConfig(value interface{}) {
+	if err := d.validatePutAttachedDiskConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putAttachedDiskConfig",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) ResetAttachedDiskConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAttachedDiskConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) ResetBootDiskProvisionedIops() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetBootDiskProvisionedIops",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) ResetBootDiskProvisionedThroughput() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetBootDiskProvisionedThroughput",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) ResetBootDiskSizeGb() {
 	_jsii_.InvokeVoid(
 		d,
@@ -535,6 +699,14 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerCo
 	_jsii_.InvokeVoid(
 		d,
 		"resetBootDiskType",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigDiskConfigOutputReference) ResetLocalSsdInterface() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLocalSsdInterface",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package managedkafkaacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/managedkafkaacl/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/managedkafkaacl/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_acl google_managed_kafka_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_acl google_managed_kafka_acl}.
 type ManagedKafkaAcl interface {
 	cdktn.TerraformResource
 	AclEntries() ManagedKafkaAclAclEntriesList
@@ -587,7 +587,7 @@ func (j *jsiiProxy_ManagedKafkaAcl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_acl google_managed_kafka_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_acl google_managed_kafka_acl} Resource.
 func NewManagedKafkaAcl(scope constructs.Construct, id *string, config *ManagedKafkaAclConfig) ManagedKafkaAcl {
 	_init_.Initialize()
 
@@ -605,7 +605,7 @@ func NewManagedKafkaAcl(scope constructs.Construct, id *string, config *ManagedK
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_acl google_managed_kafka_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_acl google_managed_kafka_acl} Resource.
 func NewManagedKafkaAcl_Override(m ManagedKafkaAcl, scope constructs.Construct, id *string, config *ManagedKafkaAclConfig) {
 	_init_.Initialize()
 

@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 	return nil
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validatePutInstanceFlexibilityPolicyParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigInstanceFlexibilityPolicy) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

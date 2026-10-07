@@ -5,14 +5,14 @@ package bigtabletableiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigtabletableiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigtabletableiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_table_iam_member google_bigtable_table_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_table_iam_member google_bigtable_table_iam_member}.
 type BigtableTableIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BigtableTableIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_table_iam_member google_bigtable_table_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_table_iam_member google_bigtable_table_iam_member} Resource.
 func NewBigtableTableIamMember(scope constructs.Construct, id *string, config *BigtableTableIamMemberConfig) BigtableTableIamMember {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBigtableTableIamMember(scope constructs.Construct, id *string, config *B
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_table_iam_member google_bigtable_table_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_table_iam_member google_bigtable_table_iam_member} Resource.
 func NewBigtableTableIamMember_Override(b BigtableTableIamMember, scope constructs.Construct, id *string, config *BigtableTableIamMemberConfig) {
 	_init_.Initialize()
 

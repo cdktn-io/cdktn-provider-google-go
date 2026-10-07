@@ -5,14 +5,14 @@ package databasemigrationserviceprivateconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/databasemigrationserviceprivateconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/databasemigrationserviceprivateconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/database_migration_service_private_connection google_database_migration_service_private_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/database_migration_service_private_connection google_database_migration_service_private_connection}.
 type DatabaseMigrationServicePrivateConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -84,6 +84,8 @@ type DatabaseMigrationServicePrivateConnection interface {
 	PscInterfaceConfigInput() *DatabaseMigrationServicePrivateConnectionPscInterfaceConfig
 	// Experimental.
 	RawOverrides() interface{}
+	ReservedPublicIpConfig() DatabaseMigrationServicePrivateConnectionReservedPublicIpConfigOutputReference
+	ReservedPublicIpConfigInput() *DatabaseMigrationServicePrivateConnectionReservedPublicIpConfig
 	State() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -176,6 +178,7 @@ type DatabaseMigrationServicePrivateConnection interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutPscInterfaceConfig(value *DatabaseMigrationServicePrivateConnectionPscInterfaceConfig)
+	PutReservedPublicIpConfig(value *DatabaseMigrationServicePrivateConnectionReservedPublicIpConfig)
 	PutTimeouts(value *DatabaseMigrationServicePrivateConnectionTimeouts)
 	PutVpcPeeringConfig(value *DatabaseMigrationServicePrivateConnectionVpcPeeringConfig)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -201,6 +204,7 @@ type DatabaseMigrationServicePrivateConnection interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetPscInterfaceConfig()
+	ResetReservedPublicIpConfig()
 	ResetTimeouts()
 	ResetVpcPeeringConfig()
 	SynthesizeAttributes() *map[string]interface{}
@@ -570,6 +574,26 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) RawOverrides() int
 	return returns
 }
 
+func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) ReservedPublicIpConfig() DatabaseMigrationServicePrivateConnectionReservedPublicIpConfigOutputReference {
+	var returns DatabaseMigrationServicePrivateConnectionReservedPublicIpConfigOutputReference
+	_jsii_.Get(
+		j,
+		"reservedPublicIpConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) ReservedPublicIpConfigInput() *DatabaseMigrationServicePrivateConnectionReservedPublicIpConfig {
+	var returns *DatabaseMigrationServicePrivateConnectionReservedPublicIpConfig
+	_jsii_.Get(
+		j,
+		"reservedPublicIpConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) State() *string {
 	var returns *string
 	_jsii_.Get(
@@ -661,7 +685,7 @@ func (j *jsiiProxy_DatabaseMigrationServicePrivateConnection) VpcPeeringConfigIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
 func NewDatabaseMigrationServicePrivateConnection(scope constructs.Construct, id *string, config *DatabaseMigrationServicePrivateConnectionConfig) DatabaseMigrationServicePrivateConnection {
 	_init_.Initialize()
 
@@ -679,7 +703,7 @@ func NewDatabaseMigrationServicePrivateConnection(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/database_migration_service_private_connection google_database_migration_service_private_connection} Resource.
 func NewDatabaseMigrationServicePrivateConnection_Override(d DatabaseMigrationServicePrivateConnection, scope constructs.Construct, id *string, config *DatabaseMigrationServicePrivateConnectionConfig) {
 	_init_.Initialize()
 
@@ -1226,6 +1250,17 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) PutPscInterfaceCon
 	)
 }
 
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) PutReservedPublicIpConfig(value *DatabaseMigrationServicePrivateConnectionReservedPublicIpConfig) {
+	if err := d.validatePutReservedPublicIpConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putReservedPublicIpConfig",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) PutTimeouts(value *DatabaseMigrationServicePrivateConnectionTimeouts) {
 	if err := d.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1319,6 +1354,14 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) ResetPscInterfaceC
 	_jsii_.InvokeVoid(
 		d,
 		"resetPscInterfaceConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) ResetReservedPublicIpConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetReservedPublicIpConfig",
 		nil, // no parameters
 	)
 }

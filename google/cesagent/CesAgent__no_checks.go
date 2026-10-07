@@ -111,6 +111,10 @@ func (c *jsiiProxy_CesAgent) validatePutModelSettingsParameters(value *CesAgentM
 	return nil
 }
 
+func (c *jsiiProxy_CesAgent) validatePutRemoteA2AAgentParameters(value *CesAgentRemoteA2AAgent) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesAgent) validatePutRemoteDialogflowAgentParameters(value *CesAgentRemoteDialogflowAgent) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (c *jsiiProxy_CesAgent) validatePutTimeoutsParameters(value *CesAgentTimeou
 }
 
 func (c *jsiiProxy_CesAgent) validatePutToolsetsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesAgent) validatePutTransferRulesParameters(value interface{}) error {
 	return nil
 }
 

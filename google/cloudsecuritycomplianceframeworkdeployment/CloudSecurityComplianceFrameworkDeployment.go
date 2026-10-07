@@ -5,14 +5,14 @@ package cloudsecuritycomplianceframeworkdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudsecuritycomplianceframeworkdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudsecuritycomplianceframeworkdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment}.
 type CloudSecurityComplianceFrameworkDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -692,7 +692,7 @@ func (j *jsiiProxy_CloudSecurityComplianceFrameworkDeployment) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewCloudSecurityComplianceFrameworkDeployment(scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkDeploymentConfig) CloudSecurityComplianceFrameworkDeployment {
 	_init_.Initialize()
 
@@ -710,7 +710,7 @@ func NewCloudSecurityComplianceFrameworkDeployment(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_security_compliance_framework_deployment google_cloud_security_compliance_framework_deployment} Resource.
 func NewCloudSecurityComplianceFrameworkDeployment_Override(c CloudSecurityComplianceFrameworkDeployment, scope constructs.Construct, id *string, config *CloudSecurityComplianceFrameworkDeploymentConfig) {
 	_init_.Initialize()
 

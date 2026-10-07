@@ -5,9 +5,9 @@ package appengineapplication
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/appengineapplication/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/appengineapplication/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,14 @@ type AppEngineApplicationIapOutputReference interface {
 	SetOauth2ClientSecret(val *string)
 	Oauth2ClientSecretInput() *string
 	Oauth2ClientSecretSha256() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	Oauth2ClientSecretWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetOauth2ClientSecretWo(val *string)
+	Oauth2ClientSecretWoInput() *string
+	Oauth2ClientSecretWoVersion() *string
+	SetOauth2ClientSecretWoVersion(val *string)
+	Oauth2ClientSecretWoVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -75,6 +83,9 @@ type AppEngineApplicationIapOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
+	ResetOauth2ClientSecret()
+	ResetOauth2ClientSecretWo()
+	ResetOauth2ClientSecretWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -210,6 +221,46 @@ func (j *jsiiProxy_AppEngineApplicationIapOutputReference) Oauth2ClientSecretSha
 	return returns
 }
 
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) Oauth2ClientSecretWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) Oauth2ClientSecretWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) Oauth2ClientSecretWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) Oauth2ClientSecretWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauth2ClientSecretWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AppEngineApplicationIapOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -320,6 +371,28 @@ func (j *jsiiProxy_AppEngineApplicationIapOutputReference)SetOauth2ClientSecret(
 	_jsii_.Set(
 		j,
 		"oauth2ClientSecret",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference)SetOauth2ClientSecretWo(val *string) {
+	if err := j.validateSetOauth2ClientSecretWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientSecretWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference)SetOauth2ClientSecretWoVersion(val *string) {
+	if err := j.validateSetOauth2ClientSecretWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauth2ClientSecretWoVersion",
 		val,
 	)
 }
@@ -536,6 +609,30 @@ func (a *jsiiProxy_AppEngineApplicationIapOutputReference) ResetEnabled() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetEnabled",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppEngineApplicationIapOutputReference) ResetOauth2ClientSecret() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetOauth2ClientSecret",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppEngineApplicationIapOutputReference) ResetOauth2ClientSecretWo() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetOauth2ClientSecretWo",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppEngineApplicationIapOutputReference) ResetOauth2ClientSecretWoVersion() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetOauth2ClientSecretWoVersion",
 		nil, // no parameters
 	)
 }

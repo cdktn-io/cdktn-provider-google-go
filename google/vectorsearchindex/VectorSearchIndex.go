@@ -5,14 +5,14 @@ package vectorsearchindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vectorsearchindex/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vectorsearchindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vector_search_index google_vector_search_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vector_search_index google_vector_search_index}.
 type VectorSearchIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -779,7 +779,7 @@ func (j *jsiiProxy_VectorSearchIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vector_search_index google_vector_search_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vector_search_index google_vector_search_index} Resource.
 func NewVectorSearchIndex(scope constructs.Construct, id *string, config *VectorSearchIndexConfig) VectorSearchIndex {
 	_init_.Initialize()
 
@@ -797,7 +797,7 @@ func NewVectorSearchIndex(scope constructs.Construct, id *string, config *Vector
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vector_search_index google_vector_search_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vector_search_index google_vector_search_index} Resource.
 func NewVectorSearchIndex_Override(v VectorSearchIndex, scope constructs.Construct, id *string, config *VectorSearchIndexConfig) {
 	_init_.Initialize()
 

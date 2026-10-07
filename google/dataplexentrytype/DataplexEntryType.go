@@ -5,14 +5,14 @@ package dataplexentrytype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataplexentrytype/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataplexentrytype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_entry_type google_dataplex_entry_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_entry_type google_dataplex_entry_type}.
 type DataplexEntryType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -722,7 +722,7 @@ func (j *jsiiProxy_DataplexEntryType) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_entry_type google_dataplex_entry_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_entry_type google_dataplex_entry_type} Resource.
 func NewDataplexEntryType(scope constructs.Construct, id *string, config *DataplexEntryTypeConfig) DataplexEntryType {
 	_init_.Initialize()
 
@@ -740,7 +740,7 @@ func NewDataplexEntryType(scope constructs.Construct, id *string, config *Datapl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_entry_type google_dataplex_entry_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_entry_type google_dataplex_entry_type} Resource.
 func NewDataplexEntryType_Override(d DataplexEntryType, scope constructs.Construct, id *string, config *DataplexEntryTypeConfig) {
 	_init_.Initialize()
 

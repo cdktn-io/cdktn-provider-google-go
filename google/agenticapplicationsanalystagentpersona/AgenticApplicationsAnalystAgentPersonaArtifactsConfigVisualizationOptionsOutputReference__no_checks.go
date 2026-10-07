@@ -75,6 +75,10 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualiz
 	return nil
 }
 
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReference) validateSetVisualizationModeParameters(val *string) error {
+	return nil
+}
+
 func validateNewAgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

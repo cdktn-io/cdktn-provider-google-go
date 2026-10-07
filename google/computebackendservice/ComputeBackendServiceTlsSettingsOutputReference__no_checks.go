@@ -67,6 +67,10 @@ func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) validateSetIdentityParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) validateSetInternalValueParameters(val *ComputeBackendServiceTlsSettings) error {
 	return nil
 }

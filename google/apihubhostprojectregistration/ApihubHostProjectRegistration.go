@@ -5,14 +5,14 @@ package apihubhostprojectregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apihubhostprojectregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apihubhostprojectregistration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apihub_host_project_registration google_apihub_host_project_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apihub_host_project_registration google_apihub_host_project_registration}.
 type ApihubHostProjectRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_ApihubHostProjectRegistration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apihub_host_project_registration google_apihub_host_project_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apihub_host_project_registration google_apihub_host_project_registration} Resource.
 func NewApihubHostProjectRegistration(scope constructs.Construct, id *string, config *ApihubHostProjectRegistrationConfig) ApihubHostProjectRegistration {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewApihubHostProjectRegistration(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apihub_host_project_registration google_apihub_host_project_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apihub_host_project_registration google_apihub_host_project_registration} Resource.
 func NewApihubHostProjectRegistration_Override(a ApihubHostProjectRegistration, scope constructs.Construct, id *string, config *ApihubHostProjectRegistrationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package secretmanagerregionalsecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/secretmanagerregionalsecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/secretmanagerregionalsecretversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secret_manager_regional_secret_version google_secret_manager_regional_secret_version}.
 type SecretManagerRegionalSecretVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -77,6 +77,14 @@ type SecretManagerRegionalSecretVersion interface {
 	SecretData() *string
 	SetSecretData(val *string)
 	SecretDataInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SecretDataWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetSecretDataWo(val *string)
+	SecretDataWoInput() *string
+	SecretDataWoVersion() *string
+	SetSecretDataWoVersion(val *string)
+	SecretDataWoVersionInput() *string
 	SecretInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -187,6 +195,9 @@ type SecretManagerRegionalSecretVersion interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetSecretData()
+	ResetSecretDataWo()
+	ResetSecretDataWoVersion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -505,6 +516,46 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) SecretDataInput() *string
 	return returns
 }
 
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) SecretDataWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) SecretDataWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) SecretDataWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) SecretDataWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"secretDataWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecretManagerRegionalSecretVersion) SecretInput() *string {
 	var returns *string
 	_jsii_.Get(
@@ -576,7 +627,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
 func NewSecretManagerRegionalSecretVersion(scope constructs.Construct, id *string, config *SecretManagerRegionalSecretVersionConfig) SecretManagerRegionalSecretVersion {
 	_init_.Initialize()
 
@@ -594,7 +645,7 @@ func NewSecretManagerRegionalSecretVersion(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secret_manager_regional_secret_version google_secret_manager_regional_secret_version} Resource.
 func NewSecretManagerRegionalSecretVersion_Override(s SecretManagerRegionalSecretVersion, scope constructs.Construct, id *string, config *SecretManagerRegionalSecretVersionConfig) {
 	_init_.Initialize()
 
@@ -735,6 +786,28 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetSecretData(val *string)
 	_jsii_.Set(
 		j,
 		"secretData",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetSecretDataWo(val *string) {
+	if err := j.validateSetSecretDataWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretDataWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion)SetSecretDataWoVersion(val *string) {
+	if err := j.validateSetSecretDataWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"secretDataWoVersion",
 		val,
 	)
 }
@@ -1166,6 +1239,30 @@ func (s *jsiiProxy_SecretManagerRegionalSecretVersion) ResetOverrideLogicalId() 
 	_jsii_.InvokeVoid(
 		s,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecretManagerRegionalSecretVersion) ResetSecretData() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSecretData",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecretManagerRegionalSecretVersion) ResetSecretDataWo() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSecretDataWo",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecretManagerRegionalSecretVersion) ResetSecretDataWoVersion() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetSecretDataWoVersion",
 		nil, // no parameters
 	)
 }

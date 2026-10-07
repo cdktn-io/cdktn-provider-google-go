@@ -67,6 +67,10 @@ func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) validateSetPri
 	return nil
 }
 
+func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) validateSetResourceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

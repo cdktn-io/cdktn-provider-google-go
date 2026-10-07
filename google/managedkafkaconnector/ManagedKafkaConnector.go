@@ -5,14 +5,14 @@ package managedkafkaconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/managedkafkaconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/managedkafkaconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_connector google_managed_kafka_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_connector google_managed_kafka_connector}.
 type ManagedKafkaConnector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -579,7 +579,7 @@ func (j *jsiiProxy_ManagedKafkaConnector) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_connector google_managed_kafka_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_connector google_managed_kafka_connector} Resource.
 func NewManagedKafkaConnector(scope constructs.Construct, id *string, config *ManagedKafkaConnectorConfig) ManagedKafkaConnector {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewManagedKafkaConnector(scope constructs.Construct, id *string, config *Ma
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_connector google_managed_kafka_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_connector google_managed_kafka_connector} Resource.
 func NewManagedKafkaConnector_Override(m ManagedKafkaConnector, scope constructs.Construct, id *string, config *ManagedKafkaConnectorConfig) {
 	_init_.Initialize()
 

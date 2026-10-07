@@ -5,14 +5,14 @@ package servicedirectoryendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/servicedirectoryendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/servicedirectoryendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_directory_endpoint google_service_directory_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_directory_endpoint google_service_directory_endpoint}.
 type ServiceDirectoryEndpoint interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -569,7 +569,7 @@ func (j *jsiiProxy_ServiceDirectoryEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
 func NewServiceDirectoryEndpoint(scope constructs.Construct, id *string, config *ServiceDirectoryEndpointConfig) ServiceDirectoryEndpoint {
 	_init_.Initialize()
 
@@ -587,7 +587,7 @@ func NewServiceDirectoryEndpoint(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_directory_endpoint google_service_directory_endpoint} Resource.
 func NewServiceDirectoryEndpoint_Override(s ServiceDirectoryEndpoint, scope constructs.Construct, id *string, config *ServiceDirectoryEndpointConfig) {
 	_init_.Initialize()
 

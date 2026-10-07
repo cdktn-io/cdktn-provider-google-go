@@ -83,6 +83,10 @@ func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validatePutPscInte
 	return nil
 }
 
+func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validatePutReservedPublicIpConfigParameters(value *DatabaseMigrationServicePrivateConnectionReservedPublicIpConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabaseMigrationServicePrivateConnection) validatePutTimeoutsParameters(value *DatabaseMigrationServicePrivateConnectionTimeouts) error {
 	return nil
 }

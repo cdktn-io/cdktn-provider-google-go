@@ -5,9 +5,9 @@ package computeregionurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeregionurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeregionurlmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,8 @@ type ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReferenc
 	PathTemplateRewrite() *string
 	SetPathTemplateRewrite(val *string)
 	PathTemplateRewriteInput() *string
+	RegexRewrite() ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference
+	RegexRewriteInput() *ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReferenc
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutRegexRewrite(value *ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite)
 	ResetHostRewrite()
 	ResetPathPrefixRewrite()
 	ResetPathTemplateRewrite()
+	ResetRegexRewrite()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -196,6 +200,26 @@ func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewrite
 	_jsii_.Get(
 		j,
 		"pathTemplateRewriteInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) RegexRewrite() ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference {
+	var returns ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewriteOutputReference
+	_jsii_.Get(
+		j,
+		"regexRewrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) RegexRewriteInput() *ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite {
+	var returns *ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite
+	_jsii_.Get(
+		j,
+		"regexRewriteInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewrite
 	return returns
 }
 
+func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) PutRegexRewrite(value *ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite) {
+	if err := c.validatePutRegexRewriteParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putRegexRewrite",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) ResetHostRewrite() {
 	_jsii_.InvokeVoid(
 		c,
@@ -543,6 +578,14 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewrite
 	_jsii_.InvokeVoid(
 		c,
 		"resetPathTemplateRewrite",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) ResetRegexRewrite() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRegexRewrite",
 		nil, // no parameters
 	)
 }

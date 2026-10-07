@@ -182,6 +182,14 @@ func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetPrin
 	return nil
 }
 
+func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetResourceParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

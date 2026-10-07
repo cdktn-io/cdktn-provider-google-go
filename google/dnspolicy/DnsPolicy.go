@@ -5,14 +5,14 @@ package dnspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dnspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dnspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dns_policy google_dns_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dns_policy google_dns_policy}.
 type DnsPolicy interface {
 	cdktn.TerraformResource
 	AlternativeNameServerConfig() DnsPolicyAlternativeNameServerConfigOutputReference
@@ -607,7 +607,7 @@ func (j *jsiiProxy_DnsPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dns_policy google_dns_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dns_policy google_dns_policy} Resource.
 func NewDnsPolicy(scope constructs.Construct, id *string, config *DnsPolicyConfig) DnsPolicy {
 	_init_.Initialize()
 
@@ -625,7 +625,7 @@ func NewDnsPolicy(scope constructs.Construct, id *string, config *DnsPolicyConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dns_policy google_dns_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dns_policy google_dns_policy} Resource.
 func NewDnsPolicy_Override(d DnsPolicy, scope constructs.Construct, id *string, config *DnsPolicyConfig) {
 	_init_.Initialize()
 

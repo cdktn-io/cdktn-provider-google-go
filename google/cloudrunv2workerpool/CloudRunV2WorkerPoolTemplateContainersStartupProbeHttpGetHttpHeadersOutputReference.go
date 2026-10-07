@@ -5,9 +5,9 @@ package cloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,9 +35,6 @@ type CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputR
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
-	Port() *float64
-	SetPort(val *float64)
-	PortInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,8 +70,6 @@ type CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputR
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	ResetName()
-	ResetPort()
 	ResetValue()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -156,26 +151,6 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
 	_jsii_.Get(
 		j,
 		"nameInput",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) Port() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"port",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) PortInput() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"portInput",
 		&returns,
 	)
 	return returns
@@ -289,17 +264,6 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
 	_jsii_.Set(
 		j,
 		"name",
-		val,
-	)
-}
-
-func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference)SetPort(val *float64) {
-	if err := j.validateSetPortParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"port",
 		val,
 	)
 }
@@ -521,22 +485,6 @@ func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttp
 	)
 
 	return returns
-}
-
-func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) ResetName() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetName",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) ResetPort() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetPort",
-		nil, // no parameters
-	)
 }
 
 func (c *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersStartupProbeHttpGetHttpHeadersOutputReference) ResetValue() {

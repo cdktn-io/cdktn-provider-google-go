@@ -1,0 +1,85 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+//go:build no_runtime_type_checking
+
+package cloudsecuritycompliancecloudcontrol
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validatePutAttributeSubstitutionRuleParameters(value *CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesAttributeSubstitutionRule) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validatePutPlaceholderSubstitutionRuleParameters(value *CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesPlaceholderSubstitutionRule) error {
+	return nil
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewCloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

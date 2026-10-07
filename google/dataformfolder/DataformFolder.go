@@ -5,14 +5,14 @@ package dataformfolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataformfolder/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataformfolder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_folder google_dataform_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_folder google_dataform_folder}.
 type DataformFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DataformFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_folder google_dataform_folder} Resource.
 func NewDataformFolder(scope constructs.Construct, id *string, config *DataformFolderConfig) DataformFolder {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewDataformFolder(scope constructs.Construct, id *string, config *DataformF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_folder google_dataform_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_folder google_dataform_folder} Resource.
 func NewDataformFolder_Override(d DataformFolder, scope constructs.Construct, id *string, config *DataformFolderConfig) {
 	_init_.Initialize()
 

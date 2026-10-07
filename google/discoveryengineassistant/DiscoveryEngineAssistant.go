@@ -5,14 +5,14 @@ package discoveryengineassistant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryengineassistant/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryengineassistant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_assistant google_discovery_engine_assistant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant}.
 type DiscoveryEngineAssistant interface {
 	cdktn.TerraformResource
 	AssistantId() *string
@@ -662,7 +662,7 @@ func (j *jsiiProxy_DiscoveryEngineAssistant) WebGroundingTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewDiscoveryEngineAssistant(scope constructs.Construct, id *string, config *DiscoveryEngineAssistantConfig) DiscoveryEngineAssistant {
 	_init_.Initialize()
 
@@ -680,7 +680,7 @@ func NewDiscoveryEngineAssistant(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewDiscoveryEngineAssistant_Override(d DiscoveryEngineAssistant, scope constructs.Construct, id *string, config *DiscoveryEngineAssistantConfig) {
 	_init_.Initialize()
 

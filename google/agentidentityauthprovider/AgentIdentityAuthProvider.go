@@ -5,14 +5,14 @@ package agentidentityauthprovider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/agentidentityauthprovider/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/agentidentityauthprovider/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agent_identity_auth_provider google_agent_identity_auth_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agent_identity_auth_provider google_agent_identity_auth_provider}.
 type AgentIdentityAuthProvider interface {
 	cdktn.TerraformResource
 	AllowedScopes() *[]*string
@@ -717,7 +717,7 @@ func (j *jsiiProxy_AgentIdentityAuthProvider) WorkloadIdsInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
 func NewAgentIdentityAuthProvider(scope constructs.Construct, id *string, config *AgentIdentityAuthProviderConfig) AgentIdentityAuthProvider {
 	_init_.Initialize()
 
@@ -735,7 +735,7 @@ func NewAgentIdentityAuthProvider(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agent_identity_auth_provider google_agent_identity_auth_provider} Resource.
 func NewAgentIdentityAuthProvider_Override(a AgentIdentityAuthProvider, scope constructs.Construct, id *string, config *AgentIdentityAuthProviderConfig) {
 	_init_.Initialize()
 

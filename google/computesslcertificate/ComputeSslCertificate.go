@@ -5,14 +5,14 @@ package computesslcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computesslcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computesslcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_ssl_certificate google_compute_ssl_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate}.
 type ComputeSslCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -653,7 +653,7 @@ func (j *jsiiProxy_ComputeSslCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
 func NewComputeSslCertificate(scope constructs.Construct, id *string, config *ComputeSslCertificateConfig) ComputeSslCertificate {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewComputeSslCertificate(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_ssl_certificate google_compute_ssl_certificate} Resource.
 func NewComputeSslCertificate_Override(c ComputeSslCertificate, scope constructs.Construct, id *string, config *ComputeSslCertificateConfig) {
 	_init_.Initialize()
 

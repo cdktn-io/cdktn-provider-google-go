@@ -5,14 +5,14 @@ package networkconnectivitygatewayadvertisedroute
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkconnectivitygatewayadvertisedroute/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkconnectivitygatewayadvertisedroute/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route}.
 type NetworkConnectivityGatewayAdvertisedRoute interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -695,7 +695,7 @@ func (j *jsiiProxy_NetworkConnectivityGatewayAdvertisedRoute) UpdateTime() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Construct, id *string, config *NetworkConnectivityGatewayAdvertisedRouteConfig) NetworkConnectivityGatewayAdvertisedRoute {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewNetworkConnectivityGatewayAdvertisedRoute(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_gateway_advertised_route google_network_connectivity_gateway_advertised_route} Resource.
 func NewNetworkConnectivityGatewayAdvertisedRoute_Override(n NetworkConnectivityGatewayAdvertisedRoute, scope constructs.Construct, id *string, config *NetworkConnectivityGatewayAdvertisedRouteConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataprocjobiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataprocjobiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataprocjobiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_job_iam_member google_dataproc_job_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_job_iam_member google_dataproc_job_iam_member}.
 type DataprocJobIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataprocJobIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_job_iam_member google_dataproc_job_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_job_iam_member google_dataproc_job_iam_member} Resource.
 func NewDataprocJobIamMember(scope constructs.Construct, id *string, config *DataprocJobIamMemberConfig) DataprocJobIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataprocJobIamMember(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_job_iam_member google_dataproc_job_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_job_iam_member google_dataproc_job_iam_member} Resource.
 func NewDataprocJobIamMember_Override(d DataprocJobIamMember, scope constructs.Construct, id *string, config *DataprocJobIamMemberConfig) {
 	_init_.Initialize()
 

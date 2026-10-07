@@ -5,14 +5,14 @@ package edgenetworknetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/edgenetworknetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/edgenetworknetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/edgenetwork_network google_edgenetwork_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/edgenetwork_network google_edgenetwork_network}.
 type EdgenetworkNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_EdgenetworkNetwork) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
 func NewEdgenetworkNetwork(scope constructs.Construct, id *string, config *EdgenetworkNetworkConfig) EdgenetworkNetwork {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewEdgenetworkNetwork(scope constructs.Construct, id *string, config *Edgen
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/edgenetwork_network google_edgenetwork_network} Resource.
 func NewEdgenetworkNetwork_Override(e EdgenetworkNetwork, scope constructs.Construct, id *string, config *EdgenetworkNetworkConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package computezonevmextensionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computezonevmextensionpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computezonevmextensionpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy}.
 type ComputeZoneVmExtensionPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -612,7 +612,7 @@ func (j *jsiiProxy_ComputeZoneVmExtensionPolicy) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
 func NewComputeZoneVmExtensionPolicy(scope constructs.Construct, id *string, config *ComputeZoneVmExtensionPolicyConfig) ComputeZoneVmExtensionPolicy {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewComputeZoneVmExtensionPolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_zone_vm_extension_policy google_compute_zone_vm_extension_policy} Resource.
 func NewComputeZoneVmExtensionPolicy_Override(c ComputeZoneVmExtensionPolicy, scope constructs.Construct, id *string, config *ComputeZoneVmExtensionPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package contactcenterinsightsview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/contactcenterinsightsview/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/contactcenterinsightsview/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_view google_contact_center_insights_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/contact_center_insights_view google_contact_center_insights_view}.
 type ContactCenterInsightsView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_ContactCenterInsightsView) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
 func NewContactCenterInsightsView(scope constructs.Construct, id *string, config *ContactCenterInsightsViewConfig) ContactCenterInsightsView {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewContactCenterInsightsView(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/contact_center_insights_view google_contact_center_insights_view} Resource.
 func NewContactCenterInsightsView_Override(c ContactCenterInsightsView, scope constructs.Construct, id *string, config *ContactCenterInsightsViewConfig) {
 	_init_.Initialize()
 

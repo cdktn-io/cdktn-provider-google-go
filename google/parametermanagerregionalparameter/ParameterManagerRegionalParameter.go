@@ -5,14 +5,14 @@ package parametermanagerregionalparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/parametermanagerregionalparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/parametermanagerregionalparameter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_regional_parameter google_parameter_manager_regional_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_regional_parameter google_parameter_manager_regional_parameter}.
 type ParameterManagerRegionalParameter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -83,6 +83,9 @@ type ParameterManagerRegionalParameter interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -195,6 +198,7 @@ type ParameterManagerRegionalParameter interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -553,6 +557,26 @@ func (j *jsiiProxy_ParameterManagerRegionalParameter) RawOverrides() interface{}
 	return returns
 }
 
+func (j *jsiiProxy_ParameterManagerRegionalParameter) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerRegionalParameter) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ParameterManagerRegionalParameter) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -624,7 +648,7 @@ func (j *jsiiProxy_ParameterManagerRegionalParameter) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
 func NewParameterManagerRegionalParameter(scope constructs.Construct, id *string, config *ParameterManagerRegionalParameterConfig) ParameterManagerRegionalParameter {
 	_init_.Initialize()
 
@@ -642,7 +666,7 @@ func NewParameterManagerRegionalParameter(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_regional_parameter google_parameter_manager_regional_parameter} Resource.
 func NewParameterManagerRegionalParameter_Override(p ParameterManagerRegionalParameter, scope constructs.Construct, id *string, config *ParameterManagerRegionalParameterConfig) {
 	_init_.Initialize()
 
@@ -805,6 +829,17 @@ func (j *jsiiProxy_ParameterManagerRegionalParameter)SetProvisioners(val *[]inte
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ParameterManagerRegionalParameter)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1252,6 +1287,14 @@ func (p *jsiiProxy_ParameterManagerRegionalParameter) ResetProject() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_ParameterManagerRegionalParameter) ResetTags() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetTags",
 		nil, // no parameters
 	)
 }

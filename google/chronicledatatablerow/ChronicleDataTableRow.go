@@ -5,14 +5,14 @@ package chronicledatatablerow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chronicledatatablerow/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chronicledatatablerow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_table_row google_chronicle_data_table_row}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row}.
 type ChronicleDataTableRow interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -600,7 +600,7 @@ func (j *jsiiProxy_ChronicleDataTableRow) ValuesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
 func NewChronicleDataTableRow(scope constructs.Construct, id *string, config *ChronicleDataTableRowConfig) ChronicleDataTableRow {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewChronicleDataTableRow(scope constructs.Construct, id *string, config *Ch
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_table_row google_chronicle_data_table_row} Resource.
 func NewChronicleDataTableRow_Override(c ChronicleDataTableRow, scope constructs.Construct, id *string, config *ChronicleDataTableRowConfig) {
 	_init_.Initialize()
 

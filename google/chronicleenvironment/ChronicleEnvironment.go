@@ -5,19 +5,22 @@ package chronicleenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chronicleenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chronicleenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_environment google_chronicle_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_environment google_chronicle_environment}.
 type ChronicleEnvironment interface {
 	cdktn.TerraformResource
 	AliasesJson() *string
 	SetAliasesJson(val *string)
 	AliasesJsonInput() *string
+	Base64Image() *string
+	SetBase64Image(val *string)
+	Base64ImageInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -58,6 +61,8 @@ type ChronicleEnvironment interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	DynamicParameters() ChronicleEnvironmentDynamicParametersList
+	DynamicParametersInput() interface{}
 	EnvironmentId() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
@@ -73,6 +78,9 @@ type ChronicleEnvironment interface {
 	Instance() *string
 	SetInstance(val *string)
 	InstanceInput() *string
+	InstanceUri() *string
+	SetInstanceUri(val *string)
+	InstanceUriInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -83,6 +91,9 @@ type ChronicleEnvironment interface {
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	ParallelInstance() *string
+	SetParallelInstance(val *string)
+	ParallelInstanceInput() *string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -107,6 +118,9 @@ type ChronicleEnvironment interface {
 	TerraformResourceType() *string
 	Timeouts() ChronicleEnvironmentTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	Weight() *float64
+	SetWeight(val *float64)
+	WeightInput() *float64
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -186,6 +200,7 @@ type ChronicleEnvironment interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutDynamicParameters(value interface{})
 	PutTimeouts(value *ChronicleEnvironmentTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -201,15 +216,20 @@ type ChronicleEnvironment interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAliasesJson()
+	ResetBase64Image()
 	ResetDataAccessScopesJson()
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
+	ResetDynamicParameters()
 	ResetId()
+	ResetInstanceUri()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParallelInstance()
 	ResetProject()
 	ResetTimeouts()
+	ResetWeight()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -252,6 +272,26 @@ func (j *jsiiProxy_ChronicleEnvironment) AliasesJsonInput() *string {
 	_jsii_.Get(
 		j,
 		"aliasesJsonInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) Base64Image() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"base64Image",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) Base64ImageInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"base64ImageInput",
 		&returns,
 	)
 	return returns
@@ -467,6 +507,26 @@ func (j *jsiiProxy_ChronicleEnvironment) DisplayNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ChronicleEnvironment) DynamicParameters() ChronicleEnvironmentDynamicParametersList {
+	var returns ChronicleEnvironmentDynamicParametersList
+	_jsii_.Get(
+		j,
+		"dynamicParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) DynamicParametersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dynamicParametersInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ChronicleEnvironment) EnvironmentId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -547,6 +607,26 @@ func (j *jsiiProxy_ChronicleEnvironment) InstanceInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ChronicleEnvironment) InstanceUri() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instanceUri",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) InstanceUriInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instanceUriInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ChronicleEnvironment) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -592,6 +672,26 @@ func (j *jsiiProxy_ChronicleEnvironment) Node() constructs.Node {
 	_jsii_.Get(
 		j,
 		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) ParallelInstance() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parallelInstance",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) ParallelInstanceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"parallelInstanceInput",
 		&returns,
 	)
 	return returns
@@ -717,8 +817,28 @@ func (j *jsiiProxy_ChronicleEnvironment) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ChronicleEnvironment) Weight() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"weight",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_environment google_chronicle_environment} Resource.
+func (j *jsiiProxy_ChronicleEnvironment) WeightInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"weightInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_environment google_chronicle_environment} Resource.
 func NewChronicleEnvironment(scope constructs.Construct, id *string, config *ChronicleEnvironmentConfig) ChronicleEnvironment {
 	_init_.Initialize()
 
@@ -736,7 +856,7 @@ func NewChronicleEnvironment(scope constructs.Construct, id *string, config *Chr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_environment google_chronicle_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_environment google_chronicle_environment} Resource.
 func NewChronicleEnvironment_Override(c ChronicleEnvironment, scope constructs.Construct, id *string, config *ChronicleEnvironmentConfig) {
 	_init_.Initialize()
 
@@ -754,6 +874,17 @@ func (j *jsiiProxy_ChronicleEnvironment)SetAliasesJson(val *string) {
 	_jsii_.Set(
 		j,
 		"aliasesJson",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ChronicleEnvironment)SetBase64Image(val *string) {
+	if err := j.validateSetBase64ImageParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"base64Image",
 		val,
 	)
 }
@@ -906,6 +1037,17 @@ func (j *jsiiProxy_ChronicleEnvironment)SetInstance(val *string) {
 	)
 }
 
+func (j *jsiiProxy_ChronicleEnvironment)SetInstanceUri(val *string) {
+	if err := j.validateSetInstanceUriParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"instanceUri",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ChronicleEnvironment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
@@ -924,6 +1066,17 @@ func (j *jsiiProxy_ChronicleEnvironment)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ChronicleEnvironment)SetParallelInstance(val *string) {
+	if err := j.validateSetParallelInstanceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"parallelInstance",
 		val,
 	)
 }
@@ -965,6 +1118,17 @@ func (j *jsiiProxy_ChronicleEnvironment)SetRetentionDuration(val *float64) {
 	_jsii_.Set(
 		j,
 		"retentionDuration",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ChronicleEnvironment)SetWeight(val *float64) {
+	if err := j.validateSetWeightParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"weight",
 		val,
 	)
 }
@@ -1338,6 +1502,17 @@ func (c *jsiiProxy_ChronicleEnvironment) OverrideLogicalId(newLogicalId *string)
 	)
 }
 
+func (c *jsiiProxy_ChronicleEnvironment) PutDynamicParameters(value interface{}) {
+	if err := c.validatePutDynamicParametersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putDynamicParameters",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ChronicleEnvironment) PutTimeouts(value *ChronicleEnvironmentTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1368,6 +1543,14 @@ func (c *jsiiProxy_ChronicleEnvironment) ResetAliasesJson() {
 	)
 }
 
+func (c *jsiiProxy_ChronicleEnvironment) ResetBase64Image() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetBase64Image",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ChronicleEnvironment) ResetDataAccessScopesJson() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1392,6 +1575,14 @@ func (c *jsiiProxy_ChronicleEnvironment) ResetDeletionProtection() {
 	)
 }
 
+func (c *jsiiProxy_ChronicleEnvironment) ResetDynamicParameters() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDynamicParameters",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ChronicleEnvironment) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1400,10 +1591,26 @@ func (c *jsiiProxy_ChronicleEnvironment) ResetId() {
 	)
 }
 
+func (c *jsiiProxy_ChronicleEnvironment) ResetInstanceUri() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetInstanceUri",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ChronicleEnvironment) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ChronicleEnvironment) ResetParallelInstance() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParallelInstance",
 		nil, // no parameters
 	)
 }
@@ -1420,6 +1627,14 @@ func (c *jsiiProxy_ChronicleEnvironment) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ChronicleEnvironment) ResetWeight() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWeight",
 		nil, // no parameters
 	)
 }

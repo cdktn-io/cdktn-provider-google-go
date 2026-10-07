@@ -5,14 +5,14 @@ package computereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_reservation google_compute_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_reservation google_compute_reservation}.
 type ComputeReservation interface {
 	cdktn.TerraformResource
 	BlockNames() *[]*string
@@ -80,7 +80,6 @@ type ComputeReservation interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	ReservationBlockCount() *float64
 	ReservationSharingPolicy() ComputeReservationReservationSharingPolicyOutputReference
 	ReservationSharingPolicyInput() *ComputeReservationReservationSharingPolicy
 	ResourceStatus() ComputeReservationResourceStatusList
@@ -573,16 +572,6 @@ func (j *jsiiProxy_ComputeReservation) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ComputeReservation) ReservationBlockCount() *float64 {
-	var returns *float64
-	_jsii_.Get(
-		j,
-		"reservationBlockCount",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_ComputeReservation) ReservationSharingPolicy() ComputeReservationReservationSharingPolicyOutputReference {
 	var returns ComputeReservationReservationSharingPolicyOutputReference
 	_jsii_.Get(
@@ -774,7 +763,7 @@ func (j *jsiiProxy_ComputeReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_reservation google_compute_reservation} Resource.
 func NewComputeReservation(scope constructs.Construct, id *string, config *ComputeReservationConfig) ComputeReservation {
 	_init_.Initialize()
 
@@ -792,7 +781,7 @@ func NewComputeReservation(scope constructs.Construct, id *string, config *Compu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_reservation google_compute_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_reservation google_compute_reservation} Resource.
 func NewComputeReservation_Override(c ComputeReservation, scope constructs.Construct, id *string, config *ComputeReservationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package vmwareengineexternalaccessrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vmwareengineexternalaccessrule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vmwareengineexternalaccessrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule}.
 type VmwareengineExternalAccessRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -691,7 +691,7 @@ func (j *jsiiProxy_VmwareengineExternalAccessRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewVmwareengineExternalAccessRule(scope constructs.Construct, id *string, config *VmwareengineExternalAccessRuleConfig) VmwareengineExternalAccessRule {
 	_init_.Initialize()
 
@@ -709,7 +709,7 @@ func NewVmwareengineExternalAccessRule(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_external_access_rule google_vmwareengine_external_access_rule} Resource.
 func NewVmwareengineExternalAccessRule_Override(v VmwareengineExternalAccessRule, scope constructs.Construct, id *string, config *VmwareengineExternalAccessRuleConfig) {
 	_init_.Initialize()
 

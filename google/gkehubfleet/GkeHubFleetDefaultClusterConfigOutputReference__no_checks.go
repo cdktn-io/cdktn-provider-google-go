@@ -51,6 +51,10 @@ func (g *jsiiProxy_GkeHubFleetDefaultClusterConfigOutputReference) validatePutBi
 	return nil
 }
 
+func (g *jsiiProxy_GkeHubFleetDefaultClusterConfigOutputReference) validatePutCompliancePostureConfigParameters(value *GkeHubFleetDefaultClusterConfigCompliancePostureConfig) error {
+	return nil
+}
+
 func (g *jsiiProxy_GkeHubFleetDefaultClusterConfigOutputReference) validatePutSecurityPostureConfigParameters(value *GkeHubFleetDefaultClusterConfigSecurityPostureConfig) error {
 	return nil
 }

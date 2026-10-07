@@ -5,14 +5,14 @@ package documentaiprocessor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/documentaiprocessor/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/documentaiprocessor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/document_ai_processor google_document_ai_processor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/document_ai_processor google_document_ai_processor}.
 type DocumentAiProcessor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -544,7 +544,7 @@ func (j *jsiiProxy_DocumentAiProcessor) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/document_ai_processor google_document_ai_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
 func NewDocumentAiProcessor(scope constructs.Construct, id *string, config *DocumentAiProcessorConfig) DocumentAiProcessor {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewDocumentAiProcessor(scope constructs.Construct, id *string, config *Docu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/document_ai_processor google_document_ai_processor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/document_ai_processor google_document_ai_processor} Resource.
 func NewDocumentAiProcessor_Override(d DocumentAiProcessor, scope constructs.Construct, id *string, config *DocumentAiProcessorConfig) {
 	_init_.Initialize()
 

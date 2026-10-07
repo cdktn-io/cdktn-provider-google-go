@@ -71,7 +71,23 @@ func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRawKeyWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRawKeyWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyWoVersionParameters(val *string) error {
 	return nil
 }
 

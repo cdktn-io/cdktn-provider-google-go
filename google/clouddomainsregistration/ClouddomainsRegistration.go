@@ -5,14 +5,14 @@ package clouddomainsregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/clouddomainsregistration/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/clouddomainsregistration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddomains_registration google_clouddomains_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddomains_registration google_clouddomains_registration}.
 type ClouddomainsRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -727,7 +727,7 @@ func (j *jsiiProxy_ClouddomainsRegistration) YearlyPriceInput() *ClouddomainsReg
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddomains_registration google_clouddomains_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddomains_registration google_clouddomains_registration} Resource.
 func NewClouddomainsRegistration(scope constructs.Construct, id *string, config *ClouddomainsRegistrationConfig) ClouddomainsRegistration {
 	_init_.Initialize()
 
@@ -745,7 +745,7 @@ func NewClouddomainsRegistration(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddomains_registration google_clouddomains_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddomains_registration google_clouddomains_registration} Resource.
 func NewClouddomainsRegistration_Override(c ClouddomainsRegistration, scope constructs.Construct, id *string, config *ClouddomainsRegistrationConfig) {
 	_init_.Initialize()
 

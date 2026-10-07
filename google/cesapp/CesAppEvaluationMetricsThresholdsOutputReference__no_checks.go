@@ -63,7 +63,15 @@ func (j *jsiiProxy_CesAppEvaluationMetricsThresholdsOutputReference) validateSet
 	return nil
 }
 
+func (j *jsiiProxy_CesAppEvaluationMetricsThresholdsOutputReference) validateSetGoldenHallucinationMetricBehaviorParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesAppEvaluationMetricsThresholdsOutputReference) validateSetInternalValueParameters(val *CesAppEvaluationMetricsThresholds) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesAppEvaluationMetricsThresholdsOutputReference) validateSetScenarioHallucinationMetricBehaviorParameters(val *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dialogflowcxtool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowcxtool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowcxtool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_tool google_dialogflow_cx_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_tool google_dialogflow_cx_tool}.
 type DialogflowCxTool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_DialogflowCxTool) ToolType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
 func NewDialogflowCxTool(scope constructs.Construct, id *string, config *DialogflowCxToolConfig) DialogflowCxTool {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewDialogflowCxTool(scope constructs.Construct, id *string, config *Dialogf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_tool google_dialogflow_cx_tool} Resource.
 func NewDialogflowCxTool_Override(d DialogflowCxTool, scope constructs.Construct, id *string, config *DialogflowCxToolConfig) {
 	_init_.Initialize()
 

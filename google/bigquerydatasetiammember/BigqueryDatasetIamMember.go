@@ -5,14 +5,14 @@ package bigquerydatasetiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigquerydatasetiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigquerydatasetiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_dataset_iam_member google_bigquery_dataset_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_dataset_iam_member google_bigquery_dataset_iam_member}.
 type BigqueryDatasetIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_BigqueryDatasetIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_dataset_iam_member google_bigquery_dataset_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_dataset_iam_member google_bigquery_dataset_iam_member} Resource.
 func NewBigqueryDatasetIamMember(scope constructs.Construct, id *string, config *BigqueryDatasetIamMemberConfig) BigqueryDatasetIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewBigqueryDatasetIamMember(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_dataset_iam_member google_bigquery_dataset_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_dataset_iam_member google_bigquery_dataset_iam_member} Resource.
 func NewBigqueryDatasetIamMember_Override(b BigqueryDatasetIamMember, scope constructs.Construct, id *string, config *BigqueryDatasetIamMemberConfig) {
 	_init_.Initialize()
 

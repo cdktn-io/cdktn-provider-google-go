@@ -79,6 +79,10 @@ func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) validateOverrideLogic
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) validatePutGatewayConfigsParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) validatePutTimeoutsParameters(value *VertexAiSemanticGovernancePolicyEngineTimeouts) error {
 	return nil
 }

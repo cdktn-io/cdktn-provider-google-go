@@ -5,9 +5,9 @@ package cesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,7 @@ type CesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference interface {
 	InputVariableMapping() cdktn.StringMap
 	InternalValue() *CesAppVersionSnapshotAgentsRemoteDialogflowAgent
 	SetInternalValue(val *CesAppVersionSnapshotAgentsRemoteDialogflowAgent)
+	LanguageCodeVariable() *string
 	OutputVariableMapping() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
@@ -169,6 +170,16 @@ func (j *jsiiProxy_CesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReferen
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersionSnapshotAgentsRemoteDialogflowAgentOutputReference) LanguageCodeVariable() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"languageCodeVariable",
 		&returns,
 	)
 	return returns

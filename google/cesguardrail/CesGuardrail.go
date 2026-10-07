@@ -5,14 +5,14 @@ package cesguardrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesguardrail/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesguardrail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_guardrail google_ces_guardrail}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_guardrail google_ces_guardrail}.
 type CesGuardrail interface {
 	cdktn.TerraformResource
 	Action() CesGuardrailActionOutputReference
@@ -768,7 +768,7 @@ func (j *jsiiProxy_CesGuardrail) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_guardrail google_ces_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_guardrail google_ces_guardrail} Resource.
 func NewCesGuardrail(scope constructs.Construct, id *string, config *CesGuardrailConfig) CesGuardrail {
 	_init_.Initialize()
 
@@ -786,7 +786,7 @@ func NewCesGuardrail(scope constructs.Construct, id *string, config *CesGuardrai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_guardrail google_ces_guardrail} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_guardrail google_ces_guardrail} Resource.
 func NewCesGuardrail_Override(c CesGuardrail, scope constructs.Construct, id *string, config *CesGuardrailConfig) {
 	_init_.Initialize()
 

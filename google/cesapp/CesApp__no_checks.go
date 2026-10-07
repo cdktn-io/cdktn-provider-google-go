@@ -95,6 +95,10 @@ func (c *jsiiProxy_CesApp) validatePutDefaultChannelProfileParameters(value *Ces
 	return nil
 }
 
+func (c *jsiiProxy_CesApp) validatePutErrorHandlingSettingsParameters(value *CesAppErrorHandlingSettings) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesApp) validatePutEvaluationMetricsThresholdsParameters(value *CesAppEvaluationMetricsThresholds) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (c *jsiiProxy_CesApp) validatePutTimeZoneSettingsParameters(value *CesAppTi
 }
 
 func (c *jsiiProxy_CesApp) validatePutVariableDeclarationsParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesApp) validatePutVpcScSettingsParameters(value *CesAppVpcScSettings) error {
 	return nil
 }
 
@@ -184,6 +192,10 @@ func (j *jsiiProxy_CesApp) validateSetLifecycleParameters(val *cdktn.TerraformRe
 }
 
 func (j *jsiiProxy_CesApp) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesApp) validateSetLockedParameters(val interface{}) error {
 	return nil
 }
 

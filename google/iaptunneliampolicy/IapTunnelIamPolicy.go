@@ -5,14 +5,14 @@ package iaptunneliampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iaptunneliampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iaptunneliampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_tunnel_iam_policy google_iap_tunnel_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_tunnel_iam_policy google_iap_tunnel_iam_policy}.
 type IapTunnelIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -426,7 +426,7 @@ func (j *jsiiProxy_IapTunnelIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Resource.
 func NewIapTunnelIamPolicy(scope constructs.Construct, id *string, config *IapTunnelIamPolicyConfig) IapTunnelIamPolicy {
 	_init_.Initialize()
 
@@ -444,7 +444,7 @@ func NewIapTunnelIamPolicy(scope constructs.Construct, id *string, config *IapTu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_tunnel_iam_policy google_iap_tunnel_iam_policy} Resource.
 func NewIapTunnelIamPolicy_Override(i IapTunnelIamPolicy, scope constructs.Construct, id *string, config *IapTunnelIamPolicyConfig) {
 	_init_.Initialize()
 

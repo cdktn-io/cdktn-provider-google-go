@@ -5,9 +5,9 @@ package edgenetworksubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/edgenetworksubnet/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/edgenetworksubnet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

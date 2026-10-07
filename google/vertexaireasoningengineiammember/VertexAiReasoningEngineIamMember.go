@@ -5,14 +5,14 @@ package vertexaireasoningengineiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vertexaireasoningengineiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaireasoningengineiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine_iam_member google_vertex_ai_reasoning_engine_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine_iam_member google_vertex_ai_reasoning_engine_iam_member}.
 type VertexAiReasoningEngineIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_VertexAiReasoningEngineIamMember) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine_iam_member google_vertex_ai_reasoning_engine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine_iam_member google_vertex_ai_reasoning_engine_iam_member} Resource.
 func NewVertexAiReasoningEngineIamMember(scope constructs.Construct, id *string, config *VertexAiReasoningEngineIamMemberConfig) VertexAiReasoningEngineIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewVertexAiReasoningEngineIamMember(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine_iam_member google_vertex_ai_reasoning_engine_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine_iam_member google_vertex_ai_reasoning_engine_iam_member} Resource.
 func NewVertexAiReasoningEngineIamMember_Override(v VertexAiReasoningEngineIamMember, scope constructs.Construct, id *string, config *VertexAiReasoningEngineIamMemberConfig) {
 	_init_.Initialize()
 

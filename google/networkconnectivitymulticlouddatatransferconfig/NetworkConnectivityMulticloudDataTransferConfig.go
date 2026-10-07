@@ -5,14 +5,14 @@ package networkconnectivitymulticlouddatatransferconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkconnectivitymulticlouddatatransferconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkconnectivitymulticlouddatatransferconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config}.
 type NetworkConnectivityMulticloudDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -646,7 +646,7 @@ func (j *jsiiProxy_NetworkConnectivityMulticloudDataTransferConfig) UpdateTime()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Construct, id *string, config *NetworkConnectivityMulticloudDataTransferConfigConfig) NetworkConnectivityMulticloudDataTransferConfig {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewNetworkConnectivityMulticloudDataTransferConfig(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_multicloud_data_transfer_config google_network_connectivity_multicloud_data_transfer_config} Resource.
 func NewNetworkConnectivityMulticloudDataTransferConfig_Override(n NetworkConnectivityMulticloudDataTransferConfig, scope constructs.Construct, id *string, config *NetworkConnectivityMulticloudDataTransferConfigConfig) {
 	_init_.Initialize()
 

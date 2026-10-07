@@ -5,16 +5,17 @@ package managedkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/managedkafkacluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/managedkafkacluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_cluster google_managed_kafka_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster}.
 type ManagedKafkaCluster interface {
 	cdktn.TerraformResource
+	BootstrapAddress() *string
 	BrokerCapacityConfig() ManagedKafkaClusterBrokerCapacityConfigOutputReference
 	BrokerCapacityConfigInput() *ManagedKafkaClusterBrokerCapacityConfig
 	CapacityConfig() ManagedKafkaClusterCapacityConfigOutputReference
@@ -56,6 +57,9 @@ type ManagedKafkaCluster interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KafkaVersion() *string
+	SetKafkaVersion(val *string)
+	KafkaVersionInput() *string
 	Labels() *map[string]*string
 	SetLabels(val *map[string]*string)
 	LabelsInput() *map[string]*string
@@ -80,6 +84,7 @@ type ManagedKafkaCluster interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PublicClusterDetails() ManagedKafkaClusterPublicClusterDetailsList
 	// Experimental.
 	RawOverrides() interface{}
 	RebalanceConfig() ManagedKafkaClusterRebalanceConfigOutputReference
@@ -198,6 +203,7 @@ type ManagedKafkaCluster interface {
 	ResetBrokerCapacityConfig()
 	ResetDeletionPolicy()
 	ResetId()
+	ResetKafkaVersion()
 	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -231,6 +237,16 @@ type ManagedKafkaCluster interface {
 // The jsii proxy struct for ManagedKafkaCluster
 type jsiiProxy_ManagedKafkaCluster struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_ManagedKafkaCluster) BootstrapAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"bootstrapAddress",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ManagedKafkaCluster) BrokerCapacityConfig() ManagedKafkaClusterBrokerCapacityConfigOutputReference {
@@ -453,6 +469,26 @@ func (j *jsiiProxy_ManagedKafkaCluster) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ManagedKafkaCluster) KafkaVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kafkaVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ManagedKafkaCluster) KafkaVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kafkaVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ManagedKafkaCluster) Labels() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -558,6 +594,16 @@ func (j *jsiiProxy_ManagedKafkaCluster) Provisioners() *[]interface{} {
 	_jsii_.Get(
 		j,
 		"provisioners",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ManagedKafkaCluster) PublicClusterDetails() ManagedKafkaClusterPublicClusterDetailsList {
+	var returns ManagedKafkaClusterPublicClusterDetailsList
+	_jsii_.Get(
+		j,
+		"publicClusterDetails",
 		&returns,
 	)
 	return returns
@@ -694,7 +740,7 @@ func (j *jsiiProxy_ManagedKafkaCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
 func NewManagedKafkaCluster(scope constructs.Construct, id *string, config *ManagedKafkaClusterConfig) ManagedKafkaCluster {
 	_init_.Initialize()
 
@@ -712,7 +758,7 @@ func NewManagedKafkaCluster(scope constructs.Construct, id *string, config *Mana
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_cluster google_managed_kafka_cluster} Resource.
 func NewManagedKafkaCluster_Override(m ManagedKafkaCluster, scope constructs.Construct, id *string, config *ManagedKafkaClusterConfig) {
 	_init_.Initialize()
 
@@ -790,6 +836,17 @@ func (j *jsiiProxy_ManagedKafkaCluster)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ManagedKafkaCluster)SetKafkaVersion(val *string) {
+	if err := j.validateSetKafkaVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kafkaVersion",
 		val,
 	)
 }
@@ -1323,6 +1380,14 @@ func (m *jsiiProxy_ManagedKafkaCluster) ResetId() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_ManagedKafkaCluster) ResetKafkaVersion() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetKafkaVersion",
 		nil, // no parameters
 	)
 }

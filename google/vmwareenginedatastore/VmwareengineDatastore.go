@@ -5,14 +5,14 @@ package vmwareenginedatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vmwareenginedatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vmwareenginedatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_datastore google_vmwareengine_datastore}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore}.
 type VmwareengineDatastore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -588,7 +588,7 @@ func (j *jsiiProxy_VmwareengineDatastore) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewVmwareengineDatastore(scope constructs.Construct, id *string, config *VmwareengineDatastoreConfig) VmwareengineDatastore {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewVmwareengineDatastore(scope constructs.Construct, id *string, config *Vm
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vmwareengine_datastore google_vmwareengine_datastore} Resource.
 func NewVmwareengineDatastore_Override(v VmwareengineDatastore, scope constructs.Construct, id *string, config *VmwareengineDatastoreConfig) {
 	_init_.Initialize()
 

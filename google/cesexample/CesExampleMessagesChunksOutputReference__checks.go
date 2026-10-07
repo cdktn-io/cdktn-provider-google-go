@@ -104,6 +104,17 @@ func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) validatePutAgentTran
 	return nil
 }
 
+func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) validatePutBlobParameters(value *CesExampleMessagesChunksBlob) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) validatePutImageParameters(value *CesExampleMessagesChunksImage) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

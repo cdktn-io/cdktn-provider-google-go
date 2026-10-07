@@ -5,14 +5,14 @@ package apigeedeveloper
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apigeedeveloper/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeedeveloper/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_developer google_apigee_developer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_developer google_apigee_developer}.
 type ApigeeDeveloper interface {
 	cdktn.TerraformResource
 	Attributes() ApigeeDeveloperAttributesList
@@ -599,7 +599,7 @@ func (j *jsiiProxy_ApigeeDeveloper) UserNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_developer google_apigee_developer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_developer google_apigee_developer} Resource.
 func NewApigeeDeveloper(scope constructs.Construct, id *string, config *ApigeeDeveloperConfig) ApigeeDeveloper {
 	_init_.Initialize()
 
@@ -617,7 +617,7 @@ func NewApigeeDeveloper(scope constructs.Construct, id *string, config *ApigeeDe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_developer google_apigee_developer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_developer google_apigee_developer} Resource.
 func NewApigeeDeveloper_Override(a ApigeeDeveloper, scope constructs.Construct, id *string, config *ApigeeDeveloperConfig) {
 	_init_.Initialize()
 

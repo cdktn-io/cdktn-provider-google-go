@@ -5,14 +5,14 @@ package gkehubscopeiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/gkehubscopeiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/gkehubscopeiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_scope_iam_member google_gke_hub_scope_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_scope_iam_member google_gke_hub_scope_iam_member}.
 type GkeHubScopeIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_GkeHubScopeIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_scope_iam_member google_gke_hub_scope_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_scope_iam_member google_gke_hub_scope_iam_member} Resource.
 func NewGkeHubScopeIamMember(scope constructs.Construct, id *string, config *GkeHubScopeIamMemberConfig) GkeHubScopeIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewGkeHubScopeIamMember(scope constructs.Construct, id *string, config *Gke
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_scope_iam_member google_gke_hub_scope_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_scope_iam_member google_gke_hub_scope_iam_member} Resource.
 func NewGkeHubScopeIamMember_Override(g GkeHubScopeIamMember, scope constructs.Construct, id *string, config *GkeHubScopeIamMemberConfig) {
 	_init_.Initialize()
 

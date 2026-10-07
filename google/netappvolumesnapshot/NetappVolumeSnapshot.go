@@ -5,14 +5,14 @@ package netappvolumesnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/netappvolumesnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/netappvolumesnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot}.
 type NetappVolumeSnapshot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_NetappVolumeSnapshot) VolumeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
 func NewNetappVolumeSnapshot(scope constructs.Construct, id *string, config *NetappVolumeSnapshotConfig) NetappVolumeSnapshot {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewNetappVolumeSnapshot(scope constructs.Construct, id *string, config *Net
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/netapp_volume_snapshot google_netapp_volume_snapshot} Resource.
 func NewNetappVolumeSnapshot_Override(n NetappVolumeSnapshot, scope constructs.Construct, id *string, config *NetappVolumeSnapshotConfig) {
 	_init_.Initialize()
 

@@ -215,6 +215,37 @@ func (c *jsiiProxy_ChronicleEnvironment) validateOverrideLogicalIdParameters(new
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleEnvironment) validatePutDynamicParametersParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*ChronicleEnvironmentDynamicParameters:
+		value := value.(*[]*ChronicleEnvironmentDynamicParameters)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*ChronicleEnvironmentDynamicParameters:
+		value_ := value.([]*ChronicleEnvironmentDynamicParameters)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ChronicleEnvironmentDynamicParameters; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleEnvironment) validatePutTimeoutsParameters(value *ChronicleEnvironmentTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -275,6 +306,14 @@ func validateChronicleEnvironment_IsTerraformResourceParameters(x interface{}) e
 }
 
 func (j *jsiiProxy_ChronicleEnvironment) validateSetAliasesJsonParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) validateSetBase64ImageParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -464,6 +503,14 @@ func (j *jsiiProxy_ChronicleEnvironment) validateSetInstanceParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_ChronicleEnvironment) validateSetInstanceUriParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ChronicleEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
@@ -473,6 +520,14 @@ func (j *jsiiProxy_ChronicleEnvironment) validateSetLifecycleParameters(val *cdk
 }
 
 func (j *jsiiProxy_ChronicleEnvironment) validateSetLocationParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) validateSetParallelInstanceParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -535,6 +590,14 @@ func (j *jsiiProxy_ChronicleEnvironment) validateSetProvisionersParameters(val *
 }
 
 func (j *jsiiProxy_ChronicleEnvironment) validateSetRetentionDurationParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) validateSetWeightParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

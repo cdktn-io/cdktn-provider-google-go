@@ -211,6 +211,10 @@ func (j *jsiiProxy_CloudRunV2Service) validateSetProvisionersParameters(val *[]i
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2Service) validateSetSshEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2Service) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

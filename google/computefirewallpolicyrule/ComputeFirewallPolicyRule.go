@@ -5,14 +5,14 @@ package computefirewallpolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computefirewallpolicyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computefirewallpolicyrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_firewall_policy_rule google_compute_firewall_policy_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_firewall_policy_rule google_compute_firewall_policy_rule}.
 type ComputeFirewallPolicyRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -756,7 +756,7 @@ func (j *jsiiProxy_ComputeFirewallPolicyRule) TlsInspectInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_firewall_policy_rule google_compute_firewall_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_firewall_policy_rule google_compute_firewall_policy_rule} Resource.
 func NewComputeFirewallPolicyRule(scope constructs.Construct, id *string, config *ComputeFirewallPolicyRuleConfig) ComputeFirewallPolicyRule {
 	_init_.Initialize()
 
@@ -774,7 +774,7 @@ func NewComputeFirewallPolicyRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_firewall_policy_rule google_compute_firewall_policy_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_firewall_policy_rule google_compute_firewall_policy_rule} Resource.
 func NewComputeFirewallPolicyRule_Override(c ComputeFirewallPolicyRule, scope constructs.Construct, id *string, config *ComputeFirewallPolicyRuleConfig) {
 	_init_.Initialize()
 

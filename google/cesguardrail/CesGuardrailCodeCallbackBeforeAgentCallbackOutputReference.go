@@ -5,9 +5,9 @@ package cesguardrail
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesguardrail/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesguardrail/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,9 @@ type CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference interface {
 	Fqn() *string
 	InternalValue() *CesGuardrailCodeCallbackBeforeAgentCallback
 	SetInternalValue(val *CesGuardrailCodeCallbackBeforeAgentCallback)
+	ProactiveExecutionEnabled() interface{}
+	SetProactiveExecutionEnabled(val interface{})
+	ProactiveExecutionEnabledInput() interface{}
 	PythonCode() *string
 	SetPythonCode(val *string)
 	PythonCodeInput() *string
@@ -75,6 +78,7 @@ type CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	ResetDisabled()
+	ResetProactiveExecutionEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -175,6 +179,26 @@ func (j *jsiiProxy_CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference) I
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference) ProactiveExecutionEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proactiveExecutionEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference) ProactiveExecutionEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proactiveExecutionEnabledInput",
 		&returns,
 	)
 	return returns
@@ -299,6 +323,17 @@ func (j *jsiiProxy_CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference)Se
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference)SetProactiveExecutionEnabled(val interface{}) {
+	if err := j.validateSetProactiveExecutionEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"proactiveExecutionEnabled",
 		val,
 	)
 }
@@ -534,6 +569,14 @@ func (c *jsiiProxy_CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference) R
 	_jsii_.InvokeVoid(
 		c,
 		"resetDisabled",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesGuardrailCodeCallbackBeforeAgentCallbackOutputReference) ResetProactiveExecutionEnabled() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetProactiveExecutionEnabled",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package resourcemanagercapability
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/resourcemanagercapability/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/resourcemanagercapability/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/resource_manager_capability google_resource_manager_capability}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/resource_manager_capability google_resource_manager_capability}.
 type ResourceManagerCapability interface {
 	cdktn.TerraformResource
 	CapabilityName() *string
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ResourceManagerCapability) ValueInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/resource_manager_capability google_resource_manager_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/resource_manager_capability google_resource_manager_capability} Resource.
 func NewResourceManagerCapability(scope constructs.Construct, id *string, config *ResourceManagerCapabilityConfig) ResourceManagerCapability {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewResourceManagerCapability(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/resource_manager_capability google_resource_manager_capability} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/resource_manager_capability google_resource_manager_capability} Resource.
 func NewResourceManagerCapability_Override(r ResourceManagerCapability, scope constructs.Construct, id *string, config *ResourceManagerCapabilityConfig) {
 	_init_.Initialize()
 

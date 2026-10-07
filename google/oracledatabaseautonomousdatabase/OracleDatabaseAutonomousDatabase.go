@@ -5,14 +5,14 @@ package oracledatabaseautonomousdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/oracledatabaseautonomousdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/oracledatabaseautonomousdatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database}.
 type OracleDatabaseAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -827,7 +827,7 @@ func (j *jsiiProxy_OracleDatabaseAutonomousDatabase) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *string, config *OracleDatabaseAutonomousDatabaseConfig) OracleDatabaseAutonomousDatabase {
 	_init_.Initialize()
 
@@ -845,7 +845,7 @@ func NewOracleDatabaseAutonomousDatabase(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_autonomous_database google_oracle_database_autonomous_database} Resource.
 func NewOracleDatabaseAutonomousDatabase_Override(o OracleDatabaseAutonomousDatabase, scope constructs.Construct, id *string, config *OracleDatabaseAutonomousDatabaseConfig) {
 	_init_.Initialize()
 

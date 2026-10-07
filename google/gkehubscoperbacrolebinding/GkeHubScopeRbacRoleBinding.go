@@ -5,14 +5,14 @@ package gkehubscoperbacrolebinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/gkehubscoperbacrolebinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/gkehubscoperbacrolebinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding}.
 type GkeHubScopeRbacRoleBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -669,7 +669,7 @@ func (j *jsiiProxy_GkeHubScopeRbacRoleBinding) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
 func NewGkeHubScopeRbacRoleBinding(scope constructs.Construct, id *string, config *GkeHubScopeRbacRoleBindingConfig) GkeHubScopeRbacRoleBinding {
 	_init_.Initialize()
 
@@ -687,7 +687,7 @@ func NewGkeHubScopeRbacRoleBinding(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_scope_rbac_role_binding google_gke_hub_scope_rbac_role_binding} Resource.
 func NewGkeHubScopeRbacRoleBinding_Override(g GkeHubScopeRbacRoleBinding, scope constructs.Construct, id *string, config *GkeHubScopeRbacRoleBindingConfig) {
 	_init_.Initialize()
 

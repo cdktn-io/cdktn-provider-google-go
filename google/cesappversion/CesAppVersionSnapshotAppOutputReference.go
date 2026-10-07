@@ -5,9 +5,9 @@ package cesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,7 @@ type CesAppVersionSnapshotAppOutputReference interface {
 	DeploymentCount() *float64
 	Description() *string
 	DisplayName() *string
+	ErrorHandlingSettings() CesAppVersionSnapshotAppErrorHandlingSettingsList
 	Etag() *string
 	EvaluationMetricsThresholds() CesAppVersionSnapshotAppEvaluationMetricsThresholdsList
 	// Experimental.
@@ -61,6 +62,7 @@ type CesAppVersionSnapshotAppOutputReference interface {
 	TimeZoneSettings() CesAppVersionSnapshotAppTimeZoneSettingsList
 	UpdateTime() *string
 	VariableDeclarations() CesAppVersionSnapshotAppVariableDeclarationsList
+	VpcScSettings() CesAppVersionSnapshotAppVpcScSettingsList
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -205,6 +207,16 @@ func (j *jsiiProxy_CesAppVersionSnapshotAppOutputReference) DisplayName() *strin
 	_jsii_.Get(
 		j,
 		"displayName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersionSnapshotAppOutputReference) ErrorHandlingSettings() CesAppVersionSnapshotAppErrorHandlingSettingsList {
+	var returns CesAppVersionSnapshotAppErrorHandlingSettingsList
+	_jsii_.Get(
+		j,
+		"errorHandlingSettings",
 		&returns,
 	)
 	return returns
@@ -375,6 +387,16 @@ func (j *jsiiProxy_CesAppVersionSnapshotAppOutputReference) VariableDeclarations
 	_jsii_.Get(
 		j,
 		"variableDeclarations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersionSnapshotAppOutputReference) VpcScSettings() CesAppVersionSnapshotAppVpcScSettingsList {
+	var returns CesAppVersionSnapshotAppVpcScSettingsList
+	_jsii_.Get(
+		j,
+		"vpcScSettings",
 		&returns,
 	)
 	return returns

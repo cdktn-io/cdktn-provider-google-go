@@ -103,6 +103,10 @@ func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersOutputReference) validateSetSandboxLauncherParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2WorkerPoolTemplateContainersOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

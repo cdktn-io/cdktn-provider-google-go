@@ -5,14 +5,14 @@ package storagenotification
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/storagenotification/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/storagenotification/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/storage_notification google_storage_notification}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/storage_notification google_storage_notification}.
 type StorageNotification interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_StorageNotification) TopicInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/storage_notification google_storage_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/storage_notification google_storage_notification} Resource.
 func NewStorageNotification(scope constructs.Construct, id *string, config *StorageNotificationConfig) StorageNotification {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewStorageNotification(scope constructs.Construct, id *string, config *Stor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/storage_notification google_storage_notification} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/storage_notification google_storage_notification} Resource.
 func NewStorageNotification_Override(s StorageNotification, scope constructs.Construct, id *string, config *StorageNotificationConfig) {
 	_init_.Initialize()
 

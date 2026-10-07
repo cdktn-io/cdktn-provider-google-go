@@ -5,14 +5,14 @@ package cloudtasksqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudtasksqueue/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudtasksqueue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_tasks_queue google_cloud_tasks_queue}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_tasks_queue google_cloud_tasks_queue}.
 type CloudTasksQueue interface {
 	cdktn.TerraformResource
 	AppEngineRoutingOverride() CloudTasksQueueAppEngineRoutingOverrideOutputReference
@@ -641,7 +641,7 @@ func (j *jsiiProxy_CloudTasksQueue) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_tasks_queue google_cloud_tasks_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_tasks_queue google_cloud_tasks_queue} Resource.
 func NewCloudTasksQueue(scope constructs.Construct, id *string, config *CloudTasksQueueConfig) CloudTasksQueue {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewCloudTasksQueue(scope constructs.Construct, id *string, config *CloudTas
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_tasks_queue google_cloud_tasks_queue} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_tasks_queue google_cloud_tasks_queue} Resource.
 func NewCloudTasksQueue_Override(c CloudTasksQueue, scope constructs.Construct, id *string, config *CloudTasksQueueConfig) {
 	_init_.Initialize()
 

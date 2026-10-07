@@ -5,14 +5,14 @@ package bigqueryanalyticshubdataexchangeiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigqueryanalyticshubdataexchangeiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigqueryanalyticshubdataexchangeiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_analytics_hub_data_exchange_iam_policy google_bigquery_analytics_hub_data_exchange_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_data_exchange_iam_policy google_bigquery_analytics_hub_data_exchange_iam_policy}.
 type BigqueryAnalyticsHubDataExchangeIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubDataExchangeIamPolicy) TerraformResourceT
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_analytics_hub_data_exchange_iam_policy google_bigquery_analytics_hub_data_exchange_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_data_exchange_iam_policy google_bigquery_analytics_hub_data_exchange_iam_policy} Resource.
 func NewBigqueryAnalyticsHubDataExchangeIamPolicy(scope constructs.Construct, id *string, config *BigqueryAnalyticsHubDataExchangeIamPolicyConfig) BigqueryAnalyticsHubDataExchangeIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewBigqueryAnalyticsHubDataExchangeIamPolicy(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_analytics_hub_data_exchange_iam_policy google_bigquery_analytics_hub_data_exchange_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_data_exchange_iam_policy google_bigquery_analytics_hub_data_exchange_iam_policy} Resource.
 func NewBigqueryAnalyticsHubDataExchangeIamPolicy_Override(b BigqueryAnalyticsHubDataExchangeIamPolicy, scope constructs.Construct, id *string, config *BigqueryAnalyticsHubDataExchangeIamPolicyConfig) {
 	_init_.Initialize()
 

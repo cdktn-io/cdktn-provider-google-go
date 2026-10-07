@@ -5,14 +5,14 @@ package securesourcemanagerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/securesourcemanagerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/securesourcemanagerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secure_source_manager_instance google_secure_source_manager_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secure_source_manager_instance google_secure_source_manager_instance}.
 type SecureSourceManagerInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -670,7 +670,7 @@ func (j *jsiiProxy_SecureSourceManagerInstance) WorkforceIdentityFederationConfi
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secure_source_manager_instance google_secure_source_manager_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secure_source_manager_instance google_secure_source_manager_instance} Resource.
 func NewSecureSourceManagerInstance(scope constructs.Construct, id *string, config *SecureSourceManagerInstanceConfig) SecureSourceManagerInstance {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewSecureSourceManagerInstance(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secure_source_manager_instance google_secure_source_manager_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secure_source_manager_instance google_secure_source_manager_instance} Resource.
 func NewSecureSourceManagerInstance_Override(s SecureSourceManagerInstance, scope constructs.Construct, id *string, config *SecureSourceManagerInstanceConfig) {
 	_init_.Initialize()
 

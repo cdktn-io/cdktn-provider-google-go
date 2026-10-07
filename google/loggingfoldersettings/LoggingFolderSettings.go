@@ -5,14 +5,14 @@ package loggingfoldersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/loggingfoldersettings/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/loggingfoldersettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_folder_settings google_logging_folder_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/logging_folder_settings google_logging_folder_settings}.
 type LoggingFolderSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_LoggingFolderSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_folder_settings google_logging_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/logging_folder_settings google_logging_folder_settings} Resource.
 func NewLoggingFolderSettings(scope constructs.Construct, id *string, config *LoggingFolderSettingsConfig) LoggingFolderSettings {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewLoggingFolderSettings(scope constructs.Construct, id *string, config *Lo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_folder_settings google_logging_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/logging_folder_settings google_logging_folder_settings} Resource.
 func NewLoggingFolderSettings_Override(l LoggingFolderSettings, scope constructs.Construct, id *string, config *LoggingFolderSettingsConfig) {
 	_init_.Initialize()
 

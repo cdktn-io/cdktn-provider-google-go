@@ -5,14 +5,14 @@ package monitoringservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/monitoringservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/monitoringservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_service google_monitoring_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_service google_monitoring_service}.
 type MonitoringService interface {
 	cdktn.TerraformResource
 	BasicService() MonitoringServiceBasicServiceOutputReference
@@ -557,7 +557,7 @@ func (j *jsiiProxy_MonitoringService) UserLabelsInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_service google_monitoring_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_service google_monitoring_service} Resource.
 func NewMonitoringService(scope constructs.Construct, id *string, config *MonitoringServiceConfig) MonitoringService {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewMonitoringService(scope constructs.Construct, id *string, config *Monito
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_service google_monitoring_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_service google_monitoring_service} Resource.
 func NewMonitoringService_Override(m MonitoringService, scope constructs.Construct, id *string, config *MonitoringServiceConfig) {
 	_init_.Initialize()
 

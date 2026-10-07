@@ -59,11 +59,19 @@ func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetInstructionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }
 
 func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetLanguageCodeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetModelParameters(val *string) error {
 	return nil
 }
 

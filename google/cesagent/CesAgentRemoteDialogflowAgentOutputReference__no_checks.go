@@ -79,6 +79,10 @@ func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) validateSetInte
 	return nil
 }
 
+func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) validateSetLanguageCodeVariableParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesAgentRemoteDialogflowAgentOutputReference) validateSetOutputVariableMappingParameters(val *map[string]*string) error {
 	return nil
 }

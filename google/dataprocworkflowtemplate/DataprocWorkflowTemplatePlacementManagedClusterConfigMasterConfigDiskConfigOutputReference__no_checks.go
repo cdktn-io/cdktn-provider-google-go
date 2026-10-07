@@ -47,7 +47,19 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 	return nil
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference) validatePutAttachedDiskConfigParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference) validateSetBootDiskProvisionedIopsParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference) validateSetBootDiskProvisionedThroughputParameters(val *float64) error {
 	return nil
 }
 
@@ -68,6 +80,10 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterCo
 }
 
 func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference) validateSetInternalValueParameters(val *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfig) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigDiskConfigOutputReference) validateSetLocalSsdInterfaceParameters(val *string) error {
 	return nil
 }
 

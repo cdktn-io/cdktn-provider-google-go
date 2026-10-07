@@ -5,14 +5,14 @@ package artifactregistryprojectconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/artifactregistryprojectconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/artifactregistryprojectconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/artifact_registry_project_config google_artifact_registry_project_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/artifact_registry_project_config google_artifact_registry_project_config}.
 type ArtifactRegistryProjectConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -475,7 +475,7 @@ func (j *jsiiProxy_ArtifactRegistryProjectConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
 func NewArtifactRegistryProjectConfig(scope constructs.Construct, id *string, config *ArtifactRegistryProjectConfigConfig) ArtifactRegistryProjectConfig {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewArtifactRegistryProjectConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/artifact_registry_project_config google_artifact_registry_project_config} Resource.
 func NewArtifactRegistryProjectConfig_Override(a ArtifactRegistryProjectConfig, scope constructs.Construct, id *string, config *ArtifactRegistryProjectConfigConfig) {
 	_init_.Initialize()
 

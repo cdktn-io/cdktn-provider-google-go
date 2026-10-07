@@ -5,9 +5,9 @@ package cesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,7 @@ type CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsT
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ToolMatchingSettings() CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList
 	TurnLevelMetricsThresholds() CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsList
 	// Experimental.
 	ComputeFqn() *string
@@ -156,6 +157,16 @@ func (j *jsiiProxy_CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEval
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) ToolMatchingSettings() CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList {
+	var returns CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsList
+	_jsii_.Get(
+		j,
+		"toolMatchingSettings",
 		&returns,
 	)
 	return returns

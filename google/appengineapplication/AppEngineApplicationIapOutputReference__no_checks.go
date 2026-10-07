@@ -75,6 +75,14 @@ func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetOauth2Clie
 	return nil
 }
 
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

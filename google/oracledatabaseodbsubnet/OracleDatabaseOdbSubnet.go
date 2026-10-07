@@ -5,14 +5,14 @@ package oracledatabaseodbsubnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/oracledatabaseodbsubnet/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/oracledatabaseodbsubnet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_odb_subnet google_oracle_database_odb_subnet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_odb_subnet google_oracle_database_odb_subnet}.
 type OracleDatabaseOdbSubnet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -658,7 +658,7 @@ func (j *jsiiProxy_OracleDatabaseOdbSubnet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_odb_subnet google_oracle_database_odb_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_odb_subnet google_oracle_database_odb_subnet} Resource.
 func NewOracleDatabaseOdbSubnet(scope constructs.Construct, id *string, config *OracleDatabaseOdbSubnetConfig) OracleDatabaseOdbSubnet {
 	_init_.Initialize()
 
@@ -676,7 +676,7 @@ func NewOracleDatabaseOdbSubnet(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_odb_subnet google_oracle_database_odb_subnet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_odb_subnet google_oracle_database_odb_subnet} Resource.
 func NewOracleDatabaseOdbSubnet_Override(o OracleDatabaseOdbSubnet, scope constructs.Construct, id *string, config *OracleDatabaseOdbSubnetConfig) {
 	_init_.Initialize()
 

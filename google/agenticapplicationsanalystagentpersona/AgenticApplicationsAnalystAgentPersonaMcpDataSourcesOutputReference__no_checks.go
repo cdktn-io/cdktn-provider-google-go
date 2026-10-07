@@ -55,6 +55,10 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputRef
 	return nil
 }
 
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) validateSetApiKeyHeaderParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) validateSetApiKeyNameParameters(val *string) error {
 	return nil
 }

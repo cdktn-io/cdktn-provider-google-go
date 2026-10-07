@@ -1,0 +1,17 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package datalosspreventioncontentpolicy
+
+
+type DataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusionRuleExcludeByHotword struct {
+	// hotword_regex block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_loss_prevention_content_policy#hotword_regex DataLossPreventionContentPolicy#hotword_regex}
+	HotwordRegex *DataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordHotwordRegex `field:"required" json:"hotwordRegex" yaml:"hotwordRegex"`
+	// proximity block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_loss_prevention_content_policy#proximity DataLossPreventionContentPolicy#proximity}
+	Proximity *DataLossPreventionContentPolicyInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordProximity `field:"required" json:"proximity" yaml:"proximity"`
+}
+

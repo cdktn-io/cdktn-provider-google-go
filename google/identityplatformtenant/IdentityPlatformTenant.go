@@ -5,14 +5,14 @@ package identityplatformtenant
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/identityplatformtenant/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/identityplatformtenant/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/identity_platform_tenant google_identity_platform_tenant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/identity_platform_tenant google_identity_platform_tenant}.
 type IdentityPlatformTenant interface {
 	cdktn.TerraformResource
 	AllowPasswordSignup() interface{}
@@ -570,7 +570,7 @@ func (j *jsiiProxy_IdentityPlatformTenant) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/identity_platform_tenant google_identity_platform_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/identity_platform_tenant google_identity_platform_tenant} Resource.
 func NewIdentityPlatformTenant(scope constructs.Construct, id *string, config *IdentityPlatformTenantConfig) IdentityPlatformTenant {
 	_init_.Initialize()
 
@@ -588,7 +588,7 @@ func NewIdentityPlatformTenant(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/identity_platform_tenant google_identity_platform_tenant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/identity_platform_tenant google_identity_platform_tenant} Resource.
 func NewIdentityPlatformTenant_Override(i IdentityPlatformTenant, scope constructs.Construct, id *string, config *IdentityPlatformTenantConfig) {
 	_init_.Initialize()
 

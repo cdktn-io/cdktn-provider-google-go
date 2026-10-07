@@ -5,14 +5,14 @@ package contactcenterinsightsanalysisrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/contactcenterinsightsanalysisrule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/contactcenterinsightsanalysisrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule}.
 type ContactCenterInsightsAnalysisRule interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -616,7 +616,7 @@ func (j *jsiiProxy_ContactCenterInsightsAnalysisRule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
 func NewContactCenterInsightsAnalysisRule(scope constructs.Construct, id *string, config *ContactCenterInsightsAnalysisRuleConfig) ContactCenterInsightsAnalysisRule {
 	_init_.Initialize()
 
@@ -634,7 +634,7 @@ func NewContactCenterInsightsAnalysisRule(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/contact_center_insights_analysis_rule google_contact_center_insights_analysis_rule} Resource.
 func NewContactCenterInsightsAnalysisRule_Override(c ContactCenterInsightsAnalysisRule, scope constructs.Construct, id *string, config *ContactCenterInsightsAnalysisRuleConfig) {
 	_init_.Initialize()
 

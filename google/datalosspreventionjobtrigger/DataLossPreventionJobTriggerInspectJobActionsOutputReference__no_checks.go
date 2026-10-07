@@ -55,10 +55,6 @@ func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsOutputReference) validatePutPublishFindingsToCloudDataCatalogParameters(value *DataLossPreventionJobTriggerInspectJobActionsPublishFindingsToCloudDataCatalog) error {
-	return nil
-}
-
 func (d *jsiiProxy_DataLossPreventionJobTriggerInspectJobActionsOutputReference) validatePutPublishFindingsToDataplexCatalogParameters(value *DataLossPreventionJobTriggerInspectJobActionsPublishFindingsToDataplexCatalog) error {
 	return nil
 }

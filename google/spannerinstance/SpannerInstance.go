@@ -5,14 +5,14 @@ package spannerinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/spannerinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/spannerinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_instance google_spanner_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_instance google_spanner_instance}.
 type SpannerInstance interface {
 	cdktn.TerraformResource
 	AutoscalingConfig() SpannerInstanceAutoscalingConfigOutputReference
@@ -735,7 +735,7 @@ func (j *jsiiProxy_SpannerInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_instance google_spanner_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_instance google_spanner_instance} Resource.
 func NewSpannerInstance(scope constructs.Construct, id *string, config *SpannerInstanceConfig) SpannerInstance {
 	_init_.Initialize()
 
@@ -753,7 +753,7 @@ func NewSpannerInstance(scope constructs.Construct, id *string, config *SpannerI
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_instance google_spanner_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_instance google_spanner_instance} Resource.
 func NewSpannerInstance_Override(s SpannerInstance, scope constructs.Construct, id *string, config *SpannerInstanceConfig) {
 	_init_.Initialize()
 

@@ -24,16 +24,22 @@ type ParameterManagerParameterVersionConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Parameter Manager Parameter resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version#parameter ParameterManagerParameterVersion#parameter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#parameter ParameterManagerParameterVersion#parameter}
 	Parameter *string `field:"required" json:"parameter" yaml:"parameter"`
 	// The Parameter data.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version#parameter_data ParameterManagerParameterVersion#parameter_data}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#parameter_data ParameterManagerParameterVersion#parameter_data}
 	ParameterData *string `field:"required" json:"parameterData" yaml:"parameterData"`
 	// Version ID of the Parameter Version Resource. This must be unique within the Parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version#parameter_version_id ParameterManagerParameterVersion#parameter_version_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#parameter_version_id ParameterManagerParameterVersion#parameter_version_id}
 	ParameterVersionId *string `field:"required" json:"parameterVersionId" yaml:"parameterVersionId"`
+	// The integrity checksum of the payload.
+	//
+	// If provided, the server will verify that the checksum matches the payload. If not provided, the server will generate the checksum.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#data_crc32c ParameterManagerParameterVersion#data_crc32c}
+	DataCrc32C *string `field:"optional" json:"dataCrc32C" yaml:"dataCrc32C"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
 	// Defaults to "DELETE".
@@ -44,20 +50,20 @@ type ParameterManagerParameterVersionConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version#deletion_policy ParameterManagerParameterVersion#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#deletion_policy ParameterManagerParameterVersion#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// The current state of Parameter Version. This field is only applicable for updating Parameter Version.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version#disabled ParameterManagerParameterVersion#disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#disabled ParameterManagerParameterVersion#disabled}
 	Disabled interface{} `field:"optional" json:"disabled" yaml:"disabled"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version#id ParameterManagerParameterVersion#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#id ParameterManagerParameterVersion#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version#timeouts ParameterManagerParameterVersion#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version#timeouts ParameterManagerParameterVersion#timeouts}
 	Timeouts *ParameterManagerParameterVersionTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

@@ -5,14 +5,14 @@ package apigeeapiproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apigeeapiproduct/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeeapiproduct/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_api_product google_apigee_api_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_api_product google_apigee_api_product}.
 type ApigeeApiProduct interface {
 	cdktn.TerraformResource
 	ApiResources() *[]*string
@@ -867,7 +867,7 @@ func (j *jsiiProxy_ApigeeApiProduct) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_api_product google_apigee_api_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_api_product google_apigee_api_product} Resource.
 func NewApigeeApiProduct(scope constructs.Construct, id *string, config *ApigeeApiProductConfig) ApigeeApiProduct {
 	_init_.Initialize()
 
@@ -885,7 +885,7 @@ func NewApigeeApiProduct(scope constructs.Construct, id *string, config *ApigeeA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_api_product google_apigee_api_product} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_api_product google_apigee_api_product} Resource.
 func NewApigeeApiProduct_Override(a ApigeeApiProduct, scope constructs.Construct, id *string, config *ApigeeApiProductConfig) {
 	_init_.Initialize()
 

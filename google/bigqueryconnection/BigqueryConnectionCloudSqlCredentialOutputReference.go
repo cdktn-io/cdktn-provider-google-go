@@ -5,9 +5,9 @@ package bigqueryconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigqueryconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigqueryconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,14 @@ type BigqueryConnectionCloudSqlCredentialOutputReference interface {
 	Password() *string
 	SetPassword(val *string)
 	PasswordInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	PasswordWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetPasswordWo(val *string)
+	PasswordWoInput() *string
+	PasswordWoVersion() *string
+	SetPasswordWoVersion(val *string)
+	PasswordWoVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,6 +78,9 @@ type BigqueryConnectionCloudSqlCredentialOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetPassword()
+	ResetPasswordWo()
+	ResetPasswordWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -150,6 +161,46 @@ func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) Password
 	_jsii_.Get(
 		j,
 		"passwordInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) PasswordWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) PasswordWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) PasswordWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) PasswordWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"passwordWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -263,6 +314,28 @@ func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference)SetPasswo
 	_jsii_.Set(
 		j,
 		"password",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference)SetPasswordWo(val *string) {
+	if err := j.validateSetPasswordWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference)SetPasswordWoVersion(val *string) {
+	if err := j.validateSetPasswordWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"passwordWoVersion",
 		val,
 	)
 }
@@ -484,6 +557,30 @@ func (b *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) Interpol
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) ResetPassword() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPassword",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) ResetPasswordWo() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPasswordWo",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) ResetPasswordWoVersion() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPasswordWoVersion",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

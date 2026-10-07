@@ -5,14 +5,14 @@ package migrationcentersource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/migrationcentersource/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/migrationcentersource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_source google_migration_center_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_source google_migration_center_source}.
 type MigrationCenterSource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -672,7 +672,7 @@ func (j *jsiiProxy_MigrationCenterSource) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_source google_migration_center_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_source google_migration_center_source} Resource.
 func NewMigrationCenterSource(scope constructs.Construct, id *string, config *MigrationCenterSourceConfig) MigrationCenterSource {
 	_init_.Initialize()
 
@@ -690,7 +690,7 @@ func NewMigrationCenterSource(scope constructs.Construct, id *string, config *Mi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_source google_migration_center_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_source google_migration_center_source} Resource.
 func NewMigrationCenterSource_Override(m MigrationCenterSource, scope constructs.Construct, id *string, config *MigrationCenterSourceConfig) {
 	_init_.Initialize()
 

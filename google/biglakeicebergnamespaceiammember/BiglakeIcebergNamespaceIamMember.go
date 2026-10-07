@@ -5,14 +5,14 @@ package biglakeicebergnamespaceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/biglakeicebergnamespaceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/biglakeicebergnamespaceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member}.
 type BiglakeIcebergNamespaceIamMember interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BiglakeIcebergNamespaceIamMember) TerraformResourceType() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
 func NewBiglakeIcebergNamespaceIamMember(scope constructs.Construct, id *string, config *BiglakeIcebergNamespaceIamMemberConfig) BiglakeIcebergNamespaceIamMember {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBiglakeIcebergNamespaceIamMember(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_namespace_iam_member google_biglake_iceberg_namespace_iam_member} Resource.
 func NewBiglakeIcebergNamespaceIamMember_Override(b BiglakeIcebergNamespaceIamMember, scope constructs.Construct, id *string, config *BiglakeIcebergNamespaceIamMemberConfig) {
 	_init_.Initialize()
 

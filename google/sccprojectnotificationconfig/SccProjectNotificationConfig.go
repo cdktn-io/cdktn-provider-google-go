@@ -5,14 +5,14 @@ package sccprojectnotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/sccprojectnotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sccprojectnotificationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_project_notification_config google_scc_project_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_project_notification_config google_scc_project_notification_config}.
 type SccProjectNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_SccProjectNotificationConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
 func NewSccProjectNotificationConfig(scope constructs.Construct, id *string, config *SccProjectNotificationConfigConfig) SccProjectNotificationConfig {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewSccProjectNotificationConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_project_notification_config google_scc_project_notification_config} Resource.
 func NewSccProjectNotificationConfig_Override(s SccProjectNotificationConfig, scope constructs.Construct, id *string, config *SccProjectNotificationConfigConfig) {
 	_init_.Initialize()
 

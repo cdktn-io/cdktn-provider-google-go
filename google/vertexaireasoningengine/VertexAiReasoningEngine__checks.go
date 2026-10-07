@@ -215,6 +215,17 @@ func (v *jsiiProxy_VertexAiReasoningEngine) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngine) validatePutContextSpecParameters(value *VertexAiReasoningEngineContextSpec) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngine) validatePutEncryptionSpecParameters(value *VertexAiReasoningEngineEncryptionSpec) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

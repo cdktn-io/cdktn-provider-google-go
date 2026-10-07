@@ -75,6 +75,10 @@ func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadence
 	return nil
 }
 
+func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputReference) validateSetRefreshFrequencyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataLossPreventionDiscoveryConfigTargetsBigQueryTargetCadenceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -111,6 +111,10 @@ func (j *jsiiProxy_ParameterManagerParameterVersion) validateSetCountParameters(
 	return nil
 }
 
+func (j *jsiiProxy_ParameterManagerParameterVersion) validateSetDataCrc32CParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ParameterManagerParameterVersion) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

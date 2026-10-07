@@ -5,14 +5,14 @@ package ephemeralgoogleserviceaccountaccesstoken
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/ephemeralgoogleserviceaccountaccesstoken/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/ephemeralgoogleserviceaccountaccesstoken/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/ephemeral-resources/service_account_access_token google_service_account_access_token}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/ephemeral-resources/service_account_access_token google_service_account_access_token}.
 type EphemeralGoogleServiceAccountAccessToken interface {
 	cdktn.TerraformEphemeralResource
 	AccessToken() *string
@@ -367,7 +367,7 @@ func (j *jsiiProxy_EphemeralGoogleServiceAccountAccessToken) TerraformResourceTy
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/ephemeral-resources/service_account_access_token google_service_account_access_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/ephemeral-resources/service_account_access_token google_service_account_access_token} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountAccessToken(scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountAccessTokenConfig) EphemeralGoogleServiceAccountAccessToken {
 	_init_.Initialize()
 
@@ -385,7 +385,7 @@ func NewEphemeralGoogleServiceAccountAccessToken(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/ephemeral-resources/service_account_access_token google_service_account_access_token} Ephemeral Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/ephemeral-resources/service_account_access_token google_service_account_access_token} Ephemeral Resource.
 func NewEphemeralGoogleServiceAccountAccessToken_Override(e EphemeralGoogleServiceAccountAccessToken, scope constructs.Construct, id *string, config *EphemeralGoogleServiceAccountAccessTokenConfig) {
 	_init_.Initialize()
 

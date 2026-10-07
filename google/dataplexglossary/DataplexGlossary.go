@@ -5,14 +5,14 @@ package dataplexglossary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataplexglossary/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataplexglossary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_glossary google_dataplex_glossary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_glossary google_dataplex_glossary}.
 type DataplexGlossary interface {
 	cdktn.TerraformResource
 	CategoryCount() *float64
@@ -646,7 +646,7 @@ func (j *jsiiProxy_DataplexGlossary) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_glossary google_dataplex_glossary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_glossary google_dataplex_glossary} Resource.
 func NewDataplexGlossary(scope constructs.Construct, id *string, config *DataplexGlossaryConfig) DataplexGlossary {
 	_init_.Initialize()
 
@@ -664,7 +664,7 @@ func NewDataplexGlossary(scope constructs.Construct, id *string, config *Dataple
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_glossary google_dataplex_glossary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_glossary google_dataplex_glossary} Resource.
 func NewDataplexGlossary_Override(d DataplexGlossary, scope constructs.Construct, id *string, config *DataplexGlossaryConfig) {
 	_init_.Initialize()
 

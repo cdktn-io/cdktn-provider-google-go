@@ -151,6 +151,10 @@ func (j *jsiiProxy_ParameterManagerRegionalParameter) validateSetProvisionersPar
 	return nil
 }
 
+func (j *jsiiProxy_ParameterManagerRegionalParameter) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewParameterManagerRegionalParameterParameters(scope constructs.Construct, id *string, config *ParameterManagerRegionalParameterConfig) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package dialogflowversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_version google_dialogflow_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_version google_dialogflow_version}.
 type DialogflowVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -497,7 +497,7 @@ func (j *jsiiProxy_DialogflowVersion) VersionNumber() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_version google_dialogflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_version google_dialogflow_version} Resource.
 func NewDialogflowVersion(scope constructs.Construct, id *string, config *DialogflowVersionConfig) DialogflowVersion {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewDialogflowVersion(scope constructs.Construct, id *string, config *Dialog
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_version google_dialogflow_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_version google_dialogflow_version} Resource.
 func NewDialogflowVersion_Override(d DialogflowVersion, scope constructs.Construct, id *string, config *DialogflowVersionConfig) {
 	_init_.Initialize()
 

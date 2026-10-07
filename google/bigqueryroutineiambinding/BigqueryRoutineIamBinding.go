@@ -5,14 +5,14 @@ package bigqueryroutineiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigqueryroutineiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigqueryroutineiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding}.
 type BigqueryRoutineIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BigqueryRoutineIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
 func NewBigqueryRoutineIamBinding(scope constructs.Construct, id *string, config *BigqueryRoutineIamBindingConfig) BigqueryRoutineIamBinding {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBigqueryRoutineIamBinding(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_routine_iam_binding google_bigquery_routine_iam_binding} Resource.
 func NewBigqueryRoutineIamBinding_Override(b BigqueryRoutineIamBinding, scope constructs.Construct, id *string, config *BigqueryRoutineIamBindingConfig) {
 	_init_.Initialize()
 

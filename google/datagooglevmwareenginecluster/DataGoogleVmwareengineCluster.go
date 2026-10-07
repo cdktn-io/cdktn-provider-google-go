@@ -5,14 +5,14 @@ package datagooglevmwareenginecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datagooglevmwareenginecluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datagooglevmwareenginecluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/vmwareengine_cluster google_vmwareengine_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/vmwareengine_cluster google_vmwareengine_cluster}.
 type DataGoogleVmwareengineCluster interface {
 	cdktn.TerraformDataSource
 	AutoscalingSettings() DataGoogleVmwareengineClusterAutoscalingSettingsList
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataGoogleVmwareengineCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/vmwareengine_cluster google_vmwareengine_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/vmwareengine_cluster google_vmwareengine_cluster} Data Source.
 func NewDataGoogleVmwareengineCluster(scope constructs.Construct, id *string, config *DataGoogleVmwareengineClusterConfig) DataGoogleVmwareengineCluster {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDataGoogleVmwareengineCluster(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/vmwareengine_cluster google_vmwareengine_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/vmwareengine_cluster google_vmwareengine_cluster} Data Source.
 func NewDataGoogleVmwareengineCluster_Override(d DataGoogleVmwareengineCluster, scope constructs.Construct, id *string, config *DataGoogleVmwareengineClusterConfig) {
 	_init_.Initialize()
 

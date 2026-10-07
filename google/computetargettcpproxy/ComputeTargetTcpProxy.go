@@ -5,14 +5,14 @@ package computetargettcpproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computetargettcpproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computetargettcpproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy}.
 type ComputeTargetTcpProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -56,6 +56,9 @@ type ComputeTargetTcpProxy interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LoadBalancingScheme() *string
+	SetLoadBalancingScheme(val *string)
+	LoadBalancingSchemeInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -187,6 +190,7 @@ type ComputeTargetTcpProxy interface {
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
+	ResetLoadBalancingScheme()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -401,6 +405,26 @@ func (j *jsiiProxy_ComputeTargetTcpProxy) Lifecycle() *cdktn.TerraformResourceLi
 	return returns
 }
 
+func (j *jsiiProxy_ComputeTargetTcpProxy) LoadBalancingScheme() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"loadBalancingScheme",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeTargetTcpProxy) LoadBalancingSchemeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"loadBalancingSchemeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeTargetTcpProxy) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -592,7 +616,7 @@ func (j *jsiiProxy_ComputeTargetTcpProxy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewComputeTargetTcpProxy(scope constructs.Construct, id *string, config *ComputeTargetTcpProxyConfig) ComputeTargetTcpProxy {
 	_init_.Initialize()
 
@@ -610,7 +634,7 @@ func NewComputeTargetTcpProxy(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewComputeTargetTcpProxy_Override(c ComputeTargetTcpProxy, scope constructs.Construct, id *string, config *ComputeTargetTcpProxyConfig) {
 	_init_.Initialize()
 
@@ -710,6 +734,17 @@ func (j *jsiiProxy_ComputeTargetTcpProxy)SetLifecycle(val *cdktn.TerraformResour
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeTargetTcpProxy)SetLoadBalancingScheme(val *string) {
+	if err := j.validateSetLoadBalancingSchemeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"loadBalancingScheme",
 		val,
 	)
 }
@@ -1196,6 +1231,14 @@ func (c *jsiiProxy_ComputeTargetTcpProxy) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeTargetTcpProxy) ResetLoadBalancingScheme() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetLoadBalancingScheme",
 		nil, // no parameters
 	)
 }

@@ -210,6 +210,22 @@ func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetOauth2Clie
 	return nil
 }
 
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetOauth2ClientSecretWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_AppEngineApplicationIapOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -5,9 +5,9 @@ package computeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,9 @@ type ComputeInstanceNetworkInterfaceOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EnableVpcScopedDns() interface{}
+	SetEnableVpcScopedDns(val interface{})
+	EnableVpcScopedDnsInput() interface{}
 	// Experimental.
 	Fqn() *string
 	IgmpQuery() *string
@@ -114,6 +117,7 @@ type ComputeInstanceNetworkInterfaceOutputReference interface {
 	PutIpv6AccessConfig(value interface{})
 	ResetAccessConfig()
 	ResetAliasIpRange()
+	ResetEnableVpcScopedDns()
 	ResetIgmpQuery()
 	ResetInternalIpv6PrefixLength()
 	ResetIpv6AccessConfig()
@@ -207,6 +211,26 @@ func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) CreationStack
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) EnableVpcScopedDns() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableVpcScopedDns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) EnableVpcScopedDnsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableVpcScopedDnsInput",
 		&returns,
 	)
 	return returns
@@ -588,6 +612,17 @@ func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference)SetComplexObje
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference)SetEnableVpcScopedDns(val interface{}) {
+	if err := j.validateSetEnableVpcScopedDnsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableVpcScopedDns",
 		val,
 	)
 }
@@ -988,6 +1023,14 @@ func (c *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) ResetAliasIpR
 	_jsii_.InvokeVoid(
 		c,
 		"resetAliasIpRange",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) ResetEnableVpcScopedDns() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetEnableVpcScopedDns",
 		nil, // no parameters
 	)
 }

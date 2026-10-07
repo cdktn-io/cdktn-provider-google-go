@@ -5,14 +5,14 @@ package monitoringmetricdescriptor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/monitoringmetricdescriptor/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/monitoringmetricdescriptor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_metric_descriptor google_monitoring_metric_descriptor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_metric_descriptor google_monitoring_metric_descriptor}.
 type MonitoringMetricDescriptor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -675,7 +675,7 @@ func (j *jsiiProxy_MonitoringMetricDescriptor) ValueTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
 func NewMonitoringMetricDescriptor(scope constructs.Construct, id *string, config *MonitoringMetricDescriptorConfig) MonitoringMetricDescriptor {
 	_init_.Initialize()
 
@@ -693,7 +693,7 @@ func NewMonitoringMetricDescriptor(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_metric_descriptor google_monitoring_metric_descriptor} Resource.
 func NewMonitoringMetricDescriptor_Override(m MonitoringMetricDescriptor, scope constructs.Construct, id *string, config *MonitoringMetricDescriptorConfig) {
 	_init_.Initialize()
 

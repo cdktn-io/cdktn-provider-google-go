@@ -5,9 +5,9 @@ package cloudrunv2service
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudrunv2service/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudrunv2service/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -23,6 +23,12 @@ type CloudRunV2ServiceTemplateScalingOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConcurrencyUtilization() *float64
+	SetConcurrencyUtilization(val *float64)
+	ConcurrencyUtilizationInput() *float64
+	CpuUtilization() *float64
+	SetCpuUtilization(val *float64)
+	CpuUtilizationInput() *float64
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -70,6 +76,8 @@ type CloudRunV2ServiceTemplateScalingOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetConcurrencyUtilization()
+	ResetCpuUtilization()
 	ResetMaxInstanceCount()
 	ResetMinInstanceCount()
 	// Produce the Token's value at resolution time.
@@ -102,6 +110,46 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) ComplexObjec
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) ConcurrencyUtilization() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"concurrencyUtilization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) ConcurrencyUtilizationInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"concurrencyUtilizationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) CpuUtilization() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) CpuUtilizationInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"cpuUtilizationInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +291,28 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference)SetComplexObj
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference)SetConcurrencyUtilization(val *float64) {
+	if err := j.validateSetConcurrencyUtilizationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"concurrencyUtilization",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference)SetCpuUtilization(val *float64) {
+	if err := j.validateSetCpuUtilizationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"cpuUtilization",
 		val,
 	)
 }
@@ -486,6 +556,22 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) Interpolatio
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) ResetConcurrencyUtilization() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetConcurrencyUtilization",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) ResetCpuUtilization() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCpuUtilization",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) ResetMaxInstanceCount() {

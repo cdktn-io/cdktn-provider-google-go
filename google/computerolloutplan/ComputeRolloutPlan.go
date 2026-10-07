@@ -5,14 +5,14 @@ package computerolloutplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computerolloutplan/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computerolloutplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_rollout_plan google_compute_rollout_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_rollout_plan google_compute_rollout_plan}.
 type ComputeRolloutPlan interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_ComputeRolloutPlan) WavesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_rollout_plan google_compute_rollout_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_rollout_plan google_compute_rollout_plan} Resource.
 func NewComputeRolloutPlan(scope constructs.Construct, id *string, config *ComputeRolloutPlanConfig) ComputeRolloutPlan {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewComputeRolloutPlan(scope constructs.Construct, id *string, config *Compu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_rollout_plan google_compute_rollout_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_rollout_plan google_compute_rollout_plan} Resource.
 func NewComputeRolloutPlan_Override(c ComputeRolloutPlan, scope constructs.Construct, id *string, config *ComputeRolloutPlanConfig) {
 	_init_.Initialize()
 

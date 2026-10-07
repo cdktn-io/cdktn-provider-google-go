@@ -5,14 +5,14 @@ package appengineflexibleappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/appengineflexibleappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/appengineflexibleappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version}.
 type AppEngineFlexibleAppVersion interface {
 	cdktn.TerraformResource
 	ApiConfig() AppEngineFlexibleAppVersionApiConfigOutputReference
@@ -1143,7 +1143,7 @@ func (j *jsiiProxy_AppEngineFlexibleAppVersion) VpcAccessConnectorInput() *AppEn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
 func NewAppEngineFlexibleAppVersion(scope constructs.Construct, id *string, config *AppEngineFlexibleAppVersionConfig) AppEngineFlexibleAppVersion {
 	_init_.Initialize()
 
@@ -1161,7 +1161,7 @@ func NewAppEngineFlexibleAppVersion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/app_engine_flexible_app_version google_app_engine_flexible_app_version} Resource.
 func NewAppEngineFlexibleAppVersion_Override(a AppEngineFlexibleAppVersion, scope constructs.Construct, id *string, config *AppEngineFlexibleAppVersionConfig) {
 	_init_.Initialize()
 

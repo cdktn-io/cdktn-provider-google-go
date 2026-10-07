@@ -83,10 +83,6 @@ func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) validatePu
 	return nil
 }
 
-func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) validatePutHostMaintenancePolicyParameters(value *ContainerClusterNodePoolNodeConfigHostMaintenancePolicy) error {
-	return nil
-}
-
 func (c *jsiiProxy_ContainerClusterNodePoolNodeConfigOutputReference) validatePutKubeletConfigParameters(value *ContainerClusterNodePoolNodeConfigKubeletConfig) error {
 	return nil
 }

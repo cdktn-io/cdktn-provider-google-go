@@ -5,14 +5,14 @@ package chronicleparserextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chronicleparserextension/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chronicleparserextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_parser_extension google_chronicle_parser_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_parser_extension google_chronicle_parser_extension}.
 type ChronicleParserExtension interface {
 	cdktn.TerraformResource
 	CbnSnippet() *string
@@ -717,7 +717,7 @@ func (j *jsiiProxy_ChronicleParserExtension) ValidationSkippedInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_parser_extension google_chronicle_parser_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_parser_extension google_chronicle_parser_extension} Resource.
 func NewChronicleParserExtension(scope constructs.Construct, id *string, config *ChronicleParserExtensionConfig) ChronicleParserExtension {
 	_init_.Initialize()
 
@@ -735,7 +735,7 @@ func NewChronicleParserExtension(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_parser_extension google_chronicle_parser_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_parser_extension google_chronicle_parser_extension} Resource.
 func NewChronicleParserExtension_Override(c ChronicleParserExtension, scope constructs.Construct, id *string, config *ChronicleParserExtensionConfig) {
 	_init_.Initialize()
 

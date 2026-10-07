@@ -75,6 +75,10 @@ func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference) validateSetPrimaryIpRangesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference) validateSetSrcIpRangesParameters(val *[]*string) error {
 	return nil
 }

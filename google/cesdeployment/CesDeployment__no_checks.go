@@ -83,7 +83,15 @@ func (c *jsiiProxy_CesDeployment) validatePutChannelProfileParameters(value *Ces
 	return nil
 }
 
+func (c *jsiiProxy_CesDeployment) validatePutInstagramCredentialsParameters(value *CesDeploymentInstagramCredentials) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesDeployment) validatePutTimeoutsParameters(value *CesDeploymentTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CesDeployment) validatePutWhatsappCredentialsParameters(value *CesDeploymentWhatsappCredentials) error {
 	return nil
 }
 

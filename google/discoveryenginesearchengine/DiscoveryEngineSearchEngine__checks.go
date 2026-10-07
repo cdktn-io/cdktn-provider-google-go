@@ -513,6 +513,14 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) validateSetLocationParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) validateSetProcurementContactEmailsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineSearchEngine) validateSetProjectParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

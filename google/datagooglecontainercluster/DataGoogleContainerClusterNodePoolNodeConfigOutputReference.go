@@ -5,9 +5,9 @@ package datagooglecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datagooglecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datagooglecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,7 +46,6 @@ type DataGoogleContainerClusterNodePoolNodeConfigOutputReference interface {
 	GpudirectStrategy() *string
 	GuestAccelerator() DataGoogleContainerClusterNodePoolNodeConfigGuestAcceleratorList
 	Gvnic() DataGoogleContainerClusterNodePoolNodeConfigGvnicList
-	HostMaintenancePolicy() DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyList
 	ImageType() *string
 	InternalValue() *DataGoogleContainerClusterNodePoolNodeConfig
 	SetInternalValue(val *DataGoogleContainerClusterNodePoolNodeConfig)
@@ -322,16 +321,6 @@ func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"gvnic",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_DataGoogleContainerClusterNodePoolNodeConfigOutputReference) HostMaintenancePolicy() DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyList {
-	var returns DataGoogleContainerClusterNodePoolNodeConfigHostMaintenancePolicyList
-	_jsii_.Get(
-		j,
-		"hostMaintenancePolicy",
 		&returns,
 	)
 	return returns

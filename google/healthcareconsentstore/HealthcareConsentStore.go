@@ -5,14 +5,14 @@ package healthcareconsentstore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/healthcareconsentstore/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/healthcareconsentstore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/healthcare_consent_store google_healthcare_consent_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/healthcare_consent_store google_healthcare_consent_store}.
 type HealthcareConsentStore interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_HealthcareConsentStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/healthcare_consent_store google_healthcare_consent_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/healthcare_consent_store google_healthcare_consent_store} Resource.
 func NewHealthcareConsentStore(scope constructs.Construct, id *string, config *HealthcareConsentStoreConfig) HealthcareConsentStore {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewHealthcareConsentStore(scope constructs.Construct, id *string, config *H
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/healthcare_consent_store google_healthcare_consent_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/healthcare_consent_store google_healthcare_consent_store} Resource.
 func NewHealthcareConsentStore_Override(h HealthcareConsentStore, scope constructs.Construct, id *string, config *HealthcareConsentStoreConfig) {
 	_init_.Initialize()
 

@@ -226,6 +226,17 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validatePutDestinati
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validatePutDestinationPubsubSubscriptionParameters(value *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validatePutTimeoutsParameters(value *BigqueryAnalyticsHubListingSubscriptionTimeouts) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

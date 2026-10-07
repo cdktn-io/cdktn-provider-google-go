@@ -5,14 +5,14 @@ package colabruntime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/colabruntime/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/colabruntime/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/colab_runtime google_colab_runtime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/colab_runtime google_colab_runtime}.
 type ColabRuntime interface {
 	cdktn.TerraformResource
 	AutoUpgrade() interface{}
@@ -673,7 +673,7 @@ func (j *jsiiProxy_ColabRuntime) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/colab_runtime google_colab_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/colab_runtime google_colab_runtime} Resource.
 func NewColabRuntime(scope constructs.Construct, id *string, config *ColabRuntimeConfig) ColabRuntime {
 	_init_.Initialize()
 
@@ -691,7 +691,7 @@ func NewColabRuntime(scope constructs.Construct, id *string, config *ColabRuntim
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/colab_runtime google_colab_runtime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/colab_runtime google_colab_runtime} Resource.
 func NewColabRuntime_Override(c ColabRuntime, scope constructs.Construct, id *string, config *ColabRuntimeConfig) {
 	_init_.Initialize()
 

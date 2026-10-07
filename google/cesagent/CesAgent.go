@@ -5,14 +5,14 @@ package cesagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_agent google_ces_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_agent google_ces_agent}.
 type CesAgent interface {
 	cdktn.TerraformResource
 	AfterAgentCallbacks() CesAgentAfterAgentCallbacksList
@@ -108,6 +108,8 @@ type CesAgent interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RemoteA2AAgent() CesAgentRemoteA2AAgentOutputReference
+	RemoteA2AAgentInput() *CesAgentRemoteA2AAgent
 	RemoteDialogflowAgent() CesAgentRemoteDialogflowAgentOutputReference
 	RemoteDialogflowAgentInput() *CesAgentRemoteDialogflowAgent
 	// Experimental.
@@ -123,6 +125,8 @@ type CesAgent interface {
 	Toolsets() CesAgentToolsetsList
 	ToolsetsInput() interface{}
 	ToolsInput() *[]*string
+	TransferRules() CesAgentTransferRulesList
+	TransferRulesInput() interface{}
 	UpdateTime() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -211,9 +215,11 @@ type CesAgent interface {
 	PutBeforeToolCallbacks(value interface{})
 	PutLlmAgent(value *CesAgentLlmAgent)
 	PutModelSettings(value *CesAgentModelSettings)
+	PutRemoteA2AAgent(value *CesAgentRemoteA2AAgent)
 	PutRemoteDialogflowAgent(value *CesAgentRemoteDialogflowAgent)
 	PutTimeouts(value *CesAgentTimeouts)
 	PutToolsets(value interface{})
+	PutTransferRules(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -246,10 +252,12 @@ type CesAgent interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetRemoteA2AAgent()
 	ResetRemoteDialogflowAgent()
 	ResetTimeouts()
 	ResetTools()
 	ResetToolsets()
+	ResetTransferRules()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -827,6 +835,26 @@ func (j *jsiiProxy_CesAgent) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_CesAgent) RemoteA2AAgent() CesAgentRemoteA2AAgentOutputReference {
+	var returns CesAgentRemoteA2AAgentOutputReference
+	_jsii_.Get(
+		j,
+		"remoteA2AAgent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAgent) RemoteA2AAgentInput() *CesAgentRemoteA2AAgent {
+	var returns *CesAgentRemoteA2AAgent
+	_jsii_.Get(
+		j,
+		"remoteA2AAgentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesAgent) RemoteDialogflowAgent() CesAgentRemoteDialogflowAgentOutputReference {
 	var returns CesAgentRemoteDialogflowAgentOutputReference
 	_jsii_.Get(
@@ -937,6 +965,26 @@ func (j *jsiiProxy_CesAgent) ToolsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_CesAgent) TransferRules() CesAgentTransferRulesList {
+	var returns CesAgentTransferRulesList
+	_jsii_.Get(
+		j,
+		"transferRules",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAgent) TransferRulesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"transferRulesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesAgent) UpdateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -948,7 +996,7 @@ func (j *jsiiProxy_CesAgent) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_agent google_ces_agent} Resource.
 func NewCesAgent(scope constructs.Construct, id *string, config *CesAgentConfig) CesAgent {
 	_init_.Initialize()
 
@@ -966,7 +1014,7 @@ func NewCesAgent(scope constructs.Construct, id *string, config *CesAgentConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_agent google_ces_agent} Resource.
 func NewCesAgent_Override(c CesAgent, scope constructs.Construct, id *string, config *CesAgentConfig) {
 	_init_.Initialize()
 
@@ -1634,6 +1682,17 @@ func (c *jsiiProxy_CesAgent) PutModelSettings(value *CesAgentModelSettings) {
 	)
 }
 
+func (c *jsiiProxy_CesAgent) PutRemoteA2AAgent(value *CesAgentRemoteA2AAgent) {
+	if err := c.validatePutRemoteA2AAgentParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putRemoteA2AAgent",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesAgent) PutRemoteDialogflowAgent(value *CesAgentRemoteDialogflowAgent) {
 	if err := c.validatePutRemoteDialogflowAgentParameters(value); err != nil {
 		panic(err)
@@ -1663,6 +1722,17 @@ func (c *jsiiProxy_CesAgent) PutToolsets(value interface{}) {
 	_jsii_.InvokeVoid(
 		c,
 		"putToolsets",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_CesAgent) PutTransferRules(value interface{}) {
+	if err := c.validatePutTransferRulesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putTransferRules",
 		[]interface{}{value},
 	)
 }
@@ -1814,6 +1884,14 @@ func (c *jsiiProxy_CesAgent) ResetProject() {
 	)
 }
 
+func (c *jsiiProxy_CesAgent) ResetRemoteA2AAgent() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRemoteA2AAgent",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CesAgent) ResetRemoteDialogflowAgent() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1842,6 +1920,14 @@ func (c *jsiiProxy_CesAgent) ResetToolsets() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetToolsets",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAgent) ResetTransferRules() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTransferRules",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package developerconnectinsightsconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/developerconnectinsightsconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/developerconnectinsightsconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/developer_connect_insights_config google_developer_connect_insights_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/developer_connect_insights_config google_developer_connect_insights_config}.
 type DeveloperConnectInsightsConfig interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -716,7 +716,7 @@ func (j *jsiiProxy_DeveloperConnectInsightsConfig) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/developer_connect_insights_config google_developer_connect_insights_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/developer_connect_insights_config google_developer_connect_insights_config} Resource.
 func NewDeveloperConnectInsightsConfig(scope constructs.Construct, id *string, config *DeveloperConnectInsightsConfigConfig) DeveloperConnectInsightsConfig {
 	_init_.Initialize()
 
@@ -734,7 +734,7 @@ func NewDeveloperConnectInsightsConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/developer_connect_insights_config google_developer_connect_insights_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/developer_connect_insights_config google_developer_connect_insights_config} Resource.
 func NewDeveloperConnectInsightsConfig_Override(d DeveloperConnectInsightsConfig, scope constructs.Construct, id *string, config *DeveloperConnectInsightsConfigConfig) {
 	_init_.Initialize()
 

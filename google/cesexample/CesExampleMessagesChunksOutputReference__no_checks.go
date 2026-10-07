@@ -51,6 +51,10 @@ func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) validatePutAgentTran
 	return nil
 }
 
+func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) validatePutBlobParameters(value *CesExampleMessagesChunksBlob) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesExampleMessagesChunksOutputReference) validatePutImageParameters(value *CesExampleMessagesChunksImage) error {
 	return nil
 }

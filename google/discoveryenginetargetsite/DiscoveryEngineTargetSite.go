@@ -5,14 +5,14 @@ package discoveryenginetargetsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryenginetargetsite/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginetargetsite/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_target_site google_discovery_engine_target_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_target_site google_discovery_engine_target_site}.
 type DiscoveryEngineTargetSite interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -645,7 +645,7 @@ func (j *jsiiProxy_DiscoveryEngineTargetSite) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_target_site google_discovery_engine_target_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_target_site google_discovery_engine_target_site} Resource.
 func NewDiscoveryEngineTargetSite(scope constructs.Construct, id *string, config *DiscoveryEngineTargetSiteConfig) DiscoveryEngineTargetSite {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewDiscoveryEngineTargetSite(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_target_site google_discovery_engine_target_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_target_site google_discovery_engine_target_site} Resource.
 func NewDiscoveryEngineTargetSite_Override(d DiscoveryEngineTargetSite, scope constructs.Construct, id *string, config *DiscoveryEngineTargetSiteConfig) {
 	_init_.Initialize()
 

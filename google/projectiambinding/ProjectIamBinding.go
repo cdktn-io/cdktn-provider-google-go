@@ -5,14 +5,14 @@ package projectiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/projectiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/projectiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/project_iam_binding google_project_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/project_iam_binding google_project_iam_binding}.
 type ProjectIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_ProjectIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/project_iam_binding google_project_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/project_iam_binding google_project_iam_binding} Resource.
 func NewProjectIamBinding(scope constructs.Construct, id *string, config *ProjectIamBindingConfig) ProjectIamBinding {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewProjectIamBinding(scope constructs.Construct, id *string, config *Projec
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/project_iam_binding google_project_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/project_iam_binding google_project_iam_binding} Resource.
 func NewProjectIamBinding_Override(p ProjectIamBinding, scope constructs.Construct, id *string, config *ProjectIamBindingConfig) {
 	_init_.Initialize()
 

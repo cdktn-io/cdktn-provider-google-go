@@ -5,14 +5,14 @@ package apigeekeystoresaliaseskeycertfile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apigeekeystoresaliaseskeycertfile/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeekeystoresaliaseskeycertfile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_keystores_aliases_key_cert_file google_apigee_keystores_aliases_key_cert_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_keystores_aliases_key_cert_file google_apigee_keystores_aliases_key_cert_file}.
 type ApigeeKeystoresAliasesKeyCertFile interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -564,7 +564,7 @@ func (j *jsiiProxy_ApigeeKeystoresAliasesKeyCertFile) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_keystores_aliases_key_cert_file google_apigee_keystores_aliases_key_cert_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_keystores_aliases_key_cert_file google_apigee_keystores_aliases_key_cert_file} Resource.
 func NewApigeeKeystoresAliasesKeyCertFile(scope constructs.Construct, id *string, config *ApigeeKeystoresAliasesKeyCertFileConfig) ApigeeKeystoresAliasesKeyCertFile {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewApigeeKeystoresAliasesKeyCertFile(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_keystores_aliases_key_cert_file google_apigee_keystores_aliases_key_cert_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_keystores_aliases_key_cert_file google_apigee_keystores_aliases_key_cert_file} Resource.
 func NewApigeeKeystoresAliasesKeyCertFile_Override(a ApigeeKeystoresAliasesKeyCertFile, scope constructs.Construct, id *string, config *ApigeeKeystoresAliasesKeyCertFileConfig) {
 	_init_.Initialize()
 

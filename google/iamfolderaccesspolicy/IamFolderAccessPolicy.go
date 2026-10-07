@@ -5,14 +5,14 @@ package iamfolderaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iamfolderaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iamfolderaccesspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_folder_access_policy google_iam_folder_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iam_folder_access_policy google_iam_folder_access_policy}.
 type IamFolderAccessPolicy interface {
 	cdktn.TerraformResource
 	AccessPolicyId() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_IamFolderAccessPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_folder_access_policy google_iam_folder_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iam_folder_access_policy google_iam_folder_access_policy} Resource.
 func NewIamFolderAccessPolicy(scope constructs.Construct, id *string, config *IamFolderAccessPolicyConfig) IamFolderAccessPolicy {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewIamFolderAccessPolicy(scope constructs.Construct, id *string, config *Ia
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_folder_access_policy google_iam_folder_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iam_folder_access_policy google_iam_folder_access_policy} Resource.
 func NewIamFolderAccessPolicy_Override(i IamFolderAccessPolicy, scope constructs.Construct, id *string, config *IamFolderAccessPolicyConfig) {
 	_init_.Initialize()
 

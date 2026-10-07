@@ -5,14 +5,14 @@ package computevpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computevpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computevpngateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_vpn_gateway google_compute_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway}.
 type ComputeVpnGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -591,7 +591,7 @@ func (j *jsiiProxy_ComputeVpnGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
 func NewComputeVpnGateway(scope constructs.Construct, id *string, config *ComputeVpnGatewayConfig) ComputeVpnGateway {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewComputeVpnGateway(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_vpn_gateway google_compute_vpn_gateway} Resource.
 func NewComputeVpnGateway_Override(c ComputeVpnGateway, scope constructs.Construct, id *string, config *ComputeVpnGatewayConfig) {
 	_init_.Initialize()
 

@@ -83,6 +83,10 @@ func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validatePutDestinati
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validatePutDestinationPubsubSubscriptionParameters(value *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscription) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryAnalyticsHubListingSubscription) validatePutTimeoutsParameters(value *BigqueryAnalyticsHubListingSubscriptionTimeouts) error {
 	return nil
 }

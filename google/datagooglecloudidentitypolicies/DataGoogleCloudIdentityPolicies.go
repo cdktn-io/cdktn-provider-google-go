@@ -5,14 +5,14 @@ package datagooglecloudidentitypolicies
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datagooglecloudidentitypolicies/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datagooglecloudidentitypolicies/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/cloud_identity_policies google_cloud_identity_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/cloud_identity_policies google_cloud_identity_policies}.
 type DataGoogleCloudIdentityPolicies interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -322,7 +322,7 @@ func (j *jsiiProxy_DataGoogleCloudIdentityPolicies) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/cloud_identity_policies google_cloud_identity_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/cloud_identity_policies google_cloud_identity_policies} Data Source.
 func NewDataGoogleCloudIdentityPolicies(scope constructs.Construct, id *string, config *DataGoogleCloudIdentityPoliciesConfig) DataGoogleCloudIdentityPolicies {
 	_init_.Initialize()
 
@@ -340,7 +340,7 @@ func NewDataGoogleCloudIdentityPolicies(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/data-sources/cloud_identity_policies google_cloud_identity_policies} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/data-sources/cloud_identity_policies google_cloud_identity_policies} Data Source.
 func NewDataGoogleCloudIdentityPolicies_Override(d DataGoogleCloudIdentityPolicies, scope constructs.Construct, id *string, config *DataGoogleCloudIdentityPoliciesConfig) {
 	_init_.Initialize()
 

@@ -47,6 +47,10 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) validateInterpola
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) validatePutBuildSpecParameters(value *VertexAiReasoningEngineSpecBuildSpec) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngineSpecOutputReference) validatePutContainerSpecParameters(value *VertexAiReasoningEngineSpecContainerSpec) error {
 	return nil
 }

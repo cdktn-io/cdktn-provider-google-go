@@ -5,14 +5,14 @@ package sqldatabaseinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/sqldatabaseinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sqldatabaseinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/sql_database_instance google_sql_database_instance}.
 type SqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
@@ -49,6 +49,9 @@ type SqlDatabaseInstance interface {
 	SetDependsOn(val *[]*string)
 	DnsName() *string
 	DnsNames() SqlDatabaseInstanceDnsNamesList
+	EncryptionConfidentialMode() interface{}
+	SetEncryptionConfidentialMode(val interface{})
+	EncryptionConfidentialModeInput() interface{}
 	EncryptionKeyName() *string
 	SetEncryptionKeyName(val *string)
 	EncryptionKeyNameInput() *string
@@ -255,6 +258,7 @@ type SqlDatabaseInstance interface {
 	ResetClone()
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
+	ResetEncryptionConfidentialMode()
 	ResetEncryptionKeyName()
 	ResetEnforceNewSqlNetworkArchitecture()
 	ResetFinalBackupDescription()
@@ -493,6 +497,26 @@ func (j *jsiiProxy_SqlDatabaseInstance) DnsNames() SqlDatabaseInstanceDnsNamesLi
 	_jsii_.Get(
 		j,
 		"dnsNames",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) EncryptionConfidentialMode() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfidentialMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) EncryptionConfidentialModeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"encryptionConfidentialModeInput",
 		&returns,
 	)
 	return returns
@@ -1149,7 +1173,7 @@ func (j *jsiiProxy_SqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) SqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1167,7 +1191,7 @@ func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance_Override(s SqlDatabaseInstance, scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1248,6 +1272,17 @@ func (j *jsiiProxy_SqlDatabaseInstance)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance)SetEncryptionConfidentialMode(val interface{}) {
+	if err := j.validateSetEncryptionConfidentialModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"encryptionConfidentialMode",
 		val,
 	)
 }
@@ -1962,6 +1997,14 @@ func (s *jsiiProxy_SqlDatabaseInstance) ResetDeletionProtection() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetDeletionProtection",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstance) ResetEncryptionConfidentialMode() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetEncryptionConfidentialMode",
 		nil, // no parameters
 	)
 }

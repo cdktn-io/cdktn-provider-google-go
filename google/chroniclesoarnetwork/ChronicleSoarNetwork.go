@@ -5,14 +5,14 @@ package chroniclesoarnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chroniclesoarnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chroniclesoarnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network google_chronicle_soar_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_soar_network google_chronicle_soar_network}.
 type ChronicleSoarNetwork interface {
 	cdktn.TerraformResource
 	Address() *string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_ChronicleSoarNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network google_chronicle_soar_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_soar_network google_chronicle_soar_network} Resource.
 func NewChronicleSoarNetwork(scope constructs.Construct, id *string, config *ChronicleSoarNetworkConfig) ChronicleSoarNetwork {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewChronicleSoarNetwork(scope constructs.Construct, id *string, config *Chr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_soar_network google_chronicle_soar_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_soar_network google_chronicle_soar_network} Resource.
 func NewChronicleSoarNetwork_Override(c ChronicleSoarNetwork, scope constructs.Construct, id *string, config *ChronicleSoarNetworkConfig) {
 	_init_.Initialize()
 

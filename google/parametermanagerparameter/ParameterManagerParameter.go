@@ -5,14 +5,14 @@ package parametermanagerparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/parametermanagerparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/parametermanagerparameter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter google_parameter_manager_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter}.
 type ParameterManagerParameter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -80,6 +80,9 @@ type ParameterManagerParameter interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -192,6 +195,7 @@ type ParameterManagerParameter interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -530,6 +534,26 @@ func (j *jsiiProxy_ParameterManagerParameter) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ParameterManagerParameter) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerParameter) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ParameterManagerParameter) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -601,7 +625,7 @@ func (j *jsiiProxy_ParameterManagerParameter) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
 func NewParameterManagerParameter(scope constructs.Construct, id *string, config *ParameterManagerParameterConfig) ParameterManagerParameter {
 	_init_.Initialize()
 
@@ -619,7 +643,7 @@ func NewParameterManagerParameter(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
 func NewParameterManagerParameter_Override(p ParameterManagerParameter, scope constructs.Construct, id *string, config *ParameterManagerParameterConfig) {
 	_init_.Initialize()
 
@@ -771,6 +795,17 @@ func (j *jsiiProxy_ParameterManagerParameter)SetProvisioners(val *[]interface{})
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ParameterManagerParameter)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -1218,6 +1253,14 @@ func (p *jsiiProxy_ParameterManagerParameter) ResetProject() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_ParameterManagerParameter) ResetTags() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetTags",
 		nil, // no parameters
 	)
 }

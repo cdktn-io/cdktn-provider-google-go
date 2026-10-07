@@ -143,6 +143,14 @@ func (j *jsiiProxy_SecretManagerRegionalSecretVersion) validateSetSecretDataPara
 	return nil
 }
 
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) validateSetSecretDataWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_SecretManagerRegionalSecretVersion) validateSetSecretDataWoVersionParameters(val *string) error {
+	return nil
+}
+
 func validateNewSecretManagerRegionalSecretVersionParameters(scope constructs.Construct, id *string, config *SecretManagerRegionalSecretVersionConfig) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package logginglogview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/logginglogview/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/logginglogview/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_log_view google_logging_log_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/logging_log_view google_logging_log_view}.
 type LoggingLogView interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_LoggingLogView) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_log_view google_logging_log_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/logging_log_view google_logging_log_view} Resource.
 func NewLoggingLogView(scope constructs.Construct, id *string, config *LoggingLogViewConfig) LoggingLogView {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewLoggingLogView(scope constructs.Construct, id *string, config *LoggingLo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/logging_log_view google_logging_log_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/logging_log_view google_logging_log_view} Resource.
 func NewLoggingLogView_Override(l LoggingLogView, scope constructs.Construct, id *string, config *LoggingLogViewConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataformteamfolder
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataformteamfolder/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataformteamfolder/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_team_folder google_dataform_team_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_team_folder google_dataform_team_folder}.
 type DataformTeamFolder interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_DataformTeamFolder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
 func NewDataformTeamFolder(scope constructs.Construct, id *string, config *DataformTeamFolderConfig) DataformTeamFolder {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewDataformTeamFolder(scope constructs.Construct, id *string, config *Dataf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_team_folder google_dataform_team_folder} Resource.
 func NewDataformTeamFolder_Override(d DataformTeamFolder, scope constructs.Construct, id *string, config *DataformTeamFolderConfig) {
 	_init_.Initialize()
 

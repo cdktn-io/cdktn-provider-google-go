@@ -5,14 +5,14 @@ package scceventthreatdetectioncustommodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/scceventthreatdetectioncustommodule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/scceventthreatdetectioncustommodule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module}.
 type SccEventThreatDetectionCustomModule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -565,7 +565,7 @@ func (j *jsiiProxy_SccEventThreatDetectionCustomModule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
 func NewSccEventThreatDetectionCustomModule(scope constructs.Construct, id *string, config *SccEventThreatDetectionCustomModuleConfig) SccEventThreatDetectionCustomModule {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewSccEventThreatDetectionCustomModule(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_event_threat_detection_custom_module google_scc_event_threat_detection_custom_module} Resource.
 func NewSccEventThreatDetectionCustomModule_Override(s SccEventThreatDetectionCustomModule, scope constructs.Construct, id *string, config *SccEventThreatDetectionCustomModuleConfig) {
 	_init_.Initialize()
 

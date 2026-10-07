@@ -5,14 +5,14 @@ package computeautoscaler
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeautoscaler/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeautoscaler/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_autoscaler google_compute_autoscaler}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_autoscaler google_compute_autoscaler}.
 type ComputeAutoscaler interface {
 	cdktn.TerraformResource
 	AutoscalingPolicy() ComputeAutoscalerAutoscalingPolicyOutputReference
@@ -579,7 +579,7 @@ func (j *jsiiProxy_ComputeAutoscaler) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
 func NewComputeAutoscaler(scope constructs.Construct, id *string, config *ComputeAutoscalerConfig) ComputeAutoscaler {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewComputeAutoscaler(scope constructs.Construct, id *string, config *Comput
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_autoscaler google_compute_autoscaler} Resource.
 func NewComputeAutoscaler_Override(c ComputeAutoscaler, scope constructs.Construct, id *string, config *ComputeAutoscalerConfig) {
 	_init_.Initialize()
 

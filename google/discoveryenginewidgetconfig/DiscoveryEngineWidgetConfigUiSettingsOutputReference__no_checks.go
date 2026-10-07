@@ -55,6 +55,10 @@ func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) validat
 	return nil
 }
 
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) validatePutSearchAddonSpecParameters(value *DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) validat
 }
 
 func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) validateSetResultDescriptionTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) validateSetSourceAdminDisplayNameEnabledParameters(val interface{}) error {
 	return nil
 }
 

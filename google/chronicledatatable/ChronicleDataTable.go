@@ -5,14 +5,14 @@ package chronicledatatable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chronicledatatable/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chronicledatatable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_table google_chronicle_data_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_table google_chronicle_data_table}.
 type ChronicleDataTable interface {
 	cdktn.TerraformResource
 	ApproximateRowCount() *float64
@@ -714,7 +714,7 @@ func (j *jsiiProxy_ChronicleDataTable) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_table google_chronicle_data_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_table google_chronicle_data_table} Resource.
 func NewChronicleDataTable(scope constructs.Construct, id *string, config *ChronicleDataTableConfig) ChronicleDataTable {
 	_init_.Initialize()
 
@@ -732,7 +732,7 @@ func NewChronicleDataTable(scope constructs.Construct, id *string, config *Chron
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_data_table google_chronicle_data_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_data_table google_chronicle_data_table} Resource.
 func NewChronicleDataTable_Override(c ChronicleDataTable, scope constructs.Construct, id *string, config *ChronicleDataTableConfig) {
 	_init_.Initialize()
 

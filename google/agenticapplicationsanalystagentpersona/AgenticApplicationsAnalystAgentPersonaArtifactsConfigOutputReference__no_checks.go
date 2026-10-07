@@ -51,6 +51,10 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputRe
 	return nil
 }
 
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) validatePutMethodologyExportOptionsParameters(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) validatePutSlideGenerationOptionsParameters(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions) error {
 	return nil
 }

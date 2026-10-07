@@ -5,14 +5,14 @@ package integrationsclient
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/integrationsclient/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/integrationsclient/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/integrations_client google_integrations_client}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/integrations_client google_integrations_client}.
 type IntegrationsClient interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -72,9 +72,6 @@ type IntegrationsClient interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	RunAsServiceAccount() *string
-	SetRunAsServiceAccount(val *string)
-	RunAsServiceAccountInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -185,7 +182,6 @@ type IntegrationsClient interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
-	ResetRunAsServiceAccount()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -464,26 +460,6 @@ func (j *jsiiProxy_IntegrationsClient) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_IntegrationsClient) RunAsServiceAccount() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"runAsServiceAccount",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_IntegrationsClient) RunAsServiceAccountInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"runAsServiceAccountInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_IntegrationsClient) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -535,7 +511,7 @@ func (j *jsiiProxy_IntegrationsClient) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/integrations_client google_integrations_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/integrations_client google_integrations_client} Resource.
 func NewIntegrationsClient(scope constructs.Construct, id *string, config *IntegrationsClientConfig) IntegrationsClient {
 	_init_.Initialize()
 
@@ -553,7 +529,7 @@ func NewIntegrationsClient(scope constructs.Construct, id *string, config *Integ
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/integrations_client google_integrations_client} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/integrations_client google_integrations_client} Resource.
 func NewIntegrationsClient_Override(i IntegrationsClient, scope constructs.Construct, id *string, config *IntegrationsClientConfig) {
 	_init_.Initialize()
 
@@ -683,17 +659,6 @@ func (j *jsiiProxy_IntegrationsClient)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
-		val,
-	)
-}
-
-func (j *jsiiProxy_IntegrationsClient)SetRunAsServiceAccount(val *string) {
-	if err := j.validateSetRunAsServiceAccountParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"runAsServiceAccount",
 		val,
 	)
 }
@@ -1144,14 +1109,6 @@ func (i *jsiiProxy_IntegrationsClient) ResetProject() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetProject",
-		nil, // no parameters
-	)
-}
-
-func (i *jsiiProxy_IntegrationsClient) ResetRunAsServiceAccount() {
-	_jsii_.InvokeVoid(
-		i,
-		"resetRunAsServiceAccount",
 		nil, // no parameters
 	)
 }

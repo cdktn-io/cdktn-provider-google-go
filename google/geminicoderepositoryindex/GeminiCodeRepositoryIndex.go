@@ -5,14 +5,14 @@ package geminicoderepositoryindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/geminicoderepositoryindex/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminicoderepositoryindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_code_repository_index google_gemini_code_repository_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_code_repository_index google_gemini_code_repository_index}.
 type GeminiCodeRepositoryIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -624,7 +624,7 @@ func (j *jsiiProxy_GeminiCodeRepositoryIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_code_repository_index google_gemini_code_repository_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_code_repository_index google_gemini_code_repository_index} Resource.
 func NewGeminiCodeRepositoryIndex(scope constructs.Construct, id *string, config *GeminiCodeRepositoryIndexConfig) GeminiCodeRepositoryIndex {
 	_init_.Initialize()
 
@@ -642,7 +642,7 @@ func NewGeminiCodeRepositoryIndex(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_code_repository_index google_gemini_code_repository_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_code_repository_index google_gemini_code_repository_index} Resource.
 func NewGeminiCodeRepositoryIndex_Override(g GeminiCodeRepositoryIndex, scope constructs.Construct, id *string, config *GeminiCodeRepositoryIndexConfig) {
 	_init_.Initialize()
 

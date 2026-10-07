@@ -5,14 +5,14 @@ package serviceaccountkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/serviceaccountkey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/serviceaccountkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_account_key google_service_account_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_account_key google_service_account_key}.
 type ServiceAccountKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -590,7 +590,7 @@ func (j *jsiiProxy_ServiceAccountKey) ValidBefore() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_account_key google_service_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_account_key google_service_account_key} Resource.
 func NewServiceAccountKey(scope constructs.Construct, id *string, config *ServiceAccountKeyConfig) ServiceAccountKey {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewServiceAccountKey(scope constructs.Construct, id *string, config *Servic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_account_key google_service_account_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_account_key google_service_account_key} Resource.
 func NewServiceAccountKey_Override(s ServiceAccountKey, scope constructs.Construct, id *string, config *ServiceAccountKeyConfig) {
 	_init_.Initialize()
 

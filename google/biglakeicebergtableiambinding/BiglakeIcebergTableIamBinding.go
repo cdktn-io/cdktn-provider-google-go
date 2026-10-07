@@ -5,14 +5,14 @@ package biglakeicebergtableiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/biglakeicebergtableiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/biglakeicebergtableiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding}.
 type BiglakeIcebergTableIamBinding interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_BiglakeIcebergTableIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
 func NewBiglakeIcebergTableIamBinding(scope constructs.Construct, id *string, config *BiglakeIcebergTableIamBindingConfig) BiglakeIcebergTableIamBinding {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewBiglakeIcebergTableIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_table_iam_binding google_biglake_iceberg_table_iam_binding} Resource.
 func NewBiglakeIcebergTableIamBinding_Override(b BiglakeIcebergTableIamBinding, scope constructs.Construct, id *string, config *BiglakeIcebergTableIamBindingConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package workstationsworkstationcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/workstationsworkstationcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/workstationsworkstationcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster}.
 type WorkstationsWorkstationCluster interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -835,7 +835,7 @@ func (j *jsiiProxy_WorkstationsWorkstationCluster) WorkstationLaunchUrlInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
 func NewWorkstationsWorkstationCluster(scope constructs.Construct, id *string, config *WorkstationsWorkstationClusterConfig) WorkstationsWorkstationCluster {
 	_init_.Initialize()
 
@@ -853,7 +853,7 @@ func NewWorkstationsWorkstationCluster(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workstations_workstation_cluster google_workstations_workstation_cluster} Resource.
 func NewWorkstationsWorkstationCluster_Override(w WorkstationsWorkstationCluster, scope constructs.Construct, id *string, config *WorkstationsWorkstationClusterConfig) {
 	_init_.Initialize()
 

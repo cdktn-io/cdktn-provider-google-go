@@ -5,14 +5,14 @@ package kmscryptokeyiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/kmscryptokeyiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/kmscryptokeyiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_crypto_key_iam_policy google_kms_crypto_key_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_crypto_key_iam_policy google_kms_crypto_key_iam_policy}.
 type KmsCryptoKeyIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -425,7 +425,7 @@ func (j *jsiiProxy_KmsCryptoKeyIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_crypto_key_iam_policy google_kms_crypto_key_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_crypto_key_iam_policy google_kms_crypto_key_iam_policy} Resource.
 func NewKmsCryptoKeyIamPolicy(scope constructs.Construct, id *string, config *KmsCryptoKeyIamPolicyConfig) KmsCryptoKeyIamPolicy {
 	_init_.Initialize()
 
@@ -443,7 +443,7 @@ func NewKmsCryptoKeyIamPolicy(scope constructs.Construct, id *string, config *Km
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_crypto_key_iam_policy google_kms_crypto_key_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_crypto_key_iam_policy google_kms_crypto_key_iam_policy} Resource.
 func NewKmsCryptoKeyIamPolicy_Override(k KmsCryptoKeyIamPolicy, scope constructs.Construct, id *string, config *KmsCryptoKeyIamPolicyConfig) {
 	_init_.Initialize()
 

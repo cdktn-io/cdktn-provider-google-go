@@ -5,14 +5,14 @@ package monitoringmonitoredproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/monitoringmonitoredproject/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/monitoringmonitoredproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_monitored_project google_monitoring_monitored_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project}.
 type MonitoringMonitoredProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_MonitoringMonitoredProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
 func NewMonitoringMonitoredProject(scope constructs.Construct, id *string, config *MonitoringMonitoredProjectConfig) MonitoringMonitoredProject {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewMonitoringMonitoredProject(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_monitored_project google_monitoring_monitored_project} Resource.
 func NewMonitoringMonitoredProject_Override(m MonitoringMonitoredProject, scope constructs.Construct, id *string, config *MonitoringMonitoredProjectConfig) {
 	_init_.Initialize()
 

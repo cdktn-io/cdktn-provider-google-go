@@ -5,14 +5,14 @@ package dataplexdatascaniammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataplexdatascaniammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataplexdatascaniammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member}.
 type DataplexDatascanIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataplexDatascanIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
 func NewDataplexDatascanIamMember(scope constructs.Construct, id *string, config *DataplexDatascanIamMemberConfig) DataplexDatascanIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataplexDatascanIamMember(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_datascan_iam_member google_dataplex_datascan_iam_member} Resource.
 func NewDataplexDatascanIamMember_Override(d DataplexDatascanIamMember, scope constructs.Construct, id *string, config *DataplexDatascanIamMemberConfig) {
 	_init_.Initialize()
 

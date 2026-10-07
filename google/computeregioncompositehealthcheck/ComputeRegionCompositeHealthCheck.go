@@ -5,14 +5,14 @@ package computeregioncompositehealthcheck
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeregioncompositehealthcheck/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeregioncompositehealthcheck/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_composite_health_check google_compute_region_composite_health_check}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_region_composite_health_check google_compute_region_composite_health_check}.
 type ComputeRegionCompositeHealthCheck interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ComputeRegionCompositeHealthCheck) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
 func NewComputeRegionCompositeHealthCheck(scope constructs.Construct, id *string, config *ComputeRegionCompositeHealthCheckConfig) ComputeRegionCompositeHealthCheck {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewComputeRegionCompositeHealthCheck(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_region_composite_health_check google_compute_region_composite_health_check} Resource.
 func NewComputeRegionCompositeHealthCheck_Override(c ComputeRegionCompositeHealthCheck, scope constructs.Construct, id *string, config *ComputeRegionCompositeHealthCheckConfig) {
 	_init_.Initialize()
 

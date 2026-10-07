@@ -5,14 +5,14 @@ package oracledatabasecloudexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/oracledatabasecloudexadatainfrastructure/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/oracledatabasecloudexadatainfrastructure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure}.
 type OracleDatabaseCloudExadataInfrastructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -661,7 +661,7 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructure) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureConfig) OracleDatabaseCloudExadataInfrastructure {
 	_init_.Initialize()
 
@@ -679,7 +679,7 @@ func NewOracleDatabaseCloudExadataInfrastructure(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_cloud_exadata_infrastructure google_oracle_database_cloud_exadata_infrastructure} Resource.
 func NewOracleDatabaseCloudExadataInfrastructure_Override(o OracleDatabaseCloudExadataInfrastructure, scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package clouddeploycustomtargettype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/clouddeploycustomtargettype/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/clouddeploycustomtargettype/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type}.
 type ClouddeployCustomTargetType interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_ClouddeployCustomTargetType) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
 func NewClouddeployCustomTargetType(scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeConfig) ClouddeployCustomTargetType {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewClouddeployCustomTargetType(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_custom_target_type google_clouddeploy_custom_target_type} Resource.
 func NewClouddeployCustomTargetType_Override(c ClouddeployCustomTargetType, scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeConfig) {
 	_init_.Initialize()
 

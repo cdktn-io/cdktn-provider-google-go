@@ -51,6 +51,10 @@ func (c *jsiiProxy_CesExampleMessagesChunksImageOutputReference) validateResolve
 	return nil
 }
 
+func (j *jsiiProxy_CesExampleMessagesChunksImageOutputReference) validateSetAltTextParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesExampleMessagesChunksImageOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }

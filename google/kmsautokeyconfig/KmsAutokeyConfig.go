@@ -5,14 +5,14 @@ package kmsautokeyconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/kmsautokeyconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/kmsautokeyconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_autokey_config google_kms_autokey_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_autokey_config google_kms_autokey_config}.
 type KmsAutokeyConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -498,7 +498,7 @@ func (j *jsiiProxy_KmsAutokeyConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
 func NewKmsAutokeyConfig(scope constructs.Construct, id *string, config *KmsAutokeyConfigConfig) KmsAutokeyConfig {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewKmsAutokeyConfig(scope constructs.Construct, id *string, config *KmsAuto
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_autokey_config google_kms_autokey_config} Resource.
 func NewKmsAutokeyConfig_Override(k KmsAutokeyConfig, scope constructs.Construct, id *string, config *KmsAutokeyConfigConfig) {
 	_init_.Initialize()
 

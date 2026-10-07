@@ -5,14 +5,14 @@ package firestorebackupschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/firestorebackupschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/firestorebackupschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firestore_backup_schedule google_firestore_backup_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firestore_backup_schedule google_firestore_backup_schedule}.
 type FirestoreBackupSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -546,7 +546,7 @@ func (j *jsiiProxy_FirestoreBackupSchedule) WeeklyRecurrenceInput() *FirestoreBa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firestore_backup_schedule google_firestore_backup_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firestore_backup_schedule google_firestore_backup_schedule} Resource.
 func NewFirestoreBackupSchedule(scope constructs.Construct, id *string, config *FirestoreBackupScheduleConfig) FirestoreBackupSchedule {
 	_init_.Initialize()
 
@@ -564,7 +564,7 @@ func NewFirestoreBackupSchedule(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firestore_backup_schedule google_firestore_backup_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firestore_backup_schedule google_firestore_backup_schedule} Resource.
 func NewFirestoreBackupSchedule_Override(f FirestoreBackupSchedule, scope constructs.Construct, id *string, config *FirestoreBackupScheduleConfig) {
 	_init_.Initialize()
 

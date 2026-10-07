@@ -5,14 +5,14 @@ package datafusioninstanceiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datafusioninstanceiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datafusioninstanceiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance_iam_policy google_data_fusion_instance_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance_iam_policy google_data_fusion_instance_iam_policy}.
 type DataFusionInstanceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_DataFusionInstanceIamPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance_iam_policy google_data_fusion_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance_iam_policy google_data_fusion_instance_iam_policy} Resource.
 func NewDataFusionInstanceIamPolicy(scope constructs.Construct, id *string, config *DataFusionInstanceIamPolicyConfig) DataFusionInstanceIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewDataFusionInstanceIamPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance_iam_policy google_data_fusion_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance_iam_policy google_data_fusion_instance_iam_policy} Resource.
 func NewDataFusionInstanceIamPolicy_Override(d DataFusionInstanceIamPolicy, scope constructs.Construct, id *string, config *DataFusionInstanceIamPolicyConfig) {
 	_init_.Initialize()
 

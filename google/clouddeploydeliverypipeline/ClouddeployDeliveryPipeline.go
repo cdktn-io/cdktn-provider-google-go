@@ -5,14 +5,14 @@ package clouddeploydeliverypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/clouddeploydeliverypipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/clouddeploydeliverypipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_delivery_pipeline google_clouddeploy_delivery_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_delivery_pipeline google_clouddeploy_delivery_pipeline}.
 type ClouddeployDeliveryPipeline interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_ClouddeployDeliveryPipeline) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_delivery_pipeline google_clouddeploy_delivery_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_delivery_pipeline google_clouddeploy_delivery_pipeline} Resource.
 func NewClouddeployDeliveryPipeline(scope constructs.Construct, id *string, config *ClouddeployDeliveryPipelineConfig) ClouddeployDeliveryPipeline {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewClouddeployDeliveryPipeline(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_delivery_pipeline google_clouddeploy_delivery_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_delivery_pipeline google_clouddeploy_delivery_pipeline} Resource.
 func NewClouddeployDeliveryPipeline_Override(c ClouddeployDeliveryPipeline, scope constructs.Construct, id *string, config *ClouddeployDeliveryPipelineConfig) {
 	_init_.Initialize()
 

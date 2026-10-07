@@ -5,9 +5,9 @@ package discoveryenginewidgetconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryenginewidgetconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginewidgetconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -69,6 +69,11 @@ type DiscoveryEngineWidgetConfigUiSettingsOutputReference interface {
 	ResultDescriptionType() *string
 	SetResultDescriptionType(val *string)
 	ResultDescriptionTypeInput() *string
+	SearchAddonSpec() DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpecOutputReference
+	SearchAddonSpecInput() *DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec
+	SourceAdminDisplayNameEnabled() interface{}
+	SetSourceAdminDisplayNameEnabled(val interface{})
+	SourceAdminDisplayNameEnabledInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -103,6 +108,7 @@ type DiscoveryEngineWidgetConfigUiSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDataStoreUiConfigs(value interface{})
 	PutGenerativeAnswerConfig(value *DiscoveryEngineWidgetConfigUiSettingsGenerativeAnswerConfig)
+	PutSearchAddonSpec(value *DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec)
 	ResetDataStoreUiConfigs()
 	ResetDefaultSearchRequestOrderBy()
 	ResetDisableUserEventsCollection()
@@ -116,6 +122,8 @@ type DiscoveryEngineWidgetConfigUiSettingsOutputReference interface {
 	ResetGenerativeAnswerConfig()
 	ResetInteractionType()
 	ResetResultDescriptionType()
+	ResetSearchAddonSpec()
+	ResetSourceAdminDisplayNameEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -441,6 +449,46 @@ func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) ResultD
 	return returns
 }
 
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) SearchAddonSpec() DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpecOutputReference {
+	var returns DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpecOutputReference
+	_jsii_.Get(
+		j,
+		"searchAddonSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) SearchAddonSpecInput() *DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec {
+	var returns *DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec
+	_jsii_.Get(
+		j,
+		"searchAddonSpecInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) SourceAdminDisplayNameEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sourceAdminDisplayNameEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) SourceAdminDisplayNameEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sourceAdminDisplayNameEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -639,6 +687,17 @@ func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference)SetResul
 	_jsii_.Set(
 		j,
 		"resultDescriptionType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference)SetSourceAdminDisplayNameEnabled(val interface{}) {
+	if err := j.validateSetSourceAdminDisplayNameEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sourceAdminDisplayNameEnabled",
 		val,
 	)
 }
@@ -873,6 +932,17 @@ func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) PutGene
 	)
 }
 
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) PutSearchAddonSpec(value *DiscoveryEngineWidgetConfigUiSettingsSearchAddonSpec) {
+	if err := d.validatePutSearchAddonSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putSearchAddonSpec",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) ResetDataStoreUiConfigs() {
 	_jsii_.InvokeVoid(
 		d,
@@ -973,6 +1043,22 @@ func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) ResetRe
 	_jsii_.InvokeVoid(
 		d,
 		"resetResultDescriptionType",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) ResetSearchAddonSpec() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSearchAddonSpec",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineWidgetConfigUiSettingsOutputReference) ResetSourceAdminDisplayNameEnabled() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSourceAdminDisplayNameEnabled",
 		nil, // no parameters
 	)
 }

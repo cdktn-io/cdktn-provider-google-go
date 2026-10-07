@@ -5,14 +5,14 @@ package networkservicesmulticastproducerassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkservicesmulticastproducerassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkservicesmulticastproducerassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association}.
 type NetworkServicesMulticastProducerAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -657,7 +657,7 @@ func (j *jsiiProxy_NetworkServicesMulticastProducerAssociation) UpdateTime() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
 func NewNetworkServicesMulticastProducerAssociation(scope constructs.Construct, id *string, config *NetworkServicesMulticastProducerAssociationConfig) NetworkServicesMulticastProducerAssociation {
 	_init_.Initialize()
 
@@ -675,7 +675,7 @@ func NewNetworkServicesMulticastProducerAssociation(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_multicast_producer_association google_network_services_multicast_producer_association} Resource.
 func NewNetworkServicesMulticastProducerAssociation_Override(n NetworkServicesMulticastProducerAssociation, scope constructs.Construct, id *string, config *NetworkServicesMulticastProducerAssociationConfig) {
 	_init_.Initialize()
 

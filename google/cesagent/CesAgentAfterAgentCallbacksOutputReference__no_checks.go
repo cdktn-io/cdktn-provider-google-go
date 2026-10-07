@@ -71,6 +71,10 @@ func (j *jsiiProxy_CesAgentAfterAgentCallbacksOutputReference) validateSetIntern
 	return nil
 }
 
+func (j *jsiiProxy_CesAgentAfterAgentCallbacksOutputReference) validateSetProactiveExecutionEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesAgentAfterAgentCallbacksOutputReference) validateSetPythonCodeParameters(val *string) error {
 	return nil
 }

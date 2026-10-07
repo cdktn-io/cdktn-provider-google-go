@@ -5,14 +5,14 @@ package computewiregroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computewiregroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computewiregroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_wire_group google_compute_wire_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_wire_group google_compute_wire_group}.
 type ComputeWireGroup interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -615,7 +615,7 @@ func (j *jsiiProxy_ComputeWireGroup) Wires() ComputeWireGroupWiresList {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_wire_group google_compute_wire_group} Resource.
 func NewComputeWireGroup(scope constructs.Construct, id *string, config *ComputeWireGroupConfig) ComputeWireGroup {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewComputeWireGroup(scope constructs.Construct, id *string, config *Compute
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_wire_group google_compute_wire_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_wire_group google_compute_wire_group} Resource.
 func NewComputeWireGroup_Override(c ComputeWireGroup, scope constructs.Construct, id *string, config *ComputeWireGroupConfig) {
 	_init_.Initialize()
 

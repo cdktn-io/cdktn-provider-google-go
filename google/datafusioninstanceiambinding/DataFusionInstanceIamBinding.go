@@ -5,14 +5,14 @@ package datafusioninstanceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datafusioninstanceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datafusioninstanceiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance_iam_binding google_data_fusion_instance_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance_iam_binding google_data_fusion_instance_iam_binding}.
 type DataFusionInstanceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataFusionInstanceIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance_iam_binding google_data_fusion_instance_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance_iam_binding google_data_fusion_instance_iam_binding} Resource.
 func NewDataFusionInstanceIamBinding(scope constructs.Construct, id *string, config *DataFusionInstanceIamBindingConfig) DataFusionInstanceIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataFusionInstanceIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance_iam_binding google_data_fusion_instance_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance_iam_binding google_data_fusion_instance_iam_binding} Resource.
 func NewDataFusionInstanceIamBinding_Override(d DataFusionInstanceIamBinding, scope constructs.Construct, id *string, config *DataFusionInstanceIamBindingConfig) {
 	_init_.Initialize()
 

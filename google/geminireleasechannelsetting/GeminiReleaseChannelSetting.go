@@ -5,14 +5,14 @@ package geminireleasechannelsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/geminireleasechannelsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminireleasechannelsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting}.
 type GeminiReleaseChannelSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GeminiReleaseChannelSetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
 func NewGeminiReleaseChannelSetting(scope constructs.Construct, id *string, config *GeminiReleaseChannelSettingConfig) GeminiReleaseChannelSetting {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGeminiReleaseChannelSetting(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_release_channel_setting google_gemini_release_channel_setting} Resource.
 func NewGeminiReleaseChannelSetting_Override(g GeminiReleaseChannelSetting, scope constructs.Construct, id *string, config *GeminiReleaseChannelSettingConfig) {
 	_init_.Initialize()
 

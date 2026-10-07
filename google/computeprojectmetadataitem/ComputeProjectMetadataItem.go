@@ -5,14 +5,14 @@ package computeprojectmetadataitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeprojectmetadataitem/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeprojectmetadataitem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_project_metadata_item google_compute_project_metadata_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item}.
 type ComputeProjectMetadataItem interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -486,7 +486,7 @@ func (j *jsiiProxy_ComputeProjectMetadataItem) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
 func NewComputeProjectMetadataItem(scope constructs.Construct, id *string, config *ComputeProjectMetadataItemConfig) ComputeProjectMetadataItem {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewComputeProjectMetadataItem(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_project_metadata_item google_compute_project_metadata_item} Resource.
 func NewComputeProjectMetadataItem_Override(c ComputeProjectMetadataItem, scope constructs.Construct, id *string, config *ComputeProjectMetadataItemConfig) {
 	_init_.Initialize()
 

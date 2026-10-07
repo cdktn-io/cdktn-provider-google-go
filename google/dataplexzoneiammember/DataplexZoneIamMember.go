@@ -5,14 +5,14 @@ package dataplexzoneiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataplexzoneiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataplexzoneiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_zone_iam_member google_dataplex_zone_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_zone_iam_member google_dataplex_zone_iam_member}.
 type DataplexZoneIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_DataplexZoneIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_zone_iam_member google_dataplex_zone_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_zone_iam_member google_dataplex_zone_iam_member} Resource.
 func NewDataplexZoneIamMember(scope constructs.Construct, id *string, config *DataplexZoneIamMemberConfig) DataplexZoneIamMember {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewDataplexZoneIamMember(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_zone_iam_member google_dataplex_zone_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_zone_iam_member google_dataplex_zone_iam_member} Resource.
 func NewDataplexZoneIamMember_Override(d DataplexZoneIamMember, scope constructs.Construct, id *string, config *DataplexZoneIamMemberConfig) {
 	_init_.Initialize()
 

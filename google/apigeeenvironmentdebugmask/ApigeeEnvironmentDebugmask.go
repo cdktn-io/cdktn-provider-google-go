@@ -5,14 +5,14 @@ package apigeeenvironmentdebugmask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apigeeenvironmentdebugmask/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeeenvironmentdebugmask/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_environment_debugmask google_apigee_environment_debugmask}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_environment_debugmask google_apigee_environment_debugmask}.
 type ApigeeEnvironmentDebugmask interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -594,7 +594,7 @@ func (j *jsiiProxy_ApigeeEnvironmentDebugmask) VariablesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
 func NewApigeeEnvironmentDebugmask(scope constructs.Construct, id *string, config *ApigeeEnvironmentDebugmaskConfig) ApigeeEnvironmentDebugmask {
 	_init_.Initialize()
 
@@ -612,7 +612,7 @@ func NewApigeeEnvironmentDebugmask(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_environment_debugmask google_apigee_environment_debugmask} Resource.
 func NewApigeeEnvironmentDebugmask_Override(a ApigeeEnvironmentDebugmask, scope constructs.Construct, id *string, config *ApigeeEnvironmentDebugmaskConfig) {
 	_init_.Initialize()
 

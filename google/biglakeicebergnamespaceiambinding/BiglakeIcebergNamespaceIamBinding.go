@@ -5,14 +5,14 @@ package biglakeicebergnamespaceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/biglakeicebergnamespaceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/biglakeicebergnamespaceiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding}.
 type BiglakeIcebergNamespaceIamBinding interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BiglakeIcebergNamespaceIamBinding) TerraformResourceType() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
 func NewBiglakeIcebergNamespaceIamBinding(scope constructs.Construct, id *string, config *BiglakeIcebergNamespaceIamBindingConfig) BiglakeIcebergNamespaceIamBinding {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBiglakeIcebergNamespaceIamBinding(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_iceberg_namespace_iam_binding google_biglake_iceberg_namespace_iam_binding} Resource.
 func NewBiglakeIcebergNamespaceIamBinding_Override(b BiglakeIcebergNamespaceIamBinding, scope constructs.Construct, id *string, config *BiglakeIcebergNamespaceIamBindingConfig) {
 	_init_.Initialize()
 

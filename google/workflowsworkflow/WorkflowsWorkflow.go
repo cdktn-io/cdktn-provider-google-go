@@ -5,14 +5,14 @@ package workflowsworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/workflowsworkflow/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/workflowsworkflow/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workflows_workflow google_workflows_workflow}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workflows_workflow google_workflows_workflow}.
 type WorkflowsWorkflow interface {
 	cdktn.TerraformResource
 	CallLogLevel() *string
@@ -226,7 +226,6 @@ type WorkflowsWorkflow interface {
 	ResetProject()
 	ResetRegion()
 	ResetServiceAccount()
-	ResetSourceContents()
 	ResetTags()
 	ResetTimeouts()
 	ResetUserEnvVars()
@@ -818,7 +817,7 @@ func (j *jsiiProxy_WorkflowsWorkflow) UserEnvVarsInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
 func NewWorkflowsWorkflow(scope constructs.Construct, id *string, config *WorkflowsWorkflowConfig) WorkflowsWorkflow {
 	_init_.Initialize()
 
@@ -836,7 +835,7 @@ func NewWorkflowsWorkflow(scope constructs.Construct, id *string, config *Workfl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/workflows_workflow google_workflows_workflow} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/workflows_workflow google_workflows_workflow} Resource.
 func NewWorkflowsWorkflow_Override(w WorkflowsWorkflow, scope constructs.Construct, id *string, config *WorkflowsWorkflowConfig) {
 	_init_.Initialize()
 
@@ -1590,14 +1589,6 @@ func (w *jsiiProxy_WorkflowsWorkflow) ResetServiceAccount() {
 	_jsii_.InvokeVoid(
 		w,
 		"resetServiceAccount",
-		nil, // no parameters
-	)
-}
-
-func (w *jsiiProxy_WorkflowsWorkflow) ResetSourceContents() {
-	_jsii_.InvokeVoid(
-		w,
-		"resetSourceContents",
 		nil, // no parameters
 	)
 }

@@ -5,14 +5,14 @@ package bigqueryreservationgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigqueryreservationgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigqueryreservationgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_reservation_group google_bigquery_reservation_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_reservation_group google_bigquery_reservation_group}.
 type BigqueryReservationGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -487,7 +487,7 @@ func (j *jsiiProxy_BigqueryReservationGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_reservation_group google_bigquery_reservation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_reservation_group google_bigquery_reservation_group} Resource.
 func NewBigqueryReservationGroup(scope constructs.Construct, id *string, config *BigqueryReservationGroupConfig) BigqueryReservationGroup {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewBigqueryReservationGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigquery_reservation_group google_bigquery_reservation_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_reservation_group google_bigquery_reservation_group} Resource.
 func NewBigqueryReservationGroup_Override(b BigqueryReservationGroup, scope constructs.Construct, id *string, config *BigqueryReservationGroupConfig) {
 	_init_.Initialize()
 

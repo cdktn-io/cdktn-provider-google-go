@@ -5,14 +5,14 @@ package kmsekmconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/kmsekmconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/kmsekmconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_ekm_connection google_kms_ekm_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_ekm_connection google_kms_ekm_connection}.
 type KmsEkmConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -568,7 +568,7 @@ func (j *jsiiProxy_KmsEkmConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_ekm_connection google_kms_ekm_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_ekm_connection google_kms_ekm_connection} Resource.
 func NewKmsEkmConnection(scope constructs.Construct, id *string, config *KmsEkmConnectionConfig) KmsEkmConnection {
 	_init_.Initialize()
 
@@ -586,7 +586,7 @@ func NewKmsEkmConnection(scope constructs.Construct, id *string, config *KmsEkmC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_ekm_connection google_kms_ekm_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_ekm_connection google_kms_ekm_connection} Resource.
 func NewKmsEkmConnection_Override(k KmsEkmConnection, scope constructs.Construct, id *string, config *KmsEkmConnectionConfig) {
 	_init_.Initialize()
 

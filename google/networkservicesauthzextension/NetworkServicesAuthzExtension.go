@@ -5,14 +5,14 @@ package networkservicesauthzextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkservicesauthzextension/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkservicesauthzextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_authz_extension google_network_services_authz_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_authz_extension google_network_services_authz_extension}.
 type NetworkServicesAuthzExtension interface {
 	cdktn.TerraformResource
 	Authority() *string
@@ -49,6 +49,9 @@ type NetworkServicesAuthzExtension interface {
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
 	SetForEach(val cdktn.ITerraformIterator)
+	ForwardAttributes() *[]*string
+	SetForwardAttributes(val *[]*string)
+	ForwardAttributesInput() *[]*string
 	ForwardHeaders() *[]*string
 	SetForwardHeaders(val *[]*string)
 	ForwardHeadersInput() *[]*string
@@ -209,6 +212,7 @@ type NetworkServicesAuthzExtension interface {
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetFailOpen()
+	ResetForwardAttributes()
 	ResetForwardHeaders()
 	ResetId()
 	ResetLabels()
@@ -402,6 +406,26 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension) ForEach() cdktn.ITerraformIter
 	_jsii_.Get(
 		j,
 		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesAuthzExtension) ForwardAttributes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesAuthzExtension) ForwardAttributesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"forwardAttributesInput",
 		&returns,
 	)
 	return returns
@@ -768,7 +792,7 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension) WireFormatInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewNetworkServicesAuthzExtension(scope constructs.Construct, id *string, config *NetworkServicesAuthzExtensionConfig) NetworkServicesAuthzExtension {
 	_init_.Initialize()
 
@@ -786,7 +810,7 @@ func NewNetworkServicesAuthzExtension(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewNetworkServicesAuthzExtension_Override(n NetworkServicesAuthzExtension, scope constructs.Construct, id *string, config *NetworkServicesAuthzExtensionConfig) {
 	_init_.Initialize()
 
@@ -875,6 +899,17 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension)SetForEach(val cdktn.ITerraform
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesAuthzExtension)SetForwardAttributes(val *[]*string) {
+	if err := j.validateSetForwardAttributesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"forwardAttributes",
 		val,
 	)
 }
@@ -1449,6 +1484,14 @@ func (n *jsiiProxy_NetworkServicesAuthzExtension) ResetFailOpen() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetFailOpen",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesAuthzExtension) ResetForwardAttributes() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetForwardAttributes",
 		nil, // no parameters
 	)
 }

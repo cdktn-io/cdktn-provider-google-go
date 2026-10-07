@@ -5,14 +5,14 @@ package redisclusteraclpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/redisclusteraclpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/redisclusteraclpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy}.
 type RedisClusterAclPolicy interface {
 	cdktn.TerraformResource
 	AclPolicyId() *string
@@ -542,7 +542,7 @@ func (j *jsiiProxy_RedisClusterAclPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
 func NewRedisClusterAclPolicy(scope constructs.Construct, id *string, config *RedisClusterAclPolicyConfig) RedisClusterAclPolicy {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewRedisClusterAclPolicy(scope constructs.Construct, id *string, config *Re
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/redis_cluster_acl_policy google_redis_cluster_acl_policy} Resource.
 func NewRedisClusterAclPolicy_Override(r RedisClusterAclPolicy, scope constructs.Construct, id *string, config *RedisClusterAclPolicyConfig) {
 	_init_.Initialize()
 

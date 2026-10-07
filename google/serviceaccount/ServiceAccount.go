@@ -5,14 +5,14 @@ package serviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/serviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/serviceaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_account google_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_account google_service_account}.
 type ServiceAccount interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_ServiceAccount) UniqueId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_account google_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_account google_service_account} Resource.
 func NewServiceAccount(scope constructs.Construct, id *string, config *ServiceAccountConfig) ServiceAccount {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewServiceAccount(scope constructs.Construct, id *string, config *ServiceAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_account google_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_account google_service_account} Resource.
 func NewServiceAccount_Override(s ServiceAccount, scope constructs.Construct, id *string, config *ServiceAccountConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package discoveryenginelicenseconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryenginelicenseconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginelicenseconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_license_config google_discovery_engine_license_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_license_config google_discovery_engine_license_config}.
 type DiscoveryEngineLicenseConfig interface {
 	cdktn.TerraformResource
 	AutoRenew() interface{}
@@ -50,6 +50,9 @@ type DiscoveryEngineLicenseConfig interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	LastUserUpdateTime() *string
+	SetLastUserUpdateTime(val *string)
+	LastUserUpdateTimeInput() *string
 	LicenseConfigId() *string
 	SetLicenseConfigId(val *string)
 	LicenseConfigIdInput() *string
@@ -194,6 +197,7 @@ type DiscoveryEngineLicenseConfig interface {
 	ResetEndDate()
 	ResetFreeTrial()
 	ResetId()
+	ResetLastUserUpdateTime()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -381,6 +385,26 @@ func (j *jsiiProxy_DiscoveryEngineLicenseConfig) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineLicenseConfig) LastUserUpdateTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastUserUpdateTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineLicenseConfig) LastUserUpdateTimeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"lastUserUpdateTimeInput",
 		&returns,
 	)
 	return returns
@@ -637,7 +661,7 @@ func (j *jsiiProxy_DiscoveryEngineLicenseConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_license_config google_discovery_engine_license_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_license_config google_discovery_engine_license_config} Resource.
 func NewDiscoveryEngineLicenseConfig(scope constructs.Construct, id *string, config *DiscoveryEngineLicenseConfigConfig) DiscoveryEngineLicenseConfig {
 	_init_.Initialize()
 
@@ -655,7 +679,7 @@ func NewDiscoveryEngineLicenseConfig(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_license_config google_discovery_engine_license_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_license_config google_discovery_engine_license_config} Resource.
 func NewDiscoveryEngineLicenseConfig_Override(d DiscoveryEngineLicenseConfig, scope constructs.Construct, id *string, config *DiscoveryEngineLicenseConfigConfig) {
 	_init_.Initialize()
 
@@ -733,6 +757,17 @@ func (j *jsiiProxy_DiscoveryEngineLicenseConfig)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineLicenseConfig)SetLastUserUpdateTime(val *string) {
+	if err := j.validateSetLastUserUpdateTimeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lastUserUpdateTime",
 		val,
 	)
 }
@@ -1274,6 +1309,14 @@ func (d *jsiiProxy_DiscoveryEngineLicenseConfig) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineLicenseConfig) ResetLastUserUpdateTime() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLastUserUpdateTime",
 		nil, // no parameters
 	)
 }

@@ -143,10 +143,6 @@ func (j *jsiiProxy_IntegrationsClient) validateSetProvisionersParameters(val *[]
 	return nil
 }
 
-func (j *jsiiProxy_IntegrationsClient) validateSetRunAsServiceAccountParameters(val *string) error {
-	return nil
-}
-
 func validateNewIntegrationsClientParameters(scope constructs.Construct, id *string, config *IntegrationsClientConfig) error {
 	return nil
 }

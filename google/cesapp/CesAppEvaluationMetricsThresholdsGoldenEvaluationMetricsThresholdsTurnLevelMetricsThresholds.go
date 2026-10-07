@@ -7,11 +7,15 @@ package cesapp
 type CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds struct {
 	// The success threshold for overall tool invocation correctness. Must be a float between 0 and 1. Default is 1.0.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app#overall_tool_invocation_correctness_threshold CesApp#overall_tool_invocation_correctness_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app#overall_tool_invocation_correctness_threshold CesApp#overall_tool_invocation_correctness_threshold}
 	OverallToolInvocationCorrectnessThreshold *float64 `field:"optional" json:"overallToolInvocationCorrectnessThreshold" yaml:"overallToolInvocationCorrectnessThreshold"`
+	// The semantic similarity channel to use for evaluation. Possible values: SEMANTIC_SIMILARITY_CHANNEL_UNSPECIFIED TEXT AUDIO.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app#semantic_similarity_channel CesApp#semantic_similarity_channel}
+	SemanticSimilarityChannel *string `field:"optional" json:"semanticSimilarityChannel" yaml:"semanticSimilarityChannel"`
 	// The success threshold for semantic similarity. Must be an integer between 0 and 4. Default is >= 3.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app#semantic_similarity_success_threshold CesApp#semantic_similarity_success_threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app#semantic_similarity_success_threshold CesApp#semantic_similarity_success_threshold}
 	SemanticSimilaritySuccessThreshold *float64 `field:"optional" json:"semanticSimilaritySuccessThreshold" yaml:"semanticSimilaritySuccessThreshold"`
 }
 

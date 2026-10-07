@@ -5,14 +5,17 @@ package cesexample
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesexample/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesexample/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CesExampleMessagesChunksImageOutputReference interface {
 	cdktn.ComplexObject
+	AltText() *string
+	SetAltText(val *string)
+	AltTextInput() *string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -70,6 +73,7 @@ type CesExampleMessagesChunksImageOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAltText()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -83,6 +87,26 @@ type CesExampleMessagesChunksImageOutputReference interface {
 // The jsii proxy struct for CesExampleMessagesChunksImageOutputReference
 type jsiiProxy_CesExampleMessagesChunksImageOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_CesExampleMessagesChunksImageOutputReference) AltText() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"altText",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesExampleMessagesChunksImageOutputReference) AltTextInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"altTextInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_CesExampleMessagesChunksImageOutputReference) ComplexObjectIndex() interface{} {
@@ -220,6 +244,17 @@ func NewCesExampleMessagesChunksImageOutputReference_Override(c CesExampleMessag
 		"@cdktn/provider-google.cesExample.CesExampleMessagesChunksImageOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		c,
+	)
+}
+
+func (j *jsiiProxy_CesExampleMessagesChunksImageOutputReference)SetAltText(val *string) {
+	if err := j.validateSetAltTextParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"altText",
+		val,
 	)
 }
 
@@ -484,6 +519,14 @@ func (c *jsiiProxy_CesExampleMessagesChunksImageOutputReference) InterpolationFo
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CesExampleMessagesChunksImageOutputReference) ResetAltText() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAltText",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CesExampleMessagesChunksImageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

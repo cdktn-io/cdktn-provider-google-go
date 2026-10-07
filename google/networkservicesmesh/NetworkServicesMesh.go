@@ -5,14 +5,14 @@ package networkservicesmesh
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkservicesmesh/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkservicesmesh/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_mesh google_network_services_mesh}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_mesh google_network_services_mesh}.
 type NetworkServicesMesh interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -614,7 +614,7 @@ func (j *jsiiProxy_NetworkServicesMesh) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_mesh google_network_services_mesh} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_mesh google_network_services_mesh} Resource.
 func NewNetworkServicesMesh(scope constructs.Construct, id *string, config *NetworkServicesMeshConfig) NetworkServicesMesh {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewNetworkServicesMesh(scope constructs.Construct, id *string, config *Netw
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_mesh google_network_services_mesh} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_mesh google_network_services_mesh} Resource.
 func NewNetworkServicesMesh_Override(n NetworkServicesMesh, scope constructs.Construct, id *string, config *NetworkServicesMeshConfig) {
 	_init_.Initialize()
 

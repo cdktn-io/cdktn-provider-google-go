@@ -5,14 +5,14 @@ package computenetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computenetworkpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computenetworkpeering/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_network_peering google_compute_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_network_peering google_compute_network_peering}.
 type ComputeNetworkPeering interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -651,7 +651,7 @@ func (j *jsiiProxy_ComputeNetworkPeering) UpdateStrategyInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_network_peering google_compute_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_network_peering google_compute_network_peering} Resource.
 func NewComputeNetworkPeering(scope constructs.Construct, id *string, config *ComputeNetworkPeeringConfig) ComputeNetworkPeering {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewComputeNetworkPeering(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_network_peering google_compute_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_network_peering google_compute_network_peering} Resource.
 func NewComputeNetworkPeering_Override(c ComputeNetworkPeering, scope constructs.Construct, id *string, config *ComputeNetworkPeeringConfig) {
 	_init_.Initialize()
 

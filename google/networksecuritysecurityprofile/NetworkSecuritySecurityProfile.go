@@ -5,14 +5,14 @@ package networksecuritysecurityprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networksecuritysecurityprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networksecuritysecurityprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_security_profile google_network_security_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_security_security_profile google_network_security_security_profile}.
 type NetworkSecuritySecurityProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -720,7 +720,7 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfile) UrlFilteringProfileInput() *N
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
 func NewNetworkSecuritySecurityProfile(scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileConfig) NetworkSecuritySecurityProfile {
 	_init_.Initialize()
 
@@ -738,7 +738,7 @@ func NewNetworkSecuritySecurityProfile(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
 func NewNetworkSecuritySecurityProfile_Override(n NetworkSecuritySecurityProfile, scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileConfig) {
 	_init_.Initialize()
 

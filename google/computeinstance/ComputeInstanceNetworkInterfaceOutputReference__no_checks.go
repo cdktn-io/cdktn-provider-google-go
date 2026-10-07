@@ -71,6 +71,10 @@ func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) validateSetCo
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) validateSetEnableVpcScopedDnsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) validateSetIgmpQueryParameters(val *string) error {
 	return nil
 }

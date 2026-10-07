@@ -5,14 +5,14 @@ package cloudsupportsupporteventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudsupportsupporteventsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudsupportsupporteventsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_support_support_event_subscription google_cloud_support_support_event_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_support_support_event_subscription google_cloud_support_support_event_subscription}.
 type CloudSupportSupportEventSubscription interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -539,7 +539,7 @@ func (j *jsiiProxy_CloudSupportSupportEventSubscription) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
 func NewCloudSupportSupportEventSubscription(scope constructs.Construct, id *string, config *CloudSupportSupportEventSubscriptionConfig) CloudSupportSupportEventSubscription {
 	_init_.Initialize()
 
@@ -557,7 +557,7 @@ func NewCloudSupportSupportEventSubscription(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_support_support_event_subscription google_cloud_support_support_event_subscription} Resource.
 func NewCloudSupportSupportEventSubscription_Override(c CloudSupportSupportEventSubscription, scope constructs.Construct, id *string, config *CloudSupportSupportEventSubscriptionConfig) {
 	_init_.Initialize()
 

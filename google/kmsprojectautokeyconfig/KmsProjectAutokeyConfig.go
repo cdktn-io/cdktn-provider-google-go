@@ -5,14 +5,14 @@ package kmsprojectautokeyconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/kmsprojectautokeyconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/kmsprojectautokeyconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_project_autokey_config google_kms_project_autokey_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_project_autokey_config google_kms_project_autokey_config}.
 type KmsProjectAutokeyConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -475,7 +475,7 @@ func (j *jsiiProxy_KmsProjectAutokeyConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_project_autokey_config google_kms_project_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_project_autokey_config google_kms_project_autokey_config} Resource.
 func NewKmsProjectAutokeyConfig(scope constructs.Construct, id *string, config *KmsProjectAutokeyConfigConfig) KmsProjectAutokeyConfig {
 	_init_.Initialize()
 
@@ -493,7 +493,7 @@ func NewKmsProjectAutokeyConfig(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/kms_project_autokey_config google_kms_project_autokey_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/kms_project_autokey_config google_kms_project_autokey_config} Resource.
 func NewKmsProjectAutokeyConfig_Override(k KmsProjectAutokeyConfig, scope constructs.Construct, id *string, config *KmsProjectAutokeyConfigConfig) {
 	_init_.Initialize()
 

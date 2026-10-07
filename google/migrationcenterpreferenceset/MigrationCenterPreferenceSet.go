@@ -5,14 +5,14 @@ package migrationcenterpreferenceset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/migrationcenterpreferenceset/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/migrationcenterpreferenceset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_preference_set google_migration_center_preference_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_preference_set google_migration_center_preference_set}.
 type MigrationCenterPreferenceSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -591,7 +591,7 @@ func (j *jsiiProxy_MigrationCenterPreferenceSet) VirtualMachinePreferencesInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
 func NewMigrationCenterPreferenceSet(scope constructs.Construct, id *string, config *MigrationCenterPreferenceSetConfig) MigrationCenterPreferenceSet {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewMigrationCenterPreferenceSet(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/migration_center_preference_set google_migration_center_preference_set} Resource.
 func NewMigrationCenterPreferenceSet_Override(m MigrationCenterPreferenceSet, scope constructs.Construct, id *string, config *MigrationCenterPreferenceSetConfig) {
 	_init_.Initialize()
 

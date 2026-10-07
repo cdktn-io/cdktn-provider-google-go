@@ -5,14 +5,14 @@ package networksecurityullmirroringcollector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networksecurityullmirroringcollector/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networksecurityullmirroringcollector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector}.
 type NetworkSecurityUllMirroringCollector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -633,7 +633,7 @@ func (j *jsiiProxy_NetworkSecurityUllMirroringCollector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
 func NewNetworkSecurityUllMirroringCollector(scope constructs.Construct, id *string, config *NetworkSecurityUllMirroringCollectorConfig) NetworkSecurityUllMirroringCollector {
 	_init_.Initialize()
 
@@ -651,7 +651,7 @@ func NewNetworkSecurityUllMirroringCollector(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_security_ull_mirroring_collector google_network_security_ull_mirroring_collector} Resource.
 func NewNetworkSecurityUllMirroringCollector_Override(n NetworkSecurityUllMirroringCollector, scope constructs.Construct, id *string, config *NetworkSecurityUllMirroringCollectorConfig) {
 	_init_.Initialize()
 

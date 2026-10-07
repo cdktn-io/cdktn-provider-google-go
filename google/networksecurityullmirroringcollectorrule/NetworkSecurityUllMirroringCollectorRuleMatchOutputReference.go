@@ -5,9 +5,9 @@ package networksecurityullmirroringcollectorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networksecurityullmirroringcollectorrule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networksecurityullmirroringcollectorrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -41,6 +41,9 @@ type NetworkSecurityUllMirroringCollectorRuleMatchOutputReference interface {
 	IpProtocols() *[]*string
 	SetIpProtocols(val *[]*string)
 	IpProtocolsInput() *[]*string
+	PrimaryIpRanges() *[]*string
+	SetPrimaryIpRanges(val *[]*string)
+	PrimaryIpRangesInput() *[]*string
 	SrcIpRanges() *[]*string
 	SetSrcIpRanges(val *[]*string)
 	SrcIpRangesInput() *[]*string
@@ -79,6 +82,7 @@ type NetworkSecurityUllMirroringCollectorRuleMatchOutputReference interface {
 	ResetDirection()
 	ResetDstIpRanges()
 	ResetIpProtocols()
+	ResetPrimaryIpRanges()
 	ResetSrcIpRanges()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -200,6 +204,26 @@ func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference)
 	_jsii_.Get(
 		j,
 		"ipProtocolsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference) PrimaryIpRanges() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"primaryIpRanges",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference) PrimaryIpRangesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"primaryIpRangesInput",
 		&returns,
 	)
 	return returns
@@ -335,6 +359,17 @@ func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference)
 	_jsii_.Set(
 		j,
 		"ipProtocols",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference)SetPrimaryIpRanges(val *[]*string) {
+	if err := j.validateSetPrimaryIpRangesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"primaryIpRanges",
 		val,
 	)
 }
@@ -578,6 +613,14 @@ func (n *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference)
 	_jsii_.InvokeVoid(
 		n,
 		"resetIpProtocols",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityUllMirroringCollectorRuleMatchOutputReference) ResetPrimaryIpRanges() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPrimaryIpRanges",
 		nil, // no parameters
 	)
 }

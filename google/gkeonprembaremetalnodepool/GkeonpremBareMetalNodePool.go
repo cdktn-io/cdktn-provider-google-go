@@ -5,14 +5,14 @@ package gkeonprembaremetalnodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/gkeonprembaremetalnodepool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/gkeonprembaremetalnodepool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool}.
 type GkeonpremBareMetalNodePool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -679,7 +679,7 @@ func (j *jsiiProxy_GkeonpremBareMetalNodePool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
 func NewGkeonpremBareMetalNodePool(scope constructs.Construct, id *string, config *GkeonpremBareMetalNodePoolConfig) GkeonpremBareMetalNodePool {
 	_init_.Initialize()
 
@@ -697,7 +697,7 @@ func NewGkeonpremBareMetalNodePool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gkeonprem_bare_metal_node_pool google_gkeonprem_bare_metal_node_pool} Resource.
 func NewGkeonpremBareMetalNodePool_Override(g GkeonpremBareMetalNodePool, scope constructs.Construct, id *string, config *GkeonpremBareMetalNodePoolConfig) {
 	_init_.Initialize()
 

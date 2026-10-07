@@ -67,6 +67,10 @@ func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetPrin
 	return nil
 }
 
+func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetResourceParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_IamFoldersPolicyBindingTargetOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

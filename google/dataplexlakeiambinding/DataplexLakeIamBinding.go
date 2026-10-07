@@ -5,14 +5,14 @@ package dataplexlakeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataplexlakeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataplexlakeiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_lake_iam_binding google_dataplex_lake_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_lake_iam_binding google_dataplex_lake_iam_binding}.
 type DataplexLakeIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataplexLakeIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
 func NewDataplexLakeIamBinding(scope constructs.Construct, id *string, config *DataplexLakeIamBindingConfig) DataplexLakeIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataplexLakeIamBinding(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_lake_iam_binding google_dataplex_lake_iam_binding} Resource.
 func NewDataplexLakeIamBinding_Override(d DataplexLakeIamBinding, scope constructs.Construct, id *string, config *DataplexLakeIamBindingConfig) {
 	_init_.Initialize()
 

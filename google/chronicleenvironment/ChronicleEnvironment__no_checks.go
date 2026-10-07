@@ -79,6 +79,10 @@ func (c *jsiiProxy_ChronicleEnvironment) validateOverrideLogicalIdParameters(new
 	return nil
 }
 
+func (c *jsiiProxy_ChronicleEnvironment) validatePutDynamicParametersParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChronicleEnvironment) validatePutTimeoutsParameters(value *ChronicleEnvironmentTimeouts) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func validateChronicleEnvironment_IsTerraformResourceParameters(x interface{}) e
 }
 
 func (j *jsiiProxy_ChronicleEnvironment) validateSetAliasesJsonParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) validateSetBase64ImageParameters(val *string) error {
 	return nil
 }
 
@@ -155,11 +163,19 @@ func (j *jsiiProxy_ChronicleEnvironment) validateSetInstanceParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_ChronicleEnvironment) validateSetInstanceUriParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ChronicleEnvironment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 
 func (j *jsiiProxy_ChronicleEnvironment) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) validateSetParallelInstanceParameters(val *string) error {
 	return nil
 }
 
@@ -172,6 +188,10 @@ func (j *jsiiProxy_ChronicleEnvironment) validateSetProvisionersParameters(val *
 }
 
 func (j *jsiiProxy_ChronicleEnvironment) validateSetRetentionDurationParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_ChronicleEnvironment) validateSetWeightParameters(val *float64) error {
 	return nil
 }
 

@@ -5,9 +5,9 @@ package cloudsecuritycompliancecloudcontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudsecuritycompliancecloudcontrol/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudsecuritycompliancecloudcontrol/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,8 @@ type CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllo
 	NumberValue() *float64
 	SetNumberValue(val *float64)
 	NumberValueInput() *float64
+	OneofValue() CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValueOutputReference
+	OneofValueInput() *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValue
 	StringListValue() CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueStringListValueOutputReference
 	StringListValueInput() *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueStringListValue
 	StringValue() *string
@@ -75,9 +77,11 @@ type CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllo
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOneofValue(value *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValue)
 	PutStringListValue(value *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueStringListValue)
 	ResetBoolValue()
 	ResetNumberValue()
+	ResetOneofValue()
 	ResetStringListValue()
 	ResetStringValue()
 	// Produce the Token's value at resolution time.
@@ -180,6 +184,26 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParameters
 	_jsii_.Get(
 		j,
 		"numberValueInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOutputReference) OneofValue() CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValueOutputReference {
+	var returns CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValueOutputReference
+	_jsii_.Get(
+		j,
+		"oneofValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOutputReference) OneofValueInput() *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValue {
+	var returns *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValue
+	_jsii_.Get(
+		j,
+		"oneofValueInput",
 		&returns,
 	)
 	return returns
@@ -547,6 +571,17 @@ func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParameters
 	return returns
 }
 
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOutputReference) PutOneofValue(value *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOneofValue) {
+	if err := c.validatePutOneofValueParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putOneofValue",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOutputReference) PutStringListValue(value *CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueStringListValue) {
 	if err := c.validatePutStringListValueParameters(value); err != nil {
 		panic(err)
@@ -570,6 +605,14 @@ func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParameters
 	_jsii_.InvokeVoid(
 		c,
 		"resetNumberValue",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersValidationAllowedValuesValuesOneofValueParameterValueOutputReference) ResetOneofValue() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetOneofValue",
 		nil, // no parameters
 	)
 }

@@ -5,15 +5,15 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/provider/internal"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/providerfunctions"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/provider/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/providerfunctions"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs google}.
 type GoogleProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -424,9 +424,6 @@ type GoogleProvider interface {
 	MigrationCenterCustomEndpoint() *string
 	SetMigrationCenterCustomEndpoint(val *string)
 	MigrationCenterCustomEndpointInput() *string
-	MlEngineCustomEndpoint() *string
-	SetMlEngineCustomEndpoint(val *string)
-	MlEngineCustomEndpointInput() *string
 	ModelArmorCustomEndpoint() *string
 	SetModelArmorCustomEndpoint(val *string)
 	ModelArmorCustomEndpointInput() *string
@@ -448,6 +445,9 @@ type GoogleProvider interface {
 	NetworkManagementCustomEndpoint() *string
 	SetNetworkManagementCustomEndpoint(val *string)
 	NetworkManagementCustomEndpointInput() *string
+	NetworkManagementv1CustomEndpoint() *string
+	SetNetworkManagementv1CustomEndpoint(val *string)
+	NetworkManagementv1CustomEndpointInput() *string
 	NetworkSecurityCustomEndpoint() *string
 	SetNetworkSecurityCustomEndpoint(val *string)
 	NetworkSecurityCustomEndpointInput() *string
@@ -456,9 +456,6 @@ type GoogleProvider interface {
 	NetworkServicesCustomEndpointInput() *string
 	// The tree node.
 	Node() constructs.Node
-	NotebooksCustomEndpoint() *string
-	SetNotebooksCustomEndpoint(val *string)
-	NotebooksCustomEndpointInput() *string
 	ObservabilityCustomEndpoint() *string
 	SetObservabilityCustomEndpoint(val *string)
 	ObservabilityCustomEndpointInput() *string
@@ -596,6 +593,9 @@ type GoogleProvider interface {
 	StorageCustomEndpoint() *string
 	SetStorageCustomEndpoint(val *string)
 	StorageCustomEndpointInput() *string
+	StorageFtpCustomEndpoint() *string
+	SetStorageFtpCustomEndpoint(val *string)
+	StorageFtpCustomEndpointInput() *string
 	StorageInsightsCustomEndpoint() *string
 	SetStorageInsightsCustomEndpoint(val *string)
 	StorageInsightsCustomEndpointInput() *string
@@ -803,7 +803,6 @@ type GoogleProvider interface {
 	ResetMemcacheCustomEndpoint()
 	ResetMemorystoreCustomEndpoint()
 	ResetMigrationCenterCustomEndpoint()
-	ResetMlEngineCustomEndpoint()
 	ResetModelArmorCustomEndpoint()
 	ResetModelArmorGlobalCustomEndpoint()
 	ResetMonitoringCustomEndpoint()
@@ -811,9 +810,9 @@ type GoogleProvider interface {
 	ResetNetworkConnectivityCustomEndpoint()
 	ResetNetworkConnectivityv1CustomEndpoint()
 	ResetNetworkManagementCustomEndpoint()
+	ResetNetworkManagementv1CustomEndpoint()
 	ResetNetworkSecurityCustomEndpoint()
 	ResetNetworkServicesCustomEndpoint()
-	ResetNotebooksCustomEndpoint()
 	ResetObservabilityCustomEndpoint()
 	ResetOracleDatabaseCustomEndpoint()
 	ResetOrgPolicyCustomEndpoint()
@@ -862,6 +861,7 @@ type GoogleProvider interface {
 	ResetStorageBatchOperationsCustomEndpoint()
 	ResetStorageControlCustomEndpoint()
 	ResetStorageCustomEndpoint()
+	ResetStorageFtpCustomEndpoint()
 	ResetStorageInsightsCustomEndpoint()
 	ResetStorageTransferCustomEndpoint()
 	ResetTagsCustomEndpoint()
@@ -3606,26 +3606,6 @@ func (j *jsiiProxy_GoogleProvider) MigrationCenterCustomEndpointInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_GoogleProvider) MlEngineCustomEndpoint() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"mlEngineCustomEndpoint",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleProvider) MlEngineCustomEndpointInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"mlEngineCustomEndpointInput",
-		&returns,
-	)
-	return returns
-}
-
 func (j *jsiiProxy_GoogleProvider) ModelArmorCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -3766,6 +3746,26 @@ func (j *jsiiProxy_GoogleProvider) NetworkManagementCustomEndpointInput() *strin
 	return returns
 }
 
+func (j *jsiiProxy_GoogleProvider) NetworkManagementv1CustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkManagementv1CustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) NetworkManagementv1CustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkManagementv1CustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleProvider) NetworkSecurityCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -3811,26 +3811,6 @@ func (j *jsiiProxy_GoogleProvider) Node() constructs.Node {
 	_jsii_.Get(
 		j,
 		"node",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleProvider) NotebooksCustomEndpoint() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"notebooksCustomEndpoint",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_GoogleProvider) NotebooksCustomEndpointInput() *string {
-	var returns *string
-	_jsii_.Get(
-		j,
-		"notebooksCustomEndpointInput",
 		&returns,
 	)
 	return returns
@@ -4746,6 +4726,26 @@ func (j *jsiiProxy_GoogleProvider) StorageCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleProvider) StorageFtpCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageFtpCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) StorageFtpCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageFtpCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleProvider) StorageInsightsCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -5117,7 +5117,7 @@ func (j *jsiiProxy_GoogleProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs google} Resource.
 func NewGoogleProvider(scope constructs.Construct, id *string, config *GoogleProviderConfig) GoogleProvider {
 	_init_.Initialize()
 
@@ -5135,7 +5135,7 @@ func NewGoogleProvider(scope constructs.Construct, id *string, config *GooglePro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs google} Resource.
 func NewGoogleProvider_Override(g GoogleProvider, scope constructs.Construct, id *string, config *GoogleProviderConfig) {
 	_init_.Initialize()
 
@@ -6211,14 +6211,6 @@ func (j *jsiiProxy_GoogleProvider)SetMigrationCenterCustomEndpoint(val *string) 
 	)
 }
 
-func (j *jsiiProxy_GoogleProvider)SetMlEngineCustomEndpoint(val *string) {
-	_jsii_.Set(
-		j,
-		"mlEngineCustomEndpoint",
-		val,
-	)
-}
-
 func (j *jsiiProxy_GoogleProvider)SetModelArmorCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
@@ -6275,6 +6267,14 @@ func (j *jsiiProxy_GoogleProvider)SetNetworkManagementCustomEndpoint(val *string
 	)
 }
 
+func (j *jsiiProxy_GoogleProvider)SetNetworkManagementv1CustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"networkManagementv1CustomEndpoint",
+		val,
+	)
+}
+
 func (j *jsiiProxy_GoogleProvider)SetNetworkSecurityCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
@@ -6287,14 +6287,6 @@ func (j *jsiiProxy_GoogleProvider)SetNetworkServicesCustomEndpoint(val *string) 
 	_jsii_.Set(
 		j,
 		"networkServicesCustomEndpoint",
-		val,
-	)
-}
-
-func (j *jsiiProxy_GoogleProvider)SetNotebooksCustomEndpoint(val *string) {
-	_jsii_.Set(
-		j,
-		"notebooksCustomEndpoint",
 		val,
 	)
 }
@@ -6661,6 +6653,14 @@ func (j *jsiiProxy_GoogleProvider)SetStorageCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"storageCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProvider)SetStorageFtpCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"storageFtpCustomEndpoint",
 		val,
 	)
 }
@@ -7996,14 +7996,6 @@ func (g *jsiiProxy_GoogleProvider) ResetMigrationCenterCustomEndpoint() {
 	)
 }
 
-func (g *jsiiProxy_GoogleProvider) ResetMlEngineCustomEndpoint() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetMlEngineCustomEndpoint",
-		nil, // no parameters
-	)
-}
-
 func (g *jsiiProxy_GoogleProvider) ResetModelArmorCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -8060,6 +8052,14 @@ func (g *jsiiProxy_GoogleProvider) ResetNetworkManagementCustomEndpoint() {
 	)
 }
 
+func (g *jsiiProxy_GoogleProvider) ResetNetworkManagementv1CustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetNetworkManagementv1CustomEndpoint",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GoogleProvider) ResetNetworkSecurityCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
@@ -8072,14 +8072,6 @@ func (g *jsiiProxy_GoogleProvider) ResetNetworkServicesCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNetworkServicesCustomEndpoint",
-		nil, // no parameters
-	)
-}
-
-func (g *jsiiProxy_GoogleProvider) ResetNotebooksCustomEndpoint() {
-	_jsii_.InvokeVoid(
-		g,
-		"resetNotebooksCustomEndpoint",
 		nil, // no parameters
 	)
 }
@@ -8448,6 +8440,14 @@ func (g *jsiiProxy_GoogleProvider) ResetStorageCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetStorageCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProvider) ResetStorageFtpCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStorageFtpCustomEndpoint",
 		nil, // no parameters
 	)
 }

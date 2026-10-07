@@ -7,11 +7,15 @@ package gkehubfleet
 type GkeHubFleetDefaultClusterConfig struct {
 	// binary_authorization_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_fleet#binary_authorization_config GkeHubFleet#binary_authorization_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_fleet#binary_authorization_config GkeHubFleet#binary_authorization_config}
 	BinaryAuthorizationConfig *GkeHubFleetDefaultClusterConfigBinaryAuthorizationConfig `field:"optional" json:"binaryAuthorizationConfig" yaml:"binaryAuthorizationConfig"`
+	// compliance_posture_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_fleet#compliance_posture_config GkeHubFleet#compliance_posture_config}
+	CompliancePostureConfig *GkeHubFleetDefaultClusterConfigCompliancePostureConfig `field:"optional" json:"compliancePostureConfig" yaml:"compliancePostureConfig"`
 	// security_posture_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_fleet#security_posture_config GkeHubFleet#security_posture_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_fleet#security_posture_config GkeHubFleet#security_posture_config}
 	SecurityPostureConfig *GkeHubFleetDefaultClusterConfigSecurityPostureConfig `field:"optional" json:"securityPostureConfig" yaml:"securityPostureConfig"`
 }
 

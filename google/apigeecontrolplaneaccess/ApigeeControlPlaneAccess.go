@@ -5,14 +5,14 @@ package apigeecontrolplaneaccess
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apigeecontrolplaneaccess/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeecontrolplaneaccess/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_control_plane_access google_apigee_control_plane_access}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_control_plane_access google_apigee_control_plane_access}.
 type ApigeeControlPlaneAccess interface {
 	cdktn.TerraformResource
 	AnalyticsPublisherIdentities() *[]*string
@@ -463,7 +463,7 @@ func (j *jsiiProxy_ApigeeControlPlaneAccess) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_control_plane_access google_apigee_control_plane_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_control_plane_access google_apigee_control_plane_access} Resource.
 func NewApigeeControlPlaneAccess(scope constructs.Construct, id *string, config *ApigeeControlPlaneAccessConfig) ApigeeControlPlaneAccess {
 	_init_.Initialize()
 
@@ -481,7 +481,7 @@ func NewApigeeControlPlaneAccess(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apigee_control_plane_access google_apigee_control_plane_access} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apigee_control_plane_access google_apigee_control_plane_access} Resource.
 func NewApigeeControlPlaneAccess_Override(a ApigeeControlPlaneAccess, scope constructs.Construct, id *string, config *ApigeeControlPlaneAccessConfig) {
 	_init_.Initialize()
 

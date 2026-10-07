@@ -5,14 +5,14 @@ package apphubservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apphubservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apphubservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apphub_service google_apphub_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apphub_service google_apphub_service}.
 type ApphubService interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -681,7 +681,7 @@ func (j *jsiiProxy_ApphubService) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apphub_service google_apphub_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apphub_service google_apphub_service} Resource.
 func NewApphubService(scope constructs.Construct, id *string, config *ApphubServiceConfig) ApphubService {
 	_init_.Initialize()
 
@@ -699,7 +699,7 @@ func NewApphubService(scope constructs.Construct, id *string, config *ApphubServ
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apphub_service google_apphub_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apphub_service google_apphub_service} Resource.
 func NewApphubService_Override(a ApphubService, scope constructs.Construct, id *string, config *ApphubServiceConfig) {
 	_init_.Initialize()
 

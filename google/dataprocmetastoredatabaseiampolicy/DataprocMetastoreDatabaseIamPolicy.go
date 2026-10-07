@@ -5,14 +5,14 @@ package dataprocmetastoredatabaseiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataprocmetastoredatabaseiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataprocmetastoredatabaseiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy}.
 type DataprocMetastoreDatabaseIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_DataprocMetastoreDatabaseIamPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
 func NewDataprocMetastoreDatabaseIamPolicy(scope constructs.Construct, id *string, config *DataprocMetastoreDatabaseIamPolicyConfig) DataprocMetastoreDatabaseIamPolicy {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewDataprocMetastoreDatabaseIamPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_metastore_database_iam_policy google_dataproc_metastore_database_iam_policy} Resource.
 func NewDataprocMetastoreDatabaseIamPolicy_Override(d DataprocMetastoreDatabaseIamPolicy, scope constructs.Construct, id *string, config *DataprocMetastoreDatabaseIamPolicyConfig) {
 	_init_.Initialize()
 

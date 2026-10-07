@@ -5,14 +5,14 @@ package gkehubfleet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/gkehubfleet/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/gkehubfleet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_fleet google_gke_hub_fleet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_fleet google_gke_hub_fleet}.
 type GkeHubFleet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -41,6 +41,7 @@ type GkeHubFleet interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -52,6 +53,9 @@ type GkeHubFleet interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -74,6 +78,7 @@ type GkeHubFleet interface {
 	State() GkeHubFleetStateList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -180,6 +185,7 @@ type GkeHubFleet interface {
 	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
+	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -342,6 +348,16 @@ func (j *jsiiProxy_GkeHubFleet) DisplayNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GkeHubFleet) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GkeHubFleet) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -387,6 +403,26 @@ func (j *jsiiProxy_GkeHubFleet) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubFleet) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GkeHubFleet) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -482,6 +518,16 @@ func (j *jsiiProxy_GkeHubFleet) TerraformGeneratorMetadata() *cdktn.TerraformPro
 	return returns
 }
 
+func (j *jsiiProxy_GkeHubFleet) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GkeHubFleet) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -543,7 +589,7 @@ func (j *jsiiProxy_GkeHubFleet) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGkeHubFleet(scope constructs.Construct, id *string, config *GkeHubFleetConfig) GkeHubFleet {
 	_init_.Initialize()
 
@@ -561,7 +607,7 @@ func NewGkeHubFleet(scope constructs.Construct, id *string, config *GkeHubFleetC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gke_hub_fleet google_gke_hub_fleet} Resource.
 func NewGkeHubFleet_Override(g GkeHubFleet, scope constructs.Construct, id *string, config *GkeHubFleetConfig) {
 	_init_.Initialize()
 
@@ -639,6 +685,17 @@ func (j *jsiiProxy_GkeHubFleet)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GkeHubFleet)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -1114,6 +1171,14 @@ func (g *jsiiProxy_GkeHubFleet) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GkeHubFleet) ResetLabels() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

@@ -7,7 +7,11 @@ package managedkafkacluster
 type ManagedKafkaClusterGcpConfigAccessConfig struct {
 	// network_configs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_cluster#network_configs ManagedKafkaCluster#network_configs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_cluster#network_configs ManagedKafkaCluster#network_configs}
 	NetworkConfigs interface{} `field:"required" json:"networkConfigs" yaml:"networkConfigs"`
+	// public_cluster_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_cluster#public_cluster_config ManagedKafkaCluster#public_cluster_config}
+	PublicClusterConfig *ManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig `field:"optional" json:"publicClusterConfig" yaml:"publicClusterConfig"`
 }
 

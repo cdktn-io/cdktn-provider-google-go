@@ -5,9 +5,9 @@ package cesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -30,11 +30,17 @@ type CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference interface
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	Instruction() *string
+	SetInstruction(val *string)
+	InstructionInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	LanguageCode() *string
 	SetLanguageCode(val *string)
 	LanguageCodeInput() *string
+	Model() *string
+	SetModel(val *string)
+	ModelInput() *string
 	SpeakingRate() *float64
 	SetSpeakingRate(val *float64)
 	SpeakingRateInput() *float64
@@ -73,6 +79,8 @@ type CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference interface
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetInstruction()
+	ResetModel()
 	ResetSpeakingRate()
 	ResetVoice()
 	// Produce the Token's value at resolution time.
@@ -130,6 +138,26 @@ func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 	return returns
 }
 
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) Instruction() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instruction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) InstructionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instructionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -155,6 +183,26 @@ func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 	_jsii_.Get(
 		j,
 		"languageCodeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) Model() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"model",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) ModelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modelInput",
 		&returns,
 	)
 	return returns
@@ -270,6 +318,17 @@ func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 	)
 }
 
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference)SetInstruction(val *string) {
+	if err := j.validateSetInstructionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"instruction",
+		val,
+	)
+}
+
 func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -288,6 +347,17 @@ func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 	_jsii_.Set(
 		j,
 		"languageCode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference)SetModel(val *string) {
+	if err := j.validateSetModelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"model",
 		val,
 	)
 }
@@ -520,6 +590,22 @@ func (c *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) ResetInstruction() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetInstruction",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) ResetModel() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetModel",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) ResetSpeakingRate() {

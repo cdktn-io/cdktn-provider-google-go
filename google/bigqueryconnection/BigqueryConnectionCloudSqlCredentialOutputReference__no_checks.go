@@ -67,6 +67,14 @@ func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) validate
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) validateSetPasswordWoParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) validateSetPasswordWoVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryConnectionCloudSqlCredentialOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

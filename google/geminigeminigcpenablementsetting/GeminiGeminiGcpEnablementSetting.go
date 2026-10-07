@@ -5,14 +5,14 @@ package geminigeminigcpenablementsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/geminigeminigcpenablementsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminigeminigcpenablementsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
 type GeminiGeminiGcpEnablementSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -66,6 +66,9 @@ type GeminiGeminiGcpEnablementSetting interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MutationsEnabled() interface{}
+	SetMutationsEnabled(val interface{})
+	MutationsEnabledInput() interface{}
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -193,6 +196,7 @@ type GeminiGeminiGcpEnablementSetting interface {
 	ResetEnableCustomerDataSharing()
 	ResetId()
 	ResetLabels()
+	ResetMutationsEnabled()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -476,6 +480,26 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) MutationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"mutationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) MutationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"mutationsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -637,7 +661,7 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) WebGroundingTypeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingConfig) GeminiGeminiGcpEnablementSetting {
 	_init_.Initialize()
 
@@ -655,7 +679,7 @@ func NewGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGeminiGeminiGcpEnablementSetting_Override(g GeminiGeminiGcpEnablementSetting, scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingConfig) {
 	_init_.Initialize()
 
@@ -788,6 +812,17 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetMutationsEnabled(val interface{}) {
+	if err := j.validateSetMutationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mutationsEnabled",
 		val,
 	)
 }
@@ -1260,6 +1295,14 @@ func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetLabels() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetLabels",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetMutationsEnabled() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetMutationsEnabled",
 		nil, // no parameters
 	)
 }

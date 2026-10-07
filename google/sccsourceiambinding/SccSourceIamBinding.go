@@ -5,14 +5,14 @@ package sccsourceiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/sccsourceiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sccsourceiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_source_iam_binding google_scc_source_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_source_iam_binding google_scc_source_iam_binding}.
 type SccSourceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_SccSourceIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_source_iam_binding google_scc_source_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_source_iam_binding google_scc_source_iam_binding} Resource.
 func NewSccSourceIamBinding(scope constructs.Construct, id *string, config *SccSourceIamBindingConfig) SccSourceIamBinding {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewSccSourceIamBinding(scope constructs.Construct, id *string, config *SccS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/scc_source_iam_binding google_scc_source_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/scc_source_iam_binding google_scc_source_iam_binding} Resource.
 func NewSccSourceIamBinding_Override(s SccSourceIamBinding, scope constructs.Construct, id *string, config *SccSourceIamBindingConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package privatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/privatecacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/privatecacertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/privateca_certificate google_privateca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/privateca_certificate google_privateca_certificate}.
 type PrivatecaCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -752,7 +752,7 @@ func (j *jsiiProxy_PrivatecaCertificate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/privateca_certificate google_privateca_certificate} Resource.
 func NewPrivatecaCertificate(scope constructs.Construct, id *string, config *PrivatecaCertificateConfig) PrivatecaCertificate {
 	_init_.Initialize()
 
@@ -770,7 +770,7 @@ func NewPrivatecaCertificate(scope constructs.Construct, id *string, config *Pri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/privateca_certificate google_privateca_certificate} Resource.
 func NewPrivatecaCertificate_Override(p PrivatecaCertificate, scope constructs.Construct, id *string, config *PrivatecaCertificateConfig) {
 	_init_.Initialize()
 

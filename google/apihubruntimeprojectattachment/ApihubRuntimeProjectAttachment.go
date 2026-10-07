@@ -5,14 +5,14 @@ package apihubruntimeprojectattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/apihubruntimeprojectattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apihubruntimeprojectattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apihub_runtime_project_attachment google_apihub_runtime_project_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apihub_runtime_project_attachment google_apihub_runtime_project_attachment}.
 type ApihubRuntimeProjectAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ApihubRuntimeProjectAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
 func NewApihubRuntimeProjectAttachment(scope constructs.Construct, id *string, config *ApihubRuntimeProjectAttachmentConfig) ApihubRuntimeProjectAttachment {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewApihubRuntimeProjectAttachment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/apihub_runtime_project_attachment google_apihub_runtime_project_attachment} Resource.
 func NewApihubRuntimeProjectAttachment_Override(a ApihubRuntimeProjectAttachment, scope constructs.Construct, id *string, config *ApihubRuntimeProjectAttachmentConfig) {
 	_init_.Initialize()
 

@@ -127,6 +127,10 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetFailOpenParameters(
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetForwardAttributesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesAuthzExtension) validateSetForwardHeadersParameters(val *[]*string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package pubsublitereservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/pubsublitereservation/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/pubsublitereservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation}.
 type PubsubLiteReservation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -510,7 +510,7 @@ func (j *jsiiProxy_PubsubLiteReservation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
 func NewPubsubLiteReservation(scope constructs.Construct, id *string, config *PubsubLiteReservationConfig) PubsubLiteReservation {
 	_init_.Initialize()
 
@@ -528,7 +528,7 @@ func NewPubsubLiteReservation(scope constructs.Construct, id *string, config *Pu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/pubsub_lite_reservation google_pubsub_lite_reservation} Resource.
 func NewPubsubLiteReservation_Override(p PubsubLiteReservation, scope constructs.Construct, id *string, config *PubsubLiteReservationConfig) {
 	_init_.Initialize()
 

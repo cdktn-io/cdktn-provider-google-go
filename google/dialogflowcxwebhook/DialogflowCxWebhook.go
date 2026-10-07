@@ -5,14 +5,14 @@ package dialogflowcxwebhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowcxwebhook/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowcxwebhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_webhook google_dialogflow_cx_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_webhook google_dialogflow_cx_webhook}.
 type DialogflowCxWebhook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -653,7 +653,7 @@ func (j *jsiiProxy_DialogflowCxWebhook) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
 func NewDialogflowCxWebhook(scope constructs.Construct, id *string, config *DialogflowCxWebhookConfig) DialogflowCxWebhook {
 	_init_.Initialize()
 
@@ -671,7 +671,7 @@ func NewDialogflowCxWebhook(scope constructs.Construct, id *string, config *Dial
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_cx_webhook google_dialogflow_cx_webhook} Resource.
 func NewDialogflowCxWebhook_Override(d DialogflowCxWebhook, scope constructs.Construct, id *string, config *DialogflowCxWebhookConfig) {
 	_init_.Initialize()
 

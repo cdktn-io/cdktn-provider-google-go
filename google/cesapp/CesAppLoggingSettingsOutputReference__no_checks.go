@@ -63,6 +63,10 @@ func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutConversation
 	return nil
 }
 
+func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutMetricAnalysisSettingsParameters(value *CesAppLoggingSettingsMetricAnalysisSettings) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesAppLoggingSettingsOutputReference) validatePutRedactionConfigParameters(value *CesAppLoggingSettingsRedactionConfig) error {
 	return nil
 }

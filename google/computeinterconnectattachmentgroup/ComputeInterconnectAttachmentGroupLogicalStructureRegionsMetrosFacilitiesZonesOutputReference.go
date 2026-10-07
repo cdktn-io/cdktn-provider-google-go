@@ -5,15 +5,14 @@ package computeinterconnectattachmentgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeinterconnectattachmentgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeinterconnectattachmentgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZonesOutputReference interface {
 	cdktn.ComplexObject
-	Attachment() *[]*string
 	Attachments() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -80,16 +79,6 @@ type ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZo
 // The jsii proxy struct for ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZonesOutputReference
 type jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZonesOutputReference struct {
 	internal.Type__cdktnComplexObject
-}
-
-func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZonesOutputReference) Attachment() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"attachment",
-		&returns,
-	)
-	return returns
 }
 
 func (j *jsiiProxy_ComputeInterconnectAttachmentGroupLogicalStructureRegionsMetrosFacilitiesZonesOutputReference) Attachments() *[]*string {

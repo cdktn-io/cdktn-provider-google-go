@@ -5,9 +5,9 @@ package cesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,8 @@ type CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputRef
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ToolMatchingSettings() CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+	ToolMatchingSettingsInput() *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
 	TurnLevelMetricsThresholds() CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholdsOutputReference
 	TurnLevelMetricsThresholdsInput() *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds
 	// Experimental.
@@ -69,8 +71,10 @@ type CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputRef
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExpectationLevelMetricsThresholds(value *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsExpectationLevelMetricsThresholds)
+	PutToolMatchingSettings(value *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings)
 	PutTurnLevelMetricsThresholds(value *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds)
 	ResetExpectationLevelMetricsThresholds()
+	ResetToolMatchingSettings()
 	ResetTurnLevelMetricsThresholds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -172,6 +176,26 @@ func (j *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThres
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) ToolMatchingSettings() CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference {
+	var returns CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"toolMatchingSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) ToolMatchingSettingsInput() *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings {
+	var returns *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings
+	_jsii_.Get(
+		j,
+		"toolMatchingSettingsInput",
 		&returns,
 	)
 	return returns
@@ -477,6 +501,17 @@ func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThres
 	)
 }
 
+func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) PutToolMatchingSettings(value *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsToolMatchingSettings) {
+	if err := c.validatePutToolMatchingSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putToolMatchingSettings",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) PutTurnLevelMetricsThresholds(value *CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsTurnLevelMetricsThresholds) {
 	if err := c.validatePutTurnLevelMetricsThresholdsParameters(value); err != nil {
 		panic(err)
@@ -492,6 +527,14 @@ func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThres
 	_jsii_.InvokeVoid(
 		c,
 		"resetExpectationLevelMetricsThresholds",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsOutputReference) ResetToolMatchingSettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetToolMatchingSettings",
 		nil, // no parameters
 	)
 }

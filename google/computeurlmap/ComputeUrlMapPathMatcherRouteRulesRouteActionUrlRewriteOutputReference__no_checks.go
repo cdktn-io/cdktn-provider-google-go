@@ -47,6 +47,10 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutput
 	return nil
 }
 
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) validatePutRegexRewriteParameters(value *ComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionUrlRewriteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

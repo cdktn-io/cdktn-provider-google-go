@@ -5,14 +5,14 @@ package discoveryenginesearchengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryenginesearchengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginesearchengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine}.
 type DiscoveryEngineSearchEngine interface {
 	cdktn.TerraformResource
 	AppType() *string
@@ -87,6 +87,9 @@ type DiscoveryEngineSearchEngine interface {
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	ProcurementContactEmails() *[]*string
+	SetProcurementContactEmails(val *[]*string)
+	ProcurementContactEmailsInput() *[]*string
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -219,6 +222,7 @@ type DiscoveryEngineSearchEngine interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetProcurementContactEmails()
 	ResetProject()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -648,6 +652,26 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) ProcurementContactEmails() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"procurementContactEmails",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) ProcurementContactEmailsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"procurementContactEmailsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DiscoveryEngineSearchEngine) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -779,7 +803,7 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
 func NewDiscoveryEngineSearchEngine(scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineConfig) DiscoveryEngineSearchEngine {
 	_init_.Initialize()
 
@@ -797,7 +821,7 @@ func NewDiscoveryEngineSearchEngine(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_search_engine google_discovery_engine_search_engine} Resource.
 func NewDiscoveryEngineSearchEngine_Override(d DiscoveryEngineSearchEngine, scope constructs.Construct, id *string, config *DiscoveryEngineSearchEngineConfig) {
 	_init_.Initialize()
 
@@ -985,6 +1009,17 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineSearchEngine)SetProcurementContactEmails(val *[]*string) {
+	if err := j.validateSetProcurementContactEmailsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"procurementContactEmails",
 		val,
 	)
 }
@@ -1519,6 +1554,14 @@ func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineSearchEngine) ResetProcurementContactEmails() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetProcurementContactEmails",
 		nil, // no parameters
 	)
 }

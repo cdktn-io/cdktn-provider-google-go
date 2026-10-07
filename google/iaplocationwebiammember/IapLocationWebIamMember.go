@@ -5,14 +5,14 @@ package iaplocationwebiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iaplocationwebiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iaplocationwebiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_location_web_iam_member google_iap_location_web_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_location_web_iam_member google_iap_location_web_iam_member}.
 type IapLocationWebIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_IapLocationWebIamMember) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
 func NewIapLocationWebIamMember(scope constructs.Construct, id *string, config *IapLocationWebIamMemberConfig) IapLocationWebIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewIapLocationWebIamMember(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_location_web_iam_member google_iap_location_web_iam_member} Resource.
 func NewIapLocationWebIamMember_Override(i IapLocationWebIamMember, scope constructs.Construct, id *string, config *IapLocationWebIamMemberConfig) {
 	_init_.Initialize()
 

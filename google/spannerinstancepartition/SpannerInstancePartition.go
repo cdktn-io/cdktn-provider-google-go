@@ -5,14 +5,14 @@ package spannerinstancepartition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/spannerinstancepartition/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/spannerinstancepartition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_instance_partition google_spanner_instance_partition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_instance_partition google_spanner_instance_partition}.
 type SpannerInstancePartition interface {
 	cdktn.TerraformResource
 	AutoscalingConfig() SpannerInstancePartitionAutoscalingConfigOutputReference
@@ -615,7 +615,7 @@ func (j *jsiiProxy_SpannerInstancePartition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_instance_partition google_spanner_instance_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_instance_partition google_spanner_instance_partition} Resource.
 func NewSpannerInstancePartition(scope constructs.Construct, id *string, config *SpannerInstancePartitionConfig) SpannerInstancePartition {
 	_init_.Initialize()
 
@@ -633,7 +633,7 @@ func NewSpannerInstancePartition(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_instance_partition google_spanner_instance_partition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_instance_partition google_spanner_instance_partition} Resource.
 func NewSpannerInstancePartition_Override(s SpannerInstancePartition, scope constructs.Construct, id *string, config *SpannerInstancePartitionConfig) {
 	_init_.Initialize()
 

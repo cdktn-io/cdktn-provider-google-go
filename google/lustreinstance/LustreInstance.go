@@ -5,18 +5,19 @@ package lustreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/lustreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/lustreinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/lustre_instance google_lustre_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/lustre_instance google_lustre_instance}.
 type LustreInstance interface {
 	cdktn.TerraformResource
 	AccessRulesOptions() LustreInstanceAccessRulesOptionsOutputReference
 	AccessRulesOptionsInput() *LustreInstanceAccessRulesOptions
+	AvailableVersion() *string
 	CapacityGib() *string
 	SetCapacityGib(val *string)
 	CapacityGibInput() *string
@@ -46,6 +47,7 @@ type LustreInstance interface {
 	DynamicTierOptions() LustreInstanceDynamicTierOptionsOutputReference
 	DynamicTierOptionsInput() *LustreInstanceDynamicTierOptions
 	EffectiveLabels() cdktn.StringMap
+	EffectiveVersion() *string
 	Filesystem() *string
 	SetFilesystem(val *string)
 	FilesystemInput() *string
@@ -109,6 +111,9 @@ type LustreInstance interface {
 	RawOverrides() interface{}
 	State() *string
 	StateReason() *string
+	TargetVersion() *string
+	SetTargetVersion(val *string)
+	TargetVersionInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -232,6 +237,7 @@ type LustreInstance interface {
 	ResetPerUnitStorageThroughput()
 	ResetPlacementPolicy()
 	ResetProject()
+	ResetTargetVersion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -275,6 +281,16 @@ func (j *jsiiProxy_LustreInstance) AccessRulesOptionsInput() *LustreInstanceAcce
 	_jsii_.Get(
 		j,
 		"accessRulesOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LustreInstance) AvailableVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"availableVersion",
 		&returns,
 	)
 	return returns
@@ -425,6 +441,16 @@ func (j *jsiiProxy_LustreInstance) EffectiveLabels() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LustreInstance) EffectiveVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"effectiveVersion",
 		&returns,
 	)
 	return returns
@@ -790,6 +816,26 @@ func (j *jsiiProxy_LustreInstance) StateReason() *string {
 	return returns
 }
 
+func (j *jsiiProxy_LustreInstance) TargetVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LustreInstance) TargetVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"targetVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LustreInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -881,7 +927,7 @@ func (j *jsiiProxy_LustreInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/lustre_instance google_lustre_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/lustre_instance google_lustre_instance} Resource.
 func NewLustreInstance(scope constructs.Construct, id *string, config *LustreInstanceConfig) LustreInstance {
 	_init_.Initialize()
 
@@ -899,7 +945,7 @@ func NewLustreInstance(scope constructs.Construct, id *string, config *LustreIns
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/lustre_instance google_lustre_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/lustre_instance google_lustre_instance} Resource.
 func NewLustreInstance_Override(l LustreInstance, scope constructs.Construct, id *string, config *LustreInstanceConfig) {
 	_init_.Initialize()
 
@@ -1128,6 +1174,17 @@ func (j *jsiiProxy_LustreInstance)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LustreInstance)SetTargetVersion(val *string) {
+	if err := j.validateSetTargetVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"targetVersion",
 		val,
 	)
 }
@@ -1656,6 +1713,14 @@ func (l *jsiiProxy_LustreInstance) ResetProject() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LustreInstance) ResetTargetVersion() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetTargetVersion",
 		nil, // no parameters
 	)
 }

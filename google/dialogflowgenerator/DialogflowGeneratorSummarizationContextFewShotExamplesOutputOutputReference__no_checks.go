@@ -51,6 +51,10 @@ func (d *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputO
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) validatePutToolCallInfoParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

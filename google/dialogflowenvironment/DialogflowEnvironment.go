@@ -5,14 +5,14 @@ package dialogflowenvironment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowenvironment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowenvironment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_environment google_dialogflow_environment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_environment google_dialogflow_environment}.
 type DialogflowEnvironment interface {
 	cdktn.TerraformResource
 	AgentVersion() *string
@@ -605,7 +605,7 @@ func (j *jsiiProxy_DialogflowEnvironment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
 func NewDialogflowEnvironment(scope constructs.Construct, id *string, config *DialogflowEnvironmentConfig) DialogflowEnvironment {
 	_init_.Initialize()
 
@@ -623,7 +623,7 @@ func NewDialogflowEnvironment(scope constructs.Construct, id *string, config *Di
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_environment google_dialogflow_environment} Resource.
 func NewDialogflowEnvironment_Override(d DialogflowEnvironment, scope constructs.Construct, id *string, config *DialogflowEnvironmentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package networkmanagementorganizationvpcflowlogsconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkmanagementorganizationvpcflowlogsconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkmanagementorganizationvpcflowlogsconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config}.
 type NetworkManagementOrganizationVpcFlowLogsConfig interface {
 	cdktn.TerraformResource
 	AggregationInterval() *string
@@ -756,7 +756,7 @@ func (j *jsiiProxy_NetworkManagementOrganizationVpcFlowLogsConfig) VpcFlowLogsCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Construct, id *string, config *NetworkManagementOrganizationVpcFlowLogsConfigConfig) NetworkManagementOrganizationVpcFlowLogsConfig {
 	_init_.Initialize()
 
@@ -774,7 +774,7 @@ func NewNetworkManagementOrganizationVpcFlowLogsConfig(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_management_organization_vpc_flow_logs_config google_network_management_organization_vpc_flow_logs_config} Resource.
 func NewNetworkManagementOrganizationVpcFlowLogsConfig_Override(n NetworkManagementOrganizationVpcFlowLogsConfig, scope constructs.Construct, id *string, config *NetworkManagementOrganizationVpcFlowLogsConfigConfig) {
 	_init_.Initialize()
 

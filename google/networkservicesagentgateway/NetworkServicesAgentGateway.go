@@ -5,16 +5,19 @@ package networkservicesagentgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkservicesagentgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkservicesagentgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_agent_gateway google_network_services_agent_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway}.
 type NetworkServicesAgentGateway interface {
 	cdktn.TerraformResource
+	AgentConnectivityTemplate() *string
+	SetAgentConnectivityTemplate(val *string)
+	AgentConnectivityTemplateInput() *string
 	AgentGatewayCard() NetworkServicesAgentGatewayAgentGatewayCardList
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
@@ -198,6 +201,7 @@ type NetworkServicesAgentGateway interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAgentConnectivityTemplate()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGoogleManaged()
@@ -237,6 +241,26 @@ type NetworkServicesAgentGateway interface {
 // The jsii proxy struct for NetworkServicesAgentGateway
 type jsiiProxy_NetworkServicesAgentGateway struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_NetworkServicesAgentGateway) AgentConnectivityTemplate() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentConnectivityTemplate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesAgentGateway) AgentConnectivityTemplateInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"agentConnectivityTemplateInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_NetworkServicesAgentGateway) AgentGatewayCard() NetworkServicesAgentGatewayAgentGatewayCardList {
@@ -720,7 +744,7 @@ func (j *jsiiProxy_NetworkServicesAgentGateway) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
 func NewNetworkServicesAgentGateway(scope constructs.Construct, id *string, config *NetworkServicesAgentGatewayConfig) NetworkServicesAgentGateway {
 	_init_.Initialize()
 
@@ -738,7 +762,7 @@ func NewNetworkServicesAgentGateway(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_services_agent_gateway google_network_services_agent_gateway} Resource.
 func NewNetworkServicesAgentGateway_Override(n NetworkServicesAgentGateway, scope constructs.Construct, id *string, config *NetworkServicesAgentGatewayConfig) {
 	_init_.Initialize()
 
@@ -746,6 +770,17 @@ func NewNetworkServicesAgentGateway_Override(n NetworkServicesAgentGateway, scop
 		"@cdktn/provider-google.networkServicesAgentGateway.NetworkServicesAgentGateway",
 		[]interface{}{scope, id, config},
 		n,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesAgentGateway)SetAgentConnectivityTemplate(val *string) {
+	if err := j.validateSetAgentConnectivityTemplateParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"agentConnectivityTemplate",
+		val,
 	)
 }
 
@@ -1337,6 +1372,14 @@ func (n *jsiiProxy_NetworkServicesAgentGateway) RegisterProviderFeatureUsage(fea
 		n,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesAgentGateway) ResetAgentConnectivityTemplate() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetAgentConnectivityTemplate",
+		nil, // no parameters
 	)
 }
 

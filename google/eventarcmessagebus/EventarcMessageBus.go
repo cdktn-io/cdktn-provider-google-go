@@ -5,14 +5,14 @@ package eventarcmessagebus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/eventarcmessagebus/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/eventarcmessagebus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/eventarc_message_bus google_eventarc_message_bus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_message_bus google_eventarc_message_bus}.
 type EventarcMessageBus interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -694,7 +694,7 @@ func (j *jsiiProxy_EventarcMessageBus) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/eventarc_message_bus google_eventarc_message_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_message_bus google_eventarc_message_bus} Resource.
 func NewEventarcMessageBus(scope constructs.Construct, id *string, config *EventarcMessageBusConfig) EventarcMessageBus {
 	_init_.Initialize()
 
@@ -712,7 +712,7 @@ func NewEventarcMessageBus(scope constructs.Construct, id *string, config *Event
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/eventarc_message_bus google_eventarc_message_bus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_message_bus google_eventarc_message_bus} Resource.
 func NewEventarcMessageBus_Override(e EventarcMessageBus, scope constructs.Construct, id *string, config *EventarcMessageBusConfig) {
 	_init_.Initialize()
 

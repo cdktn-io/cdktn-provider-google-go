@@ -5,9 +5,9 @@ package cesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -60,6 +60,7 @@ type CesAppVersionSnapshotAgentsOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Tools() *[]*string
 	Toolsets() CesAppVersionSnapshotAgentsToolsetsList
+	TransferRules() CesAppVersionSnapshotAgentsTransferRulesList
 	UpdateTime() *string
 	// Experimental.
 	ComputeFqn() *string
@@ -365,6 +366,16 @@ func (j *jsiiProxy_CesAppVersionSnapshotAgentsOutputReference) Toolsets() CesApp
 	_jsii_.Get(
 		j,
 		"toolsets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersionSnapshotAgentsOutputReference) TransferRules() CesAppVersionSnapshotAgentsTransferRulesList {
+	var returns CesAppVersionSnapshotAgentsTransferRulesList
+	_jsii_.Get(
+		j,
+		"transferRules",
 		&returns,
 	)
 	return returns

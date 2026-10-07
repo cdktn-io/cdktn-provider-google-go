@@ -5,9 +5,9 @@ package computebackendservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computebackendservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computebackendservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,6 +33,9 @@ type ComputeBackendServiceTlsSettingsOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	Identity() *string
+	SetIdentity(val *string)
+	IdentityInput() *string
 	InternalValue() *ComputeBackendServiceTlsSettings
 	SetInternalValue(val *ComputeBackendServiceTlsSettings)
 	Sni() *string
@@ -74,6 +77,7 @@ type ComputeBackendServiceTlsSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSubjectAltNames(value interface{})
 	ResetAuthenticationConfig()
+	ResetIdentity()
 	ResetSni()
 	ResetSubjectAltNames()
 	// Produce the Token's value at resolution time.
@@ -146,6 +150,26 @@ func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) Fqn() *strin
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) Identity() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) IdentityInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityInput",
 		&returns,
 	)
 	return returns
@@ -278,6 +302,17 @@ func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference)SetComplexObj
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference)SetIdentity(val *string) {
+	if err := j.validateSetIdentityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"identity",
 		val,
 	)
 }
@@ -527,6 +562,14 @@ func (c *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) ResetAuthent
 	_jsii_.InvokeVoid(
 		c,
 		"resetAuthenticationConfig",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeBackendServiceTlsSettingsOutputReference) ResetIdentity() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIdentity",
 		nil, // no parameters
 	)
 }

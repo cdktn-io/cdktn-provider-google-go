@@ -190,7 +190,39 @@ func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRawKeyWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRawKeyWoVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyWoParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) validateSetRsaEncryptedKeyWoVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

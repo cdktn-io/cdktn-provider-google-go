@@ -151,6 +151,10 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetDeletionProtectionParameters(
 	return nil
 }
 
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetEncryptionConfidentialModeParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetEncryptionKeyNameParameters(val *string) error {
 	return nil
 }

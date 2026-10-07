@@ -5,14 +5,14 @@ package vertexaiindexendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vertexaiindexendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaiindexendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_index_endpoint google_vertex_ai_index_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_index_endpoint google_vertex_ai_index_endpoint}.
 type VertexAiIndexEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -708,7 +708,7 @@ func (j *jsiiProxy_VertexAiIndexEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
 func NewVertexAiIndexEndpoint(scope constructs.Construct, id *string, config *VertexAiIndexEndpointConfig) VertexAiIndexEndpoint {
 	_init_.Initialize()
 
@@ -726,7 +726,7 @@ func NewVertexAiIndexEndpoint(scope constructs.Construct, id *string, config *Ve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_index_endpoint google_vertex_ai_index_endpoint} Resource.
 func NewVertexAiIndexEndpoint_Override(v VertexAiIndexEndpoint, scope constructs.Construct, id *string, config *VertexAiIndexEndpointConfig) {
 	_init_.Initialize()
 

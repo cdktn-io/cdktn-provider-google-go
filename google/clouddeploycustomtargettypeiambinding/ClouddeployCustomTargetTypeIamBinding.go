@@ -5,14 +5,14 @@ package clouddeploycustomtargettypeiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/clouddeploycustomtargettypeiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/clouddeploycustomtargettypeiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_custom_target_type_iam_binding google_clouddeploy_custom_target_type_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_custom_target_type_iam_binding google_clouddeploy_custom_target_type_iam_binding}.
 type ClouddeployCustomTargetTypeIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_ClouddeployCustomTargetTypeIamBinding) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_custom_target_type_iam_binding google_clouddeploy_custom_target_type_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_custom_target_type_iam_binding google_clouddeploy_custom_target_type_iam_binding} Resource.
 func NewClouddeployCustomTargetTypeIamBinding(scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeIamBindingConfig) ClouddeployCustomTargetTypeIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewClouddeployCustomTargetTypeIamBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_custom_target_type_iam_binding google_clouddeploy_custom_target_type_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_custom_target_type_iam_binding google_clouddeploy_custom_target_type_iam_binding} Resource.
 func NewClouddeployCustomTargetTypeIamBinding_Override(c ClouddeployCustomTargetTypeIamBinding, scope constructs.Construct, id *string, config *ClouddeployCustomTargetTypeIamBindingConfig) {
 	_init_.Initialize()
 

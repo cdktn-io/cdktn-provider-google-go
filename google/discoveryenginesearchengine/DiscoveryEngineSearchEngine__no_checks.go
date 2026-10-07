@@ -175,6 +175,10 @@ func (j *jsiiProxy_DiscoveryEngineSearchEngine) validateSetLocationParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineSearchEngine) validateSetProcurementContactEmailsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineSearchEngine) validateSetProjectParameters(val *string) error {
 	return nil
 }

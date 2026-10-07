@@ -5,14 +5,14 @@ package cesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app google_ces_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app google_ces_app}.
 type CesApp interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -53,6 +53,8 @@ type CesApp interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	ErrorHandlingSettings() CesAppErrorHandlingSettingsOutputReference
+	ErrorHandlingSettingsInput() *CesAppErrorHandlingSettings
 	Etag() *string
 	EvaluationMetricsThresholds() CesAppEvaluationMetricsThresholdsOutputReference
 	EvaluationMetricsThresholdsInput() *CesAppEvaluationMetricsThresholds
@@ -82,6 +84,9 @@ type CesApp interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Locked() interface{}
+	SetLocked(val interface{})
+	LockedInput() interface{}
 	LoggingSettings() CesAppLoggingSettingsOutputReference
 	LoggingSettingsInput() *CesAppLoggingSettings
 	Metadata() *map[string]*string
@@ -127,6 +132,8 @@ type CesApp interface {
 	UpdateTime() *string
 	VariableDeclarations() CesAppVariableDeclarationsList
 	VariableDeclarationsInput() interface{}
+	VpcScSettings() CesAppVpcScSettingsOutputReference
+	VpcScSettingsInput() *CesAppVpcScSettings
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -210,6 +217,7 @@ type CesApp interface {
 	PutClientCertificateSettings(value *CesAppClientCertificateSettings)
 	PutDataStoreSettings(value *CesAppDataStoreSettings)
 	PutDefaultChannelProfile(value *CesAppDefaultChannelProfile)
+	PutErrorHandlingSettings(value *CesAppErrorHandlingSettings)
 	PutEvaluationMetricsThresholds(value *CesAppEvaluationMetricsThresholds)
 	PutLanguageSettings(value *CesAppLanguageSettings)
 	PutLoggingSettings(value *CesAppLoggingSettings)
@@ -217,6 +225,7 @@ type CesApp interface {
 	PutTimeouts(value *CesAppTimeouts)
 	PutTimeZoneSettings(value *CesAppTimeZoneSettings)
 	PutVariableDeclarations(value interface{})
+	PutVpcScSettings(value *CesAppVpcScSettings)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -236,11 +245,13 @@ type CesApp interface {
 	ResetDefaultChannelProfile()
 	ResetDeletionPolicy()
 	ResetDescription()
+	ResetErrorHandlingSettings()
 	ResetEvaluationMetricsThresholds()
 	ResetGlobalInstruction()
 	ResetGuardrails()
 	ResetId()
 	ResetLanguageSettings()
+	ResetLocked()
 	ResetLoggingSettings()
 	ResetMetadata()
 	ResetModelSettings()
@@ -254,6 +265,7 @@ type CesApp interface {
 	ResetTimeZoneSettings()
 	ResetToolExecutionMode()
 	ResetVariableDeclarations()
+	ResetVpcScSettings()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -511,6 +523,26 @@ func (j *jsiiProxy_CesApp) DisplayNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesApp) ErrorHandlingSettings() CesAppErrorHandlingSettingsOutputReference {
+	var returns CesAppErrorHandlingSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"errorHandlingSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesApp) ErrorHandlingSettingsInput() *CesAppErrorHandlingSettings {
+	var returns *CesAppErrorHandlingSettings
+	_jsii_.Get(
+		j,
+		"errorHandlingSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesApp) Etag() *string {
 	var returns *string
 	_jsii_.Get(
@@ -676,6 +708,26 @@ func (j *jsiiProxy_CesApp) LocationInput() *string {
 	_jsii_.Get(
 		j,
 		"locationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesApp) Locked() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"locked",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesApp) LockedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"lockedInput",
 		&returns,
 	)
 	return returns
@@ -971,8 +1023,28 @@ func (j *jsiiProxy_CesApp) VariableDeclarationsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_CesApp) VpcScSettings() CesAppVpcScSettingsOutputReference {
+	var returns CesAppVpcScSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"vpcScSettings",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app google_ces_app} Resource.
+func (j *jsiiProxy_CesApp) VpcScSettingsInput() *CesAppVpcScSettings {
+	var returns *CesAppVpcScSettings
+	_jsii_.Get(
+		j,
+		"vpcScSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app google_ces_app} Resource.
 func NewCesApp(scope constructs.Construct, id *string, config *CesAppConfig) CesApp {
 	_init_.Initialize()
 
@@ -990,7 +1062,7 @@ func NewCesApp(scope constructs.Construct, id *string, config *CesAppConfig) Ces
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app google_ces_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app google_ces_app} Resource.
 func NewCesApp_Override(c CesApp, scope constructs.Construct, id *string, config *CesAppConfig) {
 	_init_.Initialize()
 
@@ -1134,6 +1206,17 @@ func (j *jsiiProxy_CesApp)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesApp)SetLocked(val interface{}) {
+	if err := j.validateSetLockedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"locked",
 		val,
 	)
 }
@@ -1625,6 +1708,17 @@ func (c *jsiiProxy_CesApp) PutDefaultChannelProfile(value *CesAppDefaultChannelP
 	)
 }
 
+func (c *jsiiProxy_CesApp) PutErrorHandlingSettings(value *CesAppErrorHandlingSettings) {
+	if err := c.validatePutErrorHandlingSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putErrorHandlingSettings",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesApp) PutEvaluationMetricsThresholds(value *CesAppEvaluationMetricsThresholds) {
 	if err := c.validatePutEvaluationMetricsThresholdsParameters(value); err != nil {
 		panic(err)
@@ -1702,6 +1796,17 @@ func (c *jsiiProxy_CesApp) PutVariableDeclarations(value interface{}) {
 	)
 }
 
+func (c *jsiiProxy_CesApp) PutVpcScSettings(value *CesAppVpcScSettings) {
+	if err := c.validatePutVpcScSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putVpcScSettings",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesApp) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := c.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1761,6 +1866,14 @@ func (c *jsiiProxy_CesApp) ResetDescription() {
 	)
 }
 
+func (c *jsiiProxy_CesApp) ResetErrorHandlingSettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetErrorHandlingSettings",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CesApp) ResetEvaluationMetricsThresholds() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1797,6 +1910,14 @@ func (c *jsiiProxy_CesApp) ResetLanguageSettings() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetLanguageSettings",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesApp) ResetLocked() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetLocked",
 		nil, // no parameters
 	)
 }
@@ -1885,6 +2006,14 @@ func (c *jsiiProxy_CesApp) ResetVariableDeclarations() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetVariableDeclarations",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesApp) ResetVpcScSettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetVpcScSettings",
 		nil, // no parameters
 	)
 }

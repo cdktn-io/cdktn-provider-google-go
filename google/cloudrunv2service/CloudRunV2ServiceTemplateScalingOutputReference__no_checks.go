@@ -59,6 +59,14 @@ func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetC
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetConcurrencyUtilizationParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetCpuUtilizationParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2ServiceTemplateScalingOutputReference) validateSetInternalValueParameters(val *CloudRunV2ServiceTemplateScaling) error {
 	return nil
 }

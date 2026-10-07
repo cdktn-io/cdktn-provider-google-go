@@ -5,14 +5,14 @@ package computenetworkattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computenetworkattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computenetworkattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_network_attachment google_compute_network_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_network_attachment google_compute_network_attachment}.
 type ComputeNetworkAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -669,7 +669,7 @@ func (j *jsiiProxy_ComputeNetworkAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
 func NewComputeNetworkAttachment(scope constructs.Construct, id *string, config *ComputeNetworkAttachmentConfig) ComputeNetworkAttachment {
 	_init_.Initialize()
 
@@ -687,7 +687,7 @@ func NewComputeNetworkAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_network_attachment google_compute_network_attachment} Resource.
 func NewComputeNetworkAttachment_Override(c ComputeNetworkAttachment, scope constructs.Construct, id *string, config *ComputeNetworkAttachmentConfig) {
 	_init_.Initialize()
 

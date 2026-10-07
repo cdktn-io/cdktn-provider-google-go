@@ -5,14 +5,14 @@ package resourcemanagerlien
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/resourcemanagerlien/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/resourcemanagerlien/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/resource_manager_lien google_resource_manager_lien}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/resource_manager_lien google_resource_manager_lien}.
 type ResourceManagerLien interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -530,7 +530,7 @@ func (j *jsiiProxy_ResourceManagerLien) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/resource_manager_lien google_resource_manager_lien} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/resource_manager_lien google_resource_manager_lien} Resource.
 func NewResourceManagerLien(scope constructs.Construct, id *string, config *ResourceManagerLienConfig) ResourceManagerLien {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewResourceManagerLien(scope constructs.Construct, id *string, config *Reso
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/resource_manager_lien google_resource_manager_lien} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/resource_manager_lien google_resource_manager_lien} Resource.
 func NewResourceManagerLien_Override(r ResourceManagerLien, scope constructs.Construct, id *string, config *ResourceManagerLienConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package bigtablematerializedview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigtablematerializedview/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigtablematerializedview/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_materialized_view google_bigtable_materialized_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_materialized_view google_bigtable_materialized_view}.
 type BigtableMaterializedView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_BigtableMaterializedView) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_materialized_view google_bigtable_materialized_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_materialized_view google_bigtable_materialized_view} Resource.
 func NewBigtableMaterializedView(scope constructs.Construct, id *string, config *BigtableMaterializedViewConfig) BigtableMaterializedView {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewBigtableMaterializedView(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_materialized_view google_bigtable_materialized_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_materialized_view google_bigtable_materialized_view} Resource.
 func NewBigtableMaterializedView_Override(b BigtableMaterializedView, scope constructs.Construct, id *string, config *BigtableMaterializedViewConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package appengineservicenetworksettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/appengineservicenetworksettings/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/appengineservicenetworksettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings}.
 type AppEngineServiceNetworkSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_AppEngineServiceNetworkSettings) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
 func NewAppEngineServiceNetworkSettings(scope constructs.Construct, id *string, config *AppEngineServiceNetworkSettingsConfig) AppEngineServiceNetworkSettings {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewAppEngineServiceNetworkSettings(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/app_engine_service_network_settings google_app_engine_service_network_settings} Resource.
 func NewAppEngineServiceNetworkSettings_Override(a AppEngineServiceNetworkSettings, scope constructs.Construct, id *string, config *AppEngineServiceNetworkSettingsConfig) {
 	_init_.Initialize()
 

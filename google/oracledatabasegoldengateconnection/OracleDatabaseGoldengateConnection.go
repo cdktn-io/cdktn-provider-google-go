@@ -5,14 +5,14 @@ package oracledatabasegoldengateconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/oracledatabasegoldengateconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/oracledatabasegoldengateconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection google_oracle_database_goldengate_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_goldengate_connection google_oracle_database_goldengate_connection}.
 type OracleDatabaseGoldengateConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -695,7 +695,7 @@ func (j *jsiiProxy_OracleDatabaseGoldengateConnection) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
 func NewOracleDatabaseGoldengateConnection(scope constructs.Construct, id *string, config *OracleDatabaseGoldengateConnectionConfig) OracleDatabaseGoldengateConnection {
 	_init_.Initialize()
 
@@ -713,7 +713,7 @@ func NewOracleDatabaseGoldengateConnection(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/oracle_database_goldengate_connection google_oracle_database_goldengate_connection} Resource.
 func NewOracleDatabaseGoldengateConnection_Override(o OracleDatabaseGoldengateConnection, scope constructs.Construct, id *string, config *OracleDatabaseGoldengateConnectionConfig) {
 	_init_.Initialize()
 

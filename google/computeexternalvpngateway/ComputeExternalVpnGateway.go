@@ -5,14 +5,14 @@ package computeexternalvpngateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeexternalvpngateway/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeexternalvpngateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_external_vpn_gateway google_compute_external_vpn_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_external_vpn_gateway google_compute_external_vpn_gateway}.
 type ComputeExternalVpnGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -627,7 +627,7 @@ func (j *jsiiProxy_ComputeExternalVpnGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_external_vpn_gateway google_compute_external_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_external_vpn_gateway google_compute_external_vpn_gateway} Resource.
 func NewComputeExternalVpnGateway(scope constructs.Construct, id *string, config *ComputeExternalVpnGatewayConfig) ComputeExternalVpnGateway {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewComputeExternalVpnGateway(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_external_vpn_gateway google_compute_external_vpn_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_external_vpn_gateway google_compute_external_vpn_gateway} Resource.
 func NewComputeExternalVpnGateway_Override(c ComputeExternalVpnGateway, scope constructs.Construct, id *string, config *ComputeExternalVpnGatewayConfig) {
 	_init_.Initialize()
 

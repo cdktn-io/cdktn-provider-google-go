@@ -5,14 +5,14 @@ package agenticapplicationsanalystagentpersona
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/agenticapplicationsanalystagentpersona/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/agenticapplicationsanalystagentpersona/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona}.
 type AgenticApplicationsAnalystAgentPersona interface {
 	cdktn.TerraformResource
 	AnalystAgentPersonaId() *string
@@ -74,6 +74,9 @@ type AgenticApplicationsAnalystAgentPersona interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MathRenderingMode() *string
+	SetMathRenderingMode(val *string)
+	MathRenderingModeInput() *string
 	McpDataSources() AgenticApplicationsAnalystAgentPersonaMcpDataSourcesList
 	McpDataSourcesInput() interface{}
 	ModelDescription() *string
@@ -113,6 +116,8 @@ type AgenticApplicationsAnalystAgentPersona interface {
 	Timeouts() AgenticApplicationsAnalystAgentPersonaTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	UpdateTime() *string
+	WebSearchConfig() AgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference
+	WebSearchConfigInput() *AgenticApplicationsAnalystAgentPersonaWebSearchConfig
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -200,6 +205,7 @@ type AgenticApplicationsAnalystAgentPersona interface {
 	PutSkills(value interface{})
 	PutTables(value interface{})
 	PutTimeouts(value *AgenticApplicationsAnalystAgentPersonaTimeouts)
+	PutWebSearchConfig(value *AgenticApplicationsAnalystAgentPersonaWebSearchConfig)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -221,6 +227,7 @@ type AgenticApplicationsAnalystAgentPersona interface {
 	ResetExternalDataSources()
 	ResetGeminiEnterpriseEngine()
 	ResetId()
+	ResetMathRenderingMode()
 	ResetMcpDataSources()
 	ResetModelDescription()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -232,6 +239,7 @@ type AgenticApplicationsAnalystAgentPersona interface {
 	ResetSkills()
 	ResetTables()
 	ResetTimeouts()
+	ResetWebSearchConfig()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -579,6 +587,26 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) LocationInput() *stri
 	return returns
 }
 
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) MathRenderingMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mathRenderingMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) MathRenderingModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mathRenderingModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) McpDataSources() AgenticApplicationsAnalystAgentPersonaMcpDataSourcesList {
 	var returns AgenticApplicationsAnalystAgentPersonaMcpDataSourcesList
 	_jsii_.Get(
@@ -829,8 +857,28 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) UpdateTime() *string 
 	return returns
 }
 
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) WebSearchConfig() AgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference {
+	var returns AgenticApplicationsAnalystAgentPersonaWebSearchConfigOutputReference
+	_jsii_.Get(
+		j,
+		"webSearchConfig",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) WebSearchConfigInput() *AgenticApplicationsAnalystAgentPersonaWebSearchConfig {
+	var returns *AgenticApplicationsAnalystAgentPersonaWebSearchConfig
+	_jsii_.Get(
+		j,
+		"webSearchConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
 func NewAgenticApplicationsAnalystAgentPersona(scope constructs.Construct, id *string, config *AgenticApplicationsAnalystAgentPersonaConfig) AgenticApplicationsAnalystAgentPersona {
 	_init_.Initialize()
 
@@ -848,7 +896,7 @@ func NewAgenticApplicationsAnalystAgentPersona(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/agentic_applications_analyst_agent_persona google_agentic_applications_analyst_agent_persona} Resource.
 func NewAgenticApplicationsAnalystAgentPersona_Override(a AgenticApplicationsAnalystAgentPersona, scope constructs.Construct, id *string, config *AgenticApplicationsAnalystAgentPersonaConfig) {
 	_init_.Initialize()
 
@@ -992,6 +1040,17 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona)SetLocation(val *strin
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona)SetMathRenderingMode(val *string) {
+	if err := j.validateSetMathRenderingModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mathRenderingMode",
 		val,
 	)
 }
@@ -1505,6 +1564,17 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) PutTimeouts(value *Ag
 	)
 }
 
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) PutWebSearchConfig(value *AgenticApplicationsAnalystAgentPersonaWebSearchConfig) {
+	if err := a.validatePutWebSearchConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putWebSearchConfig",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := a.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1580,6 +1650,14 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) ResetId() {
 	)
 }
 
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) ResetMathRenderingMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetMathRenderingMode",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) ResetMcpDataSources() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1648,6 +1726,14 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) ResetWebSearchConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetWebSearchConfig",
 		nil, // no parameters
 	)
 }

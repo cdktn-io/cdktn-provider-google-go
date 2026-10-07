@@ -151,6 +151,10 @@ func (j *jsiiProxy_ComputeServiceAttachment) validateSetNameParameters(val *stri
 	return nil
 }
 
+func (j *jsiiProxy_ComputeServiceAttachment) validateSetNatIpsPerEndpointParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeServiceAttachment) validateSetNatSubnetsParameters(val *[]*string) error {
 	return nil
 }

@@ -67,6 +67,10 @@ func (j *jsiiProxy_CesAppLoggingSettingsConversationLoggingSettingsOutputReferen
 	return nil
 }
 
+func (j *jsiiProxy_CesAppLoggingSettingsConversationLoggingSettingsOutputReference) validateSetRetentionWindowParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CesAppLoggingSettingsConversationLoggingSettingsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package iamworkloadidentitypoolmanagedidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iamworkloadidentitypoolmanagedidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iamworkloadidentitypoolmanagedidentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity}.
 type IamWorkloadIdentityPoolManagedIdentity interface {
 	cdktn.TerraformResource
 	AttestationRules() IamWorkloadIdentityPoolManagedIdentityAttestationRulesList
@@ -603,7 +603,7 @@ func (j *jsiiProxy_IamWorkloadIdentityPoolManagedIdentity) WorkloadIdentityPoolN
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolManagedIdentityConfig) IamWorkloadIdentityPoolManagedIdentity {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewIamWorkloadIdentityPoolManagedIdentity(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iam_workload_identity_pool_managed_identity google_iam_workload_identity_pool_managed_identity} Resource.
 func NewIamWorkloadIdentityPoolManagedIdentity_Override(i IamWorkloadIdentityPoolManagedIdentity, scope constructs.Construct, id *string, config *IamWorkloadIdentityPoolManagedIdentityConfig) {
 	_init_.Initialize()
 

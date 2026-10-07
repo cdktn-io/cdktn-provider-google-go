@@ -5,14 +5,16 @@ package vertexaireasoningengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vertexaireasoningengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaireasoningengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiReasoningEngineSpecDeploymentSpecOutputReference interface {
 	cdktn.ComplexObject
+	AgentGatewayConfig() VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference
+	AgentGatewayConfigInput() *VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -82,9 +84,11 @@ type VertexAiReasoningEngineSpecDeploymentSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAgentGatewayConfig(value *VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig)
 	PutEnv(value interface{})
 	PutPscInterfaceConfig(value *VertexAiReasoningEngineSpecDeploymentSpecPscInterfaceConfig)
 	PutSecretEnv(value interface{})
+	ResetAgentGatewayConfig()
 	ResetContainerConcurrency()
 	ResetEnv()
 	ResetMaxInstances()
@@ -105,6 +109,26 @@ type VertexAiReasoningEngineSpecDeploymentSpecOutputReference interface {
 // The jsii proxy struct for VertexAiReasoningEngineSpecDeploymentSpecOutputReference
 type jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) AgentGatewayConfig() VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference {
+	var returns VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfigOutputReference
+	_jsii_.Get(
+		j,
+		"agentGatewayConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) AgentGatewayConfigInput() *VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig {
+	var returns *VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig
+	_jsii_.Get(
+		j,
+		"agentGatewayConfigInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -630,6 +654,17 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) Int
 	return returns
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) PutAgentGatewayConfig(value *VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig) {
+	if err := v.validatePutAgentGatewayConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putAgentGatewayConfig",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) PutEnv(value interface{}) {
 	if err := v.validatePutEnvParameters(value); err != nil {
 		panic(err)
@@ -660,6 +695,14 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) Put
 		v,
 		"putSecretEnv",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) ResetAgentGatewayConfig() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetAgentGatewayConfig",
+		nil, // no parameters
 	)
 }
 

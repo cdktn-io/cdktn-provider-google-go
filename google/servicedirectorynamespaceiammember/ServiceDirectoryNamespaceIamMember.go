@@ -5,14 +5,14 @@ package servicedirectorynamespaceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/servicedirectorynamespaceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/servicedirectorynamespaceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member}.
 type ServiceDirectoryNamespaceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_ServiceDirectoryNamespaceIamMember) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
 func NewServiceDirectoryNamespaceIamMember(scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamMemberConfig) ServiceDirectoryNamespaceIamMember {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewServiceDirectoryNamespaceIamMember(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/service_directory_namespace_iam_member google_service_directory_namespace_iam_member} Resource.
 func NewServiceDirectoryNamespaceIamMember_Override(s ServiceDirectoryNamespaceIamMember, scope constructs.Construct, id *string, config *ServiceDirectoryNamespaceIamMemberConfig) {
 	_init_.Initialize()
 

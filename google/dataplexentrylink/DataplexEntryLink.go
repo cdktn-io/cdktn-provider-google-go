@@ -5,14 +5,14 @@ package dataplexentrylink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataplexentrylink/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataplexentrylink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_entry_link google_dataplex_entry_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_entry_link google_dataplex_entry_link}.
 type DataplexEntryLink interface {
 	cdktn.TerraformResource
 	Aspects() DataplexEntryLinkAspectsList
@@ -612,7 +612,7 @@ func (j *jsiiProxy_DataplexEntryLink) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_entry_link google_dataplex_entry_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_entry_link google_dataplex_entry_link} Resource.
 func NewDataplexEntryLink(scope constructs.Construct, id *string, config *DataplexEntryLinkConfig) DataplexEntryLink {
 	_init_.Initialize()
 
@@ -630,7 +630,7 @@ func NewDataplexEntryLink(scope constructs.Construct, id *string, config *Datapl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataplex_entry_link google_dataplex_entry_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataplex_entry_link google_dataplex_entry_link} Resource.
 func NewDataplexEntryLink_Override(d DataplexEntryLink, scope constructs.Construct, id *string, config *DataplexEntryLinkConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package managedkafkaconnectcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/managedkafkaconnectcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/managedkafkaconnectcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_connect_cluster google_managed_kafka_connect_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_connect_cluster google_managed_kafka_connect_cluster}.
 type ManagedKafkaConnectCluster interface {
 	cdktn.TerraformResource
 	CapacityConfig() ManagedKafkaConnectClusterCapacityConfigOutputReference
@@ -645,7 +645,7 @@ func (j *jsiiProxy_ManagedKafkaConnectCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_connect_cluster google_managed_kafka_connect_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_connect_cluster google_managed_kafka_connect_cluster} Resource.
 func NewManagedKafkaConnectCluster(scope constructs.Construct, id *string, config *ManagedKafkaConnectClusterConfig) ManagedKafkaConnectCluster {
 	_init_.Initialize()
 
@@ -663,7 +663,7 @@ func NewManagedKafkaConnectCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/managed_kafka_connect_cluster google_managed_kafka_connect_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/managed_kafka_connect_cluster google_managed_kafka_connect_cluster} Resource.
 func NewManagedKafkaConnectCluster_Override(m ManagedKafkaConnectCluster, scope constructs.Construct, id *string, config *ManagedKafkaConnectClusterConfig) {
 	_init_.Initialize()
 

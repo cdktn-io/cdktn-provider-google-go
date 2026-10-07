@@ -434,6 +434,14 @@ func (j *jsiiProxy_DiscoveryEngineLicenseConfig) validateSetIdParameters(val *st
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineLicenseConfig) validateSetLastUserUpdateTimeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineLicenseConfig) validateSetLicenseConfigIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

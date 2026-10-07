@@ -5,9 +5,9 @@ package dialogflowgenerator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowgenerator/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowgenerator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -42,6 +42,8 @@ type DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ToolCallInfo() DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoList
+	ToolCallInfoInput() interface{}
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSummarySuggestion(value *DialogflowGeneratorSummarizationContextFewShotExamplesOutputSummarySuggestion)
+	PutToolCallInfo(value interface{})
 	ResetSummarySuggestion()
+	ResetToolCallInfo()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -168,6 +172,26 @@ func (j *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputO
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ToolCallInfo() DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoList {
+	var returns DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoList
+	_jsii_.Get(
+		j,
+		"toolCallInfo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ToolCallInfoInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"toolCallInfoInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (d *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputO
 	)
 }
 
+func (d *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) PutToolCallInfo(value interface{}) {
+	if err := d.validatePutToolCallInfoParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putToolCallInfo",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ResetSummarySuggestion() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetSummarySuggestion",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DialogflowGeneratorSummarizationContextFewShotExamplesOutputOutputReference) ResetToolCallInfo() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetToolCallInfo",
 		nil, // no parameters
 	)
 }

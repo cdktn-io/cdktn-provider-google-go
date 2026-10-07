@@ -5,14 +5,14 @@ package modelarmorfloorsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/modelarmorfloorsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/modelarmorfloorsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/model_armor_floorsetting google_model_armor_floorsetting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/model_armor_floorsetting google_model_armor_floorsetting}.
 type ModelArmorFloorsetting interface {
 	cdktn.TerraformResource
 	AiPlatformFloorSetting() ModelArmorFloorsettingAiPlatformFloorSettingOutputReference
@@ -614,7 +614,7 @@ func (j *jsiiProxy_ModelArmorFloorsetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/model_armor_floorsetting google_model_armor_floorsetting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/model_armor_floorsetting google_model_armor_floorsetting} Resource.
 func NewModelArmorFloorsetting(scope constructs.Construct, id *string, config *ModelArmorFloorsettingConfig) ModelArmorFloorsetting {
 	_init_.Initialize()
 
@@ -632,7 +632,7 @@ func NewModelArmorFloorsetting(scope constructs.Construct, id *string, config *M
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/model_armor_floorsetting google_model_armor_floorsetting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/model_armor_floorsetting google_model_armor_floorsetting} Resource.
 func NewModelArmorFloorsetting_Override(m ModelArmorFloorsetting, scope constructs.Construct, id *string, config *ModelArmorFloorsettingConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package bigtabletable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigtabletable/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigtabletable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_table google_bigtable_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_table google_bigtable_table}.
 type BigtableTable interface {
 	cdktn.TerraformResource
 	AutomatedBackupPolicy() BigtableTableAutomatedBackupPolicyOutputReference
@@ -630,7 +630,7 @@ func (j *jsiiProxy_BigtableTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_table google_bigtable_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_table google_bigtable_table} Resource.
 func NewBigtableTable(scope constructs.Construct, id *string, config *BigtableTableConfig) BigtableTable {
 	_init_.Initialize()
 
@@ -648,7 +648,7 @@ func NewBigtableTable(scope constructs.Construct, id *string, config *BigtableTa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_table google_bigtable_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_table google_bigtable_table} Resource.
 func NewBigtableTable_Override(b BigtableTable, scope constructs.Construct, id *string, config *BigtableTableConfig) {
 	_init_.Initialize()
 

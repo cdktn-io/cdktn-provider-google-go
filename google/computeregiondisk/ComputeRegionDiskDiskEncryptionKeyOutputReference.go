@@ -5,9 +5,9 @@ package computeregiondisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeregiondisk/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeregiondisk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,9 +38,25 @@ type ComputeRegionDiskDiskEncryptionKeyOutputReference interface {
 	RawKey() *string
 	SetRawKey(val *string)
 	RawKeyInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	RawKeyWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetRawKeyWo(val *string)
+	RawKeyWoInput() *string
+	RawKeyWoVersion() *string
+	SetRawKeyWoVersion(val *string)
+	RawKeyWoVersionInput() *string
 	RsaEncryptedKey() *string
 	SetRsaEncryptedKey(val *string)
 	RsaEncryptedKeyInput() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	RsaEncryptedKeyWo() *string
+	// Deprecated: Write-only: the provider never returns this value; reading it always yields null by protocol contract. The getter remains for compatibility and will be removed in a future prebuilt-provider major.
+	SetRsaEncryptedKeyWo(val *string)
+	RsaEncryptedKeyWoInput() *string
+	RsaEncryptedKeyWoVersion() *string
+	SetRsaEncryptedKeyWoVersion(val *string)
+	RsaEncryptedKeyWoVersionInput() *string
 	Sha256() *string
 	// Experimental.
 	TerraformAttribute() *string
@@ -76,7 +92,11 @@ type ComputeRegionDiskDiskEncryptionKeyOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKmsKeyName()
 	ResetRawKey()
+	ResetRawKeyWo()
+	ResetRawKeyWoVersion()
 	ResetRsaEncryptedKey()
+	ResetRsaEncryptedKeyWo()
+	ResetRsaEncryptedKeyWoVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -182,6 +202,46 @@ func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RawKeyInpu
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RawKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rawKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RawKeyWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rawKeyWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RawKeyWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rawKeyWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RawKeyWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rawKeyWoVersionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKey() *string {
 	var returns *string
 	_jsii_.Get(
@@ -197,6 +257,46 @@ func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncrypt
 	_jsii_.Get(
 		j,
 		"rsaEncryptedKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKeyWo() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rsaEncryptedKeyWo",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKeyWoInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rsaEncryptedKeyWoInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKeyWoVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rsaEncryptedKeyWoVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) RsaEncryptedKeyWoVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rsaEncryptedKeyWoVersionInput",
 		&returns,
 	)
 	return returns
@@ -315,6 +415,28 @@ func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference)SetRawKey(v
 	)
 }
 
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference)SetRawKeyWo(val *string) {
+	if err := j.validateSetRawKeyWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rawKeyWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference)SetRawKeyWoVersion(val *string) {
+	if err := j.validateSetRawKeyWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rawKeyWoVersion",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference)SetRsaEncryptedKey(val *string) {
 	if err := j.validateSetRsaEncryptedKeyParameters(val); err != nil {
 		panic(err)
@@ -322,6 +444,28 @@ func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference)SetRsaEncry
 	_jsii_.Set(
 		j,
 		"rsaEncryptedKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference)SetRsaEncryptedKeyWo(val *string) {
+	if err := j.validateSetRsaEncryptedKeyWoParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rsaEncryptedKeyWo",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference)SetRsaEncryptedKeyWoVersion(val *string) {
+	if err := j.validateSetRsaEncryptedKeyWoVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"rsaEncryptedKeyWoVersion",
 		val,
 	)
 }
@@ -550,10 +694,42 @@ func (c *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) ResetRawKe
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) ResetRawKeyWo() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRawKeyWo",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) ResetRawKeyWoVersion() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRawKeyWoVersion",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) ResetRsaEncryptedKey() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRsaEncryptedKey",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) ResetRsaEncryptedKeyWo() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRsaEncryptedKeyWo",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionDiskDiskEncryptionKeyOutputReference) ResetRsaEncryptedKeyWoVersion() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRsaEncryptedKeyWoVersion",
 		nil, // no parameters
 	)
 }

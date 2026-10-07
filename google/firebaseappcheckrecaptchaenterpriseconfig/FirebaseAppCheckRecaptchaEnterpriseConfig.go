@@ -5,14 +5,14 @@ package firebaseappcheckrecaptchaenterpriseconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/firebaseappcheckrecaptchaenterpriseconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/firebaseappcheckrecaptchaenterpriseconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebase_app_check_recaptcha_enterprise_config google_firebase_app_check_recaptcha_enterprise_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firebase_app_check_recaptcha_enterprise_config google_firebase_app_check_recaptcha_enterprise_config}.
 type FirebaseAppCheckRecaptchaEnterpriseConfig interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -497,7 +497,7 @@ func (j *jsiiProxy_FirebaseAppCheckRecaptchaEnterpriseConfig) TokenTtlInput() *s
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebase_app_check_recaptcha_enterprise_config google_firebase_app_check_recaptcha_enterprise_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firebase_app_check_recaptcha_enterprise_config google_firebase_app_check_recaptcha_enterprise_config} Resource.
 func NewFirebaseAppCheckRecaptchaEnterpriseConfig(scope constructs.Construct, id *string, config *FirebaseAppCheckRecaptchaEnterpriseConfigConfig) FirebaseAppCheckRecaptchaEnterpriseConfig {
 	_init_.Initialize()
 
@@ -515,7 +515,7 @@ func NewFirebaseAppCheckRecaptchaEnterpriseConfig(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/firebase_app_check_recaptcha_enterprise_config google_firebase_app_check_recaptcha_enterprise_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/firebase_app_check_recaptcha_enterprise_config google_firebase_app_check_recaptcha_enterprise_config} Resource.
 func NewFirebaseAppCheckRecaptchaEnterpriseConfig_Override(f FirebaseAppCheckRecaptchaEnterpriseConfig, scope constructs.Construct, id *string, config *FirebaseAppCheckRecaptchaEnterpriseConfigConfig) {
 	_init_.Initialize()
 

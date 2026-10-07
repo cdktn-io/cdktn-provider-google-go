@@ -5,14 +5,14 @@ package vertexaisemanticgovernancepolicyengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vertexaisemanticgovernancepolicyengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaisemanticgovernancepolicyengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine}.
 type VertexAiSemanticGovernancePolicyEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -43,6 +43,8 @@ type VertexAiSemanticGovernancePolicyEngine interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	GatewayConfigs() VertexAiSemanticGovernancePolicyEngineGatewayConfigsList
+	GatewayConfigsInput() interface{}
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -161,6 +163,7 @@ type VertexAiSemanticGovernancePolicyEngine interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutGatewayConfigs(value interface{})
 	PutTimeouts(value *VertexAiSemanticGovernancePolicyEngineTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -176,6 +179,7 @@ type VertexAiSemanticGovernancePolicyEngine interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetDeletionPolicy()
+	ResetGatewayConfigs()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -315,6 +319,26 @@ func (j *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) FriendlyUniqueId() *s
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) GatewayConfigs() VertexAiSemanticGovernancePolicyEngineGatewayConfigsList {
+	var returns VertexAiSemanticGovernancePolicyEngineGatewayConfigsList
+	_jsii_.Get(
+		j,
+		"gatewayConfigs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) GatewayConfigsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"gatewayConfigsInput",
 		&returns,
 	)
 	return returns
@@ -541,7 +565,7 @@ func (j *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) UpdateTime() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine} Resource.
 func NewVertexAiSemanticGovernancePolicyEngine(scope constructs.Construct, id *string, config *VertexAiSemanticGovernancePolicyEngineConfig) VertexAiSemanticGovernancePolicyEngine {
 	_init_.Initialize()
 
@@ -559,7 +583,7 @@ func NewVertexAiSemanticGovernancePolicyEngine(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_semantic_governance_policy_engine google_vertex_ai_semantic_governance_policy_engine} Resource.
 func NewVertexAiSemanticGovernancePolicyEngine_Override(v VertexAiSemanticGovernancePolicyEngine, scope constructs.Construct, id *string, config *VertexAiSemanticGovernancePolicyEngineConfig) {
 	_init_.Initialize()
 
@@ -1051,6 +1075,17 @@ func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) OverrideLogicalId(new
 	)
 }
 
+func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) PutGatewayConfigs(value interface{}) {
+	if err := v.validatePutGatewayConfigsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putGatewayConfigs",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) PutTimeouts(value *VertexAiSemanticGovernancePolicyEngineTimeouts) {
 	if err := v.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1077,6 +1112,14 @@ func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) ResetDeletionPolicy()
 	_jsii_.InvokeVoid(
 		v,
 		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiSemanticGovernancePolicyEngine) ResetGatewayConfigs() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetGatewayConfigs",
 		nil, // no parameters
 	)
 }

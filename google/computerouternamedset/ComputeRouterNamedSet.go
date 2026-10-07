@@ -5,14 +5,14 @@ package computerouternamedset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computerouternamedset/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computerouternamedset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router_named_set google_compute_router_named_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_router_named_set google_compute_router_named_set}.
 type ComputeRouterNamedSet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -592,7 +592,7 @@ func (j *jsiiProxy_ComputeRouterNamedSet) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
 func NewComputeRouterNamedSet(scope constructs.Construct, id *string, config *ComputeRouterNamedSetConfig) ComputeRouterNamedSet {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewComputeRouterNamedSet(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_router_named_set google_compute_router_named_set} Resource.
 func NewComputeRouterNamedSet_Override(c ComputeRouterNamedSet, scope constructs.Construct, id *string, config *ComputeRouterNamedSetConfig) {
 	_init_.Initialize()
 

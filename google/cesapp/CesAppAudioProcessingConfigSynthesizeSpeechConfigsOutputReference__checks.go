@@ -166,6 +166,14 @@ func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetInstructionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
 	case cdktn.IResolvable:
@@ -191,6 +199,14 @@ func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputRefer
 }
 
 func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetLanguageCodeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_CesAppAudioProcessingConfigSynthesizeSpeechConfigsOutputReference) validateSetModelParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

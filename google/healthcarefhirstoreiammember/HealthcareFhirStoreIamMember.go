@@ -5,14 +5,14 @@ package healthcarefhirstoreiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/healthcarefhirstoreiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/healthcarefhirstoreiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member}.
 type HealthcareFhirStoreIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_HealthcareFhirStoreIamMember) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
 func NewHealthcareFhirStoreIamMember(scope constructs.Construct, id *string, config *HealthcareFhirStoreIamMemberConfig) HealthcareFhirStoreIamMember {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewHealthcareFhirStoreIamMember(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/healthcare_fhir_store_iam_member google_healthcare_fhir_store_iam_member} Resource.
 func NewHealthcareFhirStoreIamMember_Override(h HealthcareFhirStoreIamMember, scope constructs.Construct, id *string, config *HealthcareFhirStoreIamMemberConfig) {
 	_init_.Initialize()
 

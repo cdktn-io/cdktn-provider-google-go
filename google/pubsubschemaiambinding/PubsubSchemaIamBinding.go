@@ -5,14 +5,14 @@ package pubsubschemaiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/pubsubschemaiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/pubsubschemaiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/pubsub_schema_iam_binding google_pubsub_schema_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/pubsub_schema_iam_binding google_pubsub_schema_iam_binding}.
 type PubsubSchemaIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_PubsubSchemaIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
 func NewPubsubSchemaIamBinding(scope constructs.Construct, id *string, config *PubsubSchemaIamBindingConfig) PubsubSchemaIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewPubsubSchemaIamBinding(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/pubsub_schema_iam_binding google_pubsub_schema_iam_binding} Resource.
 func NewPubsubSchemaIamBinding_Override(p PubsubSchemaIamBinding, scope constructs.Construct, id *string, config *PubsubSchemaIamBindingConfig) {
 	_init_.Initialize()
 

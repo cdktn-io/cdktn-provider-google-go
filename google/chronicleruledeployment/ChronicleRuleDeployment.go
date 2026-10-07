@@ -5,14 +5,14 @@ package chronicleruledeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chronicleruledeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chronicleruledeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment}.
 type ChronicleRuleDeployment interface {
 	cdktn.TerraformResource
 	Alerting() interface{}
@@ -671,7 +671,7 @@ func (j *jsiiProxy_ChronicleRuleDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewChronicleRuleDeployment(scope constructs.Construct, id *string, config *ChronicleRuleDeploymentConfig) ChronicleRuleDeployment {
 	_init_.Initialize()
 
@@ -689,7 +689,7 @@ func NewChronicleRuleDeployment(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_rule_deployment google_chronicle_rule_deployment} Resource.
 func NewChronicleRuleDeployment_Override(c ChronicleRuleDeployment, scope constructs.Construct, id *string, config *ChronicleRuleDeploymentConfig) {
 	_init_.Initialize()
 

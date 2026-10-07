@@ -194,6 +194,14 @@ func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validateSetSqlDialectParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

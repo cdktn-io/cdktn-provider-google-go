@@ -5,14 +5,14 @@ package iapagentregistryagentiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iapagentregistryagentiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iapagentregistryagentiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding}.
 type IapAgentRegistryAgentIamBinding interface {
 	cdktn.TerraformResource
 	AgentId() *string
@@ -520,7 +520,7 @@ func (j *jsiiProxy_IapAgentRegistryAgentIamBinding) TerraformResourceType() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
 func NewIapAgentRegistryAgentIamBinding(scope constructs.Construct, id *string, config *IapAgentRegistryAgentIamBindingConfig) IapAgentRegistryAgentIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewIapAgentRegistryAgentIamBinding(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/iap_agent_registry_agent_iam_binding google_iap_agent_registry_agent_iam_binding} Resource.
 func NewIapAgentRegistryAgentIamBinding_Override(i IapAgentRegistryAgentIamBinding, scope constructs.Construct, id *string, config *IapAgentRegistryAgentIamBindingConfig) {
 	_init_.Initialize()
 

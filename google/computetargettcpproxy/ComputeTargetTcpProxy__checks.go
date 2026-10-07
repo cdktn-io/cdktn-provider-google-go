@@ -404,6 +404,14 @@ func (j *jsiiProxy_ComputeTargetTcpProxy) validateSetLifecycleParameters(val *cd
 	return nil
 }
 
+func (j *jsiiProxy_ComputeTargetTcpProxy) validateSetLoadBalancingSchemeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ComputeTargetTcpProxy) validateSetNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

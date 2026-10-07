@@ -5,14 +5,14 @@ package computeregioninstantsnapshotiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeregioninstantsnapshotiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeregioninstantsnapshotiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy}.
 type ComputeRegionInstantSnapshotIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ComputeRegionInstantSnapshotIamPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
 func NewComputeRegionInstantSnapshotIamPolicy(scope constructs.Construct, id *string, config *ComputeRegionInstantSnapshotIamPolicyConfig) ComputeRegionInstantSnapshotIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewComputeRegionInstantSnapshotIamPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_region_instant_snapshot_iam_policy google_compute_region_instant_snapshot_iam_policy} Resource.
 func NewComputeRegionInstantSnapshotIamPolicy_Override(c ComputeRegionInstantSnapshotIamPolicy, scope constructs.Construct, id *string, config *ComputeRegionInstantSnapshotIamPolicyConfig) {
 	_init_.Initialize()
 

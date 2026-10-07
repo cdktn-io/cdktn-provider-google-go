@@ -5,14 +5,14 @@ package dataprocgdcserviceinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataprocgdcserviceinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataprocgdcserviceinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_gdc_service_instance google_dataproc_gdc_service_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_gdc_service_instance google_dataproc_gdc_service_instance}.
 type DataprocGdcServiceInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -727,7 +727,7 @@ func (j *jsiiProxy_DataprocGdcServiceInstance) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_gdc_service_instance google_dataproc_gdc_service_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_gdc_service_instance google_dataproc_gdc_service_instance} Resource.
 func NewDataprocGdcServiceInstance(scope constructs.Construct, id *string, config *DataprocGdcServiceInstanceConfig) DataprocGdcServiceInstance {
 	_init_.Initialize()
 
@@ -745,7 +745,7 @@ func NewDataprocGdcServiceInstance(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataproc_gdc_service_instance google_dataproc_gdc_service_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataproc_gdc_service_instance google_dataproc_gdc_service_instance} Resource.
 func NewDataprocGdcServiceInstance_Override(d DataprocGdcServiceInstance, scope constructs.Construct, id *string, config *DataprocGdcServiceInstanceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package vertexaireasoningengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vertexaireasoningengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaireasoningengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine}.
 type VertexAiReasoningEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -23,6 +23,8 @@ type VertexAiReasoningEngine interface {
 	SetConnection(val interface{})
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
+	ContextSpec() VertexAiReasoningEngineContextSpecOutputReference
+	ContextSpecInput() *VertexAiReasoningEngineContextSpec
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -172,6 +174,7 @@ type VertexAiReasoningEngine interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutContextSpec(value *VertexAiReasoningEngineContextSpec)
 	PutEncryptionSpec(value *VertexAiReasoningEngineEncryptionSpec)
 	PutSpec(value *VertexAiReasoningEngineSpec)
 	PutTimeouts(value *VertexAiReasoningEngineTimeouts)
@@ -188,6 +191,7 @@ type VertexAiReasoningEngine interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetContextSpec()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetEncryptionSpec()
@@ -252,6 +256,26 @@ func (j *jsiiProxy_VertexAiReasoningEngine) ConstructNodeMetadata() *map[string]
 	_jsii_.Get(
 		j,
 		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngine) ContextSpec() VertexAiReasoningEngineContextSpecOutputReference {
+	var returns VertexAiReasoningEngineContextSpecOutputReference
+	_jsii_.Get(
+		j,
+		"contextSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngine) ContextSpecInput() *VertexAiReasoningEngineContextSpec {
+	var returns *VertexAiReasoningEngineContextSpec
+	_jsii_.Get(
+		j,
+		"contextSpecInput",
 		&returns,
 	)
 	return returns
@@ -638,7 +662,7 @@ func (j *jsiiProxy_VertexAiReasoningEngine) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewVertexAiReasoningEngine(scope constructs.Construct, id *string, config *VertexAiReasoningEngineConfig) VertexAiReasoningEngine {
 	_init_.Initialize()
 
@@ -656,7 +680,7 @@ func NewVertexAiReasoningEngine(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine google_vertex_ai_reasoning_engine} Resource.
 func NewVertexAiReasoningEngine_Override(v VertexAiReasoningEngine, scope constructs.Construct, id *string, config *VertexAiReasoningEngineConfig) {
 	_init_.Initialize()
 
@@ -1181,6 +1205,17 @@ func (v *jsiiProxy_VertexAiReasoningEngine) OverrideLogicalId(newLogicalId *stri
 	)
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngine) PutContextSpec(value *VertexAiReasoningEngineContextSpec) {
+	if err := v.validatePutContextSpecParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putContextSpec",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngine) PutEncryptionSpec(value *VertexAiReasoningEngineEncryptionSpec) {
 	if err := v.validatePutEncryptionSpecParameters(value); err != nil {
 		panic(err)
@@ -1222,6 +1257,14 @@ func (v *jsiiProxy_VertexAiReasoningEngine) RegisterProviderFeatureUsage(feature
 		v,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (v *jsiiProxy_VertexAiReasoningEngine) ResetContextSpec() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetContextSpec",
+		nil, // no parameters
 	)
 }
 

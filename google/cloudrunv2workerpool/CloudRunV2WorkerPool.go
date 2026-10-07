@@ -5,14 +5,14 @@ package cloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
 type CloudRunV2WorkerPool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -41,9 +41,6 @@ type CloudRunV2WorkerPool interface {
 	SetCount(val interface{})
 	CreateTime() *string
 	Creator() *string
-	CustomAudiences() *[]*string
-	SetCustomAudiences(val *[]*string)
-	CustomAudiencesInput() *[]*string
 	DeleteTime() *string
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
@@ -230,7 +227,6 @@ type CloudRunV2WorkerPool interface {
 	ResetBinaryAuthorization()
 	ResetClient()
 	ResetClientVersion()
-	ResetCustomAudiences()
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetDescription()
@@ -416,26 +412,6 @@ func (j *jsiiProxy_CloudRunV2WorkerPool) Creator() *string {
 	_jsii_.Get(
 		j,
 		"creator",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CloudRunV2WorkerPool) CustomAudiences() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"customAudiences",
-		&returns,
-	)
-	return returns
-}
-
-func (j *jsiiProxy_CloudRunV2WorkerPool) CustomAudiencesInput() *[]*string {
-	var returns *[]*string
-	_jsii_.Get(
-		j,
-		"customAudiencesInput",
 		&returns,
 	)
 	return returns
@@ -982,7 +958,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
 func NewCloudRunV2WorkerPool(scope constructs.Construct, id *string, config *CloudRunV2WorkerPoolConfig) CloudRunV2WorkerPool {
 	_init_.Initialize()
 
@@ -1000,7 +976,7 @@ func NewCloudRunV2WorkerPool(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
 func NewCloudRunV2WorkerPool_Override(c CloudRunV2WorkerPool, scope constructs.Construct, id *string, config *CloudRunV2WorkerPoolConfig) {
 	_init_.Initialize()
 
@@ -1062,17 +1038,6 @@ func (j *jsiiProxy_CloudRunV2WorkerPool)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
-		val,
-	)
-}
-
-func (j *jsiiProxy_CloudRunV2WorkerPool)SetCustomAudiences(val *[]*string) {
-	if err := j.validateSetCustomAudiencesParameters(val); err != nil {
-		panic(err)
-	}
-	_jsii_.Set(
-		j,
-		"customAudiences",
 		val,
 	)
 }
@@ -1685,14 +1650,6 @@ func (c *jsiiProxy_CloudRunV2WorkerPool) ResetClientVersion() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetClientVersion",
-		nil, // no parameters
-	)
-}
-
-func (c *jsiiProxy_CloudRunV2WorkerPool) ResetCustomAudiences() {
-	_jsii_.InvokeVoid(
-		c,
-		"resetCustomAudiences",
 		nil, // no parameters
 	)
 }

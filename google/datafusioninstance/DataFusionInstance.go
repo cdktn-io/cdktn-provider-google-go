@@ -5,14 +5,14 @@ package datafusioninstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/datafusioninstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datafusioninstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance google_data_fusion_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance google_data_fusion_instance}.
 type DataFusionInstance interface {
 	cdktn.TerraformResource
 	Accelerators() DataFusionInstanceAcceleratorsList
@@ -1074,7 +1074,7 @@ func (j *jsiiProxy_DataFusionInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
 func NewDataFusionInstance(scope constructs.Construct, id *string, config *DataFusionInstanceConfig) DataFusionInstance {
 	_init_.Initialize()
 
@@ -1092,7 +1092,7 @@ func NewDataFusionInstance(scope constructs.Construct, id *string, config *DataF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_fusion_instance google_data_fusion_instance} Resource.
 func NewDataFusionInstance_Override(d DataFusionInstance, scope constructs.Construct, id *string, config *DataFusionInstanceConfig) {
 	_init_.Initialize()
 

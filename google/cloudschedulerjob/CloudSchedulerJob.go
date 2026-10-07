@@ -5,14 +5,14 @@ package cloudschedulerjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudschedulerjob/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudschedulerjob/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_scheduler_job google_cloud_scheduler_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_scheduler_job google_cloud_scheduler_job}.
 type CloudSchedulerJob interface {
 	cdktn.TerraformResource
 	AppEngineHttpTarget() CloudSchedulerJobAppEngineHttpTargetOutputReference
@@ -714,7 +714,7 @@ func (j *jsiiProxy_CloudSchedulerJob) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_scheduler_job google_cloud_scheduler_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_scheduler_job google_cloud_scheduler_job} Resource.
 func NewCloudSchedulerJob(scope constructs.Construct, id *string, config *CloudSchedulerJobConfig) CloudSchedulerJob {
 	_init_.Initialize()
 
@@ -732,7 +732,7 @@ func NewCloudSchedulerJob(scope constructs.Construct, id *string, config *CloudS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_scheduler_job google_cloud_scheduler_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_scheduler_job google_cloud_scheduler_job} Resource.
 func NewCloudSchedulerJob_Override(c CloudSchedulerJob, scope constructs.Construct, id *string, config *CloudSchedulerJobConfig) {
 	_init_.Initialize()
 

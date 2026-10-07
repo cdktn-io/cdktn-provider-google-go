@@ -5,14 +5,14 @@ package colabschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/colabschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/colabschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/colab_schedule google_colab_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/colab_schedule google_colab_schedule}.
 type ColabSchedule interface {
 	cdktn.TerraformResource
 	AllowQueueing() interface{}
@@ -834,7 +834,7 @@ func (j *jsiiProxy_ColabSchedule) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/colab_schedule google_colab_schedule} Resource.
 func NewColabSchedule(scope constructs.Construct, id *string, config *ColabScheduleConfig) ColabSchedule {
 	_init_.Initialize()
 
@@ -852,7 +852,7 @@ func NewColabSchedule(scope constructs.Construct, id *string, config *ColabSched
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/colab_schedule google_colab_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/colab_schedule google_colab_schedule} Resource.
 func NewColabSchedule_Override(c ColabSchedule, scope constructs.Construct, id *string, config *ColabScheduleConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cloudidentitygroupmembership
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudidentitygroupmembership/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudidentitygroupmembership/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_identity_group_membership google_cloud_identity_group_membership}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_identity_group_membership google_cloud_identity_group_membership}.
 type CloudIdentityGroupMembership interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_CloudIdentityGroupMembership) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
 func NewCloudIdentityGroupMembership(scope constructs.Construct, id *string, config *CloudIdentityGroupMembershipConfig) CloudIdentityGroupMembership {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewCloudIdentityGroupMembership(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_identity_group_membership google_cloud_identity_group_membership} Resource.
 func NewCloudIdentityGroupMembership_Override(c CloudIdentityGroupMembership, scope constructs.Construct, id *string, config *CloudIdentityGroupMembershipConfig) {
 	_init_.Initialize()
 

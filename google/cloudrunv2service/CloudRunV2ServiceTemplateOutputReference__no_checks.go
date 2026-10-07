@@ -71,6 +71,10 @@ func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutVpcAcces
 	return nil
 }
 
+func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validatePutWorkloadIdentityConfigParameters(value *CloudRunV2ServiceTemplateWorkloadIdentityConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_CloudRunV2ServiceTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

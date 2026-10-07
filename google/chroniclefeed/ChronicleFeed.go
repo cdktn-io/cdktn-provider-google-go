@@ -5,14 +5,14 @@ package chroniclefeed
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chroniclefeed/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chroniclefeed/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_feed google_chronicle_feed}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_feed google_chronicle_feed}.
 type ChronicleFeed interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -705,7 +705,7 @@ func (j *jsiiProxy_ChronicleFeed) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_feed google_chronicle_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_feed google_chronicle_feed} Resource.
 func NewChronicleFeed(scope constructs.Construct, id *string, config *ChronicleFeedConfig) ChronicleFeed {
 	_init_.Initialize()
 
@@ -723,7 +723,7 @@ func NewChronicleFeed(scope constructs.Construct, id *string, config *ChronicleF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_feed google_chronicle_feed} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_feed google_chronicle_feed} Resource.
 func NewChronicleFeed_Override(c ChronicleFeed, scope constructs.Construct, id *string, config *ChronicleFeedConfig) {
 	_init_.Initialize()
 

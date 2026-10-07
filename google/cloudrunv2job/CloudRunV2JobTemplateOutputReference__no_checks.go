@@ -67,6 +67,10 @@ func (j *jsiiProxy_CloudRunV2JobTemplateOutputReference) validateSetComplexObjec
 	return nil
 }
 
+func (j *jsiiProxy_CloudRunV2JobTemplateOutputReference) validateSetDelayExecutionParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudRunV2JobTemplateOutputReference) validateSetInternalValueParameters(val *CloudRunV2JobTemplate) error {
 	return nil
 }

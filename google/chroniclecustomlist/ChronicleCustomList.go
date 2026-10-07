@@ -5,14 +5,14 @@ package chroniclecustomlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/chroniclecustomlist/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chroniclecustomlist/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_custom_list google_chronicle_custom_list}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_custom_list google_chronicle_custom_list}.
 type ChronicleCustomList interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -577,7 +577,7 @@ func (j *jsiiProxy_ChronicleCustomList) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
 func NewChronicleCustomList(scope constructs.Construct, id *string, config *ChronicleCustomListConfig) ChronicleCustomList {
 	_init_.Initialize()
 
@@ -595,7 +595,7 @@ func NewChronicleCustomList(scope constructs.Construct, id *string, config *Chro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_custom_list google_chronicle_custom_list} Resource.
 func NewChronicleCustomList_Override(c ChronicleCustomList, scope constructs.Construct, id *string, config *ChronicleCustomListConfig) {
 	_init_.Initialize()
 

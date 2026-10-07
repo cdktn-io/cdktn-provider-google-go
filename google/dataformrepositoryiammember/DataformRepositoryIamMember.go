@@ -5,14 +5,14 @@ package dataformrepositoryiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dataformrepositoryiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dataformrepositoryiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member}.
 type DataformRepositoryIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataformRepositoryIamMember) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
 func NewDataformRepositoryIamMember(scope constructs.Construct, id *string, config *DataformRepositoryIamMemberConfig) DataformRepositoryIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataformRepositoryIamMember(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dataform_repository_iam_member google_dataform_repository_iam_member} Resource.
 func NewDataformRepositoryIamMember_Override(d DataformRepositoryIamMember, scope constructs.Construct, id *string, config *DataformRepositoryIamMemberConfig) {
 	_init_.Initialize()
 

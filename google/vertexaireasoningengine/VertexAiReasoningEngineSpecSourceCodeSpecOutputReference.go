@@ -5,14 +5,16 @@ package vertexaireasoningengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/vertexaireasoningengine/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaireasoningengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VertexAiReasoningEngineSpecSourceCodeSpecOutputReference interface {
 	cdktn.ComplexObject
+	AgentConfigSource() VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceOutputReference
+	AgentConfigSourceInput() *VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -72,10 +74,12 @@ type VertexAiReasoningEngineSpecSourceCodeSpecOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAgentConfigSource(value *VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource)
 	PutDeveloperConnectSource(value *VertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSource)
 	PutImageSpec(value *VertexAiReasoningEngineSpecSourceCodeSpecImageSpec)
 	PutInlineSource(value *VertexAiReasoningEngineSpecSourceCodeSpecInlineSource)
 	PutPythonSpec(value *VertexAiReasoningEngineSpecSourceCodeSpecPythonSpec)
+	ResetAgentConfigSource()
 	ResetDeveloperConnectSource()
 	ResetImageSpec()
 	ResetInlineSource()
@@ -93,6 +97,26 @@ type VertexAiReasoningEngineSpecSourceCodeSpecOutputReference interface {
 // The jsii proxy struct for VertexAiReasoningEngineSpecSourceCodeSpecOutputReference
 type jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) AgentConfigSource() VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceOutputReference {
+	var returns VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceOutputReference
+	_jsii_.Get(
+		j,
+		"agentConfigSource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) AgentConfigSourceInput() *VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource {
+	var returns *VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource
+	_jsii_.Get(
+		j,
+		"agentConfigSourceInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) ComplexObjectIndex() interface{} {
@@ -514,6 +538,17 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) Int
 	return returns
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) PutAgentConfigSource(value *VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource) {
+	if err := v.validatePutAgentConfigSourceParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putAgentConfigSource",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) PutDeveloperConnectSource(value *VertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSource) {
 	if err := v.validatePutDeveloperConnectSourceParameters(value); err != nil {
 		panic(err)
@@ -555,6 +590,14 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) Put
 		v,
 		"putPythonSpec",
 		[]interface{}{value},
+	)
+}
+
+func (v *jsiiProxy_VertexAiReasoningEngineSpecSourceCodeSpecOutputReference) ResetAgentConfigSource() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetAgentConfigSource",
+		nil, // no parameters
 	)
 }
 

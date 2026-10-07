@@ -83,10 +83,6 @@ func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutGvnicP
 	return nil
 }
 
-func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutHostMaintenancePolicyParameters(value *ContainerNodePoolNodeConfigHostMaintenancePolicy) error {
-	return nil
-}
-
 func (c *jsiiProxy_ContainerNodePoolNodeConfigOutputReference) validatePutKubeletConfigParameters(value *ContainerNodePoolNodeConfigKubeletConfig) error {
 	return nil
 }

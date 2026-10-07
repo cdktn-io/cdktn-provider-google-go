@@ -466,6 +466,14 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) valid
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) validateSetTotalVmStorageSizeGbParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewOracleDatabaseCloudExadataInfrastructureExascaleConfigParameters(scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

@@ -5,14 +5,14 @@ package identityplatformconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/identityplatformconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/identityplatformconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/identity_platform_config google_identity_platform_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/identity_platform_config google_identity_platform_config}.
 type IdentityPlatformConfig interface {
 	cdktn.TerraformResource
 	AuthorizedDomains() *[]*string
@@ -667,7 +667,7 @@ func (j *jsiiProxy_IdentityPlatformConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/identity_platform_config google_identity_platform_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/identity_platform_config google_identity_platform_config} Resource.
 func NewIdentityPlatformConfig(scope constructs.Construct, id *string, config *IdentityPlatformConfigConfig) IdentityPlatformConfig {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewIdentityPlatformConfig(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/identity_platform_config google_identity_platform_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/identity_platform_config google_identity_platform_config} Resource.
 func NewIdentityPlatformConfig_Override(i IdentityPlatformConfig, scope constructs.Construct, id *string, config *IdentityPlatformConfigConfig) {
 	_init_.Initialize()
 

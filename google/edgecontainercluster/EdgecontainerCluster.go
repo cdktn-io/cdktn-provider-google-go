@@ -5,14 +5,14 @@ package edgecontainercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/edgecontainercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/edgecontainercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/edgecontainer_cluster google_edgecontainer_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster}.
 type EdgecontainerCluster interface {
 	cdktn.TerraformResource
 	Authorization() EdgecontainerClusterAuthorizationOutputReference
@@ -892,7 +892,7 @@ func (j *jsiiProxy_EdgecontainerCluster) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
 func NewEdgecontainerCluster(scope constructs.Construct, id *string, config *EdgecontainerClusterConfig) EdgecontainerCluster {
 	_init_.Initialize()
 
@@ -910,7 +910,7 @@ func NewEdgecontainerCluster(scope constructs.Construct, id *string, config *Edg
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/edgecontainer_cluster google_edgecontainer_cluster} Resource.
 func NewEdgecontainerCluster_Override(e EdgecontainerCluster, scope constructs.Construct, id *string, config *EdgecontainerClusterConfig) {
 	_init_.Initialize()
 

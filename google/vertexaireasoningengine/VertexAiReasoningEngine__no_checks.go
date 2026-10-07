@@ -79,6 +79,10 @@ func (v *jsiiProxy_VertexAiReasoningEngine) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngine) validatePutContextSpecParameters(value *VertexAiReasoningEngineContextSpec) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngine) validatePutEncryptionSpecParameters(value *VertexAiReasoningEngineEncryptionSpec) error {
 	return nil
 }

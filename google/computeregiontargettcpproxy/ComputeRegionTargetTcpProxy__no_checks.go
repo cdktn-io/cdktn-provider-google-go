@@ -131,6 +131,10 @@ func (j *jsiiProxy_ComputeRegionTargetTcpProxy) validateSetLifecycleParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionTargetTcpProxy) validateSetLoadBalancingSchemeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionTargetTcpProxy) validateSetNameParameters(val *string) error {
 	return nil
 }

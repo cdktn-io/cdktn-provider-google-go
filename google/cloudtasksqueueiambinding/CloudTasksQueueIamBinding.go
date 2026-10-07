@@ -5,14 +5,14 @@ package cloudtasksqueueiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cloudtasksqueueiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudtasksqueueiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_tasks_queue_iam_binding google_cloud_tasks_queue_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_tasks_queue_iam_binding google_cloud_tasks_queue_iam_binding}.
 type CloudTasksQueueIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_CloudTasksQueueIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_tasks_queue_iam_binding google_cloud_tasks_queue_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_tasks_queue_iam_binding google_cloud_tasks_queue_iam_binding} Resource.
 func NewCloudTasksQueueIamBinding(scope constructs.Construct, id *string, config *CloudTasksQueueIamBindingConfig) CloudTasksQueueIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewCloudTasksQueueIamBinding(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/cloud_tasks_queue_iam_binding google_cloud_tasks_queue_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/cloud_tasks_queue_iam_binding google_cloud_tasks_queue_iam_binding} Resource.
 func NewCloudTasksQueueIamBinding_Override(c CloudTasksQueueIamBinding, scope constructs.Construct, id *string, config *CloudTasksQueueIamBindingConfig) {
 	_init_.Initialize()
 

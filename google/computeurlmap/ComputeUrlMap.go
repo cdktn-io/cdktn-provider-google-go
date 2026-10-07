@@ -5,14 +5,14 @@ package computeurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/computeurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeurlmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_url_map google_compute_url_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_url_map google_compute_url_map}.
 type ComputeUrlMap interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -723,7 +723,7 @@ func (j *jsiiProxy_ComputeUrlMap) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_url_map google_compute_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_url_map google_compute_url_map} Resource.
 func NewComputeUrlMap(scope constructs.Construct, id *string, config *ComputeUrlMapConfig) ComputeUrlMap {
 	_init_.Initialize()
 
@@ -741,7 +741,7 @@ func NewComputeUrlMap(scope constructs.Construct, id *string, config *ComputeUrl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/compute_url_map google_compute_url_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/compute_url_map google_compute_url_map} Resource.
 func NewComputeUrlMap_Override(c ComputeUrlMap, scope constructs.Construct, id *string, config *ComputeUrlMapConfig) {
 	_init_.Initialize()
 

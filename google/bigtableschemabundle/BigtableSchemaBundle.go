@@ -5,14 +5,14 @@ package bigtableschemabundle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/bigtableschemabundle/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigtableschemabundle/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle}.
 type BigtableSchemaBundle interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_BigtableSchemaBundle) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
 func NewBigtableSchemaBundle(scope constructs.Construct, id *string, config *BigtableSchemaBundleConfig) BigtableSchemaBundle {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewBigtableSchemaBundle(scope constructs.Construct, id *string, config *Big
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigtable_schema_bundle google_bigtable_schema_bundle} Resource.
 func NewBigtableSchemaBundle_Override(b BigtableSchemaBundle, scope constructs.Construct, id *string, config *BigtableSchemaBundleConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package securesourcemanagerhook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/securesourcemanagerhook/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/securesourcemanagerhook/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secure_source_manager_hook google_secure_source_manager_hook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook}.
 type SecureSourceManagerHook interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -86,6 +86,9 @@ type SecureSourceManagerHook interface {
 	SensitiveQueryString() *string
 	SetSensitiveQueryString(val *string)
 	SensitiveQueryStringInput() *string
+	ServiceAccountAuth() interface{}
+	SetServiceAccountAuth(val interface{})
+	ServiceAccountAuthInput() interface{}
 	TargetUri() *string
 	SetTargetUri(val *string)
 	TargetUriInput() *string
@@ -203,6 +206,7 @@ type SecureSourceManagerHook interface {
 	ResetProject()
 	ResetPushOption()
 	ResetSensitiveQueryString()
+	ResetServiceAccountAuth()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -581,6 +585,26 @@ func (j *jsiiProxy_SecureSourceManagerHook) SensitiveQueryStringInput() *string 
 	return returns
 }
 
+func (j *jsiiProxy_SecureSourceManagerHook) ServiceAccountAuth() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"serviceAccountAuth",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SecureSourceManagerHook) ServiceAccountAuthInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"serviceAccountAuthInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecureSourceManagerHook) TargetUri() *string {
 	var returns *string
 	_jsii_.Get(
@@ -672,7 +696,7 @@ func (j *jsiiProxy_SecureSourceManagerHook) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewSecureSourceManagerHook(scope constructs.Construct, id *string, config *SecureSourceManagerHookConfig) SecureSourceManagerHook {
 	_init_.Initialize()
 
@@ -690,7 +714,7 @@ func NewSecureSourceManagerHook(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/secure_source_manager_hook google_secure_source_manager_hook} Resource.
 func NewSecureSourceManagerHook_Override(s SecureSourceManagerHook, scope constructs.Construct, id *string, config *SecureSourceManagerHookConfig) {
 	_init_.Initialize()
 
@@ -864,6 +888,17 @@ func (j *jsiiProxy_SecureSourceManagerHook)SetSensitiveQueryString(val *string) 
 	_jsii_.Set(
 		j,
 		"sensitiveQueryString",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SecureSourceManagerHook)SetServiceAccountAuth(val interface{}) {
+	if err := j.validateSetServiceAccountAuthParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceAccountAuth",
 		val,
 	)
 }
@@ -1341,6 +1376,14 @@ func (s *jsiiProxy_SecureSourceManagerHook) ResetSensitiveQueryString() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetSensitiveQueryString",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SecureSourceManagerHook) ResetServiceAccountAuth() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetServiceAccountAuth",
 		nil, // no parameters
 	)
 }

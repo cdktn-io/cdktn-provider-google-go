@@ -482,6 +482,14 @@ func (j *jsiiProxy_ParameterManagerRegionalParameter) validateSetProvisionersPar
 	return nil
 }
 
+func (j *jsiiProxy_ParameterManagerRegionalParameter) validateSetTagsParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewParameterManagerRegionalParameterParameters(scope constructs.Construct, id *string, config *ParameterManagerRegionalParameterConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

@@ -5,9 +5,9 @@ package cesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type CesAppDefaultChannelProfileWebWidgetConfigOutputReference interface {
 	Modality() *string
 	SetModality(val *string)
 	ModalityInput() *string
+	SecuritySettings() CesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+	SecuritySettingsInput() *CesAppDefaultChannelProfileWebWidgetConfigSecuritySettings
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,7 +75,9 @@ type CesAppDefaultChannelProfileWebWidgetConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutSecuritySettings(value *CesAppDefaultChannelProfileWebWidgetConfigSecuritySettings)
 	ResetModality()
+	ResetSecuritySettings()
 	ResetTheme()
 	ResetWebWidgetTitle()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_CesAppDefaultChannelProfileWebWidgetConfigOutputReference) Mo
 	_jsii_.Get(
 		j,
 		"modalityInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppDefaultChannelProfileWebWidgetConfigOutputReference) SecuritySettings() CesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference {
+	var returns CesAppDefaultChannelProfileWebWidgetConfigSecuritySettingsOutputReference
+	_jsii_.Get(
+		j,
+		"securitySettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppDefaultChannelProfileWebWidgetConfigOutputReference) SecuritySettingsInput() *CesAppDefaultChannelProfileWebWidgetConfigSecuritySettings {
+	var returns *CesAppDefaultChannelProfileWebWidgetConfigSecuritySettings
+	_jsii_.Get(
+		j,
+		"securitySettingsInput",
 		&returns,
 	)
 	return returns
@@ -523,10 +547,29 @@ func (c *jsiiProxy_CesAppDefaultChannelProfileWebWidgetConfigOutputReference) In
 	return returns
 }
 
+func (c *jsiiProxy_CesAppDefaultChannelProfileWebWidgetConfigOutputReference) PutSecuritySettings(value *CesAppDefaultChannelProfileWebWidgetConfigSecuritySettings) {
+	if err := c.validatePutSecuritySettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putSecuritySettings",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesAppDefaultChannelProfileWebWidgetConfigOutputReference) ResetModality() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetModality",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAppDefaultChannelProfileWebWidgetConfigOutputReference) ResetSecuritySettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSecuritySettings",
 		nil, // no parameters
 	)
 }

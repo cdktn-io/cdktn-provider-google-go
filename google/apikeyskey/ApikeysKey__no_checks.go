@@ -107,6 +107,10 @@ func validateApikeysKey_IsTerraformResourceParameters(x interface{}) error {
 	return nil
 }
 
+func (j *jsiiProxy_ApikeysKey) validateSetCheckExistingUsageParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApikeysKey) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

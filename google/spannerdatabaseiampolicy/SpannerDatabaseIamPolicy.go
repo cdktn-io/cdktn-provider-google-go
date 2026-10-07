@@ -5,14 +5,14 @@ package spannerdatabaseiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/spannerdatabaseiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/spannerdatabaseiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_database_iam_policy google_spanner_database_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_database_iam_policy google_spanner_database_iam_policy}.
 type SpannerDatabaseIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -472,7 +472,7 @@ func (j *jsiiProxy_SpannerDatabaseIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
 func NewSpannerDatabaseIamPolicy(scope constructs.Construct, id *string, config *SpannerDatabaseIamPolicyConfig) SpannerDatabaseIamPolicy {
 	_init_.Initialize()
 
@@ -490,7 +490,7 @@ func NewSpannerDatabaseIamPolicy(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/spanner_database_iam_policy google_spanner_database_iam_policy} Resource.
 func NewSpannerDatabaseIamPolicy_Override(s SpannerDatabaseIamPolicy, scope constructs.Construct, id *string, config *SpannerDatabaseIamPolicyConfig) {
 	_init_.Initialize()
 

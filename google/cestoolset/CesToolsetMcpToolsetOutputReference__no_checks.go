@@ -59,6 +59,10 @@ func (c *jsiiProxy_CesToolsetMcpToolsetOutputReference) validatePutTlsConfigPara
 	return nil
 }
 
+func (c *jsiiProxy_CesToolsetMcpToolsetOutputReference) validatePutToolOverridesParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesToolsetMcpToolsetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package networkconnectivityserviceconnectionpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/networkconnectivityserviceconnectionpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkconnectivityserviceconnectionpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy}.
 type NetworkConnectivityServiceConnectionPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -681,7 +681,7 @@ func (j *jsiiProxy_NetworkConnectivityServiceConnectionPolicy) UpdateTime() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy} Resource.
 func NewNetworkConnectivityServiceConnectionPolicy(scope constructs.Construct, id *string, config *NetworkConnectivityServiceConnectionPolicyConfig) NetworkConnectivityServiceConnectionPolicy {
 	_init_.Initialize()
 
@@ -699,7 +699,7 @@ func NewNetworkConnectivityServiceConnectionPolicy(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_connectivity_service_connection_policy google_network_connectivity_service_connection_policy} Resource.
 func NewNetworkConnectivityServiceConnectionPolicy_Override(n NetworkConnectivityServiceConnectionPolicy, scope constructs.Construct, id *string, config *NetworkConnectivityServiceConnectionPolicyConfig) {
 	_init_.Initialize()
 

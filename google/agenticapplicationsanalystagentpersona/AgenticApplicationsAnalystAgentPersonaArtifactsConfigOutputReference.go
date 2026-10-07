@@ -5,9 +5,9 @@ package agenticapplicationsanalystagentpersona
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/agenticapplicationsanalystagentpersona/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/agenticapplicationsanalystagentpersona/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference interf
 	Fqn() *string
 	InternalValue() *AgenticApplicationsAnalystAgentPersonaArtifactsConfig
 	SetInternalValue(val *AgenticApplicationsAnalystAgentPersonaArtifactsConfig)
+	MethodologyExportOptions() AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference
+	MethodologyExportOptionsInput() *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions
 	SlideGenerationOptions() AgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptionsOutputReference
 	SlideGenerationOptionsInput() *AgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions
 	// Experimental.
@@ -71,9 +73,11 @@ type AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference interf
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDocumentGenerationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions)
+	PutMethodologyExportOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions)
 	PutSlideGenerationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions)
 	PutVisualizationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions)
 	ResetDocumentGenerationOptions()
+	ResetMethodologyExportOptions()
 	ResetSlideGenerationOptions()
 	ResetVisualizationOptions()
 	// Produce the Token's value at resolution time.
@@ -156,6 +160,26 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputRe
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) MethodologyExportOptions() AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference {
+	var returns AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"methodologyExportOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) MethodologyExportOptionsInput() *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions {
+	var returns *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions
+	_jsii_.Get(
+		j,
+		"methodologyExportOptionsInput",
 		&returns,
 	)
 	return returns
@@ -501,6 +525,17 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputRe
 	)
 }
 
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) PutMethodologyExportOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions) {
+	if err := a.validatePutMethodologyExportOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putMethodologyExportOptions",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) PutSlideGenerationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions) {
 	if err := a.validatePutSlideGenerationOptionsParameters(value); err != nil {
 		panic(err)
@@ -527,6 +562,14 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputRe
 	_jsii_.InvokeVoid(
 		a,
 		"resetDocumentGenerationOptions",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) ResetMethodologyExportOptions() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetMethodologyExportOptions",
 		nil, // no parameters
 	)
 }

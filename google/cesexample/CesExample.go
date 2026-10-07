@@ -5,14 +5,14 @@ package cesexample
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesexample/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesexample/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_example google_ces_example}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_example google_ces_example}.
 type CesExample interface {
 	cdktn.TerraformResource
 	App() *string
@@ -659,7 +659,7 @@ func (j *jsiiProxy_CesExample) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_example google_ces_example} Resource.
 func NewCesExample(scope constructs.Construct, id *string, config *CesExampleConfig) CesExample {
 	_init_.Initialize()
 
@@ -677,7 +677,7 @@ func NewCesExample(scope constructs.Construct, id *string, config *CesExampleCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_example google_ces_example} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_example google_ces_example} Resource.
 func NewCesExample_Override(c CesExample, scope constructs.Construct, id *string, config *CesExampleConfig) {
 	_init_.Initialize()
 

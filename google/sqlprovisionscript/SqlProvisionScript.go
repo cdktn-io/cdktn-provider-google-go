@@ -5,14 +5,14 @@ package sqlprovisionscript
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/sqlprovisionscript/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sqlprovisionscript/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/sql_provision_script google_sql_provision_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/sql_provision_script google_sql_provision_script}.
 type SqlProvisionScript interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -558,7 +558,7 @@ func (j *jsiiProxy_SqlProvisionScript) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/sql_provision_script google_sql_provision_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/sql_provision_script google_sql_provision_script} Resource.
 func NewSqlProvisionScript(scope constructs.Construct, id *string, config *SqlProvisionScriptConfig) SqlProvisionScript {
 	_init_.Initialize()
 
@@ -576,7 +576,7 @@ func NewSqlProvisionScript(scope constructs.Construct, id *string, config *SqlPr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/sql_provision_script google_sql_provision_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/sql_provision_script google_sql_provision_script} Resource.
 func NewSqlProvisionScript_Override(s SqlProvisionScript, scope constructs.Construct, id *string, config *SqlProvisionScriptConfig) {
 	_init_.Initialize()
 

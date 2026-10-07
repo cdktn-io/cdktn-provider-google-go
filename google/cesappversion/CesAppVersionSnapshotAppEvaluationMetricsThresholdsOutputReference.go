@@ -5,9 +5,9 @@ package cesappversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesappversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesappversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -31,8 +31,10 @@ type CesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference interfac
 	// Experimental.
 	Fqn() *string
 	GoldenEvaluationMetricsThresholds() CesAppVersionSnapshotAppEvaluationMetricsThresholdsGoldenEvaluationMetricsThresholdsList
+	GoldenHallucinationMetricBehavior() *string
 	InternalValue() *CesAppVersionSnapshotAppEvaluationMetricsThresholds
 	SetInternalValue(val *CesAppVersionSnapshotAppEvaluationMetricsThresholds)
+	ScenarioHallucinationMetricBehavior() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -130,11 +132,31 @@ func (j *jsiiProxy_CesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputRefe
 	return returns
 }
 
+func (j *jsiiProxy_CesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference) GoldenHallucinationMetricBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"goldenHallucinationMetricBehavior",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference) InternalValue() *CesAppVersionSnapshotAppEvaluationMetricsThresholds {
 	var returns *CesAppVersionSnapshotAppEvaluationMetricsThresholds
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppVersionSnapshotAppEvaluationMetricsThresholdsOutputReference) ScenarioHallucinationMetricBehavior() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scenarioHallucinationMetricBehavior",
 		&returns,
 	)
 	return returns

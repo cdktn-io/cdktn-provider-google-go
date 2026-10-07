@@ -1,4 +1,4 @@
-module github.com/cdktn-io/cdktn-provider-google-go/google/v20
+module github.com/cdktn-io/cdktn-provider-google-go/google/v21
 
 go 1.25
 

@@ -5,14 +5,14 @@ package clouddeploydeliverypipelineiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/clouddeploydeliverypipelineiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/clouddeploydeliverypipelineiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_delivery_pipeline_iam_policy google_clouddeploy_delivery_pipeline_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_delivery_pipeline_iam_policy google_clouddeploy_delivery_pipeline_iam_policy}.
 type ClouddeployDeliveryPipelineIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ClouddeployDeliveryPipelineIamPolicy) TerraformResourceType()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_delivery_pipeline_iam_policy google_clouddeploy_delivery_pipeline_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_delivery_pipeline_iam_policy google_clouddeploy_delivery_pipeline_iam_policy} Resource.
 func NewClouddeployDeliveryPipelineIamPolicy(scope constructs.Construct, id *string, config *ClouddeployDeliveryPipelineIamPolicyConfig) ClouddeployDeliveryPipelineIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewClouddeployDeliveryPipelineIamPolicy(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/clouddeploy_delivery_pipeline_iam_policy google_clouddeploy_delivery_pipeline_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/clouddeploy_delivery_pipeline_iam_policy google_clouddeploy_delivery_pipeline_iam_policy} Resource.
 func NewClouddeployDeliveryPipelineIamPolicy_Override(c ClouddeployDeliveryPipelineIamPolicy, scope constructs.Construct, id *string, config *ClouddeployDeliveryPipelineIamPolicyConfig) {
 	_init_.Initialize()
 

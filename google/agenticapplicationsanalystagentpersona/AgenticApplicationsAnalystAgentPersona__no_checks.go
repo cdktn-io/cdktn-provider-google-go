@@ -111,6 +111,10 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) validatePutTimeoutsPa
 	return nil
 }
 
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) validatePutWebSearchConfigParameters(value *AgenticApplicationsAnalystAgentPersonaWebSearchConfig) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersona) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
@@ -172,6 +176,10 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) validateSetLifecycleP
 }
 
 func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersona) validateSetMathRenderingModeParameters(val *string) error {
 	return nil
 }
 

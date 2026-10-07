@@ -5,9 +5,9 @@ package iamprojectspolicybinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/iamprojectspolicybinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iamprojectspolicybinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type IamProjectsPolicyBindingTargetOutputReference interface {
 	PrincipalSet() *string
 	SetPrincipalSet(val *string)
 	PrincipalSetInput() *string
+	Resource() *string
+	SetResource(val *string)
+	ResourceInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type IamProjectsPolicyBindingTargetOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPrincipalSet()
+	ResetResource()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) PrincipalSetIn
 	_jsii_.Get(
 		j,
 		"principalSetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) Resource() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) ResourceInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference)SetPrincipalSet
 	_jsii_.Set(
 		j,
 		"principalSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference)SetResource(val *string) {
+	if err := j.validateSetResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resource",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (i *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) ResetPrincipal
 	_jsii_.InvokeVoid(
 		i,
 		"resetPrincipalSet",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IamProjectsPolicyBindingTargetOutputReference) ResetResource() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetResource",
 		nil, // no parameters
 	)
 }

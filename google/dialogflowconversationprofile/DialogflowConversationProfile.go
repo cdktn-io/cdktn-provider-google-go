@@ -5,14 +5,14 @@ package dialogflowconversationprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/dialogflowconversationprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dialogflowconversationprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_conversation_profile google_dialogflow_conversation_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_conversation_profile google_dialogflow_conversation_profile}.
 type DialogflowConversationProfile interface {
 	cdktn.TerraformResource
 	AutomatedAgentConfig() DialogflowConversationProfileAutomatedAgentConfigOutputReference
@@ -785,7 +785,7 @@ func (j *jsiiProxy_DialogflowConversationProfile) TtsConfigInput() *DialogflowCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewDialogflowConversationProfile(scope constructs.Construct, id *string, config *DialogflowConversationProfileConfig) DialogflowConversationProfile {
 	_init_.Initialize()
 
@@ -803,7 +803,7 @@ func NewDialogflowConversationProfile(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_conversation_profile google_dialogflow_conversation_profile} Resource.
 func NewDialogflowConversationProfile_Override(d DialogflowConversationProfile, scope constructs.Construct, id *string, config *DialogflowConversationProfileConfig) {
 	_init_.Initialize()
 

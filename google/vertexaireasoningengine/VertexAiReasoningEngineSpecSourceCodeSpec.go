@@ -5,21 +5,25 @@ package vertexaireasoningengine
 
 
 type VertexAiReasoningEngineSpecSourceCodeSpec struct {
+	// agent_config_source block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine#agent_config_source VertexAiReasoningEngine#agent_config_source}
+	AgentConfigSource *VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSource `field:"optional" json:"agentConfigSource" yaml:"agentConfigSource"`
 	// developer_connect_source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine#developer_connect_source VertexAiReasoningEngine#developer_connect_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine#developer_connect_source VertexAiReasoningEngine#developer_connect_source}
 	DeveloperConnectSource *VertexAiReasoningEngineSpecSourceCodeSpecDeveloperConnectSource `field:"optional" json:"developerConnectSource" yaml:"developerConnectSource"`
 	// image_spec block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine#image_spec VertexAiReasoningEngine#image_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine#image_spec VertexAiReasoningEngine#image_spec}
 	ImageSpec *VertexAiReasoningEngineSpecSourceCodeSpecImageSpec `field:"optional" json:"imageSpec" yaml:"imageSpec"`
 	// inline_source block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine#inline_source VertexAiReasoningEngine#inline_source}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine#inline_source VertexAiReasoningEngine#inline_source}
 	InlineSource *VertexAiReasoningEngineSpecSourceCodeSpecInlineSource `field:"optional" json:"inlineSource" yaml:"inlineSource"`
 	// python_spec block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/vertex_ai_reasoning_engine#python_spec VertexAiReasoningEngine#python_spec}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine#python_spec VertexAiReasoningEngine#python_spec}
 	PythonSpec *VertexAiReasoningEngineSpecSourceCodeSpecPythonSpec `field:"optional" json:"pythonSpec" yaml:"pythonSpec"`
 }
 

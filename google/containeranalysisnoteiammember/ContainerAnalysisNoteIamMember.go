@@ -5,14 +5,14 @@ package containeranalysisnoteiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/containeranalysisnoteiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/containeranalysisnoteiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/container_analysis_note_iam_member google_container_analysis_note_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/container_analysis_note_iam_member google_container_analysis_note_iam_member}.
 type ContainerAnalysisNoteIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_ContainerAnalysisNoteIamMember) TerraformResourceType() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/container_analysis_note_iam_member google_container_analysis_note_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/container_analysis_note_iam_member google_container_analysis_note_iam_member} Resource.
 func NewContainerAnalysisNoteIamMember(scope constructs.Construct, id *string, config *ContainerAnalysisNoteIamMemberConfig) ContainerAnalysisNoteIamMember {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewContainerAnalysisNoteIamMember(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/container_analysis_note_iam_member google_container_analysis_note_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/container_analysis_note_iam_member google_container_analysis_note_iam_member} Resource.
 func NewContainerAnalysisNoteIamMember_Override(c ContainerAnalysisNoteIamMember, scope constructs.Construct, id *string, config *ContainerAnalysisNoteIamMemberConfig) {
 	_init_.Initialize()
 

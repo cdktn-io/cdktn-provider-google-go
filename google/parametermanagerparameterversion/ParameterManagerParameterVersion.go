@@ -5,14 +5,14 @@ package parametermanagerparameterversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/parametermanagerparameterversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/parametermanagerparameterversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version}.
 type ParameterManagerParameterVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -28,6 +28,9 @@ type ParameterManagerParameterVersion interface {
 	// Experimental.
 	SetCount(val interface{})
 	CreateTime() *string
+	DataCrc32C() *string
+	SetDataCrc32C(val *string)
+	DataCrc32CInput() *string
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -178,6 +181,7 @@ type ParameterManagerParameterVersion interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDataCrc32C()
 	ResetDeletionPolicy()
 	ResetDisabled()
 	ResetId()
@@ -257,6 +261,26 @@ func (j *jsiiProxy_ParameterManagerParameterVersion) CreateTime() *string {
 	_jsii_.Get(
 		j,
 		"createTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerParameterVersion) DataCrc32C() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataCrc32C",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ParameterManagerParameterVersion) DataCrc32CInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"dataCrc32CInput",
 		&returns,
 	)
 	return returns
@@ -553,7 +577,7 @@ func (j *jsiiProxy_ParameterManagerParameterVersion) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
 func NewParameterManagerParameterVersion(scope constructs.Construct, id *string, config *ParameterManagerParameterVersionConfig) ParameterManagerParameterVersion {
 	_init_.Initialize()
 
@@ -571,7 +595,7 @@ func NewParameterManagerParameterVersion(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/parameter_manager_parameter_version google_parameter_manager_parameter_version} Resource.
 func NewParameterManagerParameterVersion_Override(p ParameterManagerParameterVersion, scope constructs.Construct, id *string, config *ParameterManagerParameterVersionConfig) {
 	_init_.Initialize()
 
@@ -600,6 +624,17 @@ func (j *jsiiProxy_ParameterManagerParameterVersion)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ParameterManagerParameterVersion)SetDataCrc32C(val *string) {
+	if err := j.validateSetDataCrc32CParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataCrc32C",
 		val,
 	)
 }
@@ -1104,6 +1139,14 @@ func (p *jsiiProxy_ParameterManagerParameterVersion) RegisterProviderFeatureUsag
 		p,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (p *jsiiProxy_ParameterManagerParameterVersion) ResetDataCrc32C() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetDataCrc32C",
+		nil, // no parameters
 	)
 }
 

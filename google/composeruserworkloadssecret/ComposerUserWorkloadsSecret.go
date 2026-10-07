@@ -5,14 +5,14 @@ package composeruserworkloadssecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/composeruserworkloadssecret/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/composeruserworkloadssecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/composer_user_workloads_secret google_composer_user_workloads_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/composer_user_workloads_secret google_composer_user_workloads_secret}.
 type ComposerUserWorkloadsSecret interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -534,7 +534,7 @@ func (j *jsiiProxy_ComposerUserWorkloadsSecret) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
 func NewComposerUserWorkloadsSecret(scope constructs.Construct, id *string, config *ComposerUserWorkloadsSecretConfig) ComposerUserWorkloadsSecret {
 	_init_.Initialize()
 
@@ -552,7 +552,7 @@ func NewComposerUserWorkloadsSecret(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/composer_user_workloads_secret google_composer_user_workloads_secret} Resource.
 func NewComposerUserWorkloadsSecret_Override(c ComposerUserWorkloadsSecret, scope constructs.Construct, id *string, config *ComposerUserWorkloadsSecretConfig) {
 	_init_.Initialize()
 

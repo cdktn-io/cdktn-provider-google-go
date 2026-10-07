@@ -143,6 +143,10 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) valid
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) validateSetTotalVmStorageSizeGbParameters(val *float64) error {
+	return nil
+}
+
 func validateNewOracleDatabaseCloudExadataInfrastructureExascaleConfigParameters(scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) error {
 	return nil
 }

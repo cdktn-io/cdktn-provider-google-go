@@ -247,6 +247,10 @@ func (j *jsiiProxy_ComputeRegionBackendService) validateSetSecurityPolicyParamet
 	return nil
 }
 
+func (j *jsiiProxy_ComputeRegionBackendService) validateSetServiceLbPolicyParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeRegionBackendService) validateSetSessionAffinityParameters(val *string) error {
 	return nil
 }

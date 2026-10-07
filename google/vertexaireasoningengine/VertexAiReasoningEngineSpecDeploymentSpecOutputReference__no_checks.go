@@ -47,6 +47,10 @@ func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) val
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) validatePutAgentGatewayConfigParameters(value *VertexAiReasoningEngineSpecDeploymentSpecAgentGatewayConfig) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngineSpecDeploymentSpecOutputReference) validatePutEnvParameters(value interface{}) error {
 	return nil
 }

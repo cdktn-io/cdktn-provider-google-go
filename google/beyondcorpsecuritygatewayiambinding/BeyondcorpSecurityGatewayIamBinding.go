@@ -5,14 +5,14 @@ package beyondcorpsecuritygatewayiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/beyondcorpsecuritygatewayiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/beyondcorpsecuritygatewayiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding}.
 type BeyondcorpSecurityGatewayIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_BeyondcorpSecurityGatewayIamBinding) TerraformResourceType() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
 func NewBeyondcorpSecurityGatewayIamBinding(scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayIamBindingConfig) BeyondcorpSecurityGatewayIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewBeyondcorpSecurityGatewayIamBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/beyondcorp_security_gateway_iam_binding google_beyondcorp_security_gateway_iam_binding} Resource.
 func NewBeyondcorpSecurityGatewayIamBinding_Override(b BeyondcorpSecurityGatewayIamBinding, scope constructs.Construct, id *string, config *BeyondcorpSecurityGatewayIamBindingConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package cesapprootagentassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/cesapprootagentassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapprootagentassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association}.
 type CesAppRootAgentAssociation interface {
 	cdktn.TerraformResource
 	AgentId() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_CesAppRootAgentAssociation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
 func NewCesAppRootAgentAssociation(scope constructs.Construct, id *string, config *CesAppRootAgentAssociationConfig) CesAppRootAgentAssociation {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewCesAppRootAgentAssociation(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app_root_agent_association google_ces_app_root_agent_association} Resource.
 func NewCesAppRootAgentAssociation_Override(c CesAppRootAgentAssociation, scope constructs.Construct, id *string, config *CesAppRootAgentAssociationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package discoveryenginedatastore
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v20/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v20/discoveryenginedatastore/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginedatastore/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_data_store google_discovery_engine_data_store}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_data_store google_discovery_engine_data_store}.
 type DiscoveryEngineDataStore interface {
 	cdktn.TerraformResource
 	AclEnabled() interface{}
@@ -757,7 +757,7 @@ func (j *jsiiProxy_DiscoveryEngineDataStore) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_data_store google_discovery_engine_data_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_data_store google_discovery_engine_data_store} Resource.
 func NewDiscoveryEngineDataStore(scope constructs.Construct, id *string, config *DiscoveryEngineDataStoreConfig) DiscoveryEngineDataStore {
 	_init_.Initialize()
 
@@ -775,7 +775,7 @@ func NewDiscoveryEngineDataStore(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/7.46.1/docs/resources/discovery_engine_data_store google_discovery_engine_data_store} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/discovery_engine_data_store google_discovery_engine_data_store} Resource.
 func NewDiscoveryEngineDataStore_Override(d DiscoveryEngineDataStore, scope constructs.Construct, id *string, config *DiscoveryEngineDataStoreConfig) {
 	_init_.Initialize()
 
