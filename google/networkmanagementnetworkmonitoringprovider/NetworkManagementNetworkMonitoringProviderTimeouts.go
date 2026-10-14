@@ -5,11 +5,11 @@ package networkmanagementnetworkmonitoringprovider
 
 
 type NetworkManagementNetworkMonitoringProviderTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_management_network_monitoring_provider#create NetworkManagementNetworkMonitoringProvider#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_management_network_monitoring_provider#create NetworkManagementNetworkMonitoringProvider#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_management_network_monitoring_provider#delete NetworkManagementNetworkMonitoringProvider#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_management_network_monitoring_provider#delete NetworkManagementNetworkMonitoringProvider#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/network_management_network_monitoring_provider#update NetworkManagementNetworkMonitoringProvider#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_management_network_monitoring_provider#update NetworkManagementNetworkMonitoringProvider#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

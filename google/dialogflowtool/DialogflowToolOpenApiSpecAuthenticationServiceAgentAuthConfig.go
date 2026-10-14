@@ -10,7 +10,7 @@ type DialogflowToolOpenApiSpecAuthenticationServiceAgentAuthConfig struct {
 	// Indicate the auth token type generated from the Dialogflow service agent.
 	// The generated token is sent in the Authorization header. Possible values: ["ID_TOKEN", "ACCESS_TOKEN"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool#service_agent_auth DialogflowTool#service_agent_auth}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#service_agent_auth DialogflowTool#service_agent_auth}
 	ServiceAgentAuth *string `field:"optional" json:"serviceAgentAuth" yaml:"serviceAgentAuth"`
 }
 

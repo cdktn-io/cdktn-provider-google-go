@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool google_dialogflow_tool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool google_dialogflow_tool}.
 type DialogflowTool interface {
 	cdktn.TerraformResource
 	ActionConfirmationRequirement() *map[string]*string
@@ -709,7 +709,7 @@ func (j *jsiiProxy_DialogflowTool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool google_dialogflow_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool google_dialogflow_tool} Resource.
 func NewDialogflowTool(scope constructs.Construct, id *string, config *DialogflowToolConfig) DialogflowTool {
 	_init_.Initialize()
 
@@ -727,7 +727,7 @@ func NewDialogflowTool(scope constructs.Construct, id *string, config *Dialogflo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool google_dialogflow_tool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool google_dialogflow_tool} Resource.
 func NewDialogflowTool_Override(d DialogflowTool, scope constructs.Construct, id *string, config *DialogflowToolConfig) {
 	_init_.Initialize()
 

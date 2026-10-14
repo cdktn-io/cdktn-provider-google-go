@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_bucket google_observability_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket google_observability_bucket}.
 type ObservabilityBucket interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -589,7 +589,7 @@ func (j *jsiiProxy_ObservabilityBucket) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_bucket google_observability_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket google_observability_bucket} Resource.
 func NewObservabilityBucket(scope constructs.Construct, id *string, config *ObservabilityBucketConfig) ObservabilityBucket {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewObservabilityBucket(scope constructs.Construct, id *string, config *Obse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_bucket google_observability_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket google_observability_bucket} Resource.
 func NewObservabilityBucket_Override(o ObservabilityBucket, scope constructs.Construct, id *string, config *ObservabilityBucketConfig) {
 	_init_.Initialize()
 

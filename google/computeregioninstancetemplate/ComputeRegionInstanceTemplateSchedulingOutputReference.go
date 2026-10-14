@@ -61,6 +61,8 @@ type ComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	Preemptible() interface{}
 	SetPreemptible(val interface{})
 	PreemptibleInput() interface{}
+	PreemptionNoticeDuration() ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference
+	PreemptionNoticeDurationInput() *ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration
 	ProvisioningModel() *string
 	SetProvisioningModel(val *string)
 	ProvisioningModelInput() *string
@@ -103,6 +105,7 @@ type ComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	PutMaxRunDuration(value *ComputeRegionInstanceTemplateSchedulingMaxRunDuration)
 	PutNodeAffinities(value interface{})
 	PutOnInstanceStopAction(value *ComputeRegionInstanceTemplateSchedulingOnInstanceStopAction)
+	PutPreemptionNoticeDuration(value *ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration)
 	ResetAutomaticRestart()
 	ResetAvailabilityDomain()
 	ResetHostErrorTimeoutSeconds()
@@ -114,6 +117,7 @@ type ComputeRegionInstanceTemplateSchedulingOutputReference interface {
 	ResetOnHostMaintenance()
 	ResetOnInstanceStopAction()
 	ResetPreemptible()
+	ResetPreemptionNoticeDuration()
 	ResetProvisioningModel()
 	ResetTerminationTime()
 	// Produce the Token's value at resolution time.
@@ -396,6 +400,26 @@ func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) Preem
 	_jsii_.Get(
 		j,
 		"preemptibleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) PreemptionNoticeDuration() ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference {
+	var returns ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationOutputReference
+	_jsii_.Get(
+		j,
+		"preemptionNoticeDuration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) PreemptionNoticeDurationInput() *ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration {
+	var returns *ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration
+	_jsii_.Get(
+		j,
+		"preemptionNoticeDurationInput",
 		&returns,
 	)
 	return returns
@@ -873,6 +897,17 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) PutOn
 	)
 }
 
+func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) PutPreemptionNoticeDuration(value *ComputeRegionInstanceTemplateSchedulingPreemptionNoticeDuration) {
+	if err := c.validatePutPreemptionNoticeDurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putPreemptionNoticeDuration",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) ResetAutomaticRestart() {
 	_jsii_.InvokeVoid(
 		c,
@@ -957,6 +992,14 @@ func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) Reset
 	_jsii_.InvokeVoid(
 		c,
 		"resetPreemptible",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionInstanceTemplateSchedulingOutputReference) ResetPreemptionNoticeDuration() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetPreemptionNoticeDuration",
 		nil, // no parameters
 	)
 }

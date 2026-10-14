@@ -79,6 +79,10 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference) validateSetWhenParameters(val *string) error {
+	return nil
+}
+
 func validateNewNetworkSecurityAuthzPolicyNetworkRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }

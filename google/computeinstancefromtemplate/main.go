@@ -1033,11 +1033,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetNetworkIp", GoMethod: "ResetNetworkIp"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNicType", GoMethod: "ResetNicType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetQueueCount", GoMethod: "ResetQueueCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetServiceClassId", GoMethod: "ResetServiceClassId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetStackType", GoMethod: "ResetStackType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSubnetwork", GoMethod: "ResetSubnetwork"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSubnetworkProject", GoMethod: "ResetSubnetworkProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVlan", GoMethod: "ResetVlan"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceClassId", GoGetter: "ServiceClassId"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceClassIdInput", GoGetter: "ServiceClassIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "stackType", GoGetter: "StackType"},
 			_jsii_.MemberProperty{JsiiProperty: "stackTypeInput", GoGetter: "StackTypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "subnetwork", GoGetter: "Subnetwork"},
@@ -1447,12 +1450,15 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "onInstanceStopActionInput", GoGetter: "OnInstanceStopActionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "preemptible", GoGetter: "Preemptible"},
 			_jsii_.MemberProperty{JsiiProperty: "preemptibleInput", GoGetter: "PreemptibleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "preemptionNoticeDuration", GoGetter: "PreemptionNoticeDuration"},
+			_jsii_.MemberProperty{JsiiProperty: "preemptionNoticeDurationInput", GoGetter: "PreemptionNoticeDurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioningModel", GoGetter: "ProvisioningModel"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioningModelInput", GoGetter: "ProvisioningModelInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putLocalSsdRecoveryTimeout", GoMethod: "PutLocalSsdRecoveryTimeout"},
 			_jsii_.MemberMethod{JsiiMethod: "putMaxRunDuration", GoMethod: "PutMaxRunDuration"},
 			_jsii_.MemberMethod{JsiiMethod: "putNodeAffinities", GoMethod: "PutNodeAffinities"},
 			_jsii_.MemberMethod{JsiiMethod: "putOnInstanceStopAction", GoMethod: "PutOnInstanceStopAction"},
+			_jsii_.MemberMethod{JsiiMethod: "putPreemptionNoticeDuration", GoMethod: "PutPreemptionNoticeDuration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAutomaticRestart", GoMethod: "ResetAutomaticRestart"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAvailabilityDomain", GoMethod: "ResetAvailabilityDomain"},
 			_jsii_.MemberMethod{JsiiMethod: "resetHostErrorTimeoutSeconds", GoMethod: "ResetHostErrorTimeoutSeconds"},
@@ -1464,6 +1470,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOnHostMaintenance", GoMethod: "ResetOnHostMaintenance"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOnInstanceStopAction", GoMethod: "ResetOnInstanceStopAction"},
 			_jsii_.MemberMethod{JsiiMethod: "resetPreemptible", GoMethod: "ResetPreemptible"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPreemptionNoticeDuration", GoMethod: "ResetPreemptionNoticeDuration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProvisioningModel", GoMethod: "ResetProvisioningModel"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTerminationTime", GoMethod: "ResetTerminationTime"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
@@ -1475,6 +1482,47 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ComputeInstanceFromTemplateSchedulingOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.computeInstanceFromTemplate.ComputeInstanceFromTemplateSchedulingPreemptionNoticeDuration",
+		reflect.TypeOf((*ComputeInstanceFromTemplateSchedulingPreemptionNoticeDuration)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.computeInstanceFromTemplate.ComputeInstanceFromTemplateSchedulingPreemptionNoticeDurationOutputReference",
+		reflect.TypeOf((*ComputeInstanceFromTemplateSchedulingPreemptionNoticeDurationOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "nanos", GoGetter: "Nanos"},
+			_jsii_.MemberProperty{JsiiProperty: "nanosInput", GoGetter: "NanosInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNanos", GoMethod: "ResetNanos"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "seconds", GoGetter: "Seconds"},
+			_jsii_.MemberProperty{JsiiProperty: "secondsInput", GoGetter: "SecondsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ComputeInstanceFromTemplateSchedulingPreemptionNoticeDurationOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -63,6 +63,10 @@ func (c *jsiiProxy_ComputeInstanceSchedulingOutputReference) validatePutOnInstan
 	return nil
 }
 
+func (c *jsiiProxy_ComputeInstanceSchedulingOutputReference) validatePutPreemptionNoticeDurationParameters(value *ComputeInstanceSchedulingPreemptionNoticeDuration) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeInstanceSchedulingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

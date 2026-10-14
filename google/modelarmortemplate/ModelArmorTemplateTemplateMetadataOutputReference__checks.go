@@ -296,6 +296,14 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetModalitiesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

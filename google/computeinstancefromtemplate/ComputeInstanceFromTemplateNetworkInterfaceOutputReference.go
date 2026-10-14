@@ -68,6 +68,9 @@ type ComputeInstanceFromTemplateNetworkInterfaceOutputReference interface {
 	QueueCount() *float64
 	SetQueueCount(val *float64)
 	QueueCountInput() *float64
+	ServiceClassId() *string
+	SetServiceClassId(val *string)
+	ServiceClassIdInput() *string
 	StackType() *string
 	SetStackType(val *string)
 	StackTypeInput() *string
@@ -127,6 +130,7 @@ type ComputeInstanceFromTemplateNetworkInterfaceOutputReference interface {
 	ResetNetworkIp()
 	ResetNicType()
 	ResetQueueCount()
+	ResetServiceClassId()
 	ResetStackType()
 	ResetSubnetwork()
 	ResetSubnetworkProject()
@@ -466,6 +470,26 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference) Q
 	return returns
 }
 
+func (j *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference) ServiceClassId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference) ServiceClassIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference) StackType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -722,6 +746,17 @@ func (j *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference)Se
 	_jsii_.Set(
 		j,
 		"queueCount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference)SetServiceClassId(val *string) {
+	if err := j.validateSetServiceClassIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceClassId",
 		val,
 	)
 }
@@ -1103,6 +1138,14 @@ func (c *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference) R
 	_jsii_.InvokeVoid(
 		c,
 		"resetQueueCount",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceFromTemplateNetworkInterfaceOutputReference) ResetServiceClassId() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetServiceClassId",
 		nil, // no parameters
 	)
 }

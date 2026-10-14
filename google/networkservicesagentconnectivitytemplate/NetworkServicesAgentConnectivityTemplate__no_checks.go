@@ -115,6 +115,10 @@ func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetAccessTy
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetAgentComputeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetAgentConnectivityTemplateIdParameters(val *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetCountPar
 }
 
 func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetDeploymentModelParameters(val *string) error {
 	return nil
 }
 

@@ -13,7 +13,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs google}.
 type GoogleProvider interface {
 	cdktn.TerraformProvider
 	AccessApprovalCustomEndpoint() *string
@@ -341,6 +341,9 @@ type GoogleProvider interface {
 	GeminiCustomEndpoint() *string
 	SetGeminiCustomEndpoint(val *string)
 	GeminiCustomEndpointInput() *string
+	GeminiDataAnalyticsCustomEndpoint() *string
+	SetGeminiDataAnalyticsCustomEndpoint(val *string)
+	GeminiDataAnalyticsCustomEndpointInput() *string
 	GkeBackupCustomEndpoint() *string
 	SetGkeBackupCustomEndpoint(val *string)
 	GkeBackupCustomEndpointInput() *string
@@ -776,6 +779,7 @@ type GoogleProvider interface {
 	ResetFirebaserulesCustomEndpoint()
 	ResetFirestoreCustomEndpoint()
 	ResetGeminiCustomEndpoint()
+	ResetGeminiDataAnalyticsCustomEndpoint()
 	ResetGkeBackupCustomEndpoint()
 	ResetGkeHub2CustomEndpoint()
 	ResetGkeHubCustomEndpoint()
@@ -3056,6 +3060,26 @@ func (j *jsiiProxy_GoogleProvider) GeminiCustomEndpointInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_GoogleProvider) GeminiDataAnalyticsCustomEndpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geminiDataAnalyticsCustomEndpoint",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GoogleProvider) GeminiDataAnalyticsCustomEndpointInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geminiDataAnalyticsCustomEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GoogleProvider) GkeBackupCustomEndpoint() *string {
 	var returns *string
 	_jsii_.Get(
@@ -5117,7 +5141,7 @@ func (j *jsiiProxy_GoogleProvider) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs google} Resource.
 func NewGoogleProvider(scope constructs.Construct, id *string, config *GoogleProviderConfig) GoogleProvider {
 	_init_.Initialize()
 
@@ -5135,7 +5159,7 @@ func NewGoogleProvider(scope constructs.Construct, id *string, config *GooglePro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs google} Resource.
 func NewGoogleProvider_Override(g GoogleProvider, scope constructs.Construct, id *string, config *GoogleProviderConfig) {
 	_init_.Initialize()
 
@@ -5991,6 +6015,14 @@ func (j *jsiiProxy_GoogleProvider)SetGeminiCustomEndpoint(val *string) {
 	_jsii_.Set(
 		j,
 		"geminiCustomEndpoint",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GoogleProvider)SetGeminiDataAnalyticsCustomEndpoint(val *string) {
+	_jsii_.Set(
+		j,
+		"geminiDataAnalyticsCustomEndpoint",
 		val,
 	)
 }
@@ -7776,6 +7808,14 @@ func (g *jsiiProxy_GoogleProvider) ResetGeminiCustomEndpoint() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetGeminiCustomEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GoogleProvider) ResetGeminiDataAnalyticsCustomEndpoint() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGeminiDataAnalyticsCustomEndpoint",
 		nil, // no parameters
 	)
 }

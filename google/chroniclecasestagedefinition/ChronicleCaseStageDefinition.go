@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_case_stage_definition google_chronicle_case_stage_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_stage_definition google_chronicle_case_stage_definition}.
 type ChronicleCaseStageDefinition interface {
 	cdktn.TerraformResource
 	CaseStageDefinitionId() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_ChronicleCaseStageDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
 func NewChronicleCaseStageDefinition(scope constructs.Construct, id *string, config *ChronicleCaseStageDefinitionConfig) ChronicleCaseStageDefinition {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewChronicleCaseStageDefinition(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_stage_definition google_chronicle_case_stage_definition} Resource.
 func NewChronicleCaseStageDefinition_Override(c ChronicleCaseStageDefinition, scope constructs.Construct, id *string, config *ChronicleCaseStageDefinitionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_loss_prevention_content_policy google_data_loss_prevention_content_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy google_data_loss_prevention_content_policy}.
 type DataLossPreventionContentPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -674,7 +674,7 @@ func (j *jsiiProxy_DataLossPreventionContentPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
 func NewDataLossPreventionContentPolicy(scope constructs.Construct, id *string, config *DataLossPreventionContentPolicyConfig) DataLossPreventionContentPolicy {
 	_init_.Initialize()
 
@@ -692,7 +692,7 @@ func NewDataLossPreventionContentPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy google_data_loss_prevention_content_policy} Resource.
 func NewDataLossPreventionContentPolicy_Override(d DataLossPreventionContentPolicy, scope constructs.Construct, id *string, config *DataLossPreventionContentPolicyConfig) {
 	_init_.Initialize()
 

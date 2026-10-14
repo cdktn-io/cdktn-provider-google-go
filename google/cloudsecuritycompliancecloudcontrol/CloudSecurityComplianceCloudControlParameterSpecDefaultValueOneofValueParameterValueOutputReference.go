@@ -38,8 +38,8 @@ type CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParam
 	NumberValue() *float64
 	SetNumberValue(val *float64)
 	NumberValueInput() *float64
-	OneofValue() CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValueOutputReference
-	OneofValueInput() *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue
+	OneofValue() CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueOutputReference
+	OneofValueInput() *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValue
 	StringListValue() CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValueOutputReference
 	StringListValueInput() *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValue
 	StringValue() *string
@@ -77,7 +77,7 @@ type CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParam
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
-	PutOneofValue(value *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue)
+	PutOneofValue(value *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValue)
 	PutStringListValue(value *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueStringListValue)
 	ResetBoolValue()
 	ResetNumberValue()
@@ -189,8 +189,8 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueO
 	return returns
 }
 
-func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) OneofValue() CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValueOutputReference {
-	var returns CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValueOutputReference
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) OneofValue() CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueOutputReference {
+	var returns CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueOutputReference
 	_jsii_.Get(
 		j,
 		"oneofValue",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueO
 	return returns
 }
 
-func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) OneofValueInput() *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue {
-	var returns *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) OneofValueInput() *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValue {
+	var returns *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValue
 	_jsii_.Get(
 		j,
 		"oneofValueInput",
@@ -571,7 +571,7 @@ func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueO
 	return returns
 }
 
-func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) PutOneofValue(value *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue) {
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) PutOneofValue(value *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValue) {
 	if err := c.validatePutOneofValueParameters(value); err != nil {
 		panic(err)
 	}

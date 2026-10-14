@@ -79,6 +79,14 @@ func (d *jsiiProxy_DialogflowGenerator) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowGenerator) validatePutAgentCoachingContextParameters(value *DialogflowGeneratorAgentCoachingContext) error {
+	return nil
+}
+
+func (d *jsiiProxy_DialogflowGenerator) validatePutFreeFormContextParameters(value *DialogflowGeneratorFreeFormContext) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowGenerator) validatePutInferenceParameterParameters(value *DialogflowGeneratorInferenceParameter) error {
 	return nil
 }
@@ -152,6 +160,10 @@ func (j *jsiiProxy_DialogflowGenerator) validateSetProvisionersParameters(val *[
 }
 
 func (j *jsiiProxy_DialogflowGenerator) validateSetPublishedModelParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DialogflowGenerator) validateSetToolsParameters(val *[]*string) error {
 	return nil
 }
 

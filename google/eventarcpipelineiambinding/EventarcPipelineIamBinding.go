@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding}.
 type EventarcPipelineIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_EventarcPipelineIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
 func NewEventarcPipelineIamBinding(scope constructs.Construct, id *string, config *EventarcPipelineIamBindingConfig) EventarcPipelineIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewEventarcPipelineIamBinding(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
 func NewEventarcPipelineIamBinding_Override(e EventarcPipelineIamBinding, scope constructs.Construct, id *string, config *EventarcPipelineIamBindingConfig) {
 	_init_.Initialize()
 

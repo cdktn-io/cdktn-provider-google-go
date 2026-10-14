@@ -7,7 +7,7 @@ package bigqueryanalyticshublistingsubscription
 type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscription struct {
 	// Name of the subscription. Format is 'projects/{project}/subscriptions/{sub}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#name BigqueryAnalyticsHubListingSubscription#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#name BigqueryAnalyticsHubListingSubscription#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// The approximate amount of time (on a best-effort basis) Pub/Sub waits for the subscriber to acknowledge receipt before resending the message.
 	//
@@ -23,19 +23,19 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// If the subscriber never acknowledges the message, the Pub/Sub system will eventually redeliver
 	// the message.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#ack_deadline_seconds BigqueryAnalyticsHubListingSubscription#ack_deadline_seconds}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#ack_deadline_seconds BigqueryAnalyticsHubListingSubscription#ack_deadline_seconds}
 	AckDeadlineSeconds *float64 `field:"optional" json:"ackDeadlineSeconds" yaml:"ackDeadlineSeconds"`
 	// bigquery_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#bigquery_config BigqueryAnalyticsHubListingSubscription#bigquery_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#bigquery_config BigqueryAnalyticsHubListingSubscription#bigquery_config}
 	BigqueryConfig *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscriptionBigqueryConfig `field:"optional" json:"bigqueryConfig" yaml:"bigqueryConfig"`
 	// cloud_storage_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#cloud_storage_config BigqueryAnalyticsHubListingSubscription#cloud_storage_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#cloud_storage_config BigqueryAnalyticsHubListingSubscription#cloud_storage_config}
 	CloudStorageConfig *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscriptionCloudStorageConfig `field:"optional" json:"cloudStorageConfig" yaml:"cloudStorageConfig"`
 	// dead_letter_policy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#dead_letter_policy BigqueryAnalyticsHubListingSubscription#dead_letter_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#dead_letter_policy BigqueryAnalyticsHubListingSubscription#dead_letter_policy}
 	DeadLetterPolicy *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscriptionDeadLetterPolicy `field:"optional" json:"deadLetterPolicy" yaml:"deadLetterPolicy"`
 	// Indicates whether the subscription is detached from its topic.
 	//
@@ -44,7 +44,7 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// requests will return FAILED_PRECONDITION. If the subscription is a push subscription, pushes
 	// to the endpoint will not be made.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#detached BigqueryAnalyticsHubListingSubscription#detached}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#detached BigqueryAnalyticsHubListingSubscription#detached}
 	Detached interface{} `field:"optional" json:"detached" yaml:"detached"`
 	// If true, Pub/Sub provides the following guarantees for the delivery of a message with a given value of 'message_id' on this subscription: The message sent to a subscriber is guaranteed not to be resent before the message's acknowledgement deadline expires.
 	//
@@ -54,17 +54,17 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// a publisher client. These copies are considered distinct by Pub/Sub and have distinct 'message_id'
 	// values.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#enable_exactly_once_delivery BigqueryAnalyticsHubListingSubscription#enable_exactly_once_delivery}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#enable_exactly_once_delivery BigqueryAnalyticsHubListingSubscription#enable_exactly_once_delivery}
 	EnableExactlyOnceDelivery interface{} `field:"optional" json:"enableExactlyOnceDelivery" yaml:"enableExactlyOnceDelivery"`
 	// If true, messages published with the same 'ordering_key' in 'PubsubMessage' will be delivered to the subscribers in the order in which they are received by the Pub/Sub system.
 	//
 	// Otherwise, they may be delivered in any order.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#enable_message_ordering BigqueryAnalyticsHubListingSubscription#enable_message_ordering}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#enable_message_ordering BigqueryAnalyticsHubListingSubscription#enable_message_ordering}
 	EnableMessageOrdering interface{} `field:"optional" json:"enableMessageOrdering" yaml:"enableMessageOrdering"`
 	// expiration_policy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#expiration_policy BigqueryAnalyticsHubListingSubscription#expiration_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#expiration_policy BigqueryAnalyticsHubListingSubscription#expiration_policy}
 	ExpirationPolicy *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscriptionExpirationPolicy `field:"optional" json:"expirationPolicy" yaml:"expirationPolicy"`
 	// An expression written in the Pub/Sub filter language.
 	//
@@ -72,11 +72,11 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// whose 'attributes' field matches the filter are delivered on this subscription. If empty, then
 	// no messages are filtered out.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#filter BigqueryAnalyticsHubListingSubscription#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#filter BigqueryAnalyticsHubListingSubscription#filter}
 	Filter *string `field:"optional" json:"filter" yaml:"filter"`
 	// See [Creating and managing labels](https://cloud.google.com/pubsub/docs/labels).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#labels BigqueryAnalyticsHubListingSubscription#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#labels BigqueryAnalyticsHubListingSubscription#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// How long to retain unacknowledged messages in the subscription's backlog, from the moment a message is published.
 	//
@@ -84,11 +84,11 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// of acknowledged messages, and thus configures how far back in time a Seek can be done. Defaults
 	// to 7 days. Cannot be more than 31 days or less than 10 minutes.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#message_retention_duration BigqueryAnalyticsHubListingSubscription#message_retention_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#message_retention_duration BigqueryAnalyticsHubListingSubscription#message_retention_duration}
 	MessageRetentionDuration *string `field:"optional" json:"messageRetentionDuration" yaml:"messageRetentionDuration"`
 	// push_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#push_config BigqueryAnalyticsHubListingSubscription#push_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#push_config BigqueryAnalyticsHubListingSubscription#push_config}
 	PushConfig *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscriptionPushConfig `field:"optional" json:"pushConfig" yaml:"pushConfig"`
 	// Indicates whether to retain acknowledged messages.
 	//
@@ -97,11 +97,11 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// 'messageRetentionDuration' window. This must be true if you would like to Seek to a timestamp
 	// in the past to replay previously-acknowledged messages.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#retain_acked_messages BigqueryAnalyticsHubListingSubscription#retain_acked_messages}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#retain_acked_messages BigqueryAnalyticsHubListingSubscription#retain_acked_messages}
 	RetainAckedMessages interface{} `field:"optional" json:"retainAckedMessages" yaml:"retainAckedMessages"`
 	// retry_policy block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#retry_policy BigqueryAnalyticsHubListingSubscription#retry_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#retry_policy BigqueryAnalyticsHubListingSubscription#retry_policy}
 	RetryPolicy *BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubSubscriptionRetryPolicy `field:"optional" json:"retryPolicy" yaml:"retryPolicy"`
 }
 

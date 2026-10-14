@@ -55,6 +55,10 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputRef
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference) validatePutResourcesParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

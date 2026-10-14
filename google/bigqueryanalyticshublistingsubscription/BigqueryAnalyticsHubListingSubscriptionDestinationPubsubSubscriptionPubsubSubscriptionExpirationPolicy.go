@@ -12,7 +12,7 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// associated resource. The minimum and maximum allowed values for 'ttl' depend on the type of
 	// the associated resource, as well. If 'ttl' is not set, the associated resource never expires.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_listing_subscription#ttl BigqueryAnalyticsHubListingSubscription#ttl}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#ttl BigqueryAnalyticsHubListingSubscription#ttl}
 	Ttl *string `field:"optional" json:"ttl" yaml:"ttl"`
 }
 

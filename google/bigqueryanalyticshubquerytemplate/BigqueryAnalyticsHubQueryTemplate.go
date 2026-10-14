@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template}.
 type BigqueryAnalyticsHubQueryTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -47,6 +47,8 @@ type BigqueryAnalyticsHubQueryTemplate interface {
 	Documentation() *string
 	SetDocumentation(val *string)
 	DocumentationInput() *string
+	EncryptionConfiguration() BigqueryAnalyticsHubQueryTemplateEncryptionConfigurationOutputReference
+	EncryptionConfigurationInput() *BigqueryAnalyticsHubQueryTemplateEncryptionConfiguration
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -181,6 +183,7 @@ type BigqueryAnalyticsHubQueryTemplate interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutEncryptionConfiguration(value *BigqueryAnalyticsHubQueryTemplateEncryptionConfiguration)
 	PutRoutine(value *BigqueryAnalyticsHubQueryTemplateRoutine)
 	PutTimeouts(value *BigqueryAnalyticsHubQueryTemplateTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -199,6 +202,7 @@ type BigqueryAnalyticsHubQueryTemplate interface {
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetDocumentation()
+	ResetEncryptionConfiguration()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -390,6 +394,26 @@ func (j *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) DocumentationInput() *stri
 	_jsii_.Get(
 		j,
 		"documentationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) EncryptionConfiguration() BigqueryAnalyticsHubQueryTemplateEncryptionConfigurationOutputReference {
+	var returns BigqueryAnalyticsHubQueryTemplateEncryptionConfigurationOutputReference
+	_jsii_.Get(
+		j,
+		"encryptionConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) EncryptionConfigurationInput() *BigqueryAnalyticsHubQueryTemplateEncryptionConfiguration {
+	var returns *BigqueryAnalyticsHubQueryTemplateEncryptionConfiguration
+	_jsii_.Get(
+		j,
+		"encryptionConfigurationInput",
 		&returns,
 	)
 	return returns
@@ -696,7 +720,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
 func NewBigqueryAnalyticsHubQueryTemplate(scope constructs.Construct, id *string, config *BigqueryAnalyticsHubQueryTemplateConfig) BigqueryAnalyticsHubQueryTemplate {
 	_init_.Initialize()
 
@@ -714,7 +738,7 @@ func NewBigqueryAnalyticsHubQueryTemplate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
 func NewBigqueryAnalyticsHubQueryTemplate_Override(b BigqueryAnalyticsHubQueryTemplate, scope constructs.Construct, id *string, config *BigqueryAnalyticsHubQueryTemplateConfig) {
 	_init_.Initialize()
 
@@ -1283,6 +1307,17 @@ func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) OverrideLogicalId(newLogic
 	)
 }
 
+func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) PutEncryptionConfiguration(value *BigqueryAnalyticsHubQueryTemplateEncryptionConfiguration) {
+	if err := b.validatePutEncryptionConfigurationParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putEncryptionConfiguration",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) PutRoutine(value *BigqueryAnalyticsHubQueryTemplateRoutine) {
 	if err := b.validatePutRoutineParameters(value); err != nil {
 		panic(err)
@@ -1336,6 +1371,14 @@ func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) ResetDocumentation() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetDocumentation",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) ResetEncryptionConfiguration() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetEncryptionConfiguration",
 		nil, // no parameters
 	)
 }

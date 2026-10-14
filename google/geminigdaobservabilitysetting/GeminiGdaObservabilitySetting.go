@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting}.
 type GeminiGdaObservabilitySetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GeminiGdaObservabilitySetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
 func NewGeminiGdaObservabilitySetting(scope constructs.Construct, id *string, config *GeminiGdaObservabilitySettingConfig) GeminiGdaObservabilitySetting {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGeminiGdaObservabilitySetting(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
 func NewGeminiGdaObservabilitySetting_Override(g GeminiGdaObservabilitySetting, scope constructs.Construct, id *string, config *GeminiGdaObservabilitySettingConfig) {
 	_init_.Initialize()
 

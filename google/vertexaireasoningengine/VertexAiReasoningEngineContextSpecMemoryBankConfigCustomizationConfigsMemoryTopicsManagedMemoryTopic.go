@@ -7,7 +7,7 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsManagedMemoryTopic struct {
 	// Managed topic enum (e.g. USER_PREFERENCES, EXPLICIT_INSTRUCTIONS).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_reasoning_engine#managed_topic_enum VertexAiReasoningEngine#managed_topic_enum}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#managed_topic_enum VertexAiReasoningEngine#managed_topic_enum}
 	ManagedTopicEnum *string `field:"optional" json:"managedTopicEnum" yaml:"managedTopicEnum"`
 }
 

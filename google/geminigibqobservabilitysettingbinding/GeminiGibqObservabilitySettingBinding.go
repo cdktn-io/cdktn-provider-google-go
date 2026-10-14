@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding}.
 type GeminiGibqObservabilitySettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_GeminiGibqObservabilitySettingBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding} Resource.
 func NewGeminiGibqObservabilitySettingBinding(scope constructs.Construct, id *string, config *GeminiGibqObservabilitySettingBindingConfig) GeminiGibqObservabilitySettingBinding {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewGeminiGibqObservabilitySettingBinding(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gibq_observability_setting_binding google_gemini_gibq_observability_setting_binding} Resource.
 func NewGeminiGibqObservabilitySettingBinding_Override(g GeminiGibqObservabilitySettingBinding, scope constructs.Construct, id *string, config *GeminiGibqObservabilitySettingBindingConfig) {
 	_init_.Initialize()
 

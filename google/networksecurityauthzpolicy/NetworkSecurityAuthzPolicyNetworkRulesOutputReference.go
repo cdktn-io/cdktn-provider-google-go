@@ -44,6 +44,9 @@ type NetworkSecurityAuthzPolicyNetworkRulesOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	To() NetworkSecurityAuthzPolicyNetworkRulesToOutputReference
 	ToInput() *NetworkSecurityAuthzPolicyNetworkRulesTo
+	When() *string
+	SetWhen(val *string)
+	WhenInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type NetworkSecurityAuthzPolicyNetworkRulesOutputReference interface {
 	PutTo(value *NetworkSecurityAuthzPolicyNetworkRulesTo)
 	ResetFrom()
 	ResetTo()
+	ResetWhen()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference) ToInpu
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference) When() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"when",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference) WhenInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"whenInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewNetworkSecurityAuthzPolicyNetworkRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkSecurityAuthzPolicyNetworkRulesOutputReference {
 	_init_.Initialize()
@@ -276,6 +300,17 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference)SetTerr
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference)SetWhen(val *string) {
+	if err := j.validateSetWhenParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"when",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference) ResetT
 	_jsii_.InvokeVoid(
 		n,
 		"resetTo",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesOutputReference) ResetWhen() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetWhen",
 		nil, // no parameters
 	)
 }

@@ -301,6 +301,14 @@ func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetAccessTy
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetAgentComputeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetAgentConnectivityTemplateIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -400,6 +408,14 @@ func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetCountPar
 }
 
 func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetDeletionPolicyParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) validateSetDeploymentModelParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

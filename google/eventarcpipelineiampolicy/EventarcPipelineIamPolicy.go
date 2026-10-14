@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy}.
 type EventarcPipelineIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_EventarcPipelineIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
 func NewEventarcPipelineIamPolicy(scope constructs.Construct, id *string, config *EventarcPipelineIamPolicyConfig) EventarcPipelineIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewEventarcPipelineIamPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
 func NewEventarcPipelineIamPolicy_Override(e EventarcPipelineIamPolicy, scope constructs.Construct, id *string, config *EventarcPipelineIamPolicyConfig) {
 	_init_.Initialize()
 

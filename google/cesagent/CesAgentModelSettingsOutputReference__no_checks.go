@@ -79,6 +79,10 @@ func (j *jsiiProxy_CesAgentModelSettingsOutputReference) validateSetTerraformRes
 	return nil
 }
 
+func (j *jsiiProxy_CesAgentModelSettingsOutputReference) validateSetThinkingLevelParameters(val *string) error {
+	return nil
+}
+
 func validateNewCesAgentModelSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

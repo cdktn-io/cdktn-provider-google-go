@@ -93,7 +93,7 @@ func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueO
 	return nil
 }
 
-func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) validatePutOneofValueParameters(value *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOneofValue) error {
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValueParameterValueOutputReference) validatePutOneofValueParameters(value *CloudSecurityComplianceCloudControlParameterSpecDefaultValueOneofValue) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

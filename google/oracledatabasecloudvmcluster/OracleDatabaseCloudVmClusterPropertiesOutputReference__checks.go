@@ -356,6 +356,22 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetVmBackupStorageTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetVmFileSystemStorageTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewOracleDatabaseCloudVmClusterPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")

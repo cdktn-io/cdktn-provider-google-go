@@ -12,7 +12,7 @@ type CesAppVpcScSettings struct {
 	// example, "https://example.com" or "https://example.com:443". This list does
 	// not yet apply to Python tools that may make direct HTTP calls.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_app#allowed_origins CesApp#allowed_origins}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app#allowed_origins CesApp#allowed_origins}
 	AllowedOrigins *[]*string `field:"optional" json:"allowedOrigins" yaml:"allowedOrigins"`
 }
 

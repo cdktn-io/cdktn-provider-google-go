@@ -36,6 +36,8 @@ type NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference interfa
 	IpBlocksInput() interface{}
 	Principals() NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsList
 	PrincipalsInput() interface{}
+	Resources() NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesResourcesList
+	ResourcesInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -70,8 +72,10 @@ type NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference interfa
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIpBlocks(value interface{})
 	PutPrincipals(value interface{})
+	PutResources(value interface{})
 	ResetIpBlocks()
 	ResetPrincipals()
+	ResetResources()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -172,6 +176,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputRef
 	_jsii_.Get(
 		j,
 		"principalsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference) Resources() NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesResourcesList {
+	var returns NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesResourcesList
+	_jsii_.Get(
+		j,
+		"resources",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference) ResourcesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"resourcesInput",
 		&returns,
 	)
 	return returns
@@ -488,6 +512,17 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputRef
 	)
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference) PutResources(value interface{}) {
+	if err := n.validatePutResourcesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putResources",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference) ResetIpBlocks() {
 	_jsii_.InvokeVoid(
 		n,
@@ -500,6 +535,14 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputRef
 	_jsii_.InvokeVoid(
 		n,
 		"resetPrincipals",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesOutputReference) ResetResources() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetResources",
 		nil, // no parameters
 	)
 }

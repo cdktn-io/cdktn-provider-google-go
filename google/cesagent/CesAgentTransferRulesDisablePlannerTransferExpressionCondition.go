@@ -7,7 +7,7 @@ package cesagent
 type CesAgentTransferRulesDisablePlannerTransferExpressionCondition struct {
 	// The string representation of cloud.api.Expression condition.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_agent#expression CesAgent#expression}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_agent#expression CesAgent#expression}
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
 }
 

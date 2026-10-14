@@ -24,28 +24,28 @@ type ObservabilityOrganizationSettingsConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The location of the settings.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_organization_settings#location ObservabilityOrganizationSettings#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings#location ObservabilityOrganizationSettings#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// The organization ID.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_organization_settings#organization ObservabilityOrganizationSettings#organization}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings#organization ObservabilityOrganizationSettings#organization}
 	Organization *string `field:"required" json:"organization" yaml:"organization"`
 	// The default storage location for new resources, e.g. buckets. Only valid for global location.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_organization_settings#default_storage_location ObservabilityOrganizationSettings#default_storage_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings#default_storage_location ObservabilityOrganizationSettings#default_storage_location}
 	DefaultStorageLocation *string `field:"optional" json:"defaultStorageLocation" yaml:"defaultStorageLocation"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_organization_settings#id ObservabilityOrganizationSettings#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings#id ObservabilityOrganizationSettings#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// The default Cloud KMS key to use for new resources. Only valid for regional locations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_organization_settings#kms_key_name ObservabilityOrganizationSettings#kms_key_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings#kms_key_name ObservabilityOrganizationSettings#kms_key_name}
 	KmsKeyName *string `field:"optional" json:"kmsKeyName" yaml:"kmsKeyName"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/observability_organization_settings#timeouts ObservabilityOrganizationSettings#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings#timeouts ObservabilityOrganizationSettings#timeouts}
 	Timeouts *ObservabilityOrganizationSettingsTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

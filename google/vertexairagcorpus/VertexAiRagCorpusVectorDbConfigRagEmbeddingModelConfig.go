@@ -7,7 +7,7 @@ package vertexairagcorpus
 type VertexAiRagCorpusVectorDbConfigRagEmbeddingModelConfig struct {
 	// vertex_prediction_endpoint block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/vertex_ai_rag_corpus#vertex_prediction_endpoint VertexAiRagCorpus#vertex_prediction_endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus#vertex_prediction_endpoint VertexAiRagCorpus#vertex_prediction_endpoint}
 	VertexPredictionEndpoint *VertexAiRagCorpusVectorDbConfigRagEmbeddingModelConfigVertexPredictionEndpoint `field:"optional" json:"vertexPredictionEndpoint" yaml:"vertexPredictionEndpoint"`
 }
 

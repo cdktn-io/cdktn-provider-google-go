@@ -58,6 +58,9 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	LogTemplateOperations() interface{}
 	SetLogTemplateOperations(val interface{})
 	LogTemplateOperationsInput() interface{}
+	Modalities() *[]*string
+	SetModalities(val *[]*string)
+	ModalitiesInput() *[]*string
 	MultiLanguageDetection() ModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference
 	MultiLanguageDetectionInput() *ModelArmorTemplateTemplateMetadataMultiLanguageDetection
 	// Experimental.
@@ -103,6 +106,7 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	ResetIgnorePartialInvocationFailures()
 	ResetLogSanitizeOperations()
 	ResetLogTemplateOperations()
+	ResetModalities()
 	ResetMultiLanguageDetection()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -349,6 +353,26 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) LogTemplat
 	return returns
 }
 
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) Modalities() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"modalities",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ModalitiesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"modalitiesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) MultiLanguageDetection() ModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference {
 	var returns ModelArmorTemplateTemplateMetadataMultiLanguageDetectionOutputReference
 	_jsii_.Get(
@@ -534,6 +558,17 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference)SetLogTempl
 	_jsii_.Set(
 		j,
 		"logTemplateOperations",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference)SetModalities(val *[]*string) {
+	if err := j.validateSetModalitiesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"modalities",
 		val,
 	)
 }
@@ -836,6 +871,14 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ResetLogTe
 	_jsii_.InvokeVoid(
 		m,
 		"resetLogTemplateOperations",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ResetModalities() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetModalities",
 		nil, // no parameters
 	)
 }

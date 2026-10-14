@@ -91,6 +91,10 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParameters
 	return nil
 }
 
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersOutputReference) validateSetSubParametersParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

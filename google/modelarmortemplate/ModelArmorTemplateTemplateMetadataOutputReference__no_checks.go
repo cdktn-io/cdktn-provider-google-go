@@ -103,6 +103,10 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetModalitiesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

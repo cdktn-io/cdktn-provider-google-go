@@ -33,6 +33,9 @@ type NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputR
 	ExactInput() *string
 	// Experimental.
 	Fqn() *string
+	IgnoreCase() interface{}
+	SetIgnoreCase(val interface{})
+	IgnoreCaseInput() interface{}
 	InternalValue() *NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipal
 	SetInternalValue(val *NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipal)
 	// Experimental.
@@ -68,6 +71,7 @@ type NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputR
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExact()
+	ResetIgnoreCase()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -138,6 +142,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPr
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference) IgnoreCase() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreCase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference) IgnoreCaseInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreCaseInput",
 		&returns,
 	)
 	return returns
@@ -230,6 +254,17 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPr
 	_jsii_.Set(
 		j,
 		"exact",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference)SetIgnoreCase(val interface{}) {
+	if err := j.validateSetIgnoreCaseParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreCase",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPr
 	_jsii_.InvokeVoid(
 		n,
 		"resetExact",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromSourcesPrincipalsPrincipalOutputReference) ResetIgnoreCase() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetIgnoreCase",
 		nil, // no parameters
 	)
 }

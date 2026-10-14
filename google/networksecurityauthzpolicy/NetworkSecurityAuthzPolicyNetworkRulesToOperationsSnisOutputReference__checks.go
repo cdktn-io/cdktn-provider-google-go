@@ -166,9 +166,37 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetContainsParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetExactParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetIgnoreCaseParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil
@@ -193,6 +221,22 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 		if !_jsii_.IsAnonymousProxy(val) {
 			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnis; received %#v (a %T)", val, val)
 		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetPrefixParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetSuffixParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
 
 	return nil

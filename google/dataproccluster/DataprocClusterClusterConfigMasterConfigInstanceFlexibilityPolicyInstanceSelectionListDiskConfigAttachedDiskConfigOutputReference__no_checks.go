@@ -87,6 +87,10 @@ func (j *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPo
 	return nil
 }
 
+func (j *jsiiProxy_DataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReference) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
 func validateNewDataprocClusterClusterConfigMasterConfigInstanceFlexibilityPolicyInstanceSelectionListDiskConfigAttachedDiskConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }

@@ -7,15 +7,15 @@ package cesguardrail
 type CesGuardrailCodeCallbackAfterModelCallback struct {
 	// The python code to execute for the callback.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_guardrail#python_code CesGuardrail#python_code}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_guardrail#python_code CesGuardrail#python_code}
 	PythonCode *string `field:"required" json:"pythonCode" yaml:"pythonCode"`
 	// Human-readable description of the callback.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_guardrail#description CesGuardrail#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_guardrail#description CesGuardrail#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Whether the callback is disabled. Disabled callbacks are ignored by the agent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_guardrail#disabled CesGuardrail#disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_guardrail#disabled CesGuardrail#disabled}
 	Disabled interface{} `field:"optional" json:"disabled" yaml:"disabled"`
 	// If enabled, the callback will also be executed on intermediate model outputs.
 	//
@@ -25,7 +25,7 @@ type CesGuardrailCodeCallbackAfterModelCallback struct {
 	// may have negative implication on the execution cost and latency, and
 	// should only be enabled in rare situations.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/ces_guardrail#proactive_execution_enabled CesGuardrail#proactive_execution_enabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_guardrail#proactive_execution_enabled CesGuardrail#proactive_execution_enabled}
 	ProactiveExecutionEnabled interface{} `field:"optional" json:"proactiveExecutionEnabled" yaml:"proactiveExecutionEnabled"`
 }
 

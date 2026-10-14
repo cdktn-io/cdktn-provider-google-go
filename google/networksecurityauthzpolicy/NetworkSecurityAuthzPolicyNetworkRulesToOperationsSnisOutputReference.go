@@ -23,6 +23,9 @@ type NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference inter
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	Contains() *string
+	SetContains(val *string)
+	ContainsInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -33,8 +36,17 @@ type NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference inter
 	ExactInput() *string
 	// Experimental.
 	Fqn() *string
+	IgnoreCase() interface{}
+	SetIgnoreCase(val interface{})
+	IgnoreCaseInput() interface{}
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	Prefix() *string
+	SetPrefix(val *string)
+	PrefixInput() *string
+	Suffix() *string
+	SetSuffix(val *string)
+	SuffixInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +79,11 @@ type NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference inter
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetContains()
 	ResetExact()
+	ResetIgnoreCase()
+	ResetPrefix()
+	ResetSuffix()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -98,6 +114,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) Contains() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contains",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) ContainsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"containsInput",
 		&returns,
 	)
 	return returns
@@ -143,11 +179,71 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) IgnoreCase() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreCase",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) IgnoreCaseInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ignoreCaseInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) InternalValue() interface{} {
 	var returns interface{}
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) Prefix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"prefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) PrefixInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"prefixInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) Suffix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"suffix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) SuffixInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"suffixInput",
 		&returns,
 	)
 	return returns
@@ -223,6 +319,17 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	)
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference)SetContains(val *string) {
+	if err := j.validateSetContainsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"contains",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference)SetExact(val *string) {
 	if err := j.validateSetExactParameters(val); err != nil {
 		panic(err)
@@ -234,6 +341,17 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	)
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference)SetIgnoreCase(val interface{}) {
+	if err := j.validateSetIgnoreCaseParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ignoreCase",
+		val,
+	)
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference)SetInternalValue(val interface{}) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -241,6 +359,28 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference)SetPrefix(val *string) {
+	if err := j.validateSetPrefixParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"prefix",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference)SetSuffix(val *string) {
+	if err := j.validateSetSuffixParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"suffix",
 		val,
 	)
 }
@@ -453,10 +593,42 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	return returns
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) ResetContains() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetContains",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) ResetExact() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetExact",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) ResetIgnoreCase() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetIgnoreCase",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) ResetPrefix() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPrefix",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) ResetSuffix() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetSuffix",
 		nil, // no parameters
 	)
 }

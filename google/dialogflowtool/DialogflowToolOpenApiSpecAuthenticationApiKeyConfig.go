@@ -9,15 +9,15 @@ type DialogflowToolOpenApiSpecAuthenticationApiKeyConfig struct {
 	//
 	// E.g., If the API request is "https://example.com/act?X-Api-Key=", "X-Api-Key" would be the parameter name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool#key_name DialogflowTool#key_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#key_name DialogflowTool#key_name}
 	KeyName *string `field:"required" json:"keyName" yaml:"keyName"`
 	// Key location in the request. Possible values: ["HEADER", "QUERY_STRING"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool#request_location DialogflowTool#request_location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#request_location DialogflowTool#request_location}
 	RequestLocation *string `field:"required" json:"requestLocation" yaml:"requestLocation"`
 	// Optional. The API key. If the 'secretVersionForApiKey' field is set, this field will be ignored.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool#api_key DialogflowTool#api_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#api_key DialogflowTool#api_key}
 	ApiKey *string `field:"optional" json:"apiKey" yaml:"apiKey"`
 	// Optional.
 	//
@@ -25,7 +25,7 @@ type DialogflowToolOpenApiSpecAuthenticationApiKeyConfig struct {
 	// If this field is set, the 'apiKey' field will be ignored.
 	// Format: 'projects/{project}/secrets/{secret}/versions/{version}'
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/dialogflow_tool#secret_version_for_api_key DialogflowTool#secret_version_for_api_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#secret_version_for_api_key DialogflowTool#secret_version_for_api_key}
 	SecretVersionForApiKey *string `field:"optional" json:"secretVersionForApiKey" yaml:"secretVersionForApiKey"`
 }
 

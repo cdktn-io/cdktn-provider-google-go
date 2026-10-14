@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_snooze google_monitoring_snooze}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/monitoring_snooze google_monitoring_snooze}.
 type MonitoringSnooze interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_MonitoringSnooze) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_snooze google_monitoring_snooze} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/monitoring_snooze google_monitoring_snooze} Resource.
 func NewMonitoringSnooze(scope constructs.Construct, id *string, config *MonitoringSnoozeConfig) MonitoringSnooze {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewMonitoringSnooze(scope constructs.Construct, id *string, config *Monitor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/monitoring_snooze google_monitoring_snooze} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/monitoring_snooze google_monitoring_snooze} Resource.
 func NewMonitoringSnooze_Override(m MonitoringSnooze, scope constructs.Construct, id *string, config *MonitoringSnoozeConfig) {
 	_init_.Initialize()
 

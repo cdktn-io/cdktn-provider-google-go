@@ -7,11 +7,11 @@ package datalosspreventioncontentpolicy
 type DataLossPreventionContentPolicyInspectConfigRuleSet struct {
 	// info_types block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_loss_prevention_content_policy#info_types DataLossPreventionContentPolicy#info_types}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy#info_types DataLossPreventionContentPolicy#info_types}
 	InfoTypes interface{} `field:"required" json:"infoTypes" yaml:"infoTypes"`
 	// rules block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/data_loss_prevention_content_policy#rules DataLossPreventionContentPolicy#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy#rules DataLossPreventionContentPolicy#rules}
 	Rules interface{} `field:"required" json:"rules" yaml:"rules"`
 }
 

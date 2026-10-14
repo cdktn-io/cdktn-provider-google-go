@@ -79,6 +79,10 @@ func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) validateOverrideLogicalIdP
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) validatePutEncryptionConfigurationParameters(value *BigqueryAnalyticsHubQueryTemplateEncryptionConfiguration) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) validatePutRoutineParameters(value *BigqueryAnalyticsHubQueryTemplateRoutine) error {
 	return nil
 }

@@ -46,6 +46,9 @@ type CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersO
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	SubParameters() *string
+	SetSubParameters(val *string)
+	SubParametersInput() *string
 	SubstitutionRules() CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersSubstitutionRulesList
 	SubstitutionRulesInput() interface{}
 	// Experimental.
@@ -91,6 +94,7 @@ type CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersO
 	ResetDefaultValue()
 	ResetDescription()
 	ResetDisplayName()
+	ResetSubParameters()
 	ResetSubstitutionRules()
 	ResetValidation()
 	// Produce the Token's value at resolution time.
@@ -253,6 +257,26 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParameters
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersOutputReference) SubParameters() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subParameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersOutputReference) SubParametersInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"subParametersInput",
 		&returns,
 	)
 	return returns
@@ -439,6 +463,17 @@ func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParameters
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersOutputReference)SetSubParameters(val *string) {
+	if err := j.validateSetSubParametersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"subParameters",
 		val,
 	)
 }
@@ -715,6 +750,14 @@ func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParameters
 	_jsii_.InvokeVoid(
 		c,
 		"resetDisplayName",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersOutputReference) ResetSubParameters() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetSubParameters",
 		nil, // no parameters
 	)
 }

@@ -68,6 +68,9 @@ type ComputeInstanceNetworkInterfaceOutputReference interface {
 	QueueCount() *float64
 	SetQueueCount(val *float64)
 	QueueCountInput() *float64
+	ServiceClassId() *string
+	SetServiceClassId(val *string)
+	ServiceClassIdInput() *string
 	StackType() *string
 	SetStackType(val *string)
 	StackTypeInput() *string
@@ -127,6 +130,7 @@ type ComputeInstanceNetworkInterfaceOutputReference interface {
 	ResetNetworkIp()
 	ResetNicType()
 	ResetQueueCount()
+	ResetServiceClassId()
 	ResetStackType()
 	ResetSubnetwork()
 	ResetSubnetworkProject()
@@ -466,6 +470,26 @@ func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) QueueCountInp
 	return returns
 }
 
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) ServiceClassId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) ServiceClassIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"serviceClassIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) StackType() *string {
 	var returns *string
 	_jsii_.Get(
@@ -722,6 +746,17 @@ func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference)SetQueueCount(
 	_jsii_.Set(
 		j,
 		"queueCount",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference)SetServiceClassId(val *string) {
+	if err := j.validateSetServiceClassIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"serviceClassId",
 		val,
 	)
 }
@@ -1103,6 +1138,14 @@ func (c *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) ResetQueueCou
 	_jsii_.InvokeVoid(
 		c,
 		"resetQueueCount",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeInstanceNetworkInterfaceOutputReference) ResetServiceClassId() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetServiceClassId",
 		nil, // no parameters
 	)
 }

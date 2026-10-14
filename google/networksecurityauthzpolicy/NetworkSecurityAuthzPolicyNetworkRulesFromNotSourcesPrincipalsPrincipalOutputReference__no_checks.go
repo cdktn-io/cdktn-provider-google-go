@@ -63,6 +63,10 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipal
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference) validateSetIgnoreCaseParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipalOutputReference) validateSetInternalValueParameters(val *NetworkSecurityAuthzPolicyNetworkRulesFromNotSourcesPrincipalsPrincipal) error {
 	return nil
 }

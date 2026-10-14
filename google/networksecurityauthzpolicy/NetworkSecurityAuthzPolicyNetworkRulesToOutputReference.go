@@ -32,6 +32,8 @@ type NetworkSecurityAuthzPolicyNetworkRulesToOutputReference interface {
 	Fqn() *string
 	InternalValue() *NetworkSecurityAuthzPolicyNetworkRulesTo
 	SetInternalValue(val *NetworkSecurityAuthzPolicyNetworkRulesTo)
+	NotOperations() NetworkSecurityAuthzPolicyNetworkRulesToNotOperationsList
+	NotOperationsInput() interface{}
 	Operations() NetworkSecurityAuthzPolicyNetworkRulesToOperationsList
 	OperationsInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type NetworkSecurityAuthzPolicyNetworkRulesToOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutNotOperations(value interface{})
 	PutOperations(value interface{})
+	ResetNotOperations()
 	ResetOperations()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) Inte
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) NotOperations() NetworkSecurityAuthzPolicyNetworkRulesToNotOperationsList {
+	var returns NetworkSecurityAuthzPolicyNetworkRulesToNotOperationsList
+	_jsii_.Get(
+		j,
+		"notOperations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) NotOperationsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"notOperationsInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) Inte
 	return returns
 }
 
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) PutNotOperations(value interface{}) {
+	if err := n.validatePutNotOperationsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putNotOperations",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) PutOperations(value interface{}) {
 	if err := n.validatePutOperationsParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) PutO
 		n,
 		"putOperations",
 		[]interface{}{value},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOutputReference) ResetNotOperations() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetNotOperations",
+		nil, // no parameters
 	)
 }
 

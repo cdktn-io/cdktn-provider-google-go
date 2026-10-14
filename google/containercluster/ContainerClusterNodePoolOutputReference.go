@@ -15,6 +15,8 @@ type ContainerClusterNodePoolOutputReference interface {
 	cdktn.ComplexObject
 	Autoscaling() ContainerClusterNodePoolAutoscalingOutputReference
 	AutoscalingInput() *ContainerClusterNodePoolAutoscaling
+	BestEffortProvisioning() ContainerClusterNodePoolBestEffortProvisioningOutputReference
+	BestEffortProvisioningInput() *ContainerClusterNodePoolBestEffortProvisioning
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -109,6 +111,7 @@ type ContainerClusterNodePoolOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoscaling(value *ContainerClusterNodePoolAutoscaling)
+	PutBestEffortProvisioning(value *ContainerClusterNodePoolBestEffortProvisioning)
 	PutMaintenancePolicy(value interface{})
 	PutManagement(value *ContainerClusterNodePoolManagement)
 	PutNetworkConfig(value *ContainerClusterNodePoolNetworkConfig)
@@ -118,6 +121,7 @@ type ContainerClusterNodePoolOutputReference interface {
 	PutQueuedProvisioning(value *ContainerClusterNodePoolQueuedProvisioning)
 	PutUpgradeSettings(value *ContainerClusterNodePoolUpgradeSettings)
 	ResetAutoscaling()
+	ResetBestEffortProvisioning()
 	ResetIgnoreNodeCountChanges()
 	ResetInitialNodeCount()
 	ResetMaintenancePolicy()
@@ -164,6 +168,26 @@ func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) AutoscalingInput() *
 	_jsii_.Get(
 		j,
 		"autoscalingInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) BestEffortProvisioning() ContainerClusterNodePoolBestEffortProvisioningOutputReference {
+	var returns ContainerClusterNodePoolBestEffortProvisioningOutputReference
+	_jsii_.Get(
+		j,
+		"bestEffortProvisioning",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerClusterNodePoolOutputReference) BestEffortProvisioningInput() *ContainerClusterNodePoolBestEffortProvisioning {
+	var returns *ContainerClusterNodePoolBestEffortProvisioning
+	_jsii_.Get(
+		j,
+		"bestEffortProvisioningInput",
 		&returns,
 	)
 	return returns
@@ -947,6 +971,17 @@ func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) PutAutoscaling(value
 	)
 }
 
+func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) PutBestEffortProvisioning(value *ContainerClusterNodePoolBestEffortProvisioning) {
+	if err := c.validatePutBestEffortProvisioningParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putBestEffortProvisioning",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) PutMaintenancePolicy(value interface{}) {
 	if err := c.validatePutMaintenancePolicyParameters(value); err != nil {
 		panic(err)
@@ -1039,6 +1074,14 @@ func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) ResetAutoscaling() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerClusterNodePoolOutputReference) ResetBestEffortProvisioning() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetBestEffortProvisioning",
 		nil, // no parameters
 	)
 }

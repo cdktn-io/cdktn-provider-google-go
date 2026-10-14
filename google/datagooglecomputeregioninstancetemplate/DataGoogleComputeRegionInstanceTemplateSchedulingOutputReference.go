@@ -43,6 +43,7 @@ type DataGoogleComputeRegionInstanceTemplateSchedulingOutputReference interface 
 	OnHostMaintenance() *string
 	OnInstanceStopAction() DataGoogleComputeRegionInstanceTemplateSchedulingOnInstanceStopActionList
 	Preemptible() cdktn.IResolvable
+	PreemptionNoticeDuration() DataGoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationList
 	ProvisioningModel() *string
 	TerminationTime() *string
 	// Experimental.
@@ -247,6 +248,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateSchedulingOutputRefere
 	_jsii_.Get(
 		j,
 		"preemptible",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionInstanceTemplateSchedulingOutputReference) PreemptionNoticeDuration() DataGoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationList {
+	var returns DataGoogleComputeRegionInstanceTemplateSchedulingPreemptionNoticeDurationList
+	_jsii_.Get(
+		j,
+		"preemptionNoticeDuration",
 		&returns,
 	)
 	return returns

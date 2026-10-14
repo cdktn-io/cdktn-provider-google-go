@@ -59,11 +59,27 @@ func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputR
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetContainsParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetExactParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetIgnoreCaseParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkSecurityAuthzPolicyNetworkRulesToOperationsSnisOutputReference) validateSetSuffixParameters(val *string) error {
 	return nil
 }
 

@@ -111,6 +111,10 @@ func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) validateSetServiceClassIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeInstanceTemplateNetworkInterfaceOutputReference) validateSetStackTypeParameters(val *string) error {
 	return nil
 }

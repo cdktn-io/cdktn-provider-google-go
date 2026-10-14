@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_hive_database_iam_binding google_biglake_hive_database_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding google_biglake_hive_database_iam_binding}.
 type BiglakeHiveDatabaseIamBinding interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BiglakeHiveDatabaseIamBinding) TerraformResourceType() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_hive_database_iam_binding google_biglake_hive_database_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding google_biglake_hive_database_iam_binding} Resource.
 func NewBiglakeHiveDatabaseIamBinding(scope constructs.Construct, id *string, config *BiglakeHiveDatabaseIamBindingConfig) BiglakeHiveDatabaseIamBinding {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBiglakeHiveDatabaseIamBinding(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/biglake_hive_database_iam_binding google_biglake_hive_database_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding google_biglake_hive_database_iam_binding} Resource.
 func NewBiglakeHiveDatabaseIamBinding_Override(b BiglakeHiveDatabaseIamBinding, scope constructs.Construct, id *string, config *BiglakeHiveDatabaseIamBindingConfig) {
 	_init_.Initialize()
 

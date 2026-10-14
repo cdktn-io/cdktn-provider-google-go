@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment}.
 type BigqueryDataTransferDataSourceEnrollment interface {
 	cdktn.TerraformResource
 	AuthorizationType() *string
@@ -652,7 +652,7 @@ func (j *jsiiProxy_BigqueryDataTransferDataSourceEnrollment) UpdateDeadlineSecon
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
 func NewBigqueryDataTransferDataSourceEnrollment(scope constructs.Construct, id *string, config *BigqueryDataTransferDataSourceEnrollmentConfig) BigqueryDataTransferDataSourceEnrollment {
 	_init_.Initialize()
 
@@ -670,7 +670,7 @@ func NewBigqueryDataTransferDataSourceEnrollment(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_data_transfer_data_source_enrollment google_bigquery_data_transfer_data_source_enrollment} Resource.
 func NewBigqueryDataTransferDataSourceEnrollment_Override(b BigqueryDataTransferDataSourceEnrollment, scope constructs.Construct, id *string, config *BigqueryDataTransferDataSourceEnrollmentConfig) {
 	_init_.Initialize()
 

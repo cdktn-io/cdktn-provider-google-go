@@ -46,6 +46,9 @@ type CesAgentModelSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ThinkingLevel() *string
+	SetThinkingLevel(val *string)
+	ThinkingLevelInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type CesAgentModelSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetModel()
 	ResetTemperature()
+	ResetThinkingLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_CesAgentModelSettingsOutputReference) TerraformResource() cdk
 	return returns
 }
 
+func (j *jsiiProxy_CesAgentModelSettingsOutputReference) ThinkingLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAgentModelSettingsOutputReference) ThinkingLevelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevelInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewCesAgentModelSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CesAgentModelSettingsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_CesAgentModelSettingsOutputReference)SetTerraformResource(val
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesAgentModelSettingsOutputReference)SetThinkingLevel(val *string) {
+	if err := j.validateSetThinkingLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"thinkingLevel",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (c *jsiiProxy_CesAgentModelSettingsOutputReference) ResetTemperature() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTemperature",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAgentModelSettingsOutputReference) ResetThinkingLevel() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetThinkingLevel",
 		nil, // no parameters
 	)
 }

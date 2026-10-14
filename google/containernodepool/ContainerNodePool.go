@@ -12,11 +12,13 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/container_node_pool google_container_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/container_node_pool google_container_node_pool}.
 type ContainerNodePool interface {
 	cdktn.TerraformResource
 	Autoscaling() ContainerNodePoolAutoscalingOutputReference
 	AutoscalingInput() *ContainerNodePoolAutoscaling
+	BestEffortProvisioning() ContainerNodePoolBestEffortProvisioningOutputReference
+	BestEffortProvisioningInput() *ContainerNodePoolBestEffortProvisioning
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Cluster() *string
@@ -203,6 +205,7 @@ type ContainerNodePool interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAutoscaling(value *ContainerNodePoolAutoscaling)
+	PutBestEffortProvisioning(value *ContainerNodePoolBestEffortProvisioning)
 	PutMaintenancePolicy(value interface{})
 	PutManagement(value *ContainerNodePoolManagement)
 	PutNetworkConfig(value *ContainerNodePoolNetworkConfig)
@@ -226,6 +229,7 @@ type ContainerNodePool interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAutoscaling()
+	ResetBestEffortProvisioning()
 	ResetDeletionPolicy()
 	ResetId()
 	ResetIgnoreNodeCountChanges()
@@ -292,6 +296,26 @@ func (j *jsiiProxy_ContainerNodePool) AutoscalingInput() *ContainerNodePoolAutos
 	_jsii_.Get(
 		j,
 		"autoscalingInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePool) BestEffortProvisioning() ContainerNodePoolBestEffortProvisioningOutputReference {
+	var returns ContainerNodePoolBestEffortProvisioningOutputReference
+	_jsii_.Get(
+		j,
+		"bestEffortProvisioning",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerNodePool) BestEffortProvisioningInput() *ContainerNodePoolBestEffortProvisioning {
+	var returns *ContainerNodePoolBestEffortProvisioning
+	_jsii_.Get(
+		j,
+		"bestEffortProvisioningInput",
 		&returns,
 	)
 	return returns
@@ -928,7 +952,7 @@ func (j *jsiiProxy_ContainerNodePool) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool(scope constructs.Construct, id *string, config *ContainerNodePoolConfig) ContainerNodePool {
 	_init_.Initialize()
 
@@ -946,7 +970,7 @@ func NewContainerNodePool(scope constructs.Construct, id *string, config *Contai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.6.0/docs/resources/container_node_pool google_container_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/container_node_pool google_container_node_pool} Resource.
 func NewContainerNodePool_Override(c ContainerNodePool, scope constructs.Construct, id *string, config *ContainerNodePoolConfig) {
 	_init_.Initialize()
 
@@ -1548,6 +1572,17 @@ func (c *jsiiProxy_ContainerNodePool) PutAutoscaling(value *ContainerNodePoolAut
 	)
 }
 
+func (c *jsiiProxy_ContainerNodePool) PutBestEffortProvisioning(value *ContainerNodePoolBestEffortProvisioning) {
+	if err := c.validatePutBestEffortProvisioningParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putBestEffortProvisioning",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerNodePool) PutMaintenancePolicy(value interface{}) {
 	if err := c.validatePutMaintenancePolicyParameters(value); err != nil {
 		panic(err)
@@ -1662,6 +1697,14 @@ func (c *jsiiProxy_ContainerNodePool) ResetAutoscaling() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetAutoscaling",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerNodePool) ResetBestEffortProvisioning() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetBestEffortProvisioning",
 		nil, // no parameters
 	)
 }
