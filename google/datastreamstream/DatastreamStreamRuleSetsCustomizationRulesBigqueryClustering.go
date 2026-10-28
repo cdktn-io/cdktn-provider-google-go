@@ -7,7 +7,7 @@ package datastreamstream
 type DatastreamStreamRuleSetsCustomizationRulesBigqueryClustering struct {
 	// Column names to set as clustering columns.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/datastream_stream#columns DatastreamStream#columns}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/datastream_stream#columns DatastreamStream#columns}
 	Columns *[]*string `field:"required" json:"columns" yaml:"columns"`
 }
 

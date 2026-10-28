@@ -83,6 +83,10 @@ func (b *jsiiProxy_BigqueryReservation) validatePutAutoscaleParameters(value *Bi
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryReservation) validatePutSchedulingPolicyParameters(value *BigqueryReservationSchedulingPolicy) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryReservation) validatePutTimeoutsParameters(value *BigqueryReservationTimeouts) error {
 	return nil
 }

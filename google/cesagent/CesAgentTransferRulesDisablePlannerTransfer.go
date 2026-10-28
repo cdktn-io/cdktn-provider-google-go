@@ -7,7 +7,7 @@ package cesagent
 type CesAgentTransferRulesDisablePlannerTransfer struct {
 	// expression_condition block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_agent#expression_condition CesAgent#expression_condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_agent#expression_condition CesAgent#expression_condition}
 	ExpressionCondition *CesAgentTransferRulesDisablePlannerTransferExpressionCondition `field:"required" json:"expressionCondition" yaml:"expressionCondition"`
 }
 

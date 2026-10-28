@@ -83,11 +83,19 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutMaste
 	return nil
 }
 
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutMasterFlexibleConfigParameters(value *DataprocClusterClusterConfigMasterFlexibleConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutMetastoreConfigParameters(value *DataprocClusterClusterConfigMetastoreConfig) error {
 	return nil
 }
 
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutPreemptibleWorkerConfigParameters(value *DataprocClusterClusterConfigPreemptibleWorkerConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutSecondaryWorkerFlexibleConfigParameters(value *DataprocClusterClusterConfigSecondaryWorkerFlexibleConfig) error {
 	return nil
 }
 
@@ -100,6 +108,10 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutSoftw
 }
 
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutWorkerConfigParameters(value *DataprocClusterClusterConfigWorkerConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutWorkerFlexibleConfigParameters(value *DataprocClusterClusterConfigWorkerFlexibleConfig) error {
 	return nil
 }
 

@@ -7,11 +7,11 @@ package dialogflowgenerator
 type DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCallResult struct {
 	// The name of the tool's action associated with this call.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_generator#action DialogflowGenerator#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_generator#action DialogflowGenerator#action}
 	Action *string `field:"optional" json:"action" yaml:"action"`
 	// error block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_generator#error DialogflowGenerator#error}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_generator#error DialogflowGenerator#error}
 	Error *DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCallResultError `field:"optional" json:"error" yaml:"error"`
 }
 

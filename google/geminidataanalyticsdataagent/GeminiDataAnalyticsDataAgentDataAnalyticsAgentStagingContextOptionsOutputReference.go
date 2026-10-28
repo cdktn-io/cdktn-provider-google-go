@@ -5,9 +5,9 @@ package geminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -36,6 +36,9 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputRe
 	Fqn() *string
 	InternalValue() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptions
 	SetInternalValue(val *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptions)
+	Model() *string
+	SetModel(val *string)
+	ModelInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputRe
 	PutDatasource(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsDatasource)
 	ResetAnalysis()
 	ResetDatasource()
+	ResetModel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -177,6 +181,26 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	return returns
 }
 
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference) Model() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"model",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference) ModelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -254,6 +278,17 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference)SetModel(val *string) {
+	if err := j.validateSetModelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"model",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	_jsii_.InvokeVoid(
 		g,
 		"resetDatasource",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference) ResetModel() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetModel",
 		nil, // no parameters
 	)
 }

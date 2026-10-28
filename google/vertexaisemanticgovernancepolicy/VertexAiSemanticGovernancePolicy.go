@@ -5,14 +5,14 @@ package vertexaisemanticgovernancepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaisemanticgovernancepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/vertexaisemanticgovernancepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy}.
 type VertexAiSemanticGovernancePolicy interface {
 	cdktn.TerraformResource
 	Agent() *string
@@ -684,7 +684,7 @@ func (j *jsiiProxy_VertexAiSemanticGovernancePolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy} Resource.
 func NewVertexAiSemanticGovernancePolicy(scope constructs.Construct, id *string, config *VertexAiSemanticGovernancePolicyConfig) VertexAiSemanticGovernancePolicy {
 	_init_.Initialize()
 
@@ -702,7 +702,7 @@ func NewVertexAiSemanticGovernancePolicy(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_semantic_governance_policy google_vertex_ai_semantic_governance_policy} Resource.
 func NewVertexAiSemanticGovernancePolicy_Override(v VertexAiSemanticGovernancePolicy, scope constructs.Construct, id *string, config *VertexAiSemanticGovernancePolicyConfig) {
 	_init_.Initialize()
 

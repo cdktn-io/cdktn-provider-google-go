@@ -59,6 +59,10 @@ func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputR
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetFractionLeafNodesToSearchParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetInternalValueParameters(val *VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig) error {
 	return nil
 }

@@ -24,19 +24,19 @@ type BiglakeHiveTableConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// The Hive catalog where the table is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#catalog BiglakeHiveTable#catalog}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#catalog BiglakeHiveTable#catalog}
 	Catalog *string `field:"required" json:"catalog" yaml:"catalog"`
 	// The Hive database where the table is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#database BiglakeHiveTable#database}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#database BiglakeHiveTable#database}
 	Database *string `field:"required" json:"database" yaml:"database"`
 	// The name of the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#name BiglakeHiveTable#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#name BiglakeHiveTable#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// storage_descriptor block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#storage_descriptor BiglakeHiveTable#storage_descriptor}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#storage_descriptor BiglakeHiveTable#storage_descriptor}
 	StorageDescriptor *BiglakeHiveTableStorageDescriptor `field:"required" json:"storageDescriptor" yaml:"storageDescriptor"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -48,38 +48,38 @@ type BiglakeHiveTableConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#deletion_policy BiglakeHiveTable#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#deletion_policy BiglakeHiveTable#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Description of the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#description BiglakeHiveTable#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#description BiglakeHiveTable#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#id BiglakeHiveTable#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#id BiglakeHiveTable#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// Additional parameters associated with the table.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#parameters BiglakeHiveTable#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#parameters BiglakeHiveTable#parameters}
 	Parameters *map[string]*string `field:"optional" json:"parameters" yaml:"parameters"`
 	// partition_keys block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#partition_keys BiglakeHiveTable#partition_keys}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#partition_keys BiglakeHiveTable#partition_keys}
 	PartitionKeys interface{} `field:"optional" json:"partitionKeys" yaml:"partitionKeys"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#project BiglakeHiveTable#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#project BiglakeHiveTable#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#timeouts BiglakeHiveTable#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#timeouts BiglakeHiveTable#timeouts}
 	Timeouts *BiglakeHiveTableTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// Expanded view text for Hive views. Empty for non-view.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#view_expanded_text BiglakeHiveTable#view_expanded_text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#view_expanded_text BiglakeHiveTable#view_expanded_text}
 	ViewExpandedText *string `field:"optional" json:"viewExpandedText" yaml:"viewExpandedText"`
 	// Original view text for Hive views. Empty for non-view.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#view_original_text BiglakeHiveTable#view_original_text}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#view_original_text BiglakeHiveTable#view_original_text}
 	ViewOriginalText *string `field:"optional" json:"viewOriginalText" yaml:"viewOriginalText"`
 }
 

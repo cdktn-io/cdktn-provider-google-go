@@ -9,7 +9,7 @@ type ManagedKafkaClusterGcpConfigAccessConfigPublicClusterConfig struct {
 	//
 	// To protect your cluster, allow access from only trusted external IP ranges. Don't expose your cluster to untrusted ranges.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/managed_kafka_cluster#allowed_source_ip_ranges ManagedKafkaCluster#allowed_source_ip_ranges}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/managed_kafka_cluster#allowed_source_ip_ranges ManagedKafkaCluster#allowed_source_ip_ranges}
 	AllowedSourceIpRanges *[]*string `field:"required" json:"allowedSourceIpRanges" yaml:"allowedSourceIpRanges"`
 }
 

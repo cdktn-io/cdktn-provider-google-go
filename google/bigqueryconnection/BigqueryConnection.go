@@ -5,14 +5,14 @@ package bigqueryconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigqueryconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/bigqueryconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_connection google_bigquery_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_connection google_bigquery_connection}.
 type BigqueryConnection interface {
 	cdktn.TerraformResource
 	Aws() BigqueryConnectionAwsOutputReference
@@ -93,6 +93,8 @@ type BigqueryConnection interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	SalesforceDataCloud() BigqueryConnectionSalesforceDataCloudOutputReference
+	SalesforceDataCloudInput() *BigqueryConnectionSalesforceDataCloud
 	Spark() BigqueryConnectionSparkOutputReference
 	SparkInput() *BigqueryConnectionSpark
 	// Experimental.
@@ -188,6 +190,7 @@ type BigqueryConnection interface {
 	PutCloudSpanner(value *BigqueryConnectionCloudSpanner)
 	PutCloudSql(value *BigqueryConnectionCloudSql)
 	PutConfiguration(value *BigqueryConnectionConfiguration)
+	PutSalesforceDataCloud(value *BigqueryConnectionSalesforceDataCloud)
 	PutSpark(value *BigqueryConnectionSpark)
 	PutTimeouts(value *BigqueryConnectionTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -220,6 +223,7 @@ type BigqueryConnection interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetSalesforceDataCloud()
 	ResetSpark()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -679,6 +683,26 @@ func (j *jsiiProxy_BigqueryConnection) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_BigqueryConnection) SalesforceDataCloud() BigqueryConnectionSalesforceDataCloudOutputReference {
+	var returns BigqueryConnectionSalesforceDataCloudOutputReference
+	_jsii_.Get(
+		j,
+		"salesforceDataCloud",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryConnection) SalesforceDataCloudInput() *BigqueryConnectionSalesforceDataCloud {
+	var returns *BigqueryConnectionSalesforceDataCloud
+	_jsii_.Get(
+		j,
+		"salesforceDataCloudInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BigqueryConnection) Spark() BigqueryConnectionSparkOutputReference {
 	var returns BigqueryConnectionSparkOutputReference
 	_jsii_.Get(
@@ -750,7 +774,7 @@ func (j *jsiiProxy_BigqueryConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
 func NewBigqueryConnection(scope constructs.Construct, id *string, config *BigqueryConnectionConfig) BigqueryConnection {
 	_init_.Initialize()
 
@@ -768,7 +792,7 @@ func NewBigqueryConnection(scope constructs.Construct, id *string, config *Bigqu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_connection google_bigquery_connection} Resource.
 func NewBigqueryConnection_Override(b BigqueryConnection, scope constructs.Construct, id *string, config *BigqueryConnectionConfig) {
 	_init_.Initialize()
 
@@ -1370,6 +1394,17 @@ func (b *jsiiProxy_BigqueryConnection) PutConfiguration(value *BigqueryConnectio
 	)
 }
 
+func (b *jsiiProxy_BigqueryConnection) PutSalesforceDataCloud(value *BigqueryConnectionSalesforceDataCloud) {
+	if err := b.validatePutSalesforceDataCloudParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putSalesforceDataCloud",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BigqueryConnection) PutSpark(value *BigqueryConnectionSpark) {
 	if err := b.validatePutSparkParameters(value); err != nil {
 		panic(err)
@@ -1519,6 +1554,14 @@ func (b *jsiiProxy_BigqueryConnection) ResetProject() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryConnection) ResetSalesforceDataCloud() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetSalesforceDataCloud",
 		nil, // no parameters
 	)
 }

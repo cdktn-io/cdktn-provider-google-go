@@ -5,9 +5,9 @@ package computesecuritypolicyrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computesecuritypolicyrule/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computesecuritypolicyrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference in
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	RequestBody() ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList
+	RequestBodyInput() interface{}
 	RequestCookie() ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestCookieAList
 	RequestCookieInput() interface{}
 	RequestHeader() ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestHeaderAList
@@ -78,10 +80,12 @@ type ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference in
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutRequestBody(value interface{})
 	PutRequestCookie(value interface{})
 	PutRequestHeader(value interface{})
 	PutRequestQueryParam(value interface{})
 	PutRequestUri(value interface{})
+	ResetRequestBody()
 	ResetRequestCookie()
 	ResetRequestHeader()
 	ResetRequestQueryParam()
@@ -147,6 +151,26 @@ func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutp
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) RequestBody() ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList {
+	var returns ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionRequestBodyAList
+	_jsii_.Get(
+		j,
+		"requestBody",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) RequestBodyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"requestBodyInput",
 		&returns,
 	)
 	return returns
@@ -583,6 +607,17 @@ func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutp
 	return returns
 }
 
+func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) PutRequestBody(value interface{}) {
+	if err := c.validatePutRequestBodyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putRequestBody",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) PutRequestCookie(value interface{}) {
 	if err := c.validatePutRequestCookieParameters(value); err != nil {
 		panic(err)
@@ -624,6 +659,14 @@ func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutp
 		c,
 		"putRequestUri",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) ResetRequestBody() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRequestBody",
+		nil, // no parameters
 	)
 }
 

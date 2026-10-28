@@ -7,7 +7,7 @@ package clouddeploydeliverypipeline
 type ClouddeployDeliveryPipelineSerialPipelineStagesStrategyCanaryCustomCanaryDeploymentPhaseConfigsVerifyConfig struct {
 	// tasks block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/clouddeploy_delivery_pipeline#tasks ClouddeployDeliveryPipeline#tasks}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/clouddeploy_delivery_pipeline#tasks ClouddeployDeliveryPipeline#tasks}
 	Tasks interface{} `field:"optional" json:"tasks" yaml:"tasks"`
 }
 

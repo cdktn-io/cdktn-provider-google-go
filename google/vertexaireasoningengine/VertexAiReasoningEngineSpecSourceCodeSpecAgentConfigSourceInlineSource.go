@@ -7,7 +7,7 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineSpecSourceCodeSpecAgentConfigSourceInlineSource struct {
 	// Required. Input only. The application source code archive, provided as a compressed tarball (.tar.gz) file.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#source_archive VertexAiReasoningEngine#source_archive}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#source_archive VertexAiReasoningEngine#source_archive}
 	SourceArchive *string `field:"required" json:"sourceArchive" yaml:"sourceArchive"`
 }
 

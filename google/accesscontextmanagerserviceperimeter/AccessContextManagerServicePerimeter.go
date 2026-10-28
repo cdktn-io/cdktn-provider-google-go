@@ -5,14 +5,14 @@ package accesscontextmanagerserviceperimeter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/accesscontextmanagerserviceperimeter/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/accesscontextmanagerserviceperimeter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter}.
 type AccessContextManagerServicePerimeter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -638,7 +638,7 @@ func (j *jsiiProxy_AccessContextManagerServicePerimeter) UseExplicitDryRunSpecIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
 func NewAccessContextManagerServicePerimeter(scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterConfig) AccessContextManagerServicePerimeter {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewAccessContextManagerServicePerimeter(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/access_context_manager_service_perimeter google_access_context_manager_service_perimeter} Resource.
 func NewAccessContextManagerServicePerimeter_Override(a AccessContextManagerServicePerimeter, scope constructs.Construct, id *string, config *AccessContextManagerServicePerimeterConfig) {
 	_init_.Initialize()
 

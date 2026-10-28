@@ -14,7 +14,7 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// Users should ensure that there is a subscription attached to this topic since messages published to
 	// a topic with no subscriptions are lost.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#dead_letter_topic BigqueryAnalyticsHubListingSubscription#dead_letter_topic}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_analytics_hub_listing_subscription#dead_letter_topic BigqueryAnalyticsHubListingSubscription#dead_letter_topic}
 	DeadLetterTopic *string `field:"optional" json:"deadLetterTopic" yaml:"deadLetterTopic"`
 	// The maximum number of delivery attempts for any message.
 	//
@@ -25,7 +25,7 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	// ack_deadlines. This field will be honored on a best effort basis. If this parameter is 0, a
 	// default value of 5 is used.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#max_delivery_attempts BigqueryAnalyticsHubListingSubscription#max_delivery_attempts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_analytics_hub_listing_subscription#max_delivery_attempts BigqueryAnalyticsHubListingSubscription#max_delivery_attempts}
 	MaxDeliveryAttempts *float64 `field:"optional" json:"maxDeliveryAttempts" yaml:"maxDeliveryAttempts"`
 }
 

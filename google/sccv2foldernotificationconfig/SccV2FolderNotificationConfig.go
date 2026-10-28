@@ -5,14 +5,14 @@ package sccv2foldernotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sccv2foldernotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/sccv2foldernotificationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_v2_folder_notification_config google_scc_v2_folder_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_v2_folder_notification_config google_scc_v2_folder_notification_config}.
 type SccV2FolderNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type SccV2FolderNotificationConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionNotificationsEnabled() interface{}
+	SetDeletionNotificationsEnabled(val interface{})
+	DeletionNotificationsEnabledInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -182,6 +185,7 @@ type SccV2FolderNotificationConfig interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDeletionNotificationsEnabled()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
@@ -272,6 +276,26 @@ func (j *jsiiProxy_SccV2FolderNotificationConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2FolderNotificationConfig) DeletionNotificationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2FolderNotificationConfig) DeletionNotificationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -578,7 +602,7 @@ func (j *jsiiProxy_SccV2FolderNotificationConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_v2_folder_notification_config google_scc_v2_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_v2_folder_notification_config google_scc_v2_folder_notification_config} Resource.
 func NewSccV2FolderNotificationConfig(scope constructs.Construct, id *string, config *SccV2FolderNotificationConfigConfig) SccV2FolderNotificationConfig {
 	_init_.Initialize()
 
@@ -596,7 +620,7 @@ func NewSccV2FolderNotificationConfig(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_v2_folder_notification_config google_scc_v2_folder_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_v2_folder_notification_config google_scc_v2_folder_notification_config} Resource.
 func NewSccV2FolderNotificationConfig_Override(s SccV2FolderNotificationConfig, scope constructs.Construct, id *string, config *SccV2FolderNotificationConfigConfig) {
 	_init_.Initialize()
 
@@ -636,6 +660,17 @@ func (j *jsiiProxy_SccV2FolderNotificationConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccV2FolderNotificationConfig)SetDeletionNotificationsEnabled(val interface{}) {
+	if err := j.validateSetDeletionNotificationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionNotificationsEnabled",
 		val,
 	)
 }
@@ -1151,6 +1186,14 @@ func (s *jsiiProxy_SccV2FolderNotificationConfig) RegisterProviderFeatureUsage(f
 		s,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (s *jsiiProxy_SccV2FolderNotificationConfig) ResetDeletionNotificationsEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionNotificationsEnabled",
+		nil, // no parameters
 	)
 }
 

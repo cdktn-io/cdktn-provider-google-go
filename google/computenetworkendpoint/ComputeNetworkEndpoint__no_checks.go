@@ -127,6 +127,10 @@ func (j *jsiiProxy_ComputeNetworkEndpoint) validateSetIpAddressParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_ComputeNetworkEndpoint) validateSetIpv6AddressParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeNetworkEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

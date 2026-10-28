@@ -5,14 +5,14 @@ package biglakehivecatalogiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/biglakehivecatalogiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/biglakehivecatalogiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_catalog_iam_policy google_biglake_hive_catalog_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_catalog_iam_policy google_biglake_hive_catalog_iam_policy}.
 type BiglakeHiveCatalogIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -449,7 +449,7 @@ func (j *jsiiProxy_BiglakeHiveCatalogIamPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_catalog_iam_policy google_biglake_hive_catalog_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_catalog_iam_policy google_biglake_hive_catalog_iam_policy} Resource.
 func NewBiglakeHiveCatalogIamPolicy(scope constructs.Construct, id *string, config *BiglakeHiveCatalogIamPolicyConfig) BiglakeHiveCatalogIamPolicy {
 	_init_.Initialize()
 
@@ -467,7 +467,7 @@ func NewBiglakeHiveCatalogIamPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_catalog_iam_policy google_biglake_hive_catalog_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_catalog_iam_policy google_biglake_hive_catalog_iam_policy} Resource.
 func NewBiglakeHiveCatalogIamPolicy_Override(b BiglakeHiveCatalogIamPolicy, scope constructs.Construct, id *string, config *BiglakeHiveCatalogIamPolicyConfig) {
 	_init_.Initialize()
 

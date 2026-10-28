@@ -22,24 +22,24 @@ type BiglakeHiveDatabaseIamBindingConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding#catalog BiglakeHiveDatabaseIamBinding#catalog}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_binding#catalog BiglakeHiveDatabaseIamBinding#catalog}.
 	Catalog *string `field:"required" json:"catalog" yaml:"catalog"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding#members BiglakeHiveDatabaseIamBinding#members}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_binding#members BiglakeHiveDatabaseIamBinding#members}.
 	Members *[]*string `field:"required" json:"members" yaml:"members"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding#name BiglakeHiveDatabaseIamBinding#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_binding#name BiglakeHiveDatabaseIamBinding#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding#role BiglakeHiveDatabaseIamBinding#role}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_binding#role BiglakeHiveDatabaseIamBinding#role}.
 	Role *string `field:"required" json:"role" yaml:"role"`
 	// condition block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding#condition BiglakeHiveDatabaseIamBinding#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_binding#condition BiglakeHiveDatabaseIamBinding#condition}
 	Condition *BiglakeHiveDatabaseIamBindingCondition `field:"optional" json:"condition" yaml:"condition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding#id BiglakeHiveDatabaseIamBinding#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_binding#id BiglakeHiveDatabaseIamBinding#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_binding#project BiglakeHiveDatabaseIamBinding#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_binding#project BiglakeHiveDatabaseIamBinding#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

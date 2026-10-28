@@ -79,6 +79,10 @@ func (j *jsiiProxy_DiscoveryEngineSchemaTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineSchemaTimeoutsOutputReference) validateSetUpdateParameters(val *string) error {
+	return nil
+}
+
 func validateNewDiscoveryEngineSchemaTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

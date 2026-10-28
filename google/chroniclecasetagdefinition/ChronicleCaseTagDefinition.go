@@ -5,14 +5,14 @@ package chroniclecasetagdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chroniclecasetagdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/chroniclecasetagdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_tag_definition google_chronicle_case_tag_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_case_tag_definition google_chronicle_case_tag_definition}.
 type ChronicleCaseTagDefinition interface {
 	cdktn.TerraformResource
 	CanBeCaseTitle() interface{}
@@ -670,7 +670,7 @@ func (j *jsiiProxy_ChronicleCaseTagDefinition) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
 func NewChronicleCaseTagDefinition(scope constructs.Construct, id *string, config *ChronicleCaseTagDefinitionConfig) ChronicleCaseTagDefinition {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewChronicleCaseTagDefinition(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_case_tag_definition google_chronicle_case_tag_definition} Resource.
 func NewChronicleCaseTagDefinition_Override(c ChronicleCaseTagDefinition, scope constructs.Construct, id *string, config *ChronicleCaseTagDefinitionConfig) {
 	_init_.Initialize()
 

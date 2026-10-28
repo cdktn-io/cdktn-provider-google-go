@@ -5,9 +5,9 @@ package accesscontextmanagergcpuseraccessbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/accesscontextmanagergcpuseraccessbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/accesscontextmanagergcpuseraccessbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,8 @@ type AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScop
 	SetInternalValue(val *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScope)
 	RestrictedClientApplication() AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplicationOutputReference
 	RestrictedClientApplicationInput() *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication
+	RestrictedProject() AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProjectOutputReference
+	RestrictedProjectInput() *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,7 +69,9 @@ type AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScop
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutRestrictedClientApplication(value *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedClientApplication)
+	PutRestrictedProject(value *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject)
 	ResetRestrictedClientApplication()
+	ResetRestrictedProject()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsS
 	_jsii_.Get(
 		j,
 		"restrictedClientApplicationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) RestrictedProject() AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProjectOutputReference {
+	var returns AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProjectOutputReference
+	_jsii_.Get(
+		j,
+		"restrictedProject",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) RestrictedProjectInput() *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject {
+	var returns *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject
+	_jsii_.Get(
+		j,
+		"restrictedProjectInput",
 		&returns,
 	)
 	return returns
@@ -453,10 +477,29 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsS
 	)
 }
 
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) PutRestrictedProject(value *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject) {
+	if err := a.validatePutRestrictedProjectParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putRestrictedProject",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) ResetRestrictedClientApplication() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRestrictedClientApplication",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) ResetRestrictedProject() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRestrictedProject",
 		nil, // no parameters
 	)
 }

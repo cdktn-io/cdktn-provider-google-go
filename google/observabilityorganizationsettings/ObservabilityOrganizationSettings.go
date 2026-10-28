@@ -5,14 +5,14 @@ package observabilityorganizationsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/observabilityorganizationsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/observabilityorganizationsettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings google_observability_organization_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_organization_settings google_observability_organization_settings}.
 type ObservabilityOrganizationSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ObservabilityOrganizationSettings) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings google_observability_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_organization_settings google_observability_organization_settings} Resource.
 func NewObservabilityOrganizationSettings(scope constructs.Construct, id *string, config *ObservabilityOrganizationSettingsConfig) ObservabilityOrganizationSettings {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewObservabilityOrganizationSettings(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_organization_settings google_observability_organization_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_organization_settings google_observability_organization_settings} Resource.
 func NewObservabilityOrganizationSettings_Override(o ObservabilityOrganizationSettings, scope constructs.Construct, id *string, config *ObservabilityOrganizationSettingsConfig) {
 	_init_.Initialize()
 

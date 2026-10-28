@@ -5,14 +5,14 @@ package sccnotificationserviceaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sccnotificationserviceaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/sccnotificationserviceaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_notification_service_account google_scc_notification_service_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_notification_service_account google_scc_notification_service_account}.
 type SccNotificationServiceAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -462,7 +462,7 @@ func (j *jsiiProxy_SccNotificationServiceAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_notification_service_account google_scc_notification_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_notification_service_account google_scc_notification_service_account} Resource.
 func NewSccNotificationServiceAccount(scope constructs.Construct, id *string, config *SccNotificationServiceAccountConfig) SccNotificationServiceAccount {
 	_init_.Initialize()
 
@@ -480,7 +480,7 @@ func NewSccNotificationServiceAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_notification_service_account google_scc_notification_service_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_notification_service_account google_scc_notification_service_account} Resource.
 func NewSccNotificationServiceAccount_Override(s SccNotificationServiceAccount, scope constructs.Construct, id *string, config *SccNotificationServiceAccountConfig) {
 	_init_.Initialize()
 

@@ -16,11 +16,11 @@ type ComputeRegionUrlMapPathMatcherRouteRulesRouteActionUrlRewriteRegexRewrite s
 	// * Ranges may only contain character ranges, digit ranges, and
 	//   symbols allowed for ranges.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_region_url_map#path_pattern ComputeRegionUrlMap#path_pattern}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_region_url_map#path_pattern ComputeRegionUrlMap#path_pattern}
 	PathPattern *string `field:"required" json:"pathPattern" yaml:"pathPattern"`
 	// The substitution used to rewrite the parts of the URL path matched by pathPattern. May reference capture groups from pathPattern.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_region_url_map#path_substitution ComputeRegionUrlMap#path_substitution}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_region_url_map#path_substitution ComputeRegionUrlMap#path_substitution}
 	PathSubstitution *string `field:"required" json:"pathSubstitution" yaml:"pathSubstitution"`
 }
 

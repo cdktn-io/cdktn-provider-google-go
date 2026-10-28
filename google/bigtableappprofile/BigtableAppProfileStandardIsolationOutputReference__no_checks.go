@@ -47,6 +47,10 @@ func (b *jsiiProxy_BigtableAppProfileStandardIsolationOutputReference) validateI
 	return nil
 }
 
+func (b *jsiiProxy_BigtableAppProfileStandardIsolationOutputReference) validatePutMemoryConfigParameters(value *BigtableAppProfileStandardIsolationMemoryConfig) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigtableAppProfileStandardIsolationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

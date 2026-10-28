@@ -5,9 +5,9 @@ package datagooglelustreinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datagooglelustreinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/datagooglelustreinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

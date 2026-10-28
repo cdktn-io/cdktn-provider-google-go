@@ -5,14 +5,14 @@ package bigqueryanalyticshubquerytemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/bigqueryanalyticshubquerytemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/bigqueryanalyticshubquerytemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template}.
 type BigqueryAnalyticsHubQueryTemplate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -720,7 +720,7 @@ func (j *jsiiProxy_BigqueryAnalyticsHubQueryTemplate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
 func NewBigqueryAnalyticsHubQueryTemplate(scope constructs.Construct, id *string, config *BigqueryAnalyticsHubQueryTemplateConfig) BigqueryAnalyticsHubQueryTemplate {
 	_init_.Initialize()
 
@@ -738,7 +738,7 @@ func NewBigqueryAnalyticsHubQueryTemplate(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_analytics_hub_query_template google_bigquery_analytics_hub_query_template} Resource.
 func NewBigqueryAnalyticsHubQueryTemplate_Override(b BigqueryAnalyticsHubQueryTemplate, scope constructs.Construct, id *string, config *BigqueryAnalyticsHubQueryTemplateConfig) {
 	_init_.Initialize()
 

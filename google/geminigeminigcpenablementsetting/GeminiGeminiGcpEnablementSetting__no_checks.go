@@ -123,6 +123,10 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetEnableCustomerDa
 	return nil
 }
 
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetGeminiEnterpriseProjectParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetGeminiGcpEnablementSettingIdParameters(val *string) error {
 	return nil
 }
@@ -152,6 +156,10 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetProjectParameter
 }
 
 func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetReleaseChannelParameters(val *string) error {
 	return nil
 }
 

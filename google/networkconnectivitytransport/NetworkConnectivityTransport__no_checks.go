@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkConnectivityTransport) validateSetAdvertisedRoutesPara
 	return nil
 }
 
+func (j *jsiiProxy_NetworkConnectivityTransport) validateSetAutoAcceptParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkConnectivityTransport) validateSetBandwidthParameters(val *string) error {
 	return nil
 }
@@ -124,6 +128,10 @@ func (j *jsiiProxy_NetworkConnectivityTransport) validateSetDeletionPolicyParame
 }
 
 func (j *jsiiProxy_NetworkConnectivityTransport) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport) validateSetHubParameters(val *string) error {
 	return nil
 }
 
@@ -160,6 +168,10 @@ func (j *jsiiProxy_NetworkConnectivityTransport) validateSetProvidedActivationKe
 }
 
 func (j *jsiiProxy_NetworkConnectivityTransport) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport) validateSetPscRoutingEnabledParameters(val interface{}) error {
 	return nil
 }
 

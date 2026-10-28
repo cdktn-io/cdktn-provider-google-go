@@ -5,14 +5,14 @@ package computetargettcpproxy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computetargettcpproxy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computetargettcpproxy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy}.
 type ComputeTargetTcpProxy interface {
 	cdktn.TerraformResource
 	BackendService() *string
@@ -616,7 +616,7 @@ func (j *jsiiProxy_ComputeTargetTcpProxy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewComputeTargetTcpProxy(scope constructs.Construct, id *string, config *ComputeTargetTcpProxyConfig) ComputeTargetTcpProxy {
 	_init_.Initialize()
 
@@ -634,7 +634,7 @@ func NewComputeTargetTcpProxy(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_target_tcp_proxy google_compute_target_tcp_proxy} Resource.
 func NewComputeTargetTcpProxy_Override(c ComputeTargetTcpProxy, scope constructs.Construct, id *string, config *ComputeTargetTcpProxyConfig) {
 	_init_.Initialize()
 

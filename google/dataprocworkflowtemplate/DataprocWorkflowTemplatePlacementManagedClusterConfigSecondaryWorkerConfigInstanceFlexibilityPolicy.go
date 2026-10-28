@@ -7,11 +7,11 @@ package dataprocworkflowtemplate
 type DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigInstanceFlexibilityPolicy struct {
 	// instance_selection_list block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dataproc_workflow_template#instance_selection_list DataprocWorkflowTemplate#instance_selection_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dataproc_workflow_template#instance_selection_list DataprocWorkflowTemplate#instance_selection_list}
 	InstanceSelectionList interface{} `field:"optional" json:"instanceSelectionList" yaml:"instanceSelectionList"`
 	// provisioning_model_mix block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dataproc_workflow_template#provisioning_model_mix DataprocWorkflowTemplate#provisioning_model_mix}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dataproc_workflow_template#provisioning_model_mix DataprocWorkflowTemplate#provisioning_model_mix}
 	ProvisioningModelMix *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigInstanceFlexibilityPolicyProvisioningModelMix `field:"optional" json:"provisioningModelMix" yaml:"provisioningModelMix"`
 }
 

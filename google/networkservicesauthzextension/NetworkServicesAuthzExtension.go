@@ -5,14 +5,14 @@ package networkservicesauthzextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkservicesauthzextension/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/networkservicesauthzextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_services_authz_extension google_network_services_authz_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_authz_extension google_network_services_authz_extension}.
 type NetworkServicesAuthzExtension interface {
 	cdktn.TerraformResource
 	Authority() *string
@@ -792,7 +792,7 @@ func (j *jsiiProxy_NetworkServicesAuthzExtension) WireFormatInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewNetworkServicesAuthzExtension(scope constructs.Construct, id *string, config *NetworkServicesAuthzExtensionConfig) NetworkServicesAuthzExtension {
 	_init_.Initialize()
 
@@ -810,7 +810,7 @@ func NewNetworkServicesAuthzExtension(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_authz_extension google_network_services_authz_extension} Resource.
 func NewNetworkServicesAuthzExtension_Override(n NetworkServicesAuthzExtension, scope constructs.Construct, id *string, config *NetworkServicesAuthzExtensionConfig) {
 	_init_.Initialize()
 

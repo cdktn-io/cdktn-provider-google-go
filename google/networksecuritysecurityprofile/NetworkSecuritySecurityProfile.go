@@ -5,14 +5,14 @@ package networksecuritysecurityprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networksecuritysecurityprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/networksecuritysecurityprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_security_security_profile google_network_security_security_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_security_profile google_network_security_security_profile}.
 type NetworkSecuritySecurityProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -101,6 +101,8 @@ type NetworkSecuritySecurityProfile interface {
 	UpdateTime() *string
 	UrlFilteringProfile() NetworkSecuritySecurityProfileUrlFilteringProfileOutputReference
 	UrlFilteringProfileInput() *NetworkSecuritySecurityProfileUrlFilteringProfile
+	WildfireAnalysisProfile() NetworkSecuritySecurityProfileWildfireAnalysisProfileOutputReference
+	WildfireAnalysisProfileInput() *NetworkSecuritySecurityProfileWildfireAnalysisProfile
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -185,6 +187,7 @@ type NetworkSecuritySecurityProfile interface {
 	PutThreatPreventionProfile(value *NetworkSecuritySecurityProfileThreatPreventionProfile)
 	PutTimeouts(value *NetworkSecuritySecurityProfileTimeouts)
 	PutUrlFilteringProfile(value *NetworkSecuritySecurityProfileUrlFilteringProfile)
+	PutWildfireAnalysisProfile(value *NetworkSecuritySecurityProfileWildfireAnalysisProfile)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -212,6 +215,7 @@ type NetworkSecuritySecurityProfile interface {
 	ResetThreatPreventionProfile()
 	ResetTimeouts()
 	ResetUrlFilteringProfile()
+	ResetWildfireAnalysisProfile()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -719,8 +723,28 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfile) UrlFilteringProfileInput() *N
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecuritySecurityProfile) WildfireAnalysisProfile() NetworkSecuritySecurityProfileWildfireAnalysisProfileOutputReference {
+	var returns NetworkSecuritySecurityProfileWildfireAnalysisProfileOutputReference
+	_jsii_.Get(
+		j,
+		"wildfireAnalysisProfile",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
+func (j *jsiiProxy_NetworkSecuritySecurityProfile) WildfireAnalysisProfileInput() *NetworkSecuritySecurityProfileWildfireAnalysisProfile {
+	var returns *NetworkSecuritySecurityProfileWildfireAnalysisProfile
+	_jsii_.Get(
+		j,
+		"wildfireAnalysisProfileInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
 func NewNetworkSecuritySecurityProfile(scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileConfig) NetworkSecuritySecurityProfile {
 	_init_.Initialize()
 
@@ -738,7 +762,7 @@ func NewNetworkSecuritySecurityProfile(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_security_profile google_network_security_security_profile} Resource.
 func NewNetworkSecuritySecurityProfile_Override(n NetworkSecuritySecurityProfile, scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileConfig) {
 	_init_.Initialize()
 
@@ -1329,6 +1353,17 @@ func (n *jsiiProxy_NetworkSecuritySecurityProfile) PutUrlFilteringProfile(value 
 	)
 }
 
+func (n *jsiiProxy_NetworkSecuritySecurityProfile) PutWildfireAnalysisProfile(value *NetworkSecuritySecurityProfileWildfireAnalysisProfile) {
+	if err := n.validatePutWildfireAnalysisProfileParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putWildfireAnalysisProfile",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecuritySecurityProfile) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := n.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1432,6 +1467,14 @@ func (n *jsiiProxy_NetworkSecuritySecurityProfile) ResetUrlFilteringProfile() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetUrlFilteringProfile",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecuritySecurityProfile) ResetWildfireAnalysisProfile() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetWildfireAnalysisProfile",
 		nil, // no parameters
 	)
 }

@@ -83,6 +83,10 @@ func (p *jsiiProxy_PubsubSubscription) validatePutBigqueryConfigParameters(value
 	return nil
 }
 
+func (p *jsiiProxy_PubsubSubscription) validatePutBigtableConfigParameters(value *PubsubSubscriptionBigtableConfig) error {
+	return nil
+}
+
 func (p *jsiiProxy_PubsubSubscription) validatePutCloudStorageConfigParameters(value *PubsubSubscriptionCloudStorageConfig) error {
 	return nil
 }

@@ -5,9 +5,9 @@ package cestool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cestool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/cestool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference interface 
 	Fqn() *string
 	InternalValue() *CesToolDataStoreToolModalityConfigsSnippetsConfig
 	SetInternalValue(val *CesToolDataStoreToolModalityConfigsSnippetsConfig)
+	MaxSnippets() *float64
+	SetMaxSnippets(val *float64)
+	MaxSnippetsInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference interface 
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnableSnippets()
+	ResetMaxSnippets()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -148,6 +152,26 @@ func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsSnippetsConfigOutputRefere
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) MaxSnippets() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxSnippets",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) MaxSnippetsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maxSnippetsInput",
 		&returns,
 	)
 	return returns
@@ -241,6 +265,17 @@ func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsSnippetsConfigOutputRefere
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference)SetMaxSnippets(val *float64) {
+	if err := j.validateSetMaxSnippetsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"maxSnippets",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsSnippetsConfigOutputRefere
 	_jsii_.InvokeVoid(
 		c,
 		"resetEnableSnippets",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesToolDataStoreToolModalityConfigsSnippetsConfigOutputReference) ResetMaxSnippets() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMaxSnippets",
 		nil, // no parameters
 	)
 }

@@ -7,7 +7,7 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSource struct {
 	// events block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#events VertexAiReasoningEngine#events}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#events VertexAiReasoningEngine#events}
 	Events interface{} `field:"optional" json:"events" yaml:"events"`
 }
 

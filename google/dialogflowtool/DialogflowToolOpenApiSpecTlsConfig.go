@@ -7,7 +7,7 @@ package dialogflowtool
 type DialogflowToolOpenApiSpecTlsConfig struct {
 	// ca_certs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#ca_certs DialogflowTool#ca_certs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_tool#ca_certs DialogflowTool#ca_certs}
 	CaCerts interface{} `field:"required" json:"caCerts" yaml:"caCerts"`
 }
 

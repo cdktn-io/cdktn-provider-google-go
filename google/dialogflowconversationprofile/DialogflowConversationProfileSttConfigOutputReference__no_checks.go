@@ -47,6 +47,10 @@ func (d *jsiiProxy_DialogflowConversationProfileSttConfigOutputReference) valida
 	return nil
 }
 
+func (d *jsiiProxy_DialogflowConversationProfileSttConfigOutputReference) validatePutGeminiAsrConfigParameters(value *DialogflowConversationProfileSttConfigGeminiAsrConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DialogflowConversationProfileSttConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (j *jsiiProxy_DialogflowConversationProfileSttConfigOutputReference) valida
 }
 
 func (j *jsiiProxy_DialogflowConversationProfileSttConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_DialogflowConversationProfileSttConfigOutputReference) validateSetUseGeminiAsrParameters(val interface{}) error {
 	return nil
 }
 

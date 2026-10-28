@@ -47,6 +47,10 @@ func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) validate
 	return nil
 }
 
+func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) validatePutOutboundEndpointsParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) validatePutTargetNameServersParameters(value interface{}) error {
 	return nil
 }

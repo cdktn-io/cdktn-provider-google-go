@@ -79,6 +79,10 @@ func (b *jsiiProxy_BigqueryReservationAssignment) validateOverrideLogicalIdParam
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryReservationAssignment) validatePutSchedulingPolicyParameters(value *BigqueryReservationAssignmentSchedulingPolicy) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryReservationAssignment) validatePutTimeoutsParameters(value *BigqueryReservationAssignmentTimeouts) error {
 	return nil
 }

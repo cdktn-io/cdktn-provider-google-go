@@ -5,14 +5,14 @@ package geminidataanalyticsdataagentiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminidataanalyticsdataagentiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminidataanalyticsdataagentiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member}.
 type GeminiDataAnalyticsDataAgentIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentIamMember) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member} Resource.
 func NewGeminiDataAnalyticsDataAgentIamMember(scope constructs.Construct, id *string, config *GeminiDataAnalyticsDataAgentIamMemberConfig) GeminiDataAnalyticsDataAgentIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewGeminiDataAnalyticsDataAgentIamMember(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent_iam_member google_gemini_data_analytics_data_agent_iam_member} Resource.
 func NewGeminiDataAnalyticsDataAgentIamMember_Override(g GeminiDataAnalyticsDataAgentIamMember, scope constructs.Construct, id *string, config *GeminiDataAnalyticsDataAgentIamMemberConfig) {
 	_init_.Initialize()
 

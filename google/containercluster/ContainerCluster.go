@@ -5,14 +5,14 @@ package containercluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/containercluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/containercluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/container_cluster google_container_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/container_cluster google_container_cluster}.
 type ContainerCluster interface {
 	cdktn.TerraformResource
 	AddonsConfig() ContainerClusterAddonsConfigOutputReference
@@ -170,6 +170,8 @@ type ContainerCluster interface {
 	LoggingServiceInput() *string
 	MaintenancePolicy() ContainerClusterMaintenancePolicyOutputReference
 	MaintenancePolicyInput() *ContainerClusterMaintenancePolicy
+	ManagedOpentelemetryConfig() ContainerClusterManagedOpentelemetryConfigOutputReference
+	ManagedOpentelemetryConfigInput() *ContainerClusterManagedOpentelemetryConfig
 	MasterAuth() ContainerClusterMasterAuthOutputReference
 	MasterAuthInput() *ContainerClusterMasterAuth
 	MasterAuthorizedNetworksConfig() ContainerClusterMasterAuthorizedNetworksConfigOutputReference
@@ -253,6 +255,8 @@ type ContainerCluster interface {
 	ResourceUsageExportConfigInput() *ContainerClusterResourceUsageExportConfig
 	RollbackSafeUpgrade() ContainerClusterRollbackSafeUpgradeOutputReference
 	RollbackSafeUpgradeInput() *ContainerClusterRollbackSafeUpgrade
+	ScheduleUpgradeConfig() ContainerClusterScheduleUpgradeConfigOutputReference
+	ScheduleUpgradeConfigInput() *ContainerClusterScheduleUpgradeConfig
 	SecretManagerConfig() ContainerClusterSecretManagerConfigOutputReference
 	SecretManagerConfigInput() *ContainerClusterSecretManagerConfig
 	SecretSyncConfig() ContainerClusterSecretSyncConfigOutputReference
@@ -385,6 +389,7 @@ type ContainerCluster interface {
 	PutIpAllocationPolicy(value *ContainerClusterIpAllocationPolicy)
 	PutLoggingConfig(value *ContainerClusterLoggingConfig)
 	PutMaintenancePolicy(value *ContainerClusterMaintenancePolicy)
+	PutManagedOpentelemetryConfig(value *ContainerClusterManagedOpentelemetryConfig)
 	PutMasterAuth(value *ContainerClusterMasterAuth)
 	PutMasterAuthorizedNetworksConfig(value *ContainerClusterMasterAuthorizedNetworksConfig)
 	PutMeshCertificates(value *ContainerClusterMeshCertificates)
@@ -403,6 +408,7 @@ type ContainerCluster interface {
 	PutReleaseChannel(value *ContainerClusterReleaseChannel)
 	PutResourceUsageExportConfig(value *ContainerClusterResourceUsageExportConfig)
 	PutRollbackSafeUpgrade(value *ContainerClusterRollbackSafeUpgrade)
+	PutScheduleUpgradeConfig(value *ContainerClusterScheduleUpgradeConfig)
 	PutSecretManagerConfig(value *ContainerClusterSecretManagerConfig)
 	PutSecretSyncConfig(value *ContainerClusterSecretSyncConfig)
 	PutSecurityPostureConfig(value *ContainerClusterSecurityPostureConfig)
@@ -472,6 +478,7 @@ type ContainerCluster interface {
 	ResetLoggingConfig()
 	ResetLoggingService()
 	ResetMaintenancePolicy()
+	ResetManagedOpentelemetryConfig()
 	ResetMasterAuth()
 	ResetMasterAuthorizedNetworksConfig()
 	ResetMeshCertificates()
@@ -503,6 +510,7 @@ type ContainerCluster interface {
 	ResetResourceLabels()
 	ResetResourceUsageExportConfig()
 	ResetRollbackSafeUpgrade()
+	ResetScheduleUpgradeConfig()
 	ResetSecretManagerConfig()
 	ResetSecretSyncConfig()
 	ResetSecurityPostureConfig()
@@ -1630,6 +1638,26 @@ func (j *jsiiProxy_ContainerCluster) MaintenancePolicyInput() *ContainerClusterM
 	return returns
 }
 
+func (j *jsiiProxy_ContainerCluster) ManagedOpentelemetryConfig() ContainerClusterManagedOpentelemetryConfigOutputReference {
+	var returns ContainerClusterManagedOpentelemetryConfigOutputReference
+	_jsii_.Get(
+		j,
+		"managedOpentelemetryConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) ManagedOpentelemetryConfigInput() *ContainerClusterManagedOpentelemetryConfig {
+	var returns *ContainerClusterManagedOpentelemetryConfig
+	_jsii_.Get(
+		j,
+		"managedOpentelemetryConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerCluster) MasterAuth() ContainerClusterMasterAuthOutputReference {
 	var returns ContainerClusterMasterAuthOutputReference
 	_jsii_.Get(
@@ -2270,6 +2298,26 @@ func (j *jsiiProxy_ContainerCluster) RollbackSafeUpgradeInput() *ContainerCluste
 	return returns
 }
 
+func (j *jsiiProxy_ContainerCluster) ScheduleUpgradeConfig() ContainerClusterScheduleUpgradeConfigOutputReference {
+	var returns ContainerClusterScheduleUpgradeConfigOutputReference
+	_jsii_.Get(
+		j,
+		"scheduleUpgradeConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerCluster) ScheduleUpgradeConfigInput() *ContainerClusterScheduleUpgradeConfig {
+	var returns *ContainerClusterScheduleUpgradeConfig
+	_jsii_.Get(
+		j,
+		"scheduleUpgradeConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerCluster) SecretManagerConfig() ContainerClusterSecretManagerConfigOutputReference {
 	var returns ContainerClusterSecretManagerConfigOutputReference
 	_jsii_.Get(
@@ -2541,7 +2589,7 @@ func (j *jsiiProxy_ContainerCluster) WorkloadIdentityConfigInput() *ContainerClu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster(scope constructs.Construct, id *string, config *ContainerClusterConfig) ContainerCluster {
 	_init_.Initialize()
 
@@ -2559,7 +2607,7 @@ func NewContainerCluster(scope constructs.Construct, id *string, config *Contain
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/container_cluster google_container_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/container_cluster google_container_cluster} Resource.
 func NewContainerCluster_Override(c ContainerCluster, scope constructs.Construct, id *string, config *ContainerClusterConfig) {
 	_init_.Initialize()
 
@@ -3678,6 +3726,17 @@ func (c *jsiiProxy_ContainerCluster) PutMaintenancePolicy(value *ContainerCluste
 	)
 }
 
+func (c *jsiiProxy_ContainerCluster) PutManagedOpentelemetryConfig(value *ContainerClusterManagedOpentelemetryConfig) {
+	if err := c.validatePutManagedOpentelemetryConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putManagedOpentelemetryConfig",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ContainerCluster) PutMasterAuth(value *ContainerClusterMasterAuth) {
 	if err := c.validatePutMasterAuthParameters(value); err != nil {
 		panic(err)
@@ -3872,6 +3931,17 @@ func (c *jsiiProxy_ContainerCluster) PutRollbackSafeUpgrade(value *ContainerClus
 	_jsii_.InvokeVoid(
 		c,
 		"putRollbackSafeUpgrade",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ContainerCluster) PutScheduleUpgradeConfig(value *ContainerClusterScheduleUpgradeConfig) {
+	if err := c.validatePutScheduleUpgradeConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putScheduleUpgradeConfig",
 		[]interface{}{value},
 	)
 }
@@ -4359,6 +4429,14 @@ func (c *jsiiProxy_ContainerCluster) ResetMaintenancePolicy() {
 	)
 }
 
+func (c *jsiiProxy_ContainerCluster) ResetManagedOpentelemetryConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetManagedOpentelemetryConfig",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ContainerCluster) ResetMasterAuth() {
 	_jsii_.InvokeVoid(
 		c,
@@ -4587,6 +4665,14 @@ func (c *jsiiProxy_ContainerCluster) ResetRollbackSafeUpgrade() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRollbackSafeUpgrade",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerCluster) ResetScheduleUpgradeConfig() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetScheduleUpgradeConfig",
 		nil, // no parameters
 	)
 }

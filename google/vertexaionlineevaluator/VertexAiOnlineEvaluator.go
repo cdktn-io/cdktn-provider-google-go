@@ -5,14 +5,14 @@ package vertexaionlineevaluator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexaionlineevaluator/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/vertexaionlineevaluator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_online_evaluator google_vertex_ai_online_evaluator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_online_evaluator google_vertex_ai_online_evaluator}.
 type VertexAiOnlineEvaluator interface {
 	cdktn.TerraformResource
 	AgentResource() *string
@@ -635,7 +635,7 @@ func (j *jsiiProxy_VertexAiOnlineEvaluator) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
 func NewVertexAiOnlineEvaluator(scope constructs.Construct, id *string, config *VertexAiOnlineEvaluatorConfig) VertexAiOnlineEvaluator {
 	_init_.Initialize()
 
@@ -653,7 +653,7 @@ func NewVertexAiOnlineEvaluator(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_online_evaluator google_vertex_ai_online_evaluator} Resource.
 func NewVertexAiOnlineEvaluator_Override(v VertexAiOnlineEvaluator, scope constructs.Construct, id *string, config *VertexAiOnlineEvaluatorConfig) {
 	_init_.Initialize()
 

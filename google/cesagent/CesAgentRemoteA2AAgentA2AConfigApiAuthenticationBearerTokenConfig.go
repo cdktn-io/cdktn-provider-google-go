@@ -7,7 +7,7 @@ package cesagent
 type CesAgentRemoteA2AAgentA2AConfigApiAuthenticationBearerTokenConfig struct {
 	// The bearer token. Must be in the format '$context.variables.<name_of_variable>'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_agent#token CesAgent#token}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_agent#token CesAgent#token}
 	Token *string `field:"required" json:"token" yaml:"token"`
 }
 

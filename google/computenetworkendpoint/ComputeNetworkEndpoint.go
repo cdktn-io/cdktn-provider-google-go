@@ -5,14 +5,14 @@ package computenetworkendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computenetworkendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computenetworkendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_endpoint google_compute_network_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_endpoint google_compute_network_endpoint}.
 type ComputeNetworkEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -51,6 +51,9 @@ type ComputeNetworkEndpoint interface {
 	IpAddress() *string
 	SetIpAddress(val *string)
 	IpAddressInput() *string
+	Ipv6Address() *string
+	SetIpv6Address(val *string)
+	Ipv6AddressInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -183,6 +186,8 @@ type ComputeNetworkEndpoint interface {
 	ResetDeletionPolicy()
 	ResetId()
 	ResetInstance()
+	ResetIpAddress()
+	ResetIpv6Address()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -377,6 +382,26 @@ func (j *jsiiProxy_ComputeNetworkEndpoint) IpAddressInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeNetworkEndpoint) Ipv6Address() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6Address",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkEndpoint) Ipv6AddressInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipv6AddressInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeNetworkEndpoint) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -558,7 +583,7 @@ func (j *jsiiProxy_ComputeNetworkEndpoint) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_endpoint google_compute_network_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_endpoint google_compute_network_endpoint} Resource.
 func NewComputeNetworkEndpoint(scope constructs.Construct, id *string, config *ComputeNetworkEndpointConfig) ComputeNetworkEndpoint {
 	_init_.Initialize()
 
@@ -576,7 +601,7 @@ func NewComputeNetworkEndpoint(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_endpoint google_compute_network_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_endpoint google_compute_network_endpoint} Resource.
 func NewComputeNetworkEndpoint_Override(c ComputeNetworkEndpoint, scope constructs.Construct, id *string, config *ComputeNetworkEndpointConfig) {
 	_init_.Initialize()
 
@@ -665,6 +690,17 @@ func (j *jsiiProxy_ComputeNetworkEndpoint)SetIpAddress(val *string) {
 	_jsii_.Set(
 		j,
 		"ipAddress",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeNetworkEndpoint)SetIpv6Address(val *string) {
+	if err := j.validateSetIpv6AddressParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipv6Address",
 		val,
 	)
 }
@@ -1154,6 +1190,22 @@ func (c *jsiiProxy_ComputeNetworkEndpoint) ResetInstance() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetInstance",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkEndpoint) ResetIpAddress() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIpAddress",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkEndpoint) ResetIpv6Address() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIpv6Address",
 		nil, // no parameters
 	)
 }

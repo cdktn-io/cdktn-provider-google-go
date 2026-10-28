@@ -47,6 +47,10 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputRe
 	return nil
 }
 
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) validatePutAuditTrailExportOptionsParameters(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions) error {
+	return nil
+}
+
 func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) validatePutDocumentGenerationOptionsParameters(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions) error {
 	return nil
 }

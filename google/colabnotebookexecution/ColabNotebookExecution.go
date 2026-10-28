@@ -5,14 +5,14 @@ package colabnotebookexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/colabnotebookexecution/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/colabnotebookexecution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/colab_notebook_execution google_colab_notebook_execution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/colab_notebook_execution google_colab_notebook_execution}.
 type ColabNotebookExecution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -65,6 +65,9 @@ type ColabNotebookExecution interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	KernelName() *string
+	SetKernelName(val *string)
+	KernelNameInput() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -212,6 +215,7 @@ type ColabNotebookExecution interface {
 	ResetExecutionUser()
 	ResetGcsNotebookSource()
 	ResetId()
+	ResetKernelName()
 	ResetNotebookExecutionJobId()
 	ResetNotebookRuntimeTemplateResourceName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -528,6 +532,26 @@ func (j *jsiiProxy_ColabNotebookExecution) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ColabNotebookExecution) KernelName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabNotebookExecution) KernelNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"kernelNameInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ColabNotebookExecution) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -749,7 +773,7 @@ func (j *jsiiProxy_ColabNotebookExecution) WorkbenchRuntimeInput() *ColabNoteboo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewColabNotebookExecution(scope constructs.Construct, id *string, config *ColabNotebookExecutionConfig) ColabNotebookExecution {
 	_init_.Initialize()
 
@@ -767,7 +791,7 @@ func NewColabNotebookExecution(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/colab_notebook_execution google_colab_notebook_execution} Resource.
 func NewColabNotebookExecution_Override(c ColabNotebookExecution, scope constructs.Construct, id *string, config *ColabNotebookExecutionConfig) {
 	_init_.Initialize()
 
@@ -878,6 +902,17 @@ func (j *jsiiProxy_ColabNotebookExecution)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ColabNotebookExecution)SetKernelName(val *string) {
+	if err := j.validateSetKernelNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"kernelName",
 		val,
 	)
 }
@@ -1473,6 +1508,14 @@ func (c *jsiiProxy_ColabNotebookExecution) ResetId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabNotebookExecution) ResetKernelName() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetKernelName",
 		nil, // no parameters
 	)
 }

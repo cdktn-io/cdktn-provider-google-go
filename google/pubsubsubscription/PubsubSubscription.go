@@ -5,14 +5,14 @@ package pubsubsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/pubsubsubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/pubsubsubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/pubsub_subscription google_pubsub_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/pubsub_subscription google_pubsub_subscription}.
 type PubsubSubscription interface {
 	cdktn.TerraformResource
 	AckDeadlineSeconds() *float64
@@ -20,6 +20,8 @@ type PubsubSubscription interface {
 	AckDeadlineSecondsInput() *float64
 	BigqueryConfig() PubsubSubscriptionBigqueryConfigOutputReference
 	BigqueryConfigInput() *PubsubSubscriptionBigqueryConfig
+	BigtableConfig() PubsubSubscriptionBigtableConfigOutputReference
+	BigtableConfigInput() *PubsubSubscriptionBigtableConfig
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	CloudStorageConfig() PubsubSubscriptionCloudStorageConfigOutputReference
@@ -198,6 +200,7 @@ type PubsubSubscription interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutBigqueryConfig(value *PubsubSubscriptionBigqueryConfig)
+	PutBigtableConfig(value *PubsubSubscriptionBigtableConfig)
 	PutCloudStorageConfig(value *PubsubSubscriptionCloudStorageConfig)
 	PutDeadLetterPolicy(value *PubsubSubscriptionDeadLetterPolicy)
 	PutExpirationPolicy(value *PubsubSubscriptionExpirationPolicy)
@@ -220,6 +223,7 @@ type PubsubSubscription interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAckDeadlineSeconds()
 	ResetBigqueryConfig()
+	ResetBigtableConfig()
 	ResetCloudStorageConfig()
 	ResetDeadLetterPolicy()
 	ResetDeletionPolicy()
@@ -302,6 +306,26 @@ func (j *jsiiProxy_PubsubSubscription) BigqueryConfigInput() *PubsubSubscription
 	_jsii_.Get(
 		j,
 		"bigqueryConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscription) BigtableConfig() PubsubSubscriptionBigtableConfigOutputReference {
+	var returns PubsubSubscriptionBigtableConfigOutputReference
+	_jsii_.Get(
+		j,
+		"bigtableConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscription) BigtableConfigInput() *PubsubSubscriptionBigtableConfig {
+	var returns *PubsubSubscriptionBigtableConfig
+	_jsii_.Get(
+		j,
+		"bigtableConfigInput",
 		&returns,
 	)
 	return returns
@@ -868,7 +892,7 @@ func (j *jsiiProxy_PubsubSubscription) TopicInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
 func NewPubsubSubscription(scope constructs.Construct, id *string, config *PubsubSubscriptionConfig) PubsubSubscription {
 	_init_.Initialize()
 
@@ -886,7 +910,7 @@ func NewPubsubSubscription(scope constructs.Construct, id *string, config *Pubsu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/pubsub_subscription google_pubsub_subscription} Resource.
 func NewPubsubSubscription_Override(p PubsubSubscription, scope constructs.Construct, id *string, config *PubsubSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -1488,6 +1512,17 @@ func (p *jsiiProxy_PubsubSubscription) PutBigqueryConfig(value *PubsubSubscripti
 	)
 }
 
+func (p *jsiiProxy_PubsubSubscription) PutBigtableConfig(value *PubsubSubscriptionBigtableConfig) {
+	if err := p.validatePutBigtableConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putBigtableConfig",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PubsubSubscription) PutCloudStorageConfig(value *PubsubSubscriptionCloudStorageConfig) {
 	if err := p.validatePutCloudStorageConfigParameters(value); err != nil {
 		panic(err)
@@ -1588,6 +1623,14 @@ func (p *jsiiProxy_PubsubSubscription) ResetBigqueryConfig() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetBigqueryConfig",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PubsubSubscription) ResetBigtableConfig() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetBigtableConfig",
 		nil, // no parameters
 	)
 }

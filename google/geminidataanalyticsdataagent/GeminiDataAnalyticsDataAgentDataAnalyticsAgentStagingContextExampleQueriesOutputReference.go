@@ -5,9 +5,9 @@ package geminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,8 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesO
 	NaturalLanguageQuestion() *string
 	SetNaturalLanguageQuestion(val *string)
 	NaturalLanguageQuestionInput() *string
+	Parameters() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesParametersList
+	ParametersInput() interface{}
 	SqlQuery() *string
 	SetSqlQuery(val *string)
 	SqlQueryInput() *string
@@ -70,7 +72,9 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesO
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutParameters(value interface{})
 	ResetNaturalLanguageQuestion()
+	ResetParameters()
 	ResetSqlQuery()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -152,6 +156,26 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextE
 	_jsii_.Get(
 		j,
 		"naturalLanguageQuestionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) Parameters() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesParametersList {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesParametersList
+	_jsii_.Get(
+		j,
+		"parameters",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) ParametersInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"parametersInput",
 		&returns,
 	)
 	return returns
@@ -488,10 +512,29 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextE
 	return returns
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) PutParameters(value interface{}) {
+	if err := g.validatePutParametersParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putParameters",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) ResetNaturalLanguageQuestion() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetNaturalLanguageQuestion",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextExampleQueriesOutputReference) ResetParameters() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetParameters",
 		nil, // no parameters
 	)
 }

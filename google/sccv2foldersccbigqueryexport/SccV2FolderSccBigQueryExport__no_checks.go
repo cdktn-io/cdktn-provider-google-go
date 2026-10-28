@@ -119,6 +119,10 @@ func (j *jsiiProxy_SccV2FolderSccBigQueryExport) validateSetDatasetParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_SccV2FolderSccBigQueryExport) validateSetDeletionNotificationsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccV2FolderSccBigQueryExport) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

@@ -7,7 +7,7 @@ package iamprojectaccesspolicy
 type IamProjectAccessPolicyDetails struct {
 	// rules block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/iam_project_access_policy#rules IamProjectAccessPolicy#rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/iam_project_access_policy#rules IamProjectAccessPolicy#rules}
 	Rules interface{} `field:"required" json:"rules" yaml:"rules"`
 }
 

@@ -5,14 +5,14 @@ package recaptchaenterprisekey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/recaptchaenterprisekey/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/recaptchaenterprisekey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key}.
 type RecaptchaEnterpriseKey interface {
 	cdktn.TerraformResource
 	AndroidSettings() RecaptchaEnterpriseKeyAndroidSettingsOutputReference
@@ -41,6 +41,8 @@ type RecaptchaEnterpriseKey interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	EffectiveLabels() cdktn.StringMap
+	ExpressSettings() RecaptchaEnterpriseKeyExpressSettingsOutputReference
+	ExpressSettingsInput() *RecaptchaEnterpriseKeyExpressSettings
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -88,6 +90,8 @@ type RecaptchaEnterpriseKey interface {
 	TestingOptionsInput() *RecaptchaEnterpriseKeyTestingOptions
 	Timeouts() RecaptchaEnterpriseKeyTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	UniversalSettings() RecaptchaEnterpriseKeyUniversalSettingsOutputReference
+	UniversalSettingsInput() *RecaptchaEnterpriseKeyUniversalSettings
 	WafSettings() RecaptchaEnterpriseKeyWafSettingsOutputReference
 	WafSettingsInput() *RecaptchaEnterpriseKeyWafSettings
 	WebSettings() RecaptchaEnterpriseKeyWebSettingsOutputReference
@@ -172,9 +176,11 @@ type RecaptchaEnterpriseKey interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutAndroidSettings(value *RecaptchaEnterpriseKeyAndroidSettings)
+	PutExpressSettings(value *RecaptchaEnterpriseKeyExpressSettings)
 	PutIosSettings(value *RecaptchaEnterpriseKeyIosSettings)
 	PutTestingOptions(value *RecaptchaEnterpriseKeyTestingOptions)
 	PutTimeouts(value *RecaptchaEnterpriseKeyTimeouts)
+	PutUniversalSettings(value *RecaptchaEnterpriseKeyUniversalSettings)
 	PutWafSettings(value *RecaptchaEnterpriseKeyWafSettings)
 	PutWebSettings(value *RecaptchaEnterpriseKeyWebSettings)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -192,6 +198,7 @@ type RecaptchaEnterpriseKey interface {
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAndroidSettings()
 	ResetDeletionPolicy()
+	ResetExpressSettings()
 	ResetId()
 	ResetIosSettings()
 	ResetLabels()
@@ -201,6 +208,7 @@ type RecaptchaEnterpriseKey interface {
 	ResetProject()
 	ResetTestingOptions()
 	ResetTimeouts()
+	ResetUniversalSettings()
 	ResetWafSettings()
 	ResetWebSettings()
 	SynthesizeAttributes() *map[string]interface{}
@@ -355,6 +363,26 @@ func (j *jsiiProxy_RecaptchaEnterpriseKey) EffectiveLabels() cdktn.StringMap {
 	_jsii_.Get(
 		j,
 		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecaptchaEnterpriseKey) ExpressSettings() RecaptchaEnterpriseKeyExpressSettingsOutputReference {
+	var returns RecaptchaEnterpriseKeyExpressSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"expressSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecaptchaEnterpriseKey) ExpressSettingsInput() *RecaptchaEnterpriseKeyExpressSettings {
+	var returns *RecaptchaEnterpriseKeyExpressSettings
+	_jsii_.Get(
+		j,
+		"expressSettingsInput",
 		&returns,
 	)
 	return returns
@@ -610,6 +638,26 @@ func (j *jsiiProxy_RecaptchaEnterpriseKey) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_RecaptchaEnterpriseKey) UniversalSettings() RecaptchaEnterpriseKeyUniversalSettingsOutputReference {
+	var returns RecaptchaEnterpriseKeyUniversalSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"universalSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecaptchaEnterpriseKey) UniversalSettingsInput() *RecaptchaEnterpriseKeyUniversalSettings {
+	var returns *RecaptchaEnterpriseKeyUniversalSettings
+	_jsii_.Get(
+		j,
+		"universalSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_RecaptchaEnterpriseKey) WafSettings() RecaptchaEnterpriseKeyWafSettingsOutputReference {
 	var returns RecaptchaEnterpriseKeyWafSettingsOutputReference
 	_jsii_.Get(
@@ -651,7 +699,7 @@ func (j *jsiiProxy_RecaptchaEnterpriseKey) WebSettingsInput() *RecaptchaEnterpri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
 func NewRecaptchaEnterpriseKey(scope constructs.Construct, id *string, config *RecaptchaEnterpriseKeyConfig) RecaptchaEnterpriseKey {
 	_init_.Initialize()
 
@@ -669,7 +717,7 @@ func NewRecaptchaEnterpriseKey(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/recaptcha_enterprise_key google_recaptcha_enterprise_key} Resource.
 func NewRecaptchaEnterpriseKey_Override(r RecaptchaEnterpriseKey, scope constructs.Construct, id *string, config *RecaptchaEnterpriseKeyConfig) {
 	_init_.Initialize()
 
@@ -1183,6 +1231,17 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) PutAndroidSettings(value *RecaptchaEn
 	)
 }
 
+func (r *jsiiProxy_RecaptchaEnterpriseKey) PutExpressSettings(value *RecaptchaEnterpriseKeyExpressSettings) {
+	if err := r.validatePutExpressSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putExpressSettings",
+		[]interface{}{value},
+	)
+}
+
 func (r *jsiiProxy_RecaptchaEnterpriseKey) PutIosSettings(value *RecaptchaEnterpriseKeyIosSettings) {
 	if err := r.validatePutIosSettingsParameters(value); err != nil {
 		panic(err)
@@ -1212,6 +1271,17 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) PutTimeouts(value *RecaptchaEnterpris
 	_jsii_.InvokeVoid(
 		r,
 		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
+func (r *jsiiProxy_RecaptchaEnterpriseKey) PutUniversalSettings(value *RecaptchaEnterpriseKeyUniversalSettings) {
+	if err := r.validatePutUniversalSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		r,
+		"putUniversalSettings",
 		[]interface{}{value},
 	)
 }
@@ -1261,6 +1331,14 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) ResetDeletionPolicy() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetDeletionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RecaptchaEnterpriseKey) ResetExpressSettings() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetExpressSettings",
 		nil, // no parameters
 	)
 }
@@ -1317,6 +1395,14 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RecaptchaEnterpriseKey) ResetUniversalSettings() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetUniversalSettings",
 		nil, // no parameters
 	)
 }

@@ -7,7 +7,7 @@ package beyondcorpsecuritygateway
 type BeyondcorpSecurityGatewayServiceDiscoveryApiGatewayResourceOverride struct {
 	// Contains uri path fragment where HTTP request is sent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/beyondcorp_security_gateway#path BeyondcorpSecurityGateway#path}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/beyondcorp_security_gateway#path BeyondcorpSecurityGateway#path}
 	Path *string `field:"optional" json:"path" yaml:"path"`
 }
 

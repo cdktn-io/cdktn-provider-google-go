@@ -67,6 +67,10 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPol
 	return nil
 }
 
+func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference) validateSetMirrorPercentParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

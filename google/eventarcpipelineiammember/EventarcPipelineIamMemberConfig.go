@@ -22,24 +22,24 @@ type EventarcPipelineIamMemberConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#member EventarcPipelineIamMember#member}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#member EventarcPipelineIamMember#member}.
 	Member *string `field:"required" json:"member" yaml:"member"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#pipeline_id EventarcPipelineIamMember#pipeline_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#pipeline_id EventarcPipelineIamMember#pipeline_id}.
 	PipelineId *string `field:"required" json:"pipelineId" yaml:"pipelineId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#role EventarcPipelineIamMember#role}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#role EventarcPipelineIamMember#role}.
 	Role *string `field:"required" json:"role" yaml:"role"`
 	// condition block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#condition EventarcPipelineIamMember#condition}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#condition EventarcPipelineIamMember#condition}
 	Condition *EventarcPipelineIamMemberCondition `field:"optional" json:"condition" yaml:"condition"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#id EventarcPipelineIamMember#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#id EventarcPipelineIamMember#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#location EventarcPipelineIamMember#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#location EventarcPipelineIamMember#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#project EventarcPipelineIamMember#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#project EventarcPipelineIamMember#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

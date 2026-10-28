@@ -5,9 +5,9 @@ package cesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/cesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -46,6 +46,9 @@ type CesAppModelSettingsOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	ThinkingLevel() *string
+	SetThinkingLevel(val *string)
+	ThinkingLevelInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +75,7 @@ type CesAppModelSettingsOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetModel()
 	ResetTemperature()
+	ResetThinkingLevel()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -197,6 +201,26 @@ func (j *jsiiProxy_CesAppModelSettingsOutputReference) TerraformResource() cdktn
 	return returns
 }
 
+func (j *jsiiProxy_CesAppModelSettingsOutputReference) ThinkingLevel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesAppModelSettingsOutputReference) ThinkingLevelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"thinkingLevelInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewCesAppModelSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CesAppModelSettingsOutputReference {
 	_init_.Initialize()
@@ -298,6 +322,17 @@ func (j *jsiiProxy_CesAppModelSettingsOutputReference)SetTerraformResource(val c
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesAppModelSettingsOutputReference)SetThinkingLevel(val *string) {
+	if err := j.validateSetThinkingLevelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"thinkingLevel",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (c *jsiiProxy_CesAppModelSettingsOutputReference) ResetTemperature() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetTemperature",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesAppModelSettingsOutputReference) ResetThinkingLevel() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetThinkingLevel",
 		nil, // no parameters
 	)
 }

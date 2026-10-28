@@ -7,11 +7,11 @@ package chronicleenvironment
 type ChronicleEnvironmentDynamicParameters struct {
 	// The ID of the dynamic parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_environment#dynamic_parameter_id ChronicleEnvironment#dynamic_parameter_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_environment#dynamic_parameter_id ChronicleEnvironment#dynamic_parameter_id}
 	DynamicParameterId *float64 `field:"required" json:"dynamicParameterId" yaml:"dynamicParameterId"`
 	// The value of the dynamic parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_environment#value ChronicleEnvironment#value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_environment#value ChronicleEnvironment#value}
 	Value *string `field:"required" json:"value" yaml:"value"`
 }
 

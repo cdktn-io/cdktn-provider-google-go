@@ -7,7 +7,7 @@ package vertexairagcorpus
 type VertexAiRagCorpusVectorDbConfigRagEmbeddingModelConfigVertexPredictionEndpoint struct {
 	// Required. The endpoint resource name. Format: projects/{project}/locations/{location}/publishers/{publisher}/models/{model} or projects/{project}/locations/{location}/endpoints/{endpoint}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus#endpoint VertexAiRagCorpus#endpoint}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_corpus#endpoint VertexAiRagCorpus#endpoint}
 	Endpoint *string `field:"required" json:"endpoint" yaml:"endpoint"`
 }
 

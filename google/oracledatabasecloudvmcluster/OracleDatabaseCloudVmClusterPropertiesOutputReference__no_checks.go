@@ -123,6 +123,14 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) valida
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetScanListenerPortTcpParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetScanListenerPortTcpSslParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) validateSetSparseDiskgroupEnabledParameters(val interface{}) error {
 	return nil
 }

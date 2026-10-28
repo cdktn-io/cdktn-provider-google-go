@@ -7,13 +7,13 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContent struct {
 	// parts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#parts VertexAiReasoningEngine#parts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#parts VertexAiReasoningEngine#parts}
 	Parts interface{} `field:"required" json:"parts" yaml:"parts"`
 	// The producer of the content.
 	//
 	// Must be either 'user' or 'model'. If not set, the service will default to 'user'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#role VertexAiReasoningEngine#role}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#role VertexAiReasoningEngine#role}
 	Role *string `field:"optional" json:"role" yaml:"role"`
 }
 

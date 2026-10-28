@@ -5,9 +5,9 @@ package networksecurityfirewallendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networksecurityfirewallendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/networksecurityfirewallendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -23,6 +23,9 @@ type NetworkSecurityFirewallEndpointEndpointSettingsOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ContentCloudRegion() *string
+	SetContentCloudRegion(val *string)
+	ContentCloudRegionInput() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -30,6 +33,9 @@ type NetworkSecurityFirewallEndpointEndpointSettingsOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	HttpPartialResponseBlocked() interface{}
+	SetHttpPartialResponseBlocked(val interface{})
+	HttpPartialResponseBlockedInput() interface{}
 	InternalValue() *NetworkSecurityFirewallEndpointEndpointSettings
 	SetInternalValue(val *NetworkSecurityFirewallEndpointEndpointSettings)
 	JumboFramesEnabled() interface{}
@@ -67,6 +73,8 @@ type NetworkSecurityFirewallEndpointEndpointSettingsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetContentCloudRegion()
+	ResetHttpPartialResponseBlocked()
 	ResetJumboFramesEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -103,6 +111,26 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReferenc
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ContentCloudRegion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contentCloudRegion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ContentCloudRegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"contentCloudRegionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -118,6 +146,26 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReferenc
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) HttpPartialResponseBlocked() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"httpPartialResponseBlocked",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) HttpPartialResponseBlockedInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"httpPartialResponseBlockedInput",
 		&returns,
 	)
 	return returns
@@ -219,6 +267,28 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReferenc
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference)SetContentCloudRegion(val *string) {
+	if err := j.validateSetContentCloudRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"contentCloudRegion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference)SetHttpPartialResponseBlocked(val interface{}) {
+	if err := j.validateSetHttpPartialResponseBlockedParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"httpPartialResponseBlocked",
 		val,
 	)
 }
@@ -451,6 +521,22 @@ func (n *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReferenc
 	)
 
 	return returns
+}
+
+func (n *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ResetContentCloudRegion() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetContentCloudRegion",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ResetHttpPartialResponseBlocked() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetHttpPartialResponseBlocked",
+		nil, // no parameters
+	)
 }
 
 func (n *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) ResetJumboFramesEnabled() {

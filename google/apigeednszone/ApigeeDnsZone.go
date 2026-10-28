@@ -5,14 +5,14 @@ package apigeednszone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeednszone/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/apigeednszone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/apigee_dns_zone google_apigee_dns_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apigee_dns_zone google_apigee_dns_zone}.
 type ApigeeDnsZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -542,7 +542,7 @@ func (j *jsiiProxy_ApigeeDnsZone) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/apigee_dns_zone google_apigee_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apigee_dns_zone google_apigee_dns_zone} Resource.
 func NewApigeeDnsZone(scope constructs.Construct, id *string, config *ApigeeDnsZoneConfig) ApigeeDnsZone {
 	_init_.Initialize()
 
@@ -560,7 +560,7 @@ func NewApigeeDnsZone(scope constructs.Construct, id *string, config *ApigeeDnsZ
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/apigee_dns_zone google_apigee_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apigee_dns_zone google_apigee_dns_zone} Resource.
 func NewApigeeDnsZone_Override(a ApigeeDnsZone, scope constructs.Construct, id *string, config *ApigeeDnsZoneConfig) {
 	_init_.Initialize()
 

@@ -7,7 +7,7 @@ package beyondcorpsecuritygatewayapplication
 type BeyondcorpSecurityGatewayApplicationUpstreamsExternal struct {
 	// endpoints block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/beyondcorp_security_gateway_application#endpoints BeyondcorpSecurityGatewayApplication#endpoints}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/beyondcorp_security_gateway_application#endpoints BeyondcorpSecurityGatewayApplication#endpoints}
 	Endpoints interface{} `field:"required" json:"endpoints" yaml:"endpoints"`
 }
 

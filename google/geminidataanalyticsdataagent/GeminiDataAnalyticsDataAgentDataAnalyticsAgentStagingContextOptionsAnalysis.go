@@ -7,7 +7,7 @@ package geminidataanalyticsdataagent
 type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsAnalysis struct {
 	// python block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_data_analytics_data_agent#python GeminiDataAnalyticsDataAgent#python}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent#python GeminiDataAnalyticsDataAgent#python}
 	Python *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsAnalysisPython `field:"optional" json:"python" yaml:"python"`
 }
 

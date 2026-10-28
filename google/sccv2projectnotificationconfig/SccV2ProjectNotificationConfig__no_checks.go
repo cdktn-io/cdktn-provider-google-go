@@ -119,6 +119,10 @@ func (j *jsiiProxy_SccV2ProjectNotificationConfig) validateSetCountParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_SccV2ProjectNotificationConfig) validateSetDeletionNotificationsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccV2ProjectNotificationConfig) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

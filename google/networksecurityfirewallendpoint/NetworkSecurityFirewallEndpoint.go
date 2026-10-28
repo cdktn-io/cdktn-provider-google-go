@@ -5,14 +5,14 @@ package networksecurityfirewallendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networksecurityfirewallendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/networksecurityfirewallendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint}.
 type NetworkSecurityFirewallEndpoint interface {
 	cdktn.TerraformResource
 	AssociatedNetworks() *[]*string
@@ -94,6 +94,8 @@ type NetworkSecurityFirewallEndpoint interface {
 	Timeouts() NetworkSecurityFirewallEndpointTimeoutsOutputReference
 	TimeoutsInput() interface{}
 	UpdateTime() *string
+	WildfireSettings() NetworkSecurityFirewallEndpointWildfireSettingsOutputReference
+	WildfireSettingsInput() *NetworkSecurityFirewallEndpointWildfireSettings
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -175,6 +177,7 @@ type NetworkSecurityFirewallEndpoint interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutEndpointSettings(value *NetworkSecurityFirewallEndpointEndpointSettings)
 	PutTimeouts(value *NetworkSecurityFirewallEndpointTimeouts)
+	PutWildfireSettings(value *NetworkSecurityFirewallEndpointWildfireSettings)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -197,6 +200,7 @@ type NetworkSecurityFirewallEndpoint interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetTimeouts()
+	ResetWildfireSettings()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -644,8 +648,28 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) UpdateTime() *string {
 	return returns
 }
 
+func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) WildfireSettings() NetworkSecurityFirewallEndpointWildfireSettingsOutputReference {
+	var returns NetworkSecurityFirewallEndpointWildfireSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"wildfireSettings",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
+func (j *jsiiProxy_NetworkSecurityFirewallEndpoint) WildfireSettingsInput() *NetworkSecurityFirewallEndpointWildfireSettings {
+	var returns *NetworkSecurityFirewallEndpointWildfireSettings
+	_jsii_.Get(
+		j,
+		"wildfireSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
 func NewNetworkSecurityFirewallEndpoint(scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointConfig) NetworkSecurityFirewallEndpoint {
 	_init_.Initialize()
 
@@ -663,7 +687,7 @@ func NewNetworkSecurityFirewallEndpoint(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_firewall_endpoint google_network_security_firewall_endpoint} Resource.
 func NewNetworkSecurityFirewallEndpoint_Override(n NetworkSecurityFirewallEndpoint, scope constructs.Construct, id *string, config *NetworkSecurityFirewallEndpointConfig) {
 	_init_.Initialize()
 
@@ -1210,6 +1234,17 @@ func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) PutTimeouts(value *NetworkSe
 	)
 }
 
+func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) PutWildfireSettings(value *NetworkSecurityFirewallEndpointWildfireSettings) {
+	if err := n.validatePutWildfireSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putWildfireSettings",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := n.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1273,6 +1308,14 @@ func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) ResetWildfireSettings() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetWildfireSettings",
 		nil, // no parameters
 	)
 }

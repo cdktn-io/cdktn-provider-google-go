@@ -5,11 +5,11 @@ package computenetworkedgesecurityservice
 
 
 type ComputeNetworkEdgeSecurityServiceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_edge_security_service#create ComputeNetworkEdgeSecurityService#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_edge_security_service#create ComputeNetworkEdgeSecurityService#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_edge_security_service#delete ComputeNetworkEdgeSecurityService#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_edge_security_service#delete ComputeNetworkEdgeSecurityService#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_edge_security_service#update ComputeNetworkEdgeSecurityService#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_edge_security_service#update ComputeNetworkEdgeSecurityService#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

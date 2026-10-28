@@ -7,11 +7,11 @@ package datalosspreventioncontentpolicy
 type DataLossPreventionContentPolicyRules struct {
 	// action block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy#action DataLossPreventionContentPolicy#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/data_loss_prevention_content_policy#action DataLossPreventionContentPolicy#action}
 	Action *DataLossPreventionContentPolicyRulesAction `field:"required" json:"action" yaml:"action"`
 	// conditions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy#conditions DataLossPreventionContentPolicy#conditions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/data_loss_prevention_content_policy#conditions DataLossPreventionContentPolicy#conditions}
 	Conditions interface{} `field:"optional" json:"conditions" yaml:"conditions"`
 }
 

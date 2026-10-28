@@ -5,9 +5,9 @@ package datagooglecomputeserviceattachments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datagooglecomputeserviceattachments/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/datagooglecomputeserviceattachments/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -51,6 +51,7 @@ type DataGoogleComputeServiceAttachmentsServiceAttachmentsOutputReference interf
 	Region() *string
 	SelfLink() *string
 	SendPropagatedConnectionLimitIfZero() cdktn.IResolvable
+	ServiceAttachmentId() *float64
 	ShowNatIps() cdktn.IResolvable
 	TargetService() *string
 	// Experimental.
@@ -335,6 +336,16 @@ func (j *jsiiProxy_DataGoogleComputeServiceAttachmentsServiceAttachmentsOutputRe
 	_jsii_.Get(
 		j,
 		"sendPropagatedConnectionLimitIfZero",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeServiceAttachmentsServiceAttachmentsOutputReference) ServiceAttachmentId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"serviceAttachmentId",
 		&returns,
 	)
 	return returns

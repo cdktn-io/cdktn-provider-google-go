@@ -5,9 +5,9 @@ package computeregionurlmap
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeregionurlmap/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computeregionurlmap/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -35,6 +35,9 @@ type ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputR
 	Fqn() *string
 	InternalValue() *ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy
 	SetInternalValue(val *ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicy)
+	MirrorPercent() *float64
+	SetMirrorPercent(val *float64)
+	MirrorPercentInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +70,7 @@ type ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputR
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetMirrorPercent()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +151,26 @@ func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirro
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference) MirrorPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"mirrorPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference) MirrorPercentInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"mirrorPercentInput",
 		&returns,
 	)
 	return returns
@@ -240,6 +264,17 @@ func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirro
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference)SetMirrorPercent(val *float64) {
+	if err := j.validateSetMirrorPercentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mirrorPercent",
 		val,
 	)
 }
@@ -450,6 +485,14 @@ func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirro
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference) ResetMirrorPercent() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMirrorPercent",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_ComputeRegionUrlMapPathMatcherPathRuleRouteActionRequestMirrorPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

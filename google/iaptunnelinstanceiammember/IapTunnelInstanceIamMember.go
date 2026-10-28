@@ -5,14 +5,14 @@ package iaptunnelinstanceiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/iaptunnelinstanceiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/iaptunnelinstanceiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/iap_tunnel_instance_iam_member google_iap_tunnel_instance_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/iap_tunnel_instance_iam_member google_iap_tunnel_instance_iam_member}.
 type IapTunnelInstanceIamMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_IapTunnelInstanceIamMember) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/iap_tunnel_instance_iam_member google_iap_tunnel_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/iap_tunnel_instance_iam_member google_iap_tunnel_instance_iam_member} Resource.
 func NewIapTunnelInstanceIamMember(scope constructs.Construct, id *string, config *IapTunnelInstanceIamMemberConfig) IapTunnelInstanceIamMember {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewIapTunnelInstanceIamMember(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/iap_tunnel_instance_iam_member google_iap_tunnel_instance_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/iap_tunnel_instance_iam_member google_iap_tunnel_instance_iam_member} Resource.
 func NewIapTunnelInstanceIamMember_Override(i IapTunnelInstanceIamMember, scope constructs.Construct, id *string, config *IapTunnelInstanceIamMemberConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package oracledatabasecloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/oracledatabasecloudvmcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/oracledatabasecloudvmcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -83,7 +83,11 @@ type OracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	ScanDnsRecordId() *string
 	ScanIpIds() *[]*string
 	ScanListenerPortTcp() *float64
+	SetScanListenerPortTcp(val *float64)
+	ScanListenerPortTcpInput() *float64
 	ScanListenerPortTcpSsl() *float64
+	SetScanListenerPortTcpSsl(val *float64)
+	ScanListenerPortTcpSslInput() *float64
 	Shape() *string
 	SparseDiskgroupEnabled() interface{}
 	SetSparseDiskgroupEnabled(val interface{})
@@ -149,6 +153,8 @@ type OracleDatabaseCloudVmClusterPropertiesOutputReference interface {
 	ResetMemorySizeGb()
 	ResetNodeCount()
 	ResetOcpuCount()
+	ResetScanListenerPortTcp()
+	ResetScanListenerPortTcpSsl()
 	ResetSparseDiskgroupEnabled()
 	ResetSshPublicKeys()
 	ResetTimeZone()
@@ -599,11 +605,31 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) ScanLi
 	return returns
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) ScanListenerPortTcpInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"scanListenerPortTcpInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) ScanListenerPortTcpSsl() *float64 {
 	var returns *float64
 	_jsii_.Get(
 		j,
 		"scanListenerPortTcpSsl",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) ScanListenerPortTcpSslInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"scanListenerPortTcpSslInput",
 		&returns,
 	)
 	return returns
@@ -983,6 +1009,28 @@ func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference)SetOcpu
 	)
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference)SetScanListenerPortTcp(val *float64) {
+	if err := j.validateSetScanListenerPortTcpParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scanListenerPortTcp",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference)SetScanListenerPortTcpSsl(val *float64) {
+	if err := j.validateSetScanListenerPortTcpSslParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"scanListenerPortTcpSsl",
+		val,
+	)
+}
+
 func (j *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference)SetSparseDiskgroupEnabled(val interface{}) {
 	if err := j.validateSetSparseDiskgroupEnabledParameters(val); err != nil {
 		panic(err)
@@ -1349,6 +1397,22 @@ func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) ResetO
 	_jsii_.InvokeVoid(
 		o,
 		"resetOcpuCount",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) ResetScanListenerPortTcp() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetScanListenerPortTcp",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseCloudVmClusterPropertiesOutputReference) ResetScanListenerPortTcpSsl() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetScanListenerPortTcpSsl",
 		nil, // no parameters
 	)
 }

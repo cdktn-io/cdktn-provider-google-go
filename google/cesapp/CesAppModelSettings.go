@@ -9,7 +9,7 @@ type CesAppModelSettings struct {
 	//
 	// If not set, the agent will inherit the model from its parent agent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app#model CesApp#model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app#model CesApp#model}
 	Model *string `field:"optional" json:"model" yaml:"model"`
 	// If set, this temperature will be used for the LLM model.
 	//
@@ -18,7 +18,11 @@ type CesAppModelSettings struct {
 	// produce responses that are more predictable. Higher temperatures produce
 	// responses that are more creative.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app#temperature CesApp#temperature}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app#temperature CesApp#temperature}
 	Temperature *float64 `field:"optional" json:"temperature" yaml:"temperature"`
+	// The thinking level of the model. Possible values: ["DEFAULT", "LOW", "MEDIUM", "HIGH"].
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app#thinking_level CesApp#thinking_level}
+	ThinkingLevel *string `field:"optional" json:"thinkingLevel" yaml:"thinkingLevel"`
 }
 

@@ -5,14 +5,14 @@ package datagooglecomputeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/datagooglecomputeserviceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/datagooglecomputeserviceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/data-sources/compute_service_attachment google_compute_service_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/compute_service_attachment google_compute_service_attachment}.
 type DataGoogleComputeServiceAttachment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -75,6 +75,7 @@ type DataGoogleComputeServiceAttachment interface {
 	RegionInput() *string
 	SelfLink() *string
 	SendPropagatedConnectionLimitIfZero() cdktn.IResolvable
+	ServiceAttachmentId() *float64
 	ShowNatIps() cdktn.IResolvable
 	TargetService() *string
 	// Experimental.
@@ -505,6 +506,16 @@ func (j *jsiiProxy_DataGoogleComputeServiceAttachment) SendPropagatedConnectionL
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeServiceAttachment) ServiceAttachmentId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"serviceAttachmentId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeServiceAttachment) ShowNatIps() cdktn.IResolvable {
 	var returns cdktn.IResolvable
 	_jsii_.Get(
@@ -556,7 +567,7 @@ func (j *jsiiProxy_DataGoogleComputeServiceAttachment) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/data-sources/compute_service_attachment google_compute_service_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/compute_service_attachment google_compute_service_attachment} Data Source.
 func NewDataGoogleComputeServiceAttachment(scope constructs.Construct, id *string, config *DataGoogleComputeServiceAttachmentConfig) DataGoogleComputeServiceAttachment {
 	_init_.Initialize()
 
@@ -574,7 +585,7 @@ func NewDataGoogleComputeServiceAttachment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/data-sources/compute_service_attachment google_compute_service_attachment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/compute_service_attachment google_compute_service_attachment} Data Source.
 func NewDataGoogleComputeServiceAttachment_Override(d DataGoogleComputeServiceAttachment, scope constructs.Construct, id *string, config *DataGoogleComputeServiceAttachmentConfig) {
 	_init_.Initialize()
 

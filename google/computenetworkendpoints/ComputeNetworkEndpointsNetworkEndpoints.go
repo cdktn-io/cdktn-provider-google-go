@@ -10,7 +10,7 @@ type ComputeNetworkEndpointsNetworkEndpoints struct {
 	// This is required for network endpoints of type GCE_VM_IP_PORT.
 	// The instance must be in the same zone as the network endpoint group.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_endpoints#instance ComputeNetworkEndpoints#instance}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_endpoints#instance ComputeNetworkEndpoints#instance}
 	Instance *string `field:"optional" json:"instance" yaml:"instance"`
 	// IPv4 address of network endpoint.
 	//
@@ -19,11 +19,15 @@ type ComputeNetworkEndpointsNetworkEndpoints struct {
 	// range).
 	// **Note** 'ip_address' is required unless the Network Endpoint Group is created with the type of 'GCE_VM_IP_DEDICATED_BACKEND'
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_endpoints#ip_address ComputeNetworkEndpoints#ip_address}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_endpoints#ip_address ComputeNetworkEndpoints#ip_address}
 	IpAddress *string `field:"optional" json:"ipAddress" yaml:"ipAddress"`
+	// IPv6 address of network endpoint. The result of parsing the endpoint config, or empty if IPv6 is not used.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_endpoints#ipv6_address ComputeNetworkEndpoints#ipv6_address}
+	Ipv6Address *string `field:"optional" json:"ipv6Address" yaml:"ipv6Address"`
 	// Port number of network endpoint. **Note** 'port' is required unless the Network Endpoint Group is created with the type of 'GCE_VM_IP'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_endpoints#port ComputeNetworkEndpoints#port}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_endpoints#port ComputeNetworkEndpoints#port}
 	Port *float64 `field:"optional" json:"port" yaml:"port"`
 }
 

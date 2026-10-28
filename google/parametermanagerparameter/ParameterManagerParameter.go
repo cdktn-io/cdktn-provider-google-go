@@ -5,14 +5,14 @@ package parametermanagerparameter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/parametermanagerparameter/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/parametermanagerparameter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter}.
 type ParameterManagerParameter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -625,7 +625,7 @@ func (j *jsiiProxy_ParameterManagerParameter) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
 func NewParameterManagerParameter(scope constructs.Construct, id *string, config *ParameterManagerParameterConfig) ParameterManagerParameter {
 	_init_.Initialize()
 
@@ -643,7 +643,7 @@ func NewParameterManagerParameter(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/parameter_manager_parameter google_parameter_manager_parameter} Resource.
 func NewParameterManagerParameter_Override(p ParameterManagerParameter, scope constructs.Construct, id *string, config *ParameterManagerParameterConfig) {
 	_init_.Initialize()
 

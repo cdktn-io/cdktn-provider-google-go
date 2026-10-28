@@ -5,9 +5,9 @@ package geminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,8 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference
 	GlossaryTermsInput() interface{}
 	InternalValue() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContext
 	SetInternalValue(val *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContext)
+	LookerGoldenQueries() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueriesList
+	LookerGoldenQueriesInput() interface{}
 	Options() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference
 	OptionsInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptions
 	SchemaRelationships() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextSchemaRelationshipsList
@@ -53,6 +55,8 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UserFunctions() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctionsOutputReference
+	UserFunctionsInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctions
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -80,13 +84,17 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference
 	PutDatasourceReferences(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferences)
 	PutExampleQueries(value interface{})
 	PutGlossaryTerms(value interface{})
+	PutLookerGoldenQueries(value interface{})
 	PutOptions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptions)
 	PutSchemaRelationships(value interface{})
+	PutUserFunctions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctions)
 	ResetExampleQueries()
 	ResetGlossaryTerms()
+	ResetLookerGoldenQueries()
 	ResetOptions()
 	ResetSchemaRelationships()
 	ResetSystemInstruction()
+	ResetUserFunctions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -212,6 +220,26 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	return returns
 }
 
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) LookerGoldenQueries() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueriesList {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueriesList
+	_jsii_.Get(
+		j,
+		"lookerGoldenQueries",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) LookerGoldenQueriesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"lookerGoldenQueriesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) Options() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference {
 	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference
 	_jsii_.Get(
@@ -287,6 +315,26 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) UserFunctions() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctionsOutputReference {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctionsOutputReference
+	_jsii_.Get(
+		j,
+		"userFunctions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) UserFunctionsInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctions {
+	var returns *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctions
+	_jsii_.Get(
+		j,
+		"userFunctionsInput",
 		&returns,
 	)
 	return returns
@@ -605,6 +653,17 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	)
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) PutLookerGoldenQueries(value interface{}) {
+	if err := g.validatePutLookerGoldenQueriesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putLookerGoldenQueries",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) PutOptions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptions) {
 	if err := g.validatePutOptionsParameters(value); err != nil {
 		panic(err)
@@ -627,6 +686,17 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	)
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) PutUserFunctions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctions) {
+	if err := g.validatePutUserFunctionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putUserFunctions",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) ResetExampleQueries() {
 	_jsii_.InvokeVoid(
 		g,
@@ -639,6 +709,14 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	_jsii_.InvokeVoid(
 		g,
 		"resetGlossaryTerms",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) ResetLookerGoldenQueries() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLookerGoldenQueries",
 		nil, // no parameters
 	)
 }
@@ -663,6 +741,14 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	_jsii_.InvokeVoid(
 		g,
 		"resetSystemInstruction",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) ResetUserFunctions() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUserFunctions",
 		nil, // no parameters
 	)
 }

@@ -5,9 +5,9 @@ package cestool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cestool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/cestool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -33,9 +33,12 @@ type CesToolRemoteAgentToolOutputReference interface {
 	Description() *string
 	// Experimental.
 	Fqn() *string
+	InputVariableMapping() cdktn.StringMap
 	InternalValue() *CesToolRemoteAgentTool
 	SetInternalValue(val *CesToolRemoteAgentTool)
 	Name() *string
+	OutputVariableMapping() cdktn.StringMap
+	StatefulAgent() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -153,6 +156,16 @@ func (j *jsiiProxy_CesToolRemoteAgentToolOutputReference) Fqn() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesToolRemoteAgentToolOutputReference) InputVariableMapping() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"inputVariableMapping",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesToolRemoteAgentToolOutputReference) InternalValue() *CesToolRemoteAgentTool {
 	var returns *CesToolRemoteAgentTool
 	_jsii_.Get(
@@ -168,6 +181,26 @@ func (j *jsiiProxy_CesToolRemoteAgentToolOutputReference) Name() *string {
 	_jsii_.Get(
 		j,
 		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolRemoteAgentToolOutputReference) OutputVariableMapping() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"outputVariableMapping",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesToolRemoteAgentToolOutputReference) StatefulAgent() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"statefulAgent",
 		&returns,
 	)
 	return returns

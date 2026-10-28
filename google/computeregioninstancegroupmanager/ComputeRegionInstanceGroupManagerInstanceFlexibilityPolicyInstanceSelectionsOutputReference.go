@@ -5,9 +5,9 @@ package computeregioninstancegroupmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeregioninstancegroupmanager/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computeregioninstancegroupmanager/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,8 @@ type ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelection
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	Disks() ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList
+	DisksInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() interface{}
@@ -35,6 +37,9 @@ type ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelection
 	MachineTypes() *[]*string
 	SetMachineTypes(val *[]*string)
 	MachineTypesInput() *[]*string
+	MinCpuPlatform() *string
+	SetMinCpuPlatform(val *string)
+	MinCpuPlatformInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -73,6 +78,9 @@ type ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelection
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDisks(value interface{})
+	ResetDisks()
+	ResetMinCpuPlatform()
 	ResetRank()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -119,6 +127,26 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) Disks() ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList {
+	var returns ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsDisksList
+	_jsii_.Get(
+		j,
+		"disks",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) DisksInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disksInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -154,6 +182,26 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
 	_jsii_.Get(
 		j,
 		"machineTypesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) MinCpuPlatform() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatform",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) MinCpuPlatformInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minCpuPlatformInput",
 		&returns,
 	)
 	return returns
@@ -287,6 +335,17 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
 	_jsii_.Set(
 		j,
 		"machineTypes",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference)SetMinCpuPlatform(val *string) {
+	if err := j.validateSetMinCpuPlatformParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minCpuPlatform",
 		val,
 	)
 }
@@ -519,6 +578,33 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
 	)
 
 	return returns
+}
+
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) PutDisks(value interface{}) {
+	if err := c.validatePutDisksParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putDisks",
+		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) ResetDisks() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetDisks",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) ResetMinCpuPlatform() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMinCpuPlatform",
+		nil, // no parameters
+	)
 }
 
 func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) ResetRank() {

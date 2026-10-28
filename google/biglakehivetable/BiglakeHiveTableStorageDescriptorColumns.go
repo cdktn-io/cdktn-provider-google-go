@@ -7,15 +7,15 @@ package biglakehivetable
 type BiglakeHiveTableStorageDescriptorColumns struct {
 	// Name of the field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#name BiglakeHiveTable#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#name BiglakeHiveTable#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Type of the field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#type BiglakeHiveTable#type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#type BiglakeHiveTable#type}
 	Type *string `field:"required" json:"type" yaml:"type"`
 	// Comment of the field.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_table#comment BiglakeHiveTable#comment}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_table#comment BiglakeHiveTable#comment}
 	Comment *string `field:"optional" json:"comment" yaml:"comment"`
 }
 

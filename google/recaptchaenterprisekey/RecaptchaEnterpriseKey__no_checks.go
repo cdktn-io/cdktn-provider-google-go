@@ -83,6 +83,10 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutAndroidSettingsParameters(
 	return nil
 }
 
+func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutExpressSettingsParameters(value *RecaptchaEnterpriseKeyExpressSettings) error {
+	return nil
+}
+
 func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutIosSettingsParameters(value *RecaptchaEnterpriseKeyIosSettings) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutTestingOptionsParameters(v
 }
 
 func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutTimeoutsParameters(value *RecaptchaEnterpriseKeyTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RecaptchaEnterpriseKey) validatePutUniversalSettingsParameters(value *RecaptchaEnterpriseKeyUniversalSettings) error {
 	return nil
 }
 

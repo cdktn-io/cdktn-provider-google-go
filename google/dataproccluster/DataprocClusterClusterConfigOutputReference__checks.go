@@ -232,6 +232,17 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutMaste
 	return nil
 }
 
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutMasterFlexibleConfigParameters(value *DataprocClusterClusterConfigMasterFlexibleConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutMetastoreConfigParameters(value *DataprocClusterClusterConfigMetastoreConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -244,6 +255,17 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutMetas
 }
 
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutPreemptibleWorkerConfigParameters(value *DataprocClusterClusterConfigPreemptibleWorkerConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutSecondaryWorkerFlexibleConfigParameters(value *DataprocClusterClusterConfigSecondaryWorkerFlexibleConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -277,6 +299,17 @@ func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutSoftw
 }
 
 func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutWorkerConfigParameters(value *DataprocClusterClusterConfigWorkerConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataprocClusterClusterConfigOutputReference) validatePutWorkerFlexibleConfigParameters(value *DataprocClusterClusterConfigWorkerFlexibleConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

@@ -79,6 +79,10 @@ func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) validateOverrideLogicalIdP
 	return nil
 }
 
+func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) validatePutParamsParameters(value *ComputeNetworkEdgeSecurityServiceParams) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) validatePutTimeoutsParameters(value *ComputeNetworkEdgeSecurityServiceTimeouts) error {
 	return nil
 }

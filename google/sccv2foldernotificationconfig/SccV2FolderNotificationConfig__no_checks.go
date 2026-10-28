@@ -119,6 +119,10 @@ func (j *jsiiProxy_SccV2FolderNotificationConfig) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_SccV2FolderNotificationConfig) validateSetDeletionNotificationsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_SccV2FolderNotificationConfig) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

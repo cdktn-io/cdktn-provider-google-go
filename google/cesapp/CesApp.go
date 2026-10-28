@@ -5,14 +5,14 @@ package cesapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesapp/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/cesapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app google_ces_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app google_ces_app}.
 type CesApp interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -1044,7 +1044,7 @@ func (j *jsiiProxy_CesApp) VpcScSettingsInput() *CesAppVpcScSettings {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app google_ces_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app google_ces_app} Resource.
 func NewCesApp(scope constructs.Construct, id *string, config *CesAppConfig) CesApp {
 	_init_.Initialize()
 
@@ -1062,7 +1062,7 @@ func NewCesApp(scope constructs.Construct, id *string, config *CesAppConfig) Ces
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app google_ces_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app google_ces_app} Resource.
 func NewCesApp_Override(c CesApp, scope constructs.Construct, id *string, config *CesAppConfig) {
 	_init_.Initialize()
 

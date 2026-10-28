@@ -5,14 +5,14 @@ package observabilityprojectsettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/observabilityprojectsettings/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/observabilityprojectsettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_project_settings google_observability_project_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_project_settings google_observability_project_settings}.
 type ObservabilityProjectSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_ObservabilityProjectSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_project_settings google_observability_project_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_project_settings google_observability_project_settings} Resource.
 func NewObservabilityProjectSettings(scope constructs.Construct, id *string, config *ObservabilityProjectSettingsConfig) ObservabilityProjectSettings {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewObservabilityProjectSettings(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_project_settings google_observability_project_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_project_settings google_observability_project_settings} Resource.
 func NewObservabilityProjectSettings_Override(o ObservabilityProjectSettings, scope constructs.Construct, id *string, config *ObservabilityProjectSettingsConfig) {
 	_init_.Initialize()
 

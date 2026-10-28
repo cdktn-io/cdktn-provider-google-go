@@ -5,9 +5,9 @@ package apigeeaddonsconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apigeeaddonsconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/apigeeaddonsconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

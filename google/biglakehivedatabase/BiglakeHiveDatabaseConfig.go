@@ -24,11 +24,11 @@ type BiglakeHiveDatabaseConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Hive catalog where the database to create is located.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#catalog BiglakeHiveDatabase#catalog}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#catalog BiglakeHiveDatabase#catalog}
 	Catalog *string `field:"required" json:"catalog" yaml:"catalog"`
 	// Database to create.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#name BiglakeHiveDatabase#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#name BiglakeHiveDatabase#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -40,13 +40,13 @@ type BiglakeHiveDatabaseConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#deletion_policy BiglakeHiveDatabase#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#deletion_policy BiglakeHiveDatabase#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Description of the database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#description BiglakeHiveDatabase#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#description BiglakeHiveDatabase#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#id BiglakeHiveDatabase#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#id BiglakeHiveDatabase#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,17 +56,17 @@ type BiglakeHiveDatabaseConfig struct {
 	// If unspecified, the database will be stored in the catalog location.
 	// Format: gs://bucket/path/to/database
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#location_uri BiglakeHiveDatabase#location_uri}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#location_uri BiglakeHiveDatabase#location_uri}
 	LocationUri *string `field:"optional" json:"locationUri" yaml:"locationUri"`
 	// Additional parameters associated with the database.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#parameters BiglakeHiveDatabase#parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#parameters BiglakeHiveDatabase#parameters}
 	Parameters *map[string]*string `field:"optional" json:"parameters" yaml:"parameters"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#project BiglakeHiveDatabase#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#project BiglakeHiveDatabase#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database#timeouts BiglakeHiveDatabase#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database#timeouts BiglakeHiveDatabase#timeouts}
 	Timeouts *BiglakeHiveDatabaseTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

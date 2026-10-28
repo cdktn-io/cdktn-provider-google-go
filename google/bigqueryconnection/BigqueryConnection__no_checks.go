@@ -103,6 +103,10 @@ func (b *jsiiProxy_BigqueryConnection) validatePutConfigurationParameters(value 
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryConnection) validatePutSalesforceDataCloudParameters(value *BigqueryConnectionSalesforceDataCloud) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryConnection) validatePutSparkParameters(value *BigqueryConnectionSpark) error {
 	return nil
 }

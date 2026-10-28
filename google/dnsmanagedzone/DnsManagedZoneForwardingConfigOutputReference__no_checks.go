@@ -47,6 +47,10 @@ func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) validateInterp
 	return nil
 }
 
+func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) validatePutOutboundEndpointsParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) validatePutTargetNameServersParameters(value interface{}) error {
 	return nil
 }

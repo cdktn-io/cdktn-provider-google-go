@@ -5,14 +5,14 @@ package vertexairagcorpus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vertexairagcorpus/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/vertexairagcorpus/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus google_vertex_ai_rag_corpus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_corpus google_vertex_ai_rag_corpus}.
 type VertexAiRagCorpus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -626,7 +626,7 @@ func (j *jsiiProxy_VertexAiRagCorpus) VertexAiSearchConfigInput() *VertexAiRagCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
 func NewVertexAiRagCorpus(scope constructs.Construct, id *string, config *VertexAiRagCorpusConfig) VertexAiRagCorpus {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewVertexAiRagCorpus(scope constructs.Construct, id *string, config *Vertex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_corpus google_vertex_ai_rag_corpus} Resource.
 func NewVertexAiRagCorpus_Override(v VertexAiRagCorpus, scope constructs.Construct, id *string, config *VertexAiRagCorpusConfig) {
 	_init_.Initialize()
 

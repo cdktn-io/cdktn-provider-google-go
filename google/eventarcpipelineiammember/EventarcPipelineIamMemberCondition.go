@@ -5,11 +5,11 @@ package eventarcpipelineiammember
 
 
 type EventarcPipelineIamMemberCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#expression EventarcPipelineIamMember#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#expression EventarcPipelineIamMember#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#title EventarcPipelineIamMember#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#title EventarcPipelineIamMember#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_member#description EventarcPipelineIamMember#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_member#description EventarcPipelineIamMember#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

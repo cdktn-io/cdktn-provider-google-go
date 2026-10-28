@@ -5,9 +5,9 @@ package geminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceRef
 	Fqn() *string
 	InternalValue() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBq
 	SetInternalValue(val *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBq)
+	PropertyGraphReferences() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqPropertyGraphReferencesList
+	PropertyGraphReferencesInput() interface{}
 	TableReferences() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqTableReferencesList
 	TableReferencesInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceRef
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutPropertyGraphReferences(value interface{})
 	PutTableReferences(value interface{})
+	ResetPropertyGraphReferences()
 	ResetTableReferences()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -128,6 +132,26 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqOutputReference) PropertyGraphReferences() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqPropertyGraphReferencesList {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqPropertyGraphReferencesList
+	_jsii_.Get(
+		j,
+		"propertyGraphReferences",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqOutputReference) PropertyGraphReferencesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"propertyGraphReferencesInput",
 		&returns,
 	)
 	return returns
@@ -442,6 +466,17 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	return returns
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqOutputReference) PutPropertyGraphReferences(value interface{}) {
+	if err := g.validatePutPropertyGraphReferencesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putPropertyGraphReferences",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqOutputReference) PutTableReferences(value interface{}) {
 	if err := g.validatePutTableReferencesParameters(value); err != nil {
 		panic(err)
@@ -450,6 +485,14 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 		g,
 		"putTableReferences",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferencesBqOutputReference) ResetPropertyGraphReferences() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetPropertyGraphReferences",
+		nil, // no parameters
 	)
 }
 

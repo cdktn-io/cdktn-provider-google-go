@@ -11,7 +11,7 @@ type MonitoringSnoozeInterval struct {
 	// up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
 	// "2014-10-02T15:01:23.045123456Z".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/monitoring_snooze#end_time MonitoringSnooze#end_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/monitoring_snooze#end_time MonitoringSnooze#end_time}
 	EndTime *string `field:"required" json:"endTime" yaml:"endTime"`
 	// The beginning of the time interval.
 	//
@@ -21,7 +21,7 @@ type MonitoringSnoozeInterval struct {
 	// up to nine fractional digits. Examples: "2014-10-02T15:01:23Z" and
 	// "2014-10-02T15:01:23.045123456Z".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/monitoring_snooze#start_time MonitoringSnooze#start_time}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/monitoring_snooze#start_time MonitoringSnooze#start_time}
 	StartTime *string `field:"optional" json:"startTime" yaml:"startTime"`
 }
 

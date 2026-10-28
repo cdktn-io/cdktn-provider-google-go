@@ -51,6 +51,10 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsS
 	return nil
 }
 
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) validatePutRestrictedProjectParameters(value *AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject) error {
+	return nil
+}
+
 func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package eventarcpipelineiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/eventarcpipelineiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/eventarcpipelineiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding}.
 type EventarcPipelineIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_EventarcPipelineIamBinding) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
 func NewEventarcPipelineIamBinding(scope constructs.Construct, id *string, config *EventarcPipelineIamBindingConfig) EventarcPipelineIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewEventarcPipelineIamBinding(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_binding google_eventarc_pipeline_iam_binding} Resource.
 func NewEventarcPipelineIamBinding_Override(e EventarcPipelineIamBinding, scope constructs.Construct, id *string, config *EventarcPipelineIamBindingConfig) {
 	_init_.Initialize()
 

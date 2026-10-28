@@ -24,34 +24,34 @@ type ObservabilityBucketConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// A client-assigned identifier for the bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#bucket_id ObservabilityBucket#bucket_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#bucket_id ObservabilityBucket#bucket_id}
 	BucketId *string `field:"required" json:"bucketId" yaml:"bucketId"`
 	// The location of the bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#location ObservabilityBucket#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#location ObservabilityBucket#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// cmek_settings block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#cmek_settings ObservabilityBucket#cmek_settings}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#cmek_settings ObservabilityBucket#cmek_settings}
 	CmekSettings *ObservabilityBucketCmekSettings `field:"optional" json:"cmekSettings" yaml:"cmekSettings"`
 	// Description of the bucket.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#description ObservabilityBucket#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#description ObservabilityBucket#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// User friendly display name.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#display_name ObservabilityBucket#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#display_name ObservabilityBucket#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#id ObservabilityBucket#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#id ObservabilityBucket#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#project ObservabilityBucket#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#project ObservabilityBucket#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_bucket#timeouts ObservabilityBucket#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_bucket#timeouts ObservabilityBucket#timeouts}
 	Timeouts *ObservabilityBucketTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

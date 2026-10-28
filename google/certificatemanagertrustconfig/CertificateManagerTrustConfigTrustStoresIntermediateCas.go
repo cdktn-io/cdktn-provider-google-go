@@ -9,7 +9,7 @@ type CertificateManagerTrustConfigTrustStoresIntermediateCas struct {
 	//
 	// Each certificate provided in PEM format may occupy up to 5kB.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/certificate_manager_trust_config#pem_certificate CertificateManagerTrustConfig#pem_certificate}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/certificate_manager_trust_config#pem_certificate CertificateManagerTrustConfig#pem_certificate}
 	PemCertificate *string `field:"optional" json:"pemCertificate" yaml:"pemCertificate"`
 }
 

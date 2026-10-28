@@ -7,11 +7,11 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsMemoryTopicsCustomMemoryTopic struct {
 	// Description of custom memory topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#description VertexAiReasoningEngine#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#description VertexAiReasoningEngine#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// Label of custom memory topic.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#label VertexAiReasoningEngine#label}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#label VertexAiReasoningEngine#label}
 	Label *string `field:"optional" json:"label" yaml:"label"`
 }
 

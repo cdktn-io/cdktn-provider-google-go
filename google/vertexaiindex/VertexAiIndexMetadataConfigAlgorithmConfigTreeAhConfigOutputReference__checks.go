@@ -166,6 +166,14 @@ func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputR
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetFractionLeafNodesToSearchParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfigOutputReference) validateSetInternalValueParameters(val *VertexAiIndexMetadataConfigAlgorithmConfigTreeAhConfig) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err

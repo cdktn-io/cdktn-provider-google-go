@@ -5,14 +5,14 @@ package endpointsservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/endpointsservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/endpointsservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/endpoints_service google_endpoints_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/endpoints_service google_endpoints_service}.
 type EndpointsService interface {
 	cdktn.TerraformResource
 	Apis() EndpointsServiceApisList
@@ -579,7 +579,7 @@ func (j *jsiiProxy_EndpointsService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/endpoints_service google_endpoints_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/endpoints_service google_endpoints_service} Resource.
 func NewEndpointsService(scope constructs.Construct, id *string, config *EndpointsServiceConfig) EndpointsService {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewEndpointsService(scope constructs.Construct, id *string, config *Endpoin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/endpoints_service google_endpoints_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/endpoints_service google_endpoints_service} Resource.
 func NewEndpointsService_Override(e EndpointsService, scope constructs.Construct, id *string, config *EndpointsServiceConfig) {
 	_init_.Initialize()
 

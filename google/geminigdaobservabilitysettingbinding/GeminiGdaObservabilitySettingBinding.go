@@ -5,14 +5,14 @@ package geminigdaobservabilitysettingbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminigdaobservabilitysettingbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminigdaobservabilitysettingbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding}.
 type GeminiGdaObservabilitySettingBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -636,7 +636,7 @@ func (j *jsiiProxy_GeminiGdaObservabilitySettingBinding) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
 func NewGeminiGdaObservabilitySettingBinding(scope constructs.Construct, id *string, config *GeminiGdaObservabilitySettingBindingConfig) GeminiGdaObservabilitySettingBinding {
 	_init_.Initialize()
 
@@ -654,7 +654,7 @@ func NewGeminiGdaObservabilitySettingBinding(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding google_gemini_gda_observability_setting_binding} Resource.
 func NewGeminiGdaObservabilitySettingBinding_Override(g GeminiGdaObservabilitySettingBinding, scope constructs.Construct, id *string, config *GeminiGdaObservabilitySettingBindingConfig) {
 	_init_.Initialize()
 

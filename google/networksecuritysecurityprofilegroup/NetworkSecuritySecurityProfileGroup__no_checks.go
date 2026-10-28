@@ -163,6 +163,10 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) validateSetUrlFilteringP
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) validateSetWildfireAnalysisProfileParameters(val *string) error {
+	return nil
+}
+
 func validateNewNetworkSecuritySecurityProfileGroupParameters(scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileGroupConfig) error {
 	return nil
 }

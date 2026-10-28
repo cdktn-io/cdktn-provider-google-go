@@ -5,14 +5,14 @@ package geminigeminigcpenablementsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminigeminigcpenablementsetting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminigeminigcpenablementsetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
 type GeminiGeminiGcpEnablementSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -50,6 +50,9 @@ type GeminiGeminiGcpEnablementSetting interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	GeminiEnterpriseProject() *string
+	SetGeminiEnterpriseProject(val *string)
+	GeminiEnterpriseProjectInput() *string
 	GeminiGcpEnablementSettingId() *string
 	SetGeminiGcpEnablementSettingId(val *string)
 	GeminiGcpEnablementSettingIdInput() *string
@@ -85,6 +88,9 @@ type GeminiGeminiGcpEnablementSetting interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	ReleaseChannel() *string
+	SetReleaseChannel(val *string)
+	ReleaseChannelInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	TerraformLabels() cdktn.StringMap
@@ -194,6 +200,7 @@ type GeminiGeminiGcpEnablementSetting interface {
 	ResetDeletionPolicy()
 	ResetDisableWebGrounding()
 	ResetEnableCustomerDataSharing()
+	ResetGeminiEnterpriseProject()
 	ResetId()
 	ResetLabels()
 	ResetMutationsEnabled()
@@ -201,6 +208,7 @@ type GeminiGeminiGcpEnablementSetting interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetReleaseChannel()
 	ResetTimeouts()
 	ResetWebGroundingType()
 	SynthesizeAttributes() *map[string]interface{}
@@ -390,6 +398,26 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) FriendlyUniqueId() *string 
 	return returns
 }
 
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) GeminiEnterpriseProject() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geminiEnterpriseProject",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) GeminiEnterpriseProjectInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"geminiEnterpriseProjectInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) GeminiGcpEnablementSettingId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -570,6 +598,26 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) RawOverrides() interface{} 
 	return returns
 }
 
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) ReleaseChannel() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"releaseChannel",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) ReleaseChannelInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"releaseChannelInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -661,7 +709,7 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) WebGroundingTypeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingConfig) GeminiGeminiGcpEnablementSetting {
 	_init_.Initialize()
 
@@ -679,7 +727,7 @@ func NewGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGeminiGeminiGcpEnablementSetting_Override(g GeminiGeminiGcpEnablementSetting, scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingConfig) {
 	_init_.Initialize()
 
@@ -757,6 +805,17 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetForEach(val cdktn.ITerraf
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetGeminiEnterpriseProject(val *string) {
+	if err := j.validateSetGeminiEnterpriseProjectParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"geminiEnterpriseProject",
 		val,
 	)
 }
@@ -853,6 +912,17 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetProvisioners(val *[]inter
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetReleaseChannel(val *string) {
+	if err := j.validateSetReleaseChannelParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"releaseChannel",
 		val,
 	)
 }
@@ -1283,6 +1353,14 @@ func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetEnableCustomerDataShar
 	)
 }
 
+func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetGeminiEnterpriseProject() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetGeminiEnterpriseProject",
+		nil, // no parameters
+	)
+}
+
 func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetId() {
 	_jsii_.InvokeVoid(
 		g,
@@ -1319,6 +1397,14 @@ func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetProject() {
 	_jsii_.InvokeVoid(
 		g,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetReleaseChannel() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetReleaseChannel",
 		nil, // no parameters
 	)
 }

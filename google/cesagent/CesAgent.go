@@ -5,14 +5,14 @@ package cesagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cesagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/cesagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_agent google_ces_agent}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_agent google_ces_agent}.
 type CesAgent interface {
 	cdktn.TerraformResource
 	AfterAgentCallbacks() CesAgentAfterAgentCallbacksList
@@ -996,7 +996,7 @@ func (j *jsiiProxy_CesAgent) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_agent google_ces_agent} Resource.
 func NewCesAgent(scope constructs.Construct, id *string, config *CesAgentConfig) CesAgent {
 	_init_.Initialize()
 
@@ -1014,7 +1014,7 @@ func NewCesAgent(scope constructs.Construct, id *string, config *CesAgentConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_agent google_ces_agent} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_agent google_ces_agent} Resource.
 func NewCesAgent_Override(c CesAgent, scope constructs.Construct, id *string, config *CesAgentConfig) {
 	_init_.Initialize()
 

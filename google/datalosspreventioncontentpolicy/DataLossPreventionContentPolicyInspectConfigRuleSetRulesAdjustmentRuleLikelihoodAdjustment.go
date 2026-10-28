@@ -7,7 +7,7 @@ package datalosspreventioncontentpolicy
 type DataLossPreventionContentPolicyInspectConfigRuleSetRulesAdjustmentRuleLikelihoodAdjustment struct {
 	// Set the likelihood of a finding to a fixed value. Possible values: ["VERY_UNLIKELY", "UNLIKELY", "POSSIBLE", "LIKELY", "VERY_LIKELY"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy#fixed_likelihood DataLossPreventionContentPolicy#fixed_likelihood}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/data_loss_prevention_content_policy#fixed_likelihood DataLossPreventionContentPolicy#fixed_likelihood}
 	FixedLikelihood *string `field:"required" json:"fixedLikelihood" yaml:"fixedLikelihood"`
 }
 

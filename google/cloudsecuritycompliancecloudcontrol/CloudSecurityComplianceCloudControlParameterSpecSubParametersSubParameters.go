@@ -7,39 +7,39 @@ package cloudsecuritycompliancecloudcontrol
 type CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParameters struct {
 	// if the parameter is required.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#is_required CloudSecurityComplianceCloudControl#is_required}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#is_required CloudSecurityComplianceCloudControl#is_required}
 	IsRequired interface{} `field:"required" json:"isRequired" yaml:"isRequired"`
 	// The name of the parameter.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#name CloudSecurityComplianceCloudControl#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#name CloudSecurityComplianceCloudControl#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Parameter value type. Possible values: STRING BOOLEAN STRINGLIST NUMBER ONEOF.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#value_type CloudSecurityComplianceCloudControl#value_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#value_type CloudSecurityComplianceCloudControl#value_type}
 	ValueType *string `field:"required" json:"valueType" yaml:"valueType"`
 	// default_value block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#default_value CloudSecurityComplianceCloudControl#default_value}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#default_value CloudSecurityComplianceCloudControl#default_value}
 	DefaultValue *CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersDefaultValue `field:"optional" json:"defaultValue" yaml:"defaultValue"`
 	// The description of the parameter. The maximum length is 2000 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#description CloudSecurityComplianceCloudControl#description}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#description CloudSecurityComplianceCloudControl#description}
 	Description *string `field:"optional" json:"description" yaml:"description"`
 	// The display name of the parameter. The maximum length is 200 characters.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#display_name CloudSecurityComplianceCloudControl#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#display_name CloudSecurityComplianceCloudControl#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
 	// The parameter spec of the cloud control, in JSON format.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#sub_parameters CloudSecurityComplianceCloudControl#sub_parameters}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#sub_parameters CloudSecurityComplianceCloudControl#sub_parameters}
 	SubParameters *string `field:"optional" json:"subParameters" yaml:"subParameters"`
 	// substitution_rules block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#substitution_rules CloudSecurityComplianceCloudControl#substitution_rules}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#substitution_rules CloudSecurityComplianceCloudControl#substitution_rules}
 	SubstitutionRules interface{} `field:"optional" json:"substitutionRules" yaml:"substitutionRules"`
 	// validation block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_security_compliance_cloud_control#validation CloudSecurityComplianceCloudControl#validation}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_security_compliance_cloud_control#validation CloudSecurityComplianceCloudControl#validation}
 	Validation *CloudSecurityComplianceCloudControlParameterSpecSubParametersSubParametersValidation `field:"optional" json:"validation" yaml:"validation"`
 }
 

@@ -7,11 +7,11 @@ package geminidataanalyticsdataagent
 type GeminiDataAnalyticsDataAgentDataAnalyticsAgent struct {
 	// published_context block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_data_analytics_data_agent#published_context GeminiDataAnalyticsDataAgent#published_context}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent#published_context GeminiDataAnalyticsDataAgent#published_context}
 	PublishedContext *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContext `field:"optional" json:"publishedContext" yaml:"publishedContext"`
 	// staging_context block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_data_analytics_data_agent#staging_context GeminiDataAnalyticsDataAgent#staging_context}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent#staging_context GeminiDataAnalyticsDataAgent#staging_context}
 	StagingContext *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContext `field:"optional" json:"stagingContext" yaml:"stagingContext"`
 }
 

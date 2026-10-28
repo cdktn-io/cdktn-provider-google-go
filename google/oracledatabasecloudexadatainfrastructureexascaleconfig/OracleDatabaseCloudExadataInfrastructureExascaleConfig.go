@@ -5,14 +5,14 @@ package oracledatabasecloudexadatainfrastructureexascaleconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/oracledatabasecloudexadatainfrastructureexascaleconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/oracledatabasecloudexadatainfrastructureexascaleconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config}.
 type OracleDatabaseCloudExadataInfrastructureExascaleConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_OracleDatabaseCloudExadataInfrastructureExascaleConfig) Total
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
 func NewOracleDatabaseCloudExadataInfrastructureExascaleConfig(scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) OracleDatabaseCloudExadataInfrastructureExascaleConfig {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewOracleDatabaseCloudExadataInfrastructureExascaleConfig(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/oracle_database_cloud_exadata_infrastructure_exascale_config google_oracle_database_cloud_exadata_infrastructure_exascale_config} Resource.
 func NewOracleDatabaseCloudExadataInfrastructureExascaleConfig_Override(o OracleDatabaseCloudExadataInfrastructureExascaleConfig, scope constructs.Construct, id *string, config *OracleDatabaseCloudExadataInfrastructureExascaleConfigConfig) {
 	_init_.Initialize()
 

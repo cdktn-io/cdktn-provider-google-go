@@ -5,14 +5,14 @@ package discoveryenginedataconnector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/discoveryenginedataconnector/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/discoveryenginedataconnector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector}.
 type DiscoveryEngineDataConnector interface {
 	cdktn.TerraformResource
 	ActionConfig() DiscoveryEngineDataConnectorActionConfigOutputReference
@@ -1082,7 +1082,7 @@ func (j *jsiiProxy_DiscoveryEngineDataConnector) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewDiscoveryEngineDataConnector(scope constructs.Construct, id *string, config *DiscoveryEngineDataConnectorConfig) DiscoveryEngineDataConnector {
 	_init_.Initialize()
 
@@ -1100,7 +1100,7 @@ func NewDiscoveryEngineDataConnector(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/discovery_engine_data_connector google_discovery_engine_data_connector} Resource.
 func NewDiscoveryEngineDataConnector_Override(d DiscoveryEngineDataConnector, scope constructs.Construct, id *string, config *DiscoveryEngineDataConnectorConfig) {
 	_init_.Initialize()
 

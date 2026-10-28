@@ -5,14 +5,14 @@ package observabilityfoldersettings
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/observabilityfoldersettings/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/observabilityfoldersettings/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_folder_settings google_observability_folder_settings}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_folder_settings google_observability_folder_settings}.
 type ObservabilityFolderSettings interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_ObservabilityFolderSettings) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_folder_settings google_observability_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_folder_settings google_observability_folder_settings} Resource.
 func NewObservabilityFolderSettings(scope constructs.Construct, id *string, config *ObservabilityFolderSettingsConfig) ObservabilityFolderSettings {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewObservabilityFolderSettings(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/observability_folder_settings google_observability_folder_settings} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/observability_folder_settings google_observability_folder_settings} Resource.
 func NewObservabilityFolderSettings_Override(o ObservabilityFolderSettings, scope constructs.Construct, id *string, config *ObservabilityFolderSettingsConfig) {
 	_init_.Initialize()
 

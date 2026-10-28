@@ -5,9 +5,9 @@ package colabnotebookexecution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/colabnotebookexecution/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/colabnotebookexecution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,8 @@ type ColabNotebookExecutionWorkbenchRuntimeOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	CustomContainerImage() ColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference
+	CustomContainerImageInput() *ColabNotebookExecutionWorkbenchRuntimeCustomContainerImage
 	// Experimental.
 	Fqn() *string
 	InternalValue() *ColabNotebookExecutionWorkbenchRuntime
@@ -66,7 +68,10 @@ type ColabNotebookExecutionWorkbenchRuntimeOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCustomContainerImage(value *ColabNotebookExecutionWorkbenchRuntimeCustomContainerImage)
 	PutVmImage(value *ColabNotebookExecutionWorkbenchRuntimeVmImage)
+	ResetCustomContainerImage()
+	ResetVmImage()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -107,6 +112,26 @@ func (j *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) Creati
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) CustomContainerImage() ColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference {
+	var returns ColabNotebookExecutionWorkbenchRuntimeCustomContainerImageOutputReference
+	_jsii_.Get(
+		j,
+		"customContainerImage",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) CustomContainerImageInput() *ColabNotebookExecutionWorkbenchRuntimeCustomContainerImage {
+	var returns *ColabNotebookExecutionWorkbenchRuntimeCustomContainerImage
+	_jsii_.Get(
+		j,
+		"customContainerImageInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +466,17 @@ func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) Interp
 	return returns
 }
 
+func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) PutCustomContainerImage(value *ColabNotebookExecutionWorkbenchRuntimeCustomContainerImage) {
+	if err := c.validatePutCustomContainerImageParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putCustomContainerImage",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) PutVmImage(value *ColabNotebookExecutionWorkbenchRuntimeVmImage) {
 	if err := c.validatePutVmImageParameters(value); err != nil {
 		panic(err)
@@ -449,6 +485,22 @@ func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) PutVmI
 		c,
 		"putVmImage",
 		[]interface{}{value},
+	)
+}
+
+func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) ResetCustomContainerImage() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCustomContainerImage",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) ResetVmImage() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetVmImage",
+		nil, // no parameters
 	)
 }
 

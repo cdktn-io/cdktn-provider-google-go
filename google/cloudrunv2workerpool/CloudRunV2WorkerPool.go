@@ -5,14 +5,14 @@ package cloudrunv2workerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudrunv2workerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/cloudrunv2workerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool}.
 type CloudRunV2WorkerPool interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -958,7 +958,7 @@ func (j *jsiiProxy_CloudRunV2WorkerPool) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
 func NewCloudRunV2WorkerPool(scope constructs.Construct, id *string, config *CloudRunV2WorkerPoolConfig) CloudRunV2WorkerPool {
 	_init_.Initialize()
 
@@ -976,7 +976,7 @@ func NewCloudRunV2WorkerPool(scope constructs.Construct, id *string, config *Clo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_worker_pool google_cloud_run_v2_worker_pool} Resource.
 func NewCloudRunV2WorkerPool_Override(c CloudRunV2WorkerPool, scope constructs.Construct, id *string, config *CloudRunV2WorkerPoolConfig) {
 	_init_.Initialize()
 

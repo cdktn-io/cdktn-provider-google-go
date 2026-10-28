@@ -59,11 +59,19 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	return nil
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) validatePutLookerGoldenQueriesParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) validatePutOptionsParameters(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions) error {
 	return nil
 }
 
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) validatePutSchemaRelationshipsParameters(value interface{}) error {
+	return nil
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) validatePutUserFunctionsParameters(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctions) error {
 	return nil
 }
 

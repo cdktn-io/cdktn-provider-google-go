@@ -71,6 +71,10 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	return nil
 }
 
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference) validateSetModelParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptionsOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

@@ -7,11 +7,11 @@ package dialogflowgenerator
 type DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfo struct {
 	// tool_call block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_generator#tool_call DialogflowGenerator#tool_call}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_generator#tool_call DialogflowGenerator#tool_call}
 	ToolCall *DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCall `field:"required" json:"toolCall" yaml:"toolCall"`
 	// tool_call_result block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_generator#tool_call_result DialogflowGenerator#tool_call_result}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_generator#tool_call_result DialogflowGenerator#tool_call_result}
 	ToolCallResult *DialogflowGeneratorSummarizationContextFewShotExamplesOutputToolCallInfoToolCallResult `field:"required" json:"toolCallResult" yaml:"toolCallResult"`
 }
 

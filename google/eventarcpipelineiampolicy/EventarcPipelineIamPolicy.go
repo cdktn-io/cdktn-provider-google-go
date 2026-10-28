@@ -5,14 +5,14 @@ package eventarcpipelineiampolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/eventarcpipelineiampolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/eventarcpipelineiampolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy}.
 type EventarcPipelineIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_EventarcPipelineIamPolicy) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
 func NewEventarcPipelineIamPolicy(scope constructs.Construct, id *string, config *EventarcPipelineIamPolicyConfig) EventarcPipelineIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewEventarcPipelineIamPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_pipeline_iam_policy google_eventarc_pipeline_iam_policy} Resource.
 func NewEventarcPipelineIamPolicy_Override(e EventarcPipelineIamPolicy, scope constructs.Construct, id *string, config *EventarcPipelineIamPolicyConfig) {
 	_init_.Initialize()
 

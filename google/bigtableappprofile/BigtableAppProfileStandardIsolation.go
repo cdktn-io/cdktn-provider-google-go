@@ -7,7 +7,11 @@ package bigtableappprofile
 type BigtableAppProfileStandardIsolation struct {
 	// The priority of requests sent using this app profile. Possible values: ["PRIORITY_LOW", "PRIORITY_MEDIUM", "PRIORITY_HIGH"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigtable_app_profile#priority BigtableAppProfile#priority}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigtable_app_profile#priority BigtableAppProfile#priority}
 	Priority *string `field:"required" json:"priority" yaml:"priority"`
+	// memory_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigtable_app_profile#memory_config BigtableAppProfile#memory_config}
+	MemoryConfig *BigtableAppProfileStandardIsolationMemoryConfig `field:"optional" json:"memoryConfig" yaml:"memoryConfig"`
 }
 

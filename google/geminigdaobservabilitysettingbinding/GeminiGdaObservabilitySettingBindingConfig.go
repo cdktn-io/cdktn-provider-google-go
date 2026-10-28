@@ -24,15 +24,15 @@ type GeminiGdaObservabilitySettingBindingConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#gda_observability_setting_id GeminiGdaObservabilitySettingBinding#gda_observability_setting_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#gda_observability_setting_id GeminiGdaObservabilitySettingBinding#gda_observability_setting_id}
 	GdaObservabilitySettingId *string `field:"required" json:"gdaObservabilitySettingId" yaml:"gdaObservabilitySettingId"`
 	// Id of the setting binding.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#setting_binding_id GeminiGdaObservabilitySettingBinding#setting_binding_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#setting_binding_id GeminiGdaObservabilitySettingBinding#setting_binding_id}
 	SettingBindingId *string `field:"required" json:"settingBindingId" yaml:"settingBindingId"`
 	// Target of the binding.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#target GeminiGdaObservabilitySettingBinding#target}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#target GeminiGdaObservabilitySettingBinding#target}
 	Target *string `field:"required" json:"target" yaml:"target"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -44,9 +44,9 @@ type GeminiGdaObservabilitySettingBindingConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#deletion_policy GeminiGdaObservabilitySettingBinding#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#deletion_policy GeminiGdaObservabilitySettingBinding#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#id GeminiGdaObservabilitySettingBinding#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#id GeminiGdaObservabilitySettingBinding#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,21 +56,21 @@ type GeminiGdaObservabilitySettingBindingConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#labels GeminiGdaObservabilitySettingBinding#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#labels GeminiGdaObservabilitySettingBinding#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// Resource ID segment making up resource 'name'. It identifies the resource within its parent collection as described in https://google.aip.dev/122.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#location GeminiGdaObservabilitySettingBinding#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#location GeminiGdaObservabilitySettingBinding#location}
 	Location *string `field:"optional" json:"location" yaml:"location"`
 	// Product type of the setting binding. Values include GEMINI_IN_LOOKER. See [product reference](https://cloud.google.com/gemini/docs/api/reference/rest/v1/projects.locations.gdaObservabilitySettings.settingBindings) for a complete list.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#product GeminiGdaObservabilitySettingBinding#product}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#product GeminiGdaObservabilitySettingBinding#product}
 	Product *string `field:"optional" json:"product" yaml:"product"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#project GeminiGdaObservabilitySettingBinding#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#project GeminiGdaObservabilitySettingBinding#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting_binding#timeouts GeminiGdaObservabilitySettingBinding#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting_binding#timeouts GeminiGdaObservabilitySettingBinding#timeouts}
 	Timeouts *GeminiGdaObservabilitySettingBindingTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

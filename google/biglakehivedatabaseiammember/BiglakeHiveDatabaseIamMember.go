@@ -5,14 +5,14 @@ package biglakehivedatabaseiammember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/biglakehivedatabaseiammember/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/biglakehivedatabaseiammember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_member google_biglake_hive_database_iam_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_member google_biglake_hive_database_iam_member}.
 type BiglakeHiveDatabaseIamMember interface {
 	cdktn.TerraformResource
 	Catalog() *string
@@ -519,7 +519,7 @@ func (j *jsiiProxy_BiglakeHiveDatabaseIamMember) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_member google_biglake_hive_database_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_member google_biglake_hive_database_iam_member} Resource.
 func NewBiglakeHiveDatabaseIamMember(scope constructs.Construct, id *string, config *BiglakeHiveDatabaseIamMemberConfig) BiglakeHiveDatabaseIamMember {
 	_init_.Initialize()
 
@@ -537,7 +537,7 @@ func NewBiglakeHiveDatabaseIamMember(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_database_iam_member google_biglake_hive_database_iam_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_database_iam_member google_biglake_hive_database_iam_member} Resource.
 func NewBiglakeHiveDatabaseIamMember_Override(b BiglakeHiveDatabaseIamMember, scope constructs.Construct, id *string, config *BiglakeHiveDatabaseIamMemberConfig) {
 	_init_.Initialize()
 

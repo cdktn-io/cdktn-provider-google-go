@@ -446,6 +446,17 @@ func (c *jsiiProxy_ContainerCluster) validatePutMaintenancePolicyParameters(valu
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validatePutManagedOpentelemetryConfigParameters(value *ContainerClusterManagedOpentelemetryConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validatePutMasterAuthParameters(value *ContainerClusterMasterAuth) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -654,6 +665,17 @@ func (c *jsiiProxy_ContainerCluster) validatePutResourceUsageExportConfigParamet
 }
 
 func (c *jsiiProxy_ContainerCluster) validatePutRollbackSafeUpgradeParameters(value *ContainerClusterRollbackSafeUpgrade) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_ContainerCluster) validatePutScheduleUpgradeConfigParameters(value *ContainerClusterScheduleUpgradeConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

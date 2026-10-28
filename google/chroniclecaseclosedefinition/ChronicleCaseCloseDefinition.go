@@ -5,14 +5,14 @@ package chroniclecaseclosedefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/chroniclecaseclosedefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/chroniclecaseclosedefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_close_definition google_chronicle_case_close_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_case_close_definition google_chronicle_case_close_definition}.
 type ChronicleCaseCloseDefinition interface {
 	cdktn.TerraformResource
 	CaseCloseDefinitionId() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_ChronicleCaseCloseDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
 func NewChronicleCaseCloseDefinition(scope constructs.Construct, id *string, config *ChronicleCaseCloseDefinitionConfig) ChronicleCaseCloseDefinition {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewChronicleCaseCloseDefinition(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/chronicle_case_close_definition google_chronicle_case_close_definition} Resource.
 func NewChronicleCaseCloseDefinition_Override(c ChronicleCaseCloseDefinition, scope constructs.Construct, id *string, config *ChronicleCaseCloseDefinitionConfig) {
 	_init_.Initialize()
 

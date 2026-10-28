@@ -7,11 +7,11 @@ package vertexairagcorpus
 type VertexAiRagCorpusVectorDbConfigRagManagedDb struct {
 	// ann block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus#ann VertexAiRagCorpus#ann}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_corpus#ann VertexAiRagCorpus#ann}
 	Ann *VertexAiRagCorpusVectorDbConfigRagManagedDbAnn `field:"optional" json:"ann" yaml:"ann"`
 	// knn block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus#knn VertexAiRagCorpus#knn}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_corpus#knn VertexAiRagCorpus#knn}
 	Knn *VertexAiRagCorpusVectorDbConfigRagManagedDbKnn `field:"optional" json:"knn" yaml:"knn"`
 }
 

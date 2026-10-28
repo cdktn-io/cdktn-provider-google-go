@@ -175,6 +175,10 @@ func (j *jsiiProxy_VectorSearchIndex) validateSetProvisionersParameters(val *[]i
 	return nil
 }
 
+func (j *jsiiProxy_VectorSearchIndex) validateSetSkipWaitParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_VectorSearchIndex) validateSetStoreFieldsParameters(val *[]*string) error {
 	return nil
 }

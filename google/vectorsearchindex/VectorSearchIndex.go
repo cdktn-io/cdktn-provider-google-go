@@ -5,14 +5,14 @@ package vectorsearchindex
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/vectorsearchindex/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/vectorsearchindex/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vector_search_index google_vector_search_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vector_search_index google_vector_search_index}.
 type VectorSearchIndex interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -98,6 +98,9 @@ type VectorSearchIndex interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	SkipWait() interface{}
+	SetSkipWait(val interface{})
+	SkipWaitInput() interface{}
 	StoreFields() *[]*string
 	SetStoreFields(val *[]*string)
 	StoreFieldsInput() *[]*string
@@ -219,6 +222,7 @@ type VectorSearchIndex interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetSkipWait()
 	ResetStoreFields()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -688,6 +692,26 @@ func (j *jsiiProxy_VectorSearchIndex) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_VectorSearchIndex) SkipWait() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipWait",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VectorSearchIndex) SkipWaitInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"skipWaitInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VectorSearchIndex) StoreFields() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -779,7 +803,7 @@ func (j *jsiiProxy_VectorSearchIndex) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vector_search_index google_vector_search_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vector_search_index google_vector_search_index} Resource.
 func NewVectorSearchIndex(scope constructs.Construct, id *string, config *VectorSearchIndexConfig) VectorSearchIndex {
 	_init_.Initialize()
 
@@ -797,7 +821,7 @@ func NewVectorSearchIndex(scope constructs.Construct, id *string, config *Vector
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vector_search_index google_vector_search_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vector_search_index google_vector_search_index} Resource.
 func NewVectorSearchIndex_Override(v VectorSearchIndex, scope constructs.Construct, id *string, config *VectorSearchIndexConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1028,17 @@ func (j *jsiiProxy_VectorSearchIndex)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VectorSearchIndex)SetSkipWait(val interface{}) {
+	if err := j.validateSetSkipWaitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skipWait",
 		val,
 	)
 }
@@ -1516,6 +1551,14 @@ func (v *jsiiProxy_VectorSearchIndex) ResetProject() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VectorSearchIndex) ResetSkipWait() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetSkipWait",
 		nil, // no parameters
 	)
 }

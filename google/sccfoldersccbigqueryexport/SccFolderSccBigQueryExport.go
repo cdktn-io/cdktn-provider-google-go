@@ -5,14 +5,14 @@ package sccfoldersccbigqueryexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sccfoldersccbigqueryexport/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/sccfoldersccbigqueryexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export}.
 type SccFolderSccBigQueryExport interface {
 	cdktn.TerraformResource
 	BigQueryExportId() *string
@@ -34,6 +34,9 @@ type SccFolderSccBigQueryExport interface {
 	Dataset() *string
 	SetDataset(val *string)
 	DatasetInput() *string
+	DeletionNotificationsEnabled() interface{}
+	SetDeletionNotificationsEnabled(val interface{})
+	DeletionNotificationsEnabledInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -182,6 +185,7 @@ type SccFolderSccBigQueryExport interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDeletionNotificationsEnabled()
 	ResetDeletionPolicy()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -300,6 +304,26 @@ func (j *jsiiProxy_SccFolderSccBigQueryExport) DatasetInput() *string {
 	_jsii_.Get(
 		j,
 		"datasetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccFolderSccBigQueryExport) DeletionNotificationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccFolderSccBigQueryExport) DeletionNotificationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -586,7 +610,7 @@ func (j *jsiiProxy_SccFolderSccBigQueryExport) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
 func NewSccFolderSccBigQueryExport(scope constructs.Construct, id *string, config *SccFolderSccBigQueryExportConfig) SccFolderSccBigQueryExport {
 	_init_.Initialize()
 
@@ -604,7 +628,7 @@ func NewSccFolderSccBigQueryExport(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_folder_scc_big_query_export google_scc_folder_scc_big_query_export} Resource.
 func NewSccFolderSccBigQueryExport_Override(s SccFolderSccBigQueryExport, scope constructs.Construct, id *string, config *SccFolderSccBigQueryExportConfig) {
 	_init_.Initialize()
 
@@ -655,6 +679,17 @@ func (j *jsiiProxy_SccFolderSccBigQueryExport)SetDataset(val *string) {
 	_jsii_.Set(
 		j,
 		"dataset",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccFolderSccBigQueryExport)SetDeletionNotificationsEnabled(val interface{}) {
+	if err := j.validateSetDeletionNotificationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionNotificationsEnabled",
 		val,
 	)
 }
@@ -1148,6 +1183,14 @@ func (s *jsiiProxy_SccFolderSccBigQueryExport) RegisterProviderFeatureUsage(feat
 		s,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (s *jsiiProxy_SccFolderSccBigQueryExport) ResetDeletionNotificationsEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionNotificationsEnabled",
+		nil, // no parameters
 	)
 }
 

@@ -5,9 +5,9 @@ package geminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -38,6 +38,8 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReferen
 	GlossaryTermsInput() interface{}
 	InternalValue() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContext
 	SetInternalValue(val *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContext)
+	LookerGoldenQueries() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextLookerGoldenQueriesList
+	LookerGoldenQueriesInput() interface{}
 	Options() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference
 	OptionsInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions
 	SchemaRelationships() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextSchemaRelationshipsList
@@ -53,6 +55,8 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReferen
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UserFunctions() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctionsOutputReference
+	UserFunctionsInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctions
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -80,13 +84,17 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReferen
 	PutDatasourceReferences(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextDatasourceReferences)
 	PutExampleQueries(value interface{})
 	PutGlossaryTerms(value interface{})
+	PutLookerGoldenQueries(value interface{})
 	PutOptions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions)
 	PutSchemaRelationships(value interface{})
+	PutUserFunctions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctions)
 	ResetExampleQueries()
 	ResetGlossaryTerms()
+	ResetLookerGoldenQueries()
 	ResetOptions()
 	ResetSchemaRelationships()
 	ResetSystemInstruction()
+	ResetUserFunctions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -212,6 +220,26 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	return returns
 }
 
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) LookerGoldenQueries() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextLookerGoldenQueriesList {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextLookerGoldenQueriesList
+	_jsii_.Get(
+		j,
+		"lookerGoldenQueries",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) LookerGoldenQueriesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"lookerGoldenQueriesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) Options() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference {
 	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptionsOutputReference
 	_jsii_.Get(
@@ -287,6 +315,26 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) UserFunctions() GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctionsOutputReference {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctionsOutputReference
+	_jsii_.Get(
+		j,
+		"userFunctions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) UserFunctionsInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctions {
+	var returns *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctions
+	_jsii_.Get(
+		j,
+		"userFunctionsInput",
 		&returns,
 	)
 	return returns
@@ -605,6 +653,17 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	)
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) PutLookerGoldenQueries(value interface{}) {
+	if err := g.validatePutLookerGoldenQueriesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putLookerGoldenQueries",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) PutOptions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOptions) {
 	if err := g.validatePutOptionsParameters(value); err != nil {
 		panic(err)
@@ -627,6 +686,17 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	)
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) PutUserFunctions(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctions) {
+	if err := g.validatePutUserFunctionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putUserFunctions",
+		[]interface{}{value},
+	)
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) ResetExampleQueries() {
 	_jsii_.InvokeVoid(
 		g,
@@ -639,6 +709,14 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	_jsii_.InvokeVoid(
 		g,
 		"resetGlossaryTerms",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) ResetLookerGoldenQueries() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLookerGoldenQueries",
 		nil, // no parameters
 	)
 }
@@ -663,6 +741,14 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContex
 	_jsii_.InvokeVoid(
 		g,
 		"resetSystemInstruction",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextOutputReference) ResetUserFunctions() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetUserFunctions",
 		nil, // no parameters
 	)
 }

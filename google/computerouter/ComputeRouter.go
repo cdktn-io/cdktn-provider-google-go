@@ -5,14 +5,14 @@ package computerouter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computerouter/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computerouter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_router google_compute_router}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_router google_compute_router}.
 type ComputeRouter interface {
 	cdktn.TerraformResource
 	Bgp() ComputeRouterBgpOutputReference
@@ -89,6 +89,7 @@ type ComputeRouter interface {
 	Region() *string
 	SetRegion(val *string)
 	RegionInput() *string
+	RouterId() *float64
 	SelfLink() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -616,6 +617,16 @@ func (j *jsiiProxy_ComputeRouter) RegionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeRouter) RouterId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"routerId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeRouter) SelfLink() *string {
 	var returns *string
 	_jsii_.Get(
@@ -677,7 +688,7 @@ func (j *jsiiProxy_ComputeRouter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_router google_compute_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_router google_compute_router} Resource.
 func NewComputeRouter(scope constructs.Construct, id *string, config *ComputeRouterConfig) ComputeRouter {
 	_init_.Initialize()
 
@@ -695,7 +706,7 @@ func NewComputeRouter(scope constructs.Construct, id *string, config *ComputeRou
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_router google_compute_router} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_router google_compute_router} Resource.
 func NewComputeRouter_Override(c ComputeRouter, scope constructs.Construct, id *string, config *ComputeRouterConfig) {
 	_init_.Initialize()
 

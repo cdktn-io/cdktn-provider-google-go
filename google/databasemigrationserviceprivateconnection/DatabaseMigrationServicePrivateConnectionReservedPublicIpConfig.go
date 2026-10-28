@@ -7,7 +7,7 @@ package databasemigrationserviceprivateconnection
 type DatabaseMigrationServicePrivateConnectionReservedPublicIpConfig struct {
 	// Optional. Number of static public IP addresses to reserve.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/database_migration_service_private_connection#nat_ips_count DatabaseMigrationServicePrivateConnection#nat_ips_count}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/database_migration_service_private_connection#nat_ips_count DatabaseMigrationServicePrivateConnection#nat_ips_count}
 	NatIpsCount *float64 `field:"optional" json:"natIpsCount" yaml:"natIpsCount"`
 }
 

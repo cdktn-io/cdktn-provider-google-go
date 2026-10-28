@@ -5,14 +5,14 @@ package secretmanagersecretversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/secretmanagersecretversion/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/secretmanagersecretversion/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/secret_manager_secret_version google_secret_manager_secret_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/secret_manager_secret_version google_secret_manager_secret_version}.
 type SecretManagerSecretVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -629,7 +629,7 @@ func (j *jsiiProxy_SecretManagerSecretVersion) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/secret_manager_secret_version google_secret_manager_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/secret_manager_secret_version google_secret_manager_secret_version} Resource.
 func NewSecretManagerSecretVersion(scope constructs.Construct, id *string, config *SecretManagerSecretVersionConfig) SecretManagerSecretVersion {
 	_init_.Initialize()
 
@@ -647,7 +647,7 @@ func NewSecretManagerSecretVersion(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/secret_manager_secret_version google_secret_manager_secret_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/secret_manager_secret_version google_secret_manager_secret_version} Resource.
 func NewSecretManagerSecretVersion_Override(s SecretManagerSecretVersion, scope constructs.Construct, id *string, config *SecretManagerSecretVersionConfig) {
 	_init_.Initialize()
 

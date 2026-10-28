@@ -5,14 +5,14 @@ package geminigdaobservabilitysetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminigdaobservabilitysetting/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminigdaobservabilitysetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting}.
 type GeminiGdaObservabilitySetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -589,7 +589,7 @@ func (j *jsiiProxy_GeminiGdaObservabilitySetting) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
 func NewGeminiGdaObservabilitySetting(scope constructs.Construct, id *string, config *GeminiGdaObservabilitySettingConfig) GeminiGdaObservabilitySetting {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewGeminiGdaObservabilitySetting(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gda_observability_setting google_gemini_gda_observability_setting} Resource.
 func NewGeminiGdaObservabilitySetting_Override(g GeminiGdaObservabilitySetting, scope constructs.Construct, id *string, config *GeminiGdaObservabilitySettingConfig) {
 	_init_.Initialize()
 

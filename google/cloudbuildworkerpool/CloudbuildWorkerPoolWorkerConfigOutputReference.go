@@ -5,9 +5,9 @@ package cloudbuildworkerpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/cloudbuildworkerpool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/cloudbuildworkerpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -52,6 +52,9 @@ type CloudbuildWorkerPoolWorkerConfigOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	WorkerRelease() *string
+	SetWorkerRelease(val *string)
+	WorkerReleaseInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -80,6 +83,7 @@ type CloudbuildWorkerPoolWorkerConfigOutputReference interface {
 	ResetEnableNestedVirtualization()
 	ResetMachineType()
 	ResetNoExternalIp()
+	ResetWorkerRelease()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -245,6 +249,26 @@ func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) TerraformRes
 	return returns
 }
 
+func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) WorkerRelease() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workerRelease",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) WorkerReleaseInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workerReleaseInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewCloudbuildWorkerPoolWorkerConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CloudbuildWorkerPoolWorkerConfigOutputReference {
 	_init_.Initialize()
@@ -368,6 +392,17 @@ func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference)SetTerraformR
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference)SetWorkerRelease(val *string) {
+	if err := j.validateSetWorkerReleaseParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"workerRelease",
 		val,
 	)
 }
@@ -586,6 +621,14 @@ func (c *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) ResetNoExter
 	_jsii_.InvokeVoid(
 		c,
 		"resetNoExternalIp",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CloudbuildWorkerPoolWorkerConfigOutputReference) ResetWorkerRelease() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetWorkerRelease",
 		nil, // no parameters
 	)
 }

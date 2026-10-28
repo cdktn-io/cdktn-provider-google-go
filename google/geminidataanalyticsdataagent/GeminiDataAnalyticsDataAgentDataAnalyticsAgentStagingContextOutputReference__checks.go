@@ -166,6 +166,37 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 	return nil
 }
 
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) validatePutLookerGoldenQueriesParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueries:
+		value := value.(*[]*GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueries)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueries:
+		value_ := value.([]*GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueries)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextLookerGoldenQueries; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
 func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) validatePutOptionsParameters(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOptions) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -203,6 +234,17 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextO
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextSchemaRelationships; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextOutputReference) validatePutUserFunctionsParameters(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextUserFunctions) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil

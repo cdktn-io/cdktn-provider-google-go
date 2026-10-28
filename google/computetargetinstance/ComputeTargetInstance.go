@@ -5,14 +5,14 @@ package computetargetinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computetargetinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computetargetinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_target_instance google_compute_target_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_target_instance google_compute_target_instance}.
 type ComputeTargetInstance interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_ComputeTargetInstance) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_target_instance google_compute_target_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_target_instance google_compute_target_instance} Resource.
 func NewComputeTargetInstance(scope constructs.Construct, id *string, config *ComputeTargetInstanceConfig) ComputeTargetInstance {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewComputeTargetInstance(scope constructs.Construct, id *string, config *Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_target_instance google_compute_target_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_target_instance google_compute_target_instance} Resource.
 func NewComputeTargetInstance_Override(c ComputeTargetInstance, scope constructs.Construct, id *string, config *ComputeTargetInstanceConfig) {
 	_init_.Initialize()
 

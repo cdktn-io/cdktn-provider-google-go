@@ -47,6 +47,10 @@ func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
 	return nil
 }
 
+func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) validatePutDisksParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -64,6 +68,10 @@ func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyIns
 }
 
 func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) validateSetMachineTypesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeRegionInstanceGroupManagerInstanceFlexibilityPolicyInstanceSelectionsOutputReference) validateSetMinCpuPlatformParameters(val *string) error {
 	return nil
 }
 

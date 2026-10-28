@@ -9,7 +9,7 @@ type CesToolDataStoreToolModalityConfigsRewriterConfigModelSettings struct {
 	//
 	// If not set, the agent will inherit the model from its parent agent.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_tool#model CesTool#model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_tool#model CesTool#model}
 	Model *string `field:"optional" json:"model" yaml:"model"`
 	// If set, this temperature will be used for the LLM model.
 	//
@@ -18,7 +18,11 @@ type CesToolDataStoreToolModalityConfigsRewriterConfigModelSettings struct {
 	// produce responses that are more predictable. Higher temperatures produce
 	// responses that are more creative.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_tool#temperature CesTool#temperature}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_tool#temperature CesTool#temperature}
 	Temperature *float64 `field:"optional" json:"temperature" yaml:"temperature"`
+	// The thinking level of the model. Possible values: DEFAULT LOW MEDIUM HIGH Possible values: ["DEFAULT", "LOW", "MEDIUM", "HIGH"].
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_tool#thinking_level CesTool#thinking_level}
+	ThinkingLevel *string `field:"optional" json:"thinkingLevel" yaml:"thinkingLevel"`
 }
 

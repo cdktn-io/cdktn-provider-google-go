@@ -7,7 +7,7 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineContextSpecMemoryBankConfigSimilaritySearchConfig struct {
 	// The model used to generate embeddings to lookup similar memories. Format: projects/{project}/locations/{location}/publishers/google/models/{model}.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#embedding_model VertexAiReasoningEngine#embedding_model}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#embedding_model VertexAiReasoningEngine#embedding_model}
 	EmbeddingModel *string `field:"required" json:"embeddingModel" yaml:"embeddingModel"`
 }
 

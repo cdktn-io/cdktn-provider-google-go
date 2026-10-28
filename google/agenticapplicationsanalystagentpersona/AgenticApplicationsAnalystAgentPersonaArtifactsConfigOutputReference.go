@@ -5,14 +5,16 @@ package agenticapplicationsanalystagentpersona
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/agenticapplicationsanalystagentpersona/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/agenticapplicationsanalystagentpersona/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference interface {
 	cdktn.ComplexObject
+	AuditTrailExportOptions() AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference
+	AuditTrailExportOptionsInput() *AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -72,10 +74,12 @@ type AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference interf
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAuditTrailExportOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions)
 	PutDocumentGenerationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions)
 	PutMethodologyExportOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigMethodologyExportOptions)
 	PutSlideGenerationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigSlideGenerationOptions)
 	PutVisualizationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigVisualizationOptions)
+	ResetAuditTrailExportOptions()
 	ResetDocumentGenerationOptions()
 	ResetMethodologyExportOptions()
 	ResetSlideGenerationOptions()
@@ -93,6 +97,26 @@ type AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference interf
 // The jsii proxy struct for AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference
 type jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) AuditTrailExportOptions() AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference {
+	var returns AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"auditTrailExportOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) AuditTrailExportOptionsInput() *AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions {
+	var returns *AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions
+	_jsii_.Get(
+		j,
+		"auditTrailExportOptionsInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -514,6 +538,17 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputRe
 	return returns
 }
 
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) PutAuditTrailExportOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigAuditTrailExportOptions) {
+	if err := a.validatePutAuditTrailExportOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putAuditTrailExportOptions",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) PutDocumentGenerationOptions(value *AgenticApplicationsAnalystAgentPersonaArtifactsConfigDocumentGenerationOptions) {
 	if err := a.validatePutDocumentGenerationOptionsParameters(value); err != nil {
 		panic(err)
@@ -555,6 +590,14 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputRe
 		a,
 		"putVisualizationOptions",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaArtifactsConfigOutputReference) ResetAuditTrailExportOptions() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetAuditTrailExportOptions",
+		nil, // no parameters
 	)
 }
 

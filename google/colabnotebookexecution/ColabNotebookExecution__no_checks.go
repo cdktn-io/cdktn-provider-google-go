@@ -155,6 +155,10 @@ func (j *jsiiProxy_ColabNotebookExecution) validateSetIdParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_ColabNotebookExecution) validateSetKernelNameParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ColabNotebookExecution) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

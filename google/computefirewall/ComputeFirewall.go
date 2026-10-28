@@ -5,14 +5,14 @@ package computefirewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computefirewall/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computefirewall/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_firewall google_compute_firewall}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_firewall google_compute_firewall}.
 type ComputeFirewall interface {
 	cdktn.TerraformResource
 	Allow() ComputeFirewallAllowList
@@ -54,6 +54,7 @@ type ComputeFirewall interface {
 	EnableLogging() interface{}
 	SetEnableLogging(val interface{})
 	EnableLoggingInput() interface{}
+	FirewallId() *float64
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -487,6 +488,16 @@ func (j *jsiiProxy_ComputeFirewall) EnableLoggingInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeFirewall) FirewallId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"firewallId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeFirewall) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -868,7 +879,7 @@ func (j *jsiiProxy_ComputeFirewall) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_firewall google_compute_firewall} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_firewall google_compute_firewall} Resource.
 func NewComputeFirewall(scope constructs.Construct, id *string, config *ComputeFirewallConfig) ComputeFirewall {
 	_init_.Initialize()
 
@@ -886,7 +897,7 @@ func NewComputeFirewall(scope constructs.Construct, id *string, config *ComputeF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_firewall google_compute_firewall} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_firewall google_compute_firewall} Resource.
 func NewComputeFirewall_Override(c ComputeFirewall, scope constructs.Construct, id *string, config *ComputeFirewallConfig) {
 	_init_.Initialize()
 

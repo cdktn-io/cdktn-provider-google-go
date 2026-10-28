@@ -5,9 +5,9 @@ package dnspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dnspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/dnspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type DnsPolicyAlternativeNameServerConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *DnsPolicyAlternativeNameServerConfig
 	SetInternalValue(val *DnsPolicyAlternativeNameServerConfig)
+	OutboundEndpoints() DnsPolicyAlternativeNameServerConfigOutboundEndpointsList
+	OutboundEndpointsInput() interface{}
 	TargetNameServers() DnsPolicyAlternativeNameServerConfigTargetNameServersList
 	TargetNameServersInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type DnsPolicyAlternativeNameServerConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOutboundEndpoints(value interface{})
 	PutTargetNameServers(value interface{})
+	ResetOutboundEndpoints()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,6 +131,26 @@ func (j *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) Internal
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) OutboundEndpoints() DnsPolicyAlternativeNameServerConfigOutboundEndpointsList {
+	var returns DnsPolicyAlternativeNameServerConfigOutboundEndpointsList
+	_jsii_.Get(
+		j,
+		"outboundEndpoints",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) OutboundEndpointsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"outboundEndpointsInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +465,17 @@ func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) Interpol
 	return returns
 }
 
+func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) PutOutboundEndpoints(value interface{}) {
+	if err := d.validatePutOutboundEndpointsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putOutboundEndpoints",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) PutTargetNameServers(value interface{}) {
 	if err := d.validatePutTargetNameServersParameters(value); err != nil {
 		panic(err)
@@ -449,6 +484,14 @@ func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) PutTarge
 		d,
 		"putTargetNameServers",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DnsPolicyAlternativeNameServerConfigOutputReference) ResetOutboundEndpoints() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOutboundEndpoints",
+		nil, // no parameters
 	)
 }
 

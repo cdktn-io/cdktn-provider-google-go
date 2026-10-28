@@ -5,14 +5,14 @@ package privatecacertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/privatecacertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/privatecacertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/privateca_certificate google_privateca_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/privateca_certificate google_privateca_certificate}.
 type PrivatecaCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -96,6 +96,9 @@ type PrivatecaCertificate interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	RequestedNotBeforeTime() *string
+	SetRequestedNotBeforeTime(val *string)
+	RequestedNotBeforeTimeInput() *string
 	RevocationDetails() PrivatecaCertificateRevocationDetailsList
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -213,6 +216,7 @@ type PrivatecaCertificate interface {
 	ResetOverrideLogicalId()
 	ResetPemCsr()
 	ResetProject()
+	ResetRequestedNotBeforeTime()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -671,6 +675,26 @@ func (j *jsiiProxy_PrivatecaCertificate) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_PrivatecaCertificate) RequestedNotBeforeTime() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestedNotBeforeTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCertificate) RequestedNotBeforeTimeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestedNotBeforeTimeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PrivatecaCertificate) RevocationDetails() PrivatecaCertificateRevocationDetailsList {
 	var returns PrivatecaCertificateRevocationDetailsList
 	_jsii_.Get(
@@ -752,7 +776,7 @@ func (j *jsiiProxy_PrivatecaCertificate) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/privateca_certificate google_privateca_certificate} Resource.
 func NewPrivatecaCertificate(scope constructs.Construct, id *string, config *PrivatecaCertificateConfig) PrivatecaCertificate {
 	_init_.Initialize()
 
@@ -770,7 +794,7 @@ func NewPrivatecaCertificate(scope constructs.Construct, id *string, config *Pri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/privateca_certificate google_privateca_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/privateca_certificate google_privateca_certificate} Resource.
 func NewPrivatecaCertificate_Override(p PrivatecaCertificate, scope constructs.Construct, id *string, config *PrivatecaCertificateConfig) {
 	_init_.Initialize()
 
@@ -966,6 +990,17 @@ func (j *jsiiProxy_PrivatecaCertificate)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivatecaCertificate)SetRequestedNotBeforeTime(val *string) {
+	if err := j.validateSetRequestedNotBeforeTimeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"requestedNotBeforeTime",
 		val,
 	)
 }
@@ -1448,6 +1483,14 @@ func (p *jsiiProxy_PrivatecaCertificate) ResetProject() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrivatecaCertificate) ResetRequestedNotBeforeTime() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetRequestedNotBeforeTime",
 		nil, // no parameters
 	)
 }

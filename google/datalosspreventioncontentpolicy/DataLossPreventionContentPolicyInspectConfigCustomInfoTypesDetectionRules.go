@@ -7,7 +7,7 @@ package datalosspreventioncontentpolicy
 type DataLossPreventionContentPolicyInspectConfigCustomInfoTypesDetectionRules struct {
 	// hotword_rule block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/data_loss_prevention_content_policy#hotword_rule DataLossPreventionContentPolicy#hotword_rule}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/data_loss_prevention_content_policy#hotword_rule DataLossPreventionContentPolicy#hotword_rule}
 	HotwordRule *DataLossPreventionContentPolicyInspectConfigCustomInfoTypesDetectionRulesHotwordRule `field:"optional" json:"hotwordRule" yaml:"hotwordRule"`
 }
 

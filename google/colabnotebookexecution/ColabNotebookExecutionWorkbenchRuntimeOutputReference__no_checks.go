@@ -47,6 +47,10 @@ func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) valida
 	return nil
 }
 
+func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) validatePutCustomContainerImageParameters(value *ColabNotebookExecutionWorkbenchRuntimeCustomContainerImage) error {
+	return nil
+}
+
 func (c *jsiiProxy_ColabNotebookExecutionWorkbenchRuntimeOutputReference) validatePutVmImageParameters(value *ColabNotebookExecutionWorkbenchRuntimeVmImage) error {
 	return nil
 }

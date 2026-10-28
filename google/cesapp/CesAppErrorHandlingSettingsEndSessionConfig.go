@@ -7,7 +7,7 @@ package cesapp
 type CesAppErrorHandlingSettingsEndSessionConfig struct {
 	// Whether to escalate the session in EndSession. If session is escalated, metadata in EndSession will contain session_escalated = true.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app#escalate_session CesApp#escalate_session}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app#escalate_session CesApp#escalate_session}
 	EscalateSession interface{} `field:"optional" json:"escalateSession" yaml:"escalateSession"`
 }
 

@@ -87,6 +87,10 @@ func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) validatePutTimeoutsParameter
 	return nil
 }
 
+func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) validatePutWildfireSettingsParameters(value *NetworkSecurityFirewallEndpointWildfireSettings) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkSecurityFirewallEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }

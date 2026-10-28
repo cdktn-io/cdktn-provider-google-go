@@ -5,14 +5,14 @@ package computeregionsslpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeregionsslpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computeregionsslpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy}.
 type ComputeRegionSslPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -651,7 +651,7 @@ func (j *jsiiProxy_ComputeRegionSslPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
 func NewComputeRegionSslPolicy(scope constructs.Construct, id *string, config *ComputeRegionSslPolicyConfig) ComputeRegionSslPolicy {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewComputeRegionSslPolicy(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_region_ssl_policy google_compute_region_ssl_policy} Resource.
 func NewComputeRegionSslPolicy_Override(c ComputeRegionSslPolicy, scope constructs.Construct, id *string, config *ComputeRegionSslPolicyConfig) {
 	_init_.Initialize()
 

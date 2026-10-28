@@ -47,6 +47,10 @@ func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutp
 	return nil
 }
 
+func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) validatePutRequestBodyParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeSecurityPolicyRulePreconfiguredWafConfigExclusionAOutputReference) validatePutRequestCookieParameters(value interface{}) error {
 	return nil
 }

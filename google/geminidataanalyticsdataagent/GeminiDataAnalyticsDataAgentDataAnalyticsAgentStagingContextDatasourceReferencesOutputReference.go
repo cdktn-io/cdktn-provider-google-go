@@ -5,9 +5,9 @@ package geminidataanalyticsdataagent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/geminidataanalyticsdataagent/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/geminidataanalyticsdataagent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -34,6 +34,10 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceRefer
 	Fqn() *string
 	InternalValue() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferences
 	SetInternalValue(val *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferences)
+	Looker() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLookerOutputReference
+	LookerInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLooker
+	Studio() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudioOutputReference
+	StudioInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudio
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -67,6 +71,11 @@ type GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceRefer
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBq(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesBq)
+	PutLooker(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLooker)
+	PutStudio(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudio)
+	ResetBq()
+	ResetLooker()
+	ResetStudio()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -147,6 +156,46 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextD
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) Looker() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLookerOutputReference {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLookerOutputReference
+	_jsii_.Get(
+		j,
+		"looker",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) LookerInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLooker {
+	var returns *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLooker
+	_jsii_.Get(
+		j,
+		"lookerInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) Studio() GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudioOutputReference {
+	var returns GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudioOutputReference
+	_jsii_.Get(
+		j,
+		"studio",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) StudioInput() *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudio {
+	var returns *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudio
+	_jsii_.Get(
+		j,
+		"studioInput",
 		&returns,
 	)
 	return returns
@@ -449,6 +498,52 @@ func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextD
 		g,
 		"putBq",
 		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) PutLooker(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesLooker) {
+	if err := g.validatePutLookerParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putLooker",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) PutStudio(value *GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesStudio) {
+	if err := g.validatePutStudioParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		g,
+		"putStudio",
+		[]interface{}{value},
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) ResetBq() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetBq",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) ResetLooker() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetLooker",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiDataAnalyticsDataAgentDataAnalyticsAgentStagingContextDatasourceReferencesOutputReference) ResetStudio() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetStudio",
+		nil, // no parameters
 	)
 }
 

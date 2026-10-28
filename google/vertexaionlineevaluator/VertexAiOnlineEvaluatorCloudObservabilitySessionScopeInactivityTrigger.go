@@ -10,7 +10,7 @@ type VertexAiOnlineEvaluatorCloudObservabilitySessionScopeInactivityTrigger stru
 	// Must be a positive
 	// duration no greater than 7 days (604800 seconds), e.g. "3600s".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_online_evaluator#threshold VertexAiOnlineEvaluator#threshold}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_online_evaluator#threshold VertexAiOnlineEvaluator#threshold}
 	Threshold *string `field:"required" json:"threshold" yaml:"threshold"`
 }
 

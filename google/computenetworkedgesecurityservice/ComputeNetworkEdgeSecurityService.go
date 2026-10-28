@@ -5,14 +5,14 @@ package computenetworkedgesecurityservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computenetworkedgesecurityservice/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computenetworkedgesecurityservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_edge_security_service google_compute_network_edge_security_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_edge_security_service google_compute_network_edge_security_service}.
 type ComputeNetworkEdgeSecurityService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -59,6 +59,8 @@ type ComputeNetworkEdgeSecurityService interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	Params() ComputeNetworkEdgeSecurityServiceParamsOutputReference
+	ParamsInput() *ComputeNetworkEdgeSecurityServiceParams
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -168,6 +170,7 @@ type ComputeNetworkEdgeSecurityService interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutParams(value *ComputeNetworkEdgeSecurityServiceParams)
 	PutTimeouts(value *ComputeNetworkEdgeSecurityServiceTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -188,6 +191,7 @@ type ComputeNetworkEdgeSecurityService interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParams()
 	ResetProject()
 	ResetRegion()
 	ResetSecurityPolicy()
@@ -419,6 +423,26 @@ func (j *jsiiProxy_ComputeNetworkEdgeSecurityService) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ComputeNetworkEdgeSecurityService) Params() ComputeNetworkEdgeSecurityServiceParamsOutputReference {
+	var returns ComputeNetworkEdgeSecurityServiceParamsOutputReference
+	_jsii_.Get(
+		j,
+		"params",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeNetworkEdgeSecurityService) ParamsInput() *ComputeNetworkEdgeSecurityServiceParams {
+	var returns *ComputeNetworkEdgeSecurityServiceParams
+	_jsii_.Get(
+		j,
+		"paramsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeNetworkEdgeSecurityService) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -590,7 +614,7 @@ func (j *jsiiProxy_ComputeNetworkEdgeSecurityService) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
 func NewComputeNetworkEdgeSecurityService(scope constructs.Construct, id *string, config *ComputeNetworkEdgeSecurityServiceConfig) ComputeNetworkEdgeSecurityService {
 	_init_.Initialize()
 
@@ -608,7 +632,7 @@ func NewComputeNetworkEdgeSecurityService(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_network_edge_security_service google_compute_network_edge_security_service} Resource.
 func NewComputeNetworkEdgeSecurityService_Override(c ComputeNetworkEdgeSecurityService, scope constructs.Construct, id *string, config *ComputeNetworkEdgeSecurityServiceConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1157,17 @@ func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) OverrideLogicalId(newLogic
 	)
 }
 
+func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) PutParams(value *ComputeNetworkEdgeSecurityServiceParams) {
+	if err := c.validatePutParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putParams",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) PutTimeouts(value *ComputeNetworkEdgeSecurityServiceTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1183,6 +1218,14 @@ func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeNetworkEdgeSecurityService) ResetParams() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetParams",
 		nil, // no parameters
 	)
 }

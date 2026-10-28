@@ -5,14 +5,14 @@ package apphubserviceprojectattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/apphubserviceprojectattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/apphubserviceprojectattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/apphub_service_project_attachment google_apphub_service_project_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apphub_service_project_attachment google_apphub_service_project_attachment}.
 type ApphubServiceProjectAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ApphubServiceProjectAttachment) Uid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
 func NewApphubServiceProjectAttachment(scope constructs.Construct, id *string, config *ApphubServiceProjectAttachmentConfig) ApphubServiceProjectAttachment {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewApphubServiceProjectAttachment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apphub_service_project_attachment google_apphub_service_project_attachment} Resource.
 func NewApphubServiceProjectAttachment_Override(a ApphubServiceProjectAttachment, scope constructs.Construct, id *string, config *ApphubServiceProjectAttachmentConfig) {
 	_init_.Initialize()
 

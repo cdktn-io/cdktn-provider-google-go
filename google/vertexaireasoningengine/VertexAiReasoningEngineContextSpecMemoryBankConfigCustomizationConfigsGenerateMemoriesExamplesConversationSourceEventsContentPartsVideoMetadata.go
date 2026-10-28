@@ -7,11 +7,11 @@ package vertexaireasoningengine
 type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsVideoMetadata struct {
 	// The end offset of the video.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#end_offset VertexAiReasoningEngine#end_offset}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#end_offset VertexAiReasoningEngine#end_offset}
 	EndOffset *string `field:"optional" json:"endOffset" yaml:"endOffset"`
 	// The start offset of the video.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_reasoning_engine#start_offset VertexAiReasoningEngine#start_offset}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_reasoning_engine#start_offset VertexAiReasoningEngine#start_offset}
 	StartOffset *string `field:"optional" json:"startOffset" yaml:"startOffset"`
 }
 

@@ -11,7 +11,7 @@ type SecureSourceManagerHookPushOption struct {
 	// reported. Examples: main, {main,release*}.
 	// See https://pkg.go.dev/github.com/gobwas/glob documentation.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/secure_source_manager_hook#branch_filter SecureSourceManagerHook#branch_filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/secure_source_manager_hook#branch_filter SecureSourceManagerHook#branch_filter}
 	BranchFilter *string `field:"optional" json:"branchFilter" yaml:"branchFilter"`
 }
 

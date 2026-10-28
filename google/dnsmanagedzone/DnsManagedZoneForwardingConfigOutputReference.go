@@ -5,9 +5,9 @@ package dnsmanagedzone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/dnsmanagedzone/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/dnsmanagedzone/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -32,6 +32,8 @@ type DnsManagedZoneForwardingConfigOutputReference interface {
 	Fqn() *string
 	InternalValue() *DnsManagedZoneForwardingConfig
 	SetInternalValue(val *DnsManagedZoneForwardingConfig)
+	OutboundEndpoints() DnsManagedZoneForwardingConfigOutboundEndpointsList
+	OutboundEndpointsInput() interface{}
 	TargetNameServers() DnsManagedZoneForwardingConfigTargetNameServersList
 	TargetNameServersInput() interface{}
 	// Experimental.
@@ -66,7 +68,9 @@ type DnsManagedZoneForwardingConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutOutboundEndpoints(value interface{})
 	PutTargetNameServers(value interface{})
+	ResetOutboundEndpoints()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -127,6 +131,26 @@ func (j *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) InternalValue(
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) OutboundEndpoints() DnsManagedZoneForwardingConfigOutboundEndpointsList {
+	var returns DnsManagedZoneForwardingConfigOutboundEndpointsList
+	_jsii_.Get(
+		j,
+		"outboundEndpoints",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) OutboundEndpointsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"outboundEndpointsInput",
 		&returns,
 	)
 	return returns
@@ -441,6 +465,17 @@ func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) InterpolationF
 	return returns
 }
 
+func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) PutOutboundEndpoints(value interface{}) {
+	if err := d.validatePutOutboundEndpointsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putOutboundEndpoints",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) PutTargetNameServers(value interface{}) {
 	if err := d.validatePutTargetNameServersParameters(value); err != nil {
 		panic(err)
@@ -449,6 +484,14 @@ func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) PutTargetNameS
 		d,
 		"putTargetNameServers",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DnsManagedZoneForwardingConfigOutputReference) ResetOutboundEndpoints() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOutboundEndpoints",
+		nil, // no parameters
 	)
 }
 

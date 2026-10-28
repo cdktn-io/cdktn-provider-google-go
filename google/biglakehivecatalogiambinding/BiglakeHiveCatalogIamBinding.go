@@ -5,14 +5,14 @@ package biglakehivecatalogiambinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/biglakehivecatalogiambinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/biglakehivecatalogiambinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_catalog_iam_binding google_biglake_hive_catalog_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_catalog_iam_binding google_biglake_hive_catalog_iam_binding}.
 type BiglakeHiveCatalogIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -496,7 +496,7 @@ func (j *jsiiProxy_BiglakeHiveCatalogIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_catalog_iam_binding google_biglake_hive_catalog_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_catalog_iam_binding google_biglake_hive_catalog_iam_binding} Resource.
 func NewBiglakeHiveCatalogIamBinding(scope constructs.Construct, id *string, config *BiglakeHiveCatalogIamBindingConfig) BiglakeHiveCatalogIamBinding {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewBiglakeHiveCatalogIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/biglake_hive_catalog_iam_binding google_biglake_hive_catalog_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/biglake_hive_catalog_iam_binding google_biglake_hive_catalog_iam_binding} Resource.
 func NewBiglakeHiveCatalogIamBinding_Override(b BiglakeHiveCatalogIamBinding, scope constructs.Construct, id *string, config *BiglakeHiveCatalogIamBindingConfig) {
 	_init_.Initialize()
 

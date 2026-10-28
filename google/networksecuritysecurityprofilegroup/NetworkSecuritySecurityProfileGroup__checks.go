@@ -506,6 +506,14 @@ func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) validateSetUrlFilteringP
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecuritySecurityProfileGroup) validateSetWildfireAnalysisProfileParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func validateNewNetworkSecuritySecurityProfileGroupParameters(scope constructs.Construct, id *string, config *NetworkSecuritySecurityProfileGroupConfig) error {
 	if scope == nil {
 		return fmt.Errorf("parameter scope is required, but nil was provided")

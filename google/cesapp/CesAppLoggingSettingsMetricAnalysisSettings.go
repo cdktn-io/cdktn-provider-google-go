@@ -11,7 +11,7 @@ type CesAppLoggingSettingsMetricAnalysisSettings struct {
 	// conversation data will not be collected for llm analysis metrics;
 	// otherwise, conversation data will be collected.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_app#llm_metrics_opted_out CesApp#llm_metrics_opted_out}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_app#llm_metrics_opted_out CesApp#llm_metrics_opted_out}
 	LlmMetricsOptedOut interface{} `field:"optional" json:"llmMetricsOptedOut" yaml:"llmMetricsOptedOut"`
 }
 

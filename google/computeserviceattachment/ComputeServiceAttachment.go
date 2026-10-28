@@ -5,14 +5,14 @@ package computeserviceattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/computeserviceattachment/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/computeserviceattachment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_service_attachment google_compute_service_attachment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_service_attachment google_compute_service_attachment}.
 type ComputeServiceAttachment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -106,6 +106,7 @@ type ComputeServiceAttachment interface {
 	SendPropagatedConnectionLimitIfZero() interface{}
 	SetSendPropagatedConnectionLimitIfZero(val interface{})
 	SendPropagatedConnectionLimitIfZeroInput() interface{}
+	ServiceAttachmentId() *float64
 	ShowNatIps() interface{}
 	SetShowNatIps(val interface{})
 	ShowNatIpsInput() interface{}
@@ -748,6 +749,16 @@ func (j *jsiiProxy_ComputeServiceAttachment) SendPropagatedConnectionLimitIfZero
 	return returns
 }
 
+func (j *jsiiProxy_ComputeServiceAttachment) ServiceAttachmentId() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"serviceAttachmentId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ComputeServiceAttachment) ShowNatIps() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -839,7 +850,7 @@ func (j *jsiiProxy_ComputeServiceAttachment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
 func NewComputeServiceAttachment(scope constructs.Construct, id *string, config *ComputeServiceAttachmentConfig) ComputeServiceAttachment {
 	_init_.Initialize()
 
@@ -857,7 +868,7 @@ func NewComputeServiceAttachment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/compute_service_attachment google_compute_service_attachment} Resource.
 func NewComputeServiceAttachment_Override(c ComputeServiceAttachment, scope constructs.Construct, id *string, config *ComputeServiceAttachmentConfig) {
 	_init_.Initialize()
 

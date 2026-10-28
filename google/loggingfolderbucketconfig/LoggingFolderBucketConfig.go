@@ -5,14 +5,14 @@ package loggingfolderbucketconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/loggingfolderbucketconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/loggingfolderbucketconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config}.
 type LoggingFolderBucketConfig interface {
 	cdktn.TerraformResource
 	BucketId() *string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_LoggingFolderBucketConfig) TerraformResourceType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
 func NewLoggingFolderBucketConfig(scope constructs.Construct, id *string, config *LoggingFolderBucketConfigConfig) LoggingFolderBucketConfig {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewLoggingFolderBucketConfig(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/logging_folder_bucket_config google_logging_folder_bucket_config} Resource.
 func NewLoggingFolderBucketConfig_Override(l LoggingFolderBucketConfig, scope constructs.Construct, id *string, config *LoggingFolderBucketConfigConfig) {
 	_init_.Initialize()
 

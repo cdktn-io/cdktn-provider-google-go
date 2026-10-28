@@ -5,9 +5,9 @@ package privatecacapool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/privatecacapool/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/privatecacapool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -17,6 +17,9 @@ type PrivatecaCaPoolIssuancePolicyOutputReference interface {
 	AllowedIssuanceModesInput() *PrivatecaCaPoolIssuancePolicyAllowedIssuanceModes
 	AllowedKeyTypes() PrivatecaCaPoolIssuancePolicyAllowedKeyTypesList
 	AllowedKeyTypesInput() interface{}
+	AllowRequesterSpecifiedNotBeforeTime() interface{}
+	SetAllowRequesterSpecifiedNotBeforeTime(val interface{})
+	AllowRequesterSpecifiedNotBeforeTimeInput() interface{}
 	BackdateDuration() *string
 	SetBackdateDuration(val *string)
 	BackdateDurationInput() *string
@@ -84,6 +87,7 @@ type PrivatecaCaPoolIssuancePolicyOutputReference interface {
 	PutIdentityConstraints(value *PrivatecaCaPoolIssuancePolicyIdentityConstraints)
 	ResetAllowedIssuanceModes()
 	ResetAllowedKeyTypes()
+	ResetAllowRequesterSpecifiedNotBeforeTime()
 	ResetBackdateDuration()
 	ResetBaselineValues()
 	ResetIdentityConstraints()
@@ -138,6 +142,26 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) AllowedKeyTypes
 	_jsii_.Get(
 		j,
 		"allowedKeyTypesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) AllowRequesterSpecifiedNotBeforeTime() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowRequesterSpecifiedNotBeforeTime",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) AllowRequesterSpecifiedNotBeforeTimeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"allowRequesterSpecifiedNotBeforeTimeInput",
 		&returns,
 	)
 	return returns
@@ -318,6 +342,17 @@ func NewPrivatecaCaPoolIssuancePolicyOutputReference_Override(p PrivatecaCaPoolI
 		"@cdktn/provider-google.privatecaCaPool.PrivatecaCaPoolIssuancePolicyOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		p,
+	)
+}
+
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference)SetAllowRequesterSpecifiedNotBeforeTime(val interface{}) {
+	if err := j.validateSetAllowRequesterSpecifiedNotBeforeTimeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowRequesterSpecifiedNotBeforeTime",
+		val,
 	)
 }
 
@@ -640,6 +675,14 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) ResetAllowedKey
 	_jsii_.InvokeVoid(
 		p,
 		"resetAllowedKeyTypes",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) ResetAllowRequesterSpecifiedNotBeforeTime() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetAllowRequesterSpecifiedNotBeforeTime",
 		nil, // no parameters
 	)
 }

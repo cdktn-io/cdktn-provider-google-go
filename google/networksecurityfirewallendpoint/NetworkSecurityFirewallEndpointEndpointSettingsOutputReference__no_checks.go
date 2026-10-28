@@ -59,6 +59,14 @@ func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReferenc
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) validateSetContentCloudRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) validateSetHttpPartialResponseBlockedParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityFirewallEndpointEndpointSettingsOutputReference) validateSetInternalValueParameters(val *NetworkSecurityFirewallEndpointEndpointSettings) error {
 	return nil
 }

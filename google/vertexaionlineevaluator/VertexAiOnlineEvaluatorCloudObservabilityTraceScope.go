@@ -7,7 +7,7 @@ package vertexaionlineevaluator
 type VertexAiOnlineEvaluatorCloudObservabilityTraceScope struct {
 	// filter block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_online_evaluator#filter VertexAiOnlineEvaluator#filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_online_evaluator#filter VertexAiOnlineEvaluator#filter}
 	Filter interface{} `field:"optional" json:"filter" yaml:"filter"`
 }
 

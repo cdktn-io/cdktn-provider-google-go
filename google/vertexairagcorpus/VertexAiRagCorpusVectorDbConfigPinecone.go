@@ -7,7 +7,7 @@ package vertexairagcorpus
 type VertexAiRagCorpusVectorDbConfigPinecone struct {
 	// Pinecone index name. This value cannot be changed after it's set.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/vertex_ai_rag_corpus#index_name VertexAiRagCorpus#index_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_corpus#index_name VertexAiRagCorpus#index_name}
 	IndexName *string `field:"required" json:"indexName" yaml:"indexName"`
 }
 

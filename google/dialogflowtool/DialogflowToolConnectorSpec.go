@@ -7,11 +7,11 @@ package dialogflowtool
 type DialogflowToolConnectorSpec struct {
 	// actions block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#actions DialogflowTool#actions}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_tool#actions DialogflowTool#actions}
 	Actions interface{} `field:"required" json:"actions" yaml:"actions"`
 	// The full resource name of the referenced Integration Connectors Connection. Format: 'projects/* /locations/* /connections/*'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dialogflow_tool#name DialogflowTool#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_tool#name DialogflowTool#name}
 	//
 	// Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
 	Name *string `field:"required" json:"name" yaml:"name"`

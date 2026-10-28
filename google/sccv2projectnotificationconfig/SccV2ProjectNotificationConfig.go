@@ -5,14 +5,14 @@ package sccv2projectnotificationconfig
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/sccv2projectnotificationconfig/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/sccv2projectnotificationconfig/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_v2_project_notification_config google_scc_v2_project_notification_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_v2_project_notification_config google_scc_v2_project_notification_config}.
 type SccV2ProjectNotificationConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,9 @@ type SccV2ProjectNotificationConfig interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DeletionNotificationsEnabled() interface{}
+	SetDeletionNotificationsEnabled(val interface{})
+	DeletionNotificationsEnabledInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -182,6 +185,7 @@ type SccV2ProjectNotificationConfig interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetDeletionNotificationsEnabled()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetId()
@@ -274,6 +278,26 @@ func (j *jsiiProxy_SccV2ProjectNotificationConfig) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2ProjectNotificationConfig) DeletionNotificationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SccV2ProjectNotificationConfig) DeletionNotificationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deletionNotificationsEnabledInput",
 		&returns,
 	)
 	return returns
@@ -580,7 +604,7 @@ func (j *jsiiProxy_SccV2ProjectNotificationConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_v2_project_notification_config google_scc_v2_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_v2_project_notification_config google_scc_v2_project_notification_config} Resource.
 func NewSccV2ProjectNotificationConfig(scope constructs.Construct, id *string, config *SccV2ProjectNotificationConfigConfig) SccV2ProjectNotificationConfig {
 	_init_.Initialize()
 
@@ -598,7 +622,7 @@ func NewSccV2ProjectNotificationConfig(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/scc_v2_project_notification_config google_scc_v2_project_notification_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/scc_v2_project_notification_config google_scc_v2_project_notification_config} Resource.
 func NewSccV2ProjectNotificationConfig_Override(s SccV2ProjectNotificationConfig, scope constructs.Construct, id *string, config *SccV2ProjectNotificationConfigConfig) {
 	_init_.Initialize()
 
@@ -638,6 +662,17 @@ func (j *jsiiProxy_SccV2ProjectNotificationConfig)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SccV2ProjectNotificationConfig)SetDeletionNotificationsEnabled(val interface{}) {
+	if err := j.validateSetDeletionNotificationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deletionNotificationsEnabled",
 		val,
 	)
 }
@@ -1153,6 +1188,14 @@ func (s *jsiiProxy_SccV2ProjectNotificationConfig) RegisterProviderFeatureUsage(
 		s,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (s *jsiiProxy_SccV2ProjectNotificationConfig) ResetDeletionNotificationsEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDeletionNotificationsEnabled",
+		nil, // no parameters
 	)
 }
 

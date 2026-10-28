@@ -7,7 +7,7 @@ package dataprocworkflowtemplate
 type DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigInstanceFlexibilityPolicy struct {
 	// instance_selection_list block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/dataproc_workflow_template#instance_selection_list DataprocWorkflowTemplate#instance_selection_list}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dataproc_workflow_template#instance_selection_list DataprocWorkflowTemplate#instance_selection_list}
 	InstanceSelectionList interface{} `field:"optional" json:"instanceSelectionList" yaml:"instanceSelectionList"`
 }
 

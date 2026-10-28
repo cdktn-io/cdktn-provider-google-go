@@ -5,14 +5,14 @@ package storageftpserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/storageftpserver/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/storageftpserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/storage_ftp_server google_storage_ftp_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_ftp_server google_storage_ftp_server}.
 type StorageFtpServer interface {
 	cdktn.TerraformResource
 	AccessType() *string
@@ -649,7 +649,7 @@ func (j *jsiiProxy_StorageFtpServer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/storage_ftp_server google_storage_ftp_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_ftp_server google_storage_ftp_server} Resource.
 func NewStorageFtpServer(scope constructs.Construct, id *string, config *StorageFtpServerConfig) StorageFtpServer {
 	_init_.Initialize()
 
@@ -667,7 +667,7 @@ func NewStorageFtpServer(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/storage_ftp_server google_storage_ftp_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_ftp_server google_storage_ftp_server} Resource.
 func NewStorageFtpServer_Override(s StorageFtpServer, scope constructs.Construct, id *string, config *StorageFtpServerConfig) {
 	_init_.Initialize()
 

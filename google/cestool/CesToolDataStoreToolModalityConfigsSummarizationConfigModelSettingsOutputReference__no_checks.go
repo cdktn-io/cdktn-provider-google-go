@@ -79,6 +79,10 @@ func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsSummarizationConfigModelSe
 	return nil
 }
 
+func (j *jsiiProxy_CesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReference) validateSetThinkingLevelParameters(val *string) error {
+	return nil
+}
+
 func validateNewCesToolDataStoreToolModalityConfigsSummarizationConfigModelSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

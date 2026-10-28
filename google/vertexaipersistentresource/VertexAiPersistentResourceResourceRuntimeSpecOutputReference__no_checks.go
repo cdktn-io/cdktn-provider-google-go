@@ -47,6 +47,10 @@ func (v *jsiiProxy_VertexAiPersistentResourceResourceRuntimeSpecOutputReference)
 	return nil
 }
 
+func (v *jsiiProxy_VertexAiPersistentResourceResourceRuntimeSpecOutputReference) validatePutRaySpecParameters(value *VertexAiPersistentResourceResourceRuntimeSpecRaySpec) error {
+	return nil
+}
+
 func (v *jsiiProxy_VertexAiPersistentResourceResourceRuntimeSpecOutputReference) validatePutServiceAccountSpecParameters(value *VertexAiPersistentResourceResourceRuntimeSpecServiceAccountSpec) error {
 	return nil
 }

@@ -9,7 +9,7 @@ type BigqueryAnalyticsHubListingSubscriptionDestinationPubsubSubscriptionPubsubS
 	//
 	// Writes the Pub/Sub message attributes to '<KEY>:<VAL>' headers of the HTTP request.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/bigquery_analytics_hub_listing_subscription#write_metadata BigqueryAnalyticsHubListingSubscription#write_metadata}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_analytics_hub_listing_subscription#write_metadata BigqueryAnalyticsHubListingSubscription#write_metadata}
 	WriteMetadata interface{} `field:"optional" json:"writeMetadata" yaml:"writeMetadata"`
 }
 

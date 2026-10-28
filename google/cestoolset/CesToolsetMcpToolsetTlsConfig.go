@@ -7,7 +7,7 @@ package cestoolset
 type CesToolsetMcpToolsetTlsConfig struct {
 	// ca_certs block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/ces_toolset#ca_certs CesToolset#ca_certs}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_toolset#ca_certs CesToolset#ca_certs}
 	CaCerts interface{} `field:"required" json:"caCerts" yaml:"caCerts"`
 }
 

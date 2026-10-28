@@ -7,7 +7,7 @@ package gkehubfleet
 type GkeHubFleetDefaultClusterConfigCompliancePostureConfigComplianceStandards struct {
 	// Name of the compliance standard.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/gke_hub_fleet#standard GkeHubFleet#standard}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gke_hub_fleet#standard GkeHubFleet#standard}
 	Standard *string `field:"optional" json:"standard" yaml:"standard"`
 }
 

@@ -5,19 +5,22 @@ package networkconnectivitytransport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/networkconnectivitytransport/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/networkconnectivitytransport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_connectivity_transport google_network_connectivity_transport}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_connectivity_transport google_network_connectivity_transport}.
 type NetworkConnectivityTransport interface {
 	cdktn.TerraformResource
 	AdvertisedRoutes() *[]*string
 	SetAdvertisedRoutes(val *[]*string)
 	AdvertisedRoutesInput() *[]*string
+	AutoAccept() interface{}
+	SetAutoAccept(val interface{})
+	AutoAcceptInput() interface{}
 	Bandwidth() *string
 	SetBandwidth(val *string)
 	BandwidthInput() *string
@@ -53,6 +56,9 @@ type NetworkConnectivityTransport interface {
 	// Experimental.
 	FriendlyUniqueId() *string
 	GeneratedActivationKey() *string
+	Hub() *string
+	SetHub(val *string)
+	HubInput() *string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -89,6 +95,9 @@ type NetworkConnectivityTransport interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	PscRoutingEnabled() interface{}
+	SetPscRoutingEnabled(val interface{})
+	PscRoutingEnabledInput() interface{}
 	// Experimental.
 	RawOverrides() interface{}
 	Region() *string
@@ -207,9 +216,11 @@ type NetworkConnectivityTransport interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetAdvertisedRoutes()
+	ResetAutoAccept()
 	ResetBandwidth()
 	ResetDeletionPolicy()
 	ResetDescription()
+	ResetHub()
 	ResetId()
 	ResetLabels()
 	ResetMtuLimit()
@@ -219,6 +230,7 @@ type NetworkConnectivityTransport interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetProvidedActivationKey()
+	ResetPscRoutingEnabled()
 	ResetRemoteAccountId()
 	ResetStackType()
 	ResetTimeouts()
@@ -264,6 +276,26 @@ func (j *jsiiProxy_NetworkConnectivityTransport) AdvertisedRoutesInput() *[]*str
 	_jsii_.Get(
 		j,
 		"advertisedRoutesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport) AutoAccept() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoAccept",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport) AutoAcceptInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"autoAcceptInput",
 		&returns,
 	)
 	return returns
@@ -424,6 +456,26 @@ func (j *jsiiProxy_NetworkConnectivityTransport) GeneratedActivationKey() *strin
 	_jsii_.Get(
 		j,
 		"generatedActivationKey",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport) Hub() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hub",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport) HubInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"hubInput",
 		&returns,
 	)
 	return returns
@@ -619,6 +671,26 @@ func (j *jsiiProxy_NetworkConnectivityTransport) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_NetworkConnectivityTransport) PscRoutingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscRoutingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport) PscRoutingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"pscRoutingEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkConnectivityTransport) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -780,7 +852,7 @@ func (j *jsiiProxy_NetworkConnectivityTransport) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_connectivity_transport google_network_connectivity_transport} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_connectivity_transport google_network_connectivity_transport} Resource.
 func NewNetworkConnectivityTransport(scope constructs.Construct, id *string, config *NetworkConnectivityTransportConfig) NetworkConnectivityTransport {
 	_init_.Initialize()
 
@@ -798,7 +870,7 @@ func NewNetworkConnectivityTransport(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.7.0/docs/resources/network_connectivity_transport google_network_connectivity_transport} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_connectivity_transport google_network_connectivity_transport} Resource.
 func NewNetworkConnectivityTransport_Override(n NetworkConnectivityTransport, scope constructs.Construct, id *string, config *NetworkConnectivityTransportConfig) {
 	_init_.Initialize()
 
@@ -816,6 +888,17 @@ func (j *jsiiProxy_NetworkConnectivityTransport)SetAdvertisedRoutes(val *[]*stri
 	_jsii_.Set(
 		j,
 		"advertisedRoutes",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport)SetAutoAccept(val interface{}) {
+	if err := j.validateSetAutoAcceptParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoAccept",
 		val,
 	)
 }
@@ -887,6 +970,17 @@ func (j *jsiiProxy_NetworkConnectivityTransport)SetForEach(val cdktn.ITerraformI
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport)SetHub(val *string) {
+	if err := j.validateSetHubParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"hub",
 		val,
 	)
 }
@@ -994,6 +1088,17 @@ func (j *jsiiProxy_NetworkConnectivityTransport)SetProvisioners(val *[]interface
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkConnectivityTransport)SetPscRoutingEnabled(val interface{}) {
+	if err := j.validateSetPscRoutingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"pscRoutingEnabled",
 		val,
 	)
 }
@@ -1441,6 +1546,14 @@ func (n *jsiiProxy_NetworkConnectivityTransport) ResetAdvertisedRoutes() {
 	)
 }
 
+func (n *jsiiProxy_NetworkConnectivityTransport) ResetAutoAccept() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetAutoAccept",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkConnectivityTransport) ResetBandwidth() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1461,6 +1574,14 @@ func (n *jsiiProxy_NetworkConnectivityTransport) ResetDescription() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkConnectivityTransport) ResetHub() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetHub",
 		nil, // no parameters
 	)
 }
@@ -1517,6 +1638,14 @@ func (n *jsiiProxy_NetworkConnectivityTransport) ResetProvidedActivationKey() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetProvidedActivationKey",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkConnectivityTransport) ResetPscRoutingEnabled() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPscRoutingEnabled",
 		nil, // no parameters
 	)
 }

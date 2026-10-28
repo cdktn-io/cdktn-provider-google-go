@@ -163,6 +163,10 @@ func (c *jsiiProxy_ContainerCluster) validatePutMaintenancePolicyParameters(valu
 	return nil
 }
 
+func (c *jsiiProxy_ContainerCluster) validatePutManagedOpentelemetryConfigParameters(value *ContainerClusterManagedOpentelemetryConfig) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerCluster) validatePutMasterAuthParameters(value *ContainerClusterMasterAuth) error {
 	return nil
 }
@@ -232,6 +236,10 @@ func (c *jsiiProxy_ContainerCluster) validatePutResourceUsageExportConfigParamet
 }
 
 func (c *jsiiProxy_ContainerCluster) validatePutRollbackSafeUpgradeParameters(value *ContainerClusterRollbackSafeUpgrade) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerCluster) validatePutScheduleUpgradeConfigParameters(value *ContainerClusterScheduleUpgradeConfig) error {
 	return nil
 }
 

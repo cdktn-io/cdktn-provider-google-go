@@ -5,9 +5,9 @@ package accesscontextmanagergcpuseraccessbinding
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v21/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-google-go/google/v22/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-google-go/google/v21/accesscontextmanagergcpuseraccessbinding/internal"
+	"github.com/cdktn-io/cdktn-provider-google-go/google/v22/accesscontextmanagergcpuseraccessbinding/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -28,6 +28,9 @@ type AccessContextManagerGcpUserAccessBindingPrincipalOutputReference interface 
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	FederatedPrincipal() *string
+	SetFederatedPrincipal(val *string)
+	FederatedPrincipalInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *AccessContextManagerGcpUserAccessBindingPrincipal
@@ -70,6 +73,7 @@ type AccessContextManagerGcpUserAccessBindingPrincipalOutputReference interface 
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetFederatedPrincipal()
 	ResetServiceAccount()
 	ResetServiceAccountProjectNumber()
 	// Produce the Token's value at resolution time.
@@ -112,6 +116,26 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputRefere
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputReference) FederatedPrincipal() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"federatedPrincipal",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputReference) FederatedPrincipalInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"federatedPrincipalInput",
 		&returns,
 	)
 	return returns
@@ -243,6 +267,17 @@ func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputRefere
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputReference)SetFederatedPrincipal(val *string) {
+	if err := j.validateSetFederatedPrincipalParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"federatedPrincipal",
 		val,
 	)
 }
@@ -486,6 +521,14 @@ func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputRefere
 	)
 
 	return returns
+}
+
+func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputReference) ResetFederatedPrincipal() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetFederatedPrincipal",
+		nil, // no parameters
+	)
 }
 
 func (a *jsiiProxy_AccessContextManagerGcpUserAccessBindingPrincipalOutputReference) ResetServiceAccount() {
