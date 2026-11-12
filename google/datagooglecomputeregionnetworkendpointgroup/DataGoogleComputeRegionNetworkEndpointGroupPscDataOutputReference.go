@@ -23,6 +23,7 @@ type DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputReference interface
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	ConsumerPscAddress() *string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -33,6 +34,8 @@ type DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputReference interface
 	InternalValue() *DataGoogleComputeRegionNetworkEndpointGroupPscData
 	SetInternalValue(val *DataGoogleComputeRegionNetworkEndpointGroupPscData)
 	ProducerPort() *string
+	PscConnectionId() *string
+	PscConnectionStatus() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -100,6 +103,16 @@ func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputRefer
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputReference) ConsumerPscAddress() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consumerPscAddress",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputReference) CreationStack() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -135,6 +148,26 @@ func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputRefer
 	_jsii_.Get(
 		j,
 		"producerPort",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputReference) PscConnectionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pscConnectionId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleComputeRegionNetworkEndpointGroupPscDataOutputReference) PscConnectionStatus() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"pscConnectionStatus",
 		&returns,
 	)
 	return returns

@@ -47,6 +47,10 @@ func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) validateInterp
 	return nil
 }
 
+func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) validatePutFilterRuleSettingsParameters(value *ModelArmorTemplateFilterConfigFilterRuleSettings) error {
+	return nil
+}
+
 func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) validatePutMaliciousUriFilterSettingsParameters(value *ModelArmorTemplateFilterConfigMaliciousUriFilterSettings) error {
 	return nil
 }

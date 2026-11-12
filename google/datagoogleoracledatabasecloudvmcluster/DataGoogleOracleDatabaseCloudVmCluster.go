@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
 type DataGoogleOracleDatabaseCloudVmCluster interface {
 	cdktn.TerraformDataSource
 	BackupOdbSubnet() *string
@@ -65,6 +65,7 @@ type DataGoogleOracleDatabaseCloudVmCluster interface {
 	Network() *string
 	// The tree node.
 	Node() constructs.Node
+	OdbDnsZone() *string
 	OdbNetwork() *string
 	OdbSubnet() *string
 	Project() *string
@@ -455,6 +456,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmCluster) Node() constructs.Nod
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmCluster) OdbDnsZone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbDnsZone",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmCluster) OdbNetwork() *string {
 	var returns *string
 	_jsii_.Get(
@@ -566,7 +577,7 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmCluster) TerraformResourceType
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Data Source.
 func NewDataGoogleOracleDatabaseCloudVmCluster(scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseCloudVmClusterConfig) DataGoogleOracleDatabaseCloudVmCluster {
 	_init_.Initialize()
 
@@ -584,7 +595,7 @@ func NewDataGoogleOracleDatabaseCloudVmCluster(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Data Source.
 func NewDataGoogleOracleDatabaseCloudVmCluster_Override(d DataGoogleOracleDatabaseCloudVmCluster, scope constructs.Construct, id *string, config *DataGoogleOracleDatabaseCloudVmClusterConfig) {
 	_init_.Initialize()
 

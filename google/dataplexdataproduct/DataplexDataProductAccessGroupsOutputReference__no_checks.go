@@ -47,6 +47,10 @@ func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) validateInter
 	return nil
 }
 
+func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) validatePutDefaultIamRoleConfigParameters(value *DataplexDataProductAccessGroupsDefaultIamRoleConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) validatePutPrincipalParameters(value *DataplexDataProductAccessGroupsPrincipal) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_cache_config google_vertex_ai_cache_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_cache_config google_vertex_ai_cache_config}.
 type VertexAiCacheConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -65,6 +65,9 @@ type VertexAiCacheConfig interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Region() *string
+	SetRegion(val *string)
+	RegionInput() *string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -171,6 +174,7 @@ type VertexAiCacheConfig interface {
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetRegion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -399,6 +403,26 @@ func (j *jsiiProxy_VertexAiCacheConfig) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_VertexAiCacheConfig) Region() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"region",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiCacheConfig) RegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"regionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VertexAiCacheConfig) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -450,7 +474,7 @@ func (j *jsiiProxy_VertexAiCacheConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
 func NewVertexAiCacheConfig(scope constructs.Construct, id *string, config *VertexAiCacheConfigConfig) VertexAiCacheConfig {
 	_init_.Initialize()
 
@@ -468,7 +492,7 @@ func NewVertexAiCacheConfig(scope constructs.Construct, id *string, config *Vert
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_cache_config google_vertex_ai_cache_config} Resource.
 func NewVertexAiCacheConfig_Override(v VertexAiCacheConfig, scope constructs.Construct, id *string, config *VertexAiCacheConfigConfig) {
 	_init_.Initialize()
 
@@ -576,6 +600,17 @@ func (j *jsiiProxy_VertexAiCacheConfig)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VertexAiCacheConfig)SetRegion(val *string) {
+	if err := j.validateSetRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"region",
 		val,
 	)
 }
@@ -991,6 +1026,14 @@ func (v *jsiiProxy_VertexAiCacheConfig) ResetProject() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiCacheConfig) ResetRegion() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetRegion",
 		nil, // no parameters
 	)
 }

@@ -38,6 +38,8 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutput
 	Metadata() *map[string]*string
 	SetMetadata(val *map[string]*string)
 	MetadataInput() *map[string]*string
+	MultiZoneConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfigOutputReference
+	MultiZoneConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfig
 	Network() *string
 	SetNetwork(val *string)
 	NetworkInput() *string
@@ -97,11 +99,13 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutput
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutMultiZoneConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfig)
 	PutNodeGroupAffinity(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity)
 	PutReservationAffinity(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigReservationAffinity)
 	PutShieldedInstanceConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigShieldedInstanceConfig)
 	ResetInternalIpOnly()
 	ResetMetadata()
+	ResetMultiZoneConfig()
 	ResetNetwork()
 	ResetNodeGroupAffinity()
 	ResetPrivateIpv6GoogleAccess()
@@ -212,6 +216,26 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
 	_jsii_.Get(
 		j,
 		"metadataInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference) MultiZoneConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfigOutputReference {
+	var returns DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfigOutputReference
+	_jsii_.Get(
+		j,
+		"multiZoneConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference) MultiZoneConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfig {
+	var returns *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfig
+	_jsii_.Get(
+		j,
+		"multiZoneConfigInput",
 		&returns,
 	)
 	return returns
@@ -805,6 +829,17 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
 	return returns
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference) PutMultiZoneConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfig) {
+	if err := d.validatePutMultiZoneConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putMultiZoneConfig",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference) PutNodeGroupAffinity(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity) {
 	if err := d.validatePutNodeGroupAffinityParameters(value); err != nil {
 		panic(err)
@@ -850,6 +885,14 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
 	_jsii_.InvokeVoid(
 		d,
 		"resetMetadata",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference) ResetMultiZoneConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMultiZoneConfig",
 		nil, // no parameters
 	)
 }

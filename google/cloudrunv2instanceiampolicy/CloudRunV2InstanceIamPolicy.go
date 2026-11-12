@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_policy google_cloud_run_v2_instance_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_policy google_cloud_run_v2_instance_iam_policy}.
 type CloudRunV2InstanceIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_CloudRunV2InstanceIamPolicy) TerraformResourceType() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_policy google_cloud_run_v2_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_policy google_cloud_run_v2_instance_iam_policy} Resource.
 func NewCloudRunV2InstanceIamPolicy(scope constructs.Construct, id *string, config *CloudRunV2InstanceIamPolicyConfig) CloudRunV2InstanceIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewCloudRunV2InstanceIamPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_policy google_cloud_run_v2_instance_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_policy google_cloud_run_v2_instance_iam_policy} Resource.
 func NewCloudRunV2InstanceIamPolicy_Override(c CloudRunV2InstanceIamPolicy, scope constructs.Construct, id *string, config *CloudRunV2InstanceIamPolicyConfig) {
 	_init_.Initialize()
 

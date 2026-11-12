@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_service_lb_policies google_network_services_service_lb_policies}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_service_lb_policies google_network_services_service_lb_policies}.
 type NetworkServicesServiceLbPolicies interface {
 	cdktn.TerraformResource
 	AutoCapacityDrain() NetworkServicesServiceLbPoliciesAutoCapacityDrainOutputReference
@@ -650,7 +650,7 @@ func (j *jsiiProxy_NetworkServicesServiceLbPolicies) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
 func NewNetworkServicesServiceLbPolicies(scope constructs.Construct, id *string, config *NetworkServicesServiceLbPoliciesConfig) NetworkServicesServiceLbPolicies {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewNetworkServicesServiceLbPolicies(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_service_lb_policies google_network_services_service_lb_policies} Resource.
 func NewNetworkServicesServiceLbPolicies_Override(n NetworkServicesServiceLbPolicies, scope constructs.Construct, id *string, config *NetworkServicesServiceLbPoliciesConfig) {
 	_init_.Initialize()
 

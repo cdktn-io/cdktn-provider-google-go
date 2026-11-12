@@ -79,6 +79,10 @@ func (s *jsiiProxy_StorageManagedFolder) validateOverrideLogicalIdParameters(new
 	return nil
 }
 
+func (s *jsiiProxy_StorageManagedFolder) validatePutRapidCacheConfigParameters(value *StorageManagedFolderRapidCacheConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageManagedFolder) validatePutTimeoutsParameters(value *StorageManagedFolderTimeouts) error {
 	return nil
 }

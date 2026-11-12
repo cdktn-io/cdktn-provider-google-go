@@ -7,7 +7,7 @@ package geminidataanalyticsdataagent
 type GeminiDataAnalyticsDataAgentDataAnalyticsAgentPublishedContextUserFunctions struct {
 	// bq_routines block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent#bq_routines GeminiDataAnalyticsDataAgent#bq_routines}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/gemini_data_analytics_data_agent#bq_routines GeminiDataAnalyticsDataAgent#bq_routines}
 	BqRoutines interface{} `field:"optional" json:"bqRoutines" yaml:"bqRoutines"`
 }
 

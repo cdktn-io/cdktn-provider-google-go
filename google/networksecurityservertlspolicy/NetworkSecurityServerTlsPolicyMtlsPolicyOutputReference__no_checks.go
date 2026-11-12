@@ -59,6 +59,10 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) vali
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) validateSetClientValidationRelaxationsParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) validateSetClientValidationTrustConfigParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance google_cloud_run_v2_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance google_cloud_run_v2_instance}.
 type CloudRunV2Instance interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -1065,7 +1065,7 @@ func (j *jsiiProxy_CloudRunV2Instance) VolumesInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance google_cloud_run_v2_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance google_cloud_run_v2_instance} Resource.
 func NewCloudRunV2Instance(scope constructs.Construct, id *string, config *CloudRunV2InstanceConfig) CloudRunV2Instance {
 	_init_.Initialize()
 
@@ -1083,7 +1083,7 @@ func NewCloudRunV2Instance(scope constructs.Construct, id *string, config *Cloud
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance google_cloud_run_v2_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance google_cloud_run_v2_instance} Resource.
 func NewCloudRunV2Instance_Override(c CloudRunV2Instance, scope constructs.Construct, id *string, config *CloudRunV2InstanceConfig) {
 	_init_.Initialize()
 

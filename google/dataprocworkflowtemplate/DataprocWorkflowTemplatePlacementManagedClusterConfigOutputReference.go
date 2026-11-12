@@ -46,8 +46,12 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference interf
 	LifecycleConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig
 	MasterConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfigOutputReference
 	MasterConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig
+	MasterFlexibleConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfigOutputReference
+	MasterFlexibleConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfig
 	SecondaryWorkerConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference
 	SecondaryWorkerConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig
+	SecondaryWorkerFlexibleConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfigOutputReference
+	SecondaryWorkerFlexibleConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfig
 	SecurityConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfigOutputReference
 	SecurityConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig
 	SoftwareConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfigOutputReference
@@ -68,6 +72,8 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference interf
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WorkerConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfigOutputReference
 	WorkerConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig
+	WorkerFlexibleConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfigOutputReference
+	WorkerFlexibleConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfig
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -99,10 +105,13 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference interf
 	PutInitializationActions(value interface{})
 	PutLifecycleConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigLifecycleConfig)
 	PutMasterConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterConfig)
+	PutMasterFlexibleConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfig)
 	PutSecondaryWorkerConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig)
+	PutSecondaryWorkerFlexibleConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfig)
 	PutSecurityConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecurityConfig)
 	PutSoftwareConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSoftwareConfig)
 	PutWorkerConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig)
+	PutWorkerFlexibleConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfig)
 	ResetAutoscalingConfig()
 	ResetEncryptionConfig()
 	ResetEndpointConfig()
@@ -110,12 +119,15 @@ type DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference interf
 	ResetInitializationActions()
 	ResetLifecycleConfig()
 	ResetMasterConfig()
+	ResetMasterFlexibleConfig()
 	ResetSecondaryWorkerConfig()
+	ResetSecondaryWorkerFlexibleConfig()
 	ResetSecurityConfig()
 	ResetSoftwareConfig()
 	ResetStagingBucket()
 	ResetTempBucket()
 	ResetWorkerConfig()
+	ResetWorkerFlexibleConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -321,6 +333,26 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	return returns
 }
 
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) MasterFlexibleConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfigOutputReference {
+	var returns DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfigOutputReference
+	_jsii_.Get(
+		j,
+		"masterFlexibleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) MasterFlexibleConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfig {
+	var returns *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfig
+	_jsii_.Get(
+		j,
+		"masterFlexibleConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) SecondaryWorkerConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference {
 	var returns DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfigOutputReference
 	_jsii_.Get(
@@ -336,6 +368,26 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	_jsii_.Get(
 		j,
 		"secondaryWorkerConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) SecondaryWorkerFlexibleConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfigOutputReference {
+	var returns DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfigOutputReference
+	_jsii_.Get(
+		j,
+		"secondaryWorkerFlexibleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) SecondaryWorkerFlexibleConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfig {
+	var returns *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfig
+	_jsii_.Get(
+		j,
+		"secondaryWorkerFlexibleConfigInput",
 		&returns,
 	)
 	return returns
@@ -456,6 +508,26 @@ func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	_jsii_.Get(
 		j,
 		"workerConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) WorkerFlexibleConfig() DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfigOutputReference {
+	var returns DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfigOutputReference
+	_jsii_.Get(
+		j,
+		"workerFlexibleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) WorkerFlexibleConfigInput() *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfig {
+	var returns *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfig
+	_jsii_.Get(
+		j,
+		"workerFlexibleConfigInput",
 		&returns,
 	)
 	return returns
@@ -829,6 +901,17 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	)
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) PutMasterFlexibleConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfig) {
+	if err := d.validatePutMasterFlexibleConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putMasterFlexibleConfig",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) PutSecondaryWorkerConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig) {
 	if err := d.validatePutSecondaryWorkerConfigParameters(value); err != nil {
 		panic(err)
@@ -836,6 +919,17 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	_jsii_.InvokeVoid(
 		d,
 		"putSecondaryWorkerConfig",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) PutSecondaryWorkerFlexibleConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfig) {
+	if err := d.validatePutSecondaryWorkerFlexibleConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putSecondaryWorkerFlexibleConfig",
 		[]interface{}{value},
 	)
 }
@@ -869,6 +963,17 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	_jsii_.InvokeVoid(
 		d,
 		"putWorkerConfig",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) PutWorkerFlexibleConfig(value *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfig) {
+	if err := d.validatePutWorkerFlexibleConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putWorkerFlexibleConfig",
 		[]interface{}{value},
 	)
 }
@@ -929,10 +1034,26 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	)
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) ResetMasterFlexibleConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMasterFlexibleConfig",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) ResetSecondaryWorkerConfig() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetSecondaryWorkerConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) ResetSecondaryWorkerFlexibleConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSecondaryWorkerFlexibleConfig",
 		nil, // no parameters
 	)
 }
@@ -973,6 +1094,14 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	_jsii_.InvokeVoid(
 		d,
 		"resetWorkerConfig",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) ResetWorkerFlexibleConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetWorkerFlexibleConfig",
 		nil, // no parameters
 	)
 }

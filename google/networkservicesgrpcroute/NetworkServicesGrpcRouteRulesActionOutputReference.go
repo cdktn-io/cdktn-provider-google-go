@@ -34,6 +34,9 @@ type NetworkServicesGrpcRouteRulesActionOutputReference interface {
 	FaultInjectionPolicyInput() *NetworkServicesGrpcRouteRulesActionFaultInjectionPolicy
 	// Experimental.
 	Fqn() *string
+	IdleTimeout() *string
+	SetIdleTimeout(val *string)
+	IdleTimeoutInput() *string
 	InternalValue() *NetworkServicesGrpcRouteRulesAction
 	SetInternalValue(val *NetworkServicesGrpcRouteRulesAction)
 	RetryPolicy() NetworkServicesGrpcRouteRulesActionRetryPolicyOutputReference
@@ -78,6 +81,7 @@ type NetworkServicesGrpcRouteRulesActionOutputReference interface {
 	PutRetryPolicy(value *NetworkServicesGrpcRouteRulesActionRetryPolicy)
 	ResetDestinations()
 	ResetFaultInjectionPolicy()
+	ResetIdleTimeout()
 	ResetRetryPolicy()
 	ResetTimeout()
 	// Produce the Token's value at resolution time.
@@ -170,6 +174,26 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) Fqn() *st
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) IdleTimeout() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idleTimeout",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) IdleTimeoutInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idleTimeoutInput",
 		&returns,
 	)
 	return returns
@@ -291,6 +315,17 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference)SetComplex
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference)SetIdleTimeout(val *string) {
+	if err := j.validateSetIdleTimeoutParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"idleTimeout",
 		val,
 	)
 }
@@ -570,6 +605,14 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) ResetFaul
 	_jsii_.InvokeVoid(
 		n,
 		"resetFaultInjectionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) ResetIdleTimeout() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetIdleTimeout",
 		nil, // no parameters
 	)
 }

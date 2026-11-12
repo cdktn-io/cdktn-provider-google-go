@@ -19,6 +19,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "availableMaintenanceVersions", GoGetter: "AvailableMaintenanceVersions"},
 			_jsii_.MemberProperty{JsiiProperty: "backupdrBackup", GoGetter: "BackupdrBackup"},
 			_jsii_.MemberProperty{JsiiProperty: "backupdrBackupInput", GoGetter: "BackupdrBackupInput"},
+			_jsii_.MemberProperty{JsiiProperty: "blueGreenDeployment", GoGetter: "BlueGreenDeployment"},
+			_jsii_.MemberProperty{JsiiProperty: "blueGreenDeploymentInput", GoGetter: "BlueGreenDeploymentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "clone", GoGetter: "Clone"},
 			_jsii_.MemberProperty{JsiiProperty: "cloneInput", GoGetter: "CloneInput"},
@@ -26,6 +28,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "connectionName", GoGetter: "ConnectionName"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "databaseCenterIntegration", GoGetter: "DatabaseCenterIntegration"},
+			_jsii_.MemberProperty{JsiiProperty: "databaseCenterIntegrationInput", GoGetter: "DatabaseCenterIntegrationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "databaseVersion", GoGetter: "DatabaseVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "databaseVersionInput", GoGetter: "DatabaseVersionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},
@@ -90,6 +94,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberProperty{JsiiProperty: "pscServiceAttachmentLink", GoGetter: "PscServiceAttachmentLink"},
 			_jsii_.MemberProperty{JsiiProperty: "publicIpAddress", GoGetter: "PublicIpAddress"},
+			_jsii_.MemberMethod{JsiiMethod: "putBlueGreenDeployment", GoMethod: "PutBlueGreenDeployment"},
 			_jsii_.MemberMethod{JsiiMethod: "putClone", GoMethod: "PutClone"},
 			_jsii_.MemberMethod{JsiiMethod: "putPointInTimeRestoreContext", GoMethod: "PutPointInTimeRestoreContext"},
 			_jsii_.MemberMethod{JsiiMethod: "putReplicaConfiguration", GoMethod: "PutReplicaConfiguration"},
@@ -108,7 +113,9 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "replicationCluster", GoGetter: "ReplicationCluster"},
 			_jsii_.MemberProperty{JsiiProperty: "replicationClusterInput", GoGetter: "ReplicationClusterInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBackupdrBackup", GoMethod: "ResetBackupdrBackup"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBlueGreenDeployment", GoMethod: "ResetBlueGreenDeployment"},
 			_jsii_.MemberMethod{JsiiMethod: "resetClone", GoMethod: "ResetClone"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDatabaseCenterIntegration", GoMethod: "ResetDatabaseCenterIntegration"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionProtection", GoMethod: "ResetDeletionProtection"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEncryptionConfidentialMode", GoMethod: "ResetEncryptionConfidentialMode"},
@@ -167,6 +174,118 @@ func init() {
 		func() interface{} {
 			j := jsiiProxy_SqlDatabaseInstance{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceBlueGreenDeployment",
+		reflect.TypeOf((*SqlDatabaseInstanceBlueGreenDeployment)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceBlueGreenDeploymentOutputReference",
+		reflect.TypeOf((*SqlDatabaseInstanceBlueGreenDeploymentOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "activeEnvironment", GoGetter: "ActiveEnvironment"},
+			_jsii_.MemberProperty{JsiiProperty: "activeEnvironmentInput", GoGetter: "ActiveEnvironmentInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "deleteOldSourceOnDestroy", GoGetter: "DeleteOldSourceOnDestroy"},
+			_jsii_.MemberProperty{JsiiProperty: "deleteOldSourceOnDestroyInput", GoGetter: "DeleteOldSourceOnDestroyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "deploymentName", GoGetter: "DeploymentName"},
+			_jsii_.MemberProperty{JsiiProperty: "deploymentNameInput", GoGetter: "DeploymentNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "oldSourceInstanceConnectionName", GoGetter: "OldSourceInstanceConnectionName"},
+			_jsii_.MemberProperty{JsiiProperty: "oldSourceInstanceName", GoGetter: "OldSourceInstanceName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetActiveEnvironment", GoMethod: "ResetActiveEnvironment"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDeleteOldSourceOnDestroy", GoMethod: "ResetDeleteOldSourceOnDestroy"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTargetDatabaseVersion", GoMethod: "ResetTargetDatabaseVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "targetDatabaseVersion", GoGetter: "TargetDatabaseVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "targetDatabaseVersionInput", GoGetter: "TargetDatabaseVersionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "targetInstanceConnectionName", GoGetter: "TargetInstanceConnectionName"},
+			_jsii_.MemberProperty{JsiiProperty: "targetInstanceIpAddresses", GoGetter: "TargetInstanceIpAddresses"},
+			_jsii_.MemberProperty{JsiiProperty: "targetInstanceName", GoGetter: "TargetInstanceName"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SqlDatabaseInstanceBlueGreenDeploymentOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddresses",
+		reflect.TypeOf((*SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddresses)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddressesList",
+		reflect.TypeOf((*SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddressesList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddressesList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddressesOutputReference",
+		reflect.TypeOf((*SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddressesOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ipAddress", GoGetter: "IpAddress"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "timeToRetire", GoGetter: "TimeToRetire"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+		},
+		func() interface{} {
+			j := jsiiProxy_SqlDatabaseInstanceBlueGreenDeploymentTargetInstanceIpAddressesOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
@@ -1365,28 +1484,6 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceSettingsIpConfigurationPscConfig",
 		reflect.TypeOf((*SqlDatabaseInstanceSettingsIpConfigurationPscConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceSettingsIpConfigurationPscConfigList",
-		reflect.TypeOf((*SqlDatabaseInstanceSettingsIpConfigurationPscConfigList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
 	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference",

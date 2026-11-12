@@ -701,6 +701,14 @@ func (j *jsiiProxy_NetappVolume) validateSetSmbSettingsParameters(val *[]*string
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolume) validateSetSnapReserveParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolume) validateSetSnapshotDirectoryParameters(val interface{}) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_insights_report_config google_storage_insights_report_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_insights_report_config google_storage_insights_report_config}.
 type StorageInsightsReportConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -39,6 +39,7 @@ type StorageInsightsReportConfig interface {
 	DisplayName() *string
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
+	EffectiveLabels() cdktn.StringMap
 	ForceDestroy() interface{}
 	SetForceDestroy(val interface{})
 	ForceDestroyInput() interface{}
@@ -55,6 +56,9 @@ type StorageInsightsReportConfig interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -84,6 +88,7 @@ type StorageInsightsReportConfig interface {
 	RawOverrides() interface{}
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -193,6 +198,7 @@ type StorageInsightsReportConfig interface {
 	ResetForceDestroy()
 	ResetFrequencyOptions()
 	ResetId()
+	ResetLabels()
 	ResetObjectMetadataReportOptions()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -337,6 +343,16 @@ func (j *jsiiProxy_StorageInsightsReportConfig) DisplayNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_StorageInsightsReportConfig) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageInsightsReportConfig) ForceDestroy() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -422,6 +438,26 @@ func (j *jsiiProxy_StorageInsightsReportConfig) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -577,6 +613,16 @@ func (j *jsiiProxy_StorageInsightsReportConfig) TerraformGeneratorMetadata() *cd
 	return returns
 }
 
+func (j *jsiiProxy_StorageInsightsReportConfig) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageInsightsReportConfig) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -618,7 +664,7 @@ func (j *jsiiProxy_StorageInsightsReportConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewStorageInsightsReportConfig(scope constructs.Construct, id *string, config *StorageInsightsReportConfigConfig) StorageInsightsReportConfig {
 	_init_.Initialize()
 
@@ -636,7 +682,7 @@ func NewStorageInsightsReportConfig(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_insights_report_config google_storage_insights_report_config} Resource.
 func NewStorageInsightsReportConfig_Override(s StorageInsightsReportConfig, scope constructs.Construct, id *string, config *StorageInsightsReportConfigConfig) {
 	_init_.Initialize()
 
@@ -725,6 +771,17 @@ func (j *jsiiProxy_StorageInsightsReportConfig)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageInsightsReportConfig)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -1260,6 +1317,14 @@ func (s *jsiiProxy_StorageInsightsReportConfig) ResetId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageInsightsReportConfig) ResetLabels() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

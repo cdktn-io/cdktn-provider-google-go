@@ -47,6 +47,10 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClust
 	return nil
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference) validatePutMultiZoneConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigMultiZoneConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigOutputReference) validatePutNodeGroupAffinityParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigGceClusterConfigNodeGroupAffinity) error {
 	return nil
 }

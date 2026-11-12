@@ -5,11 +5,11 @@ package cloudrunv2instanceiambinding
 
 
 type CloudRunV2InstanceIamBindingCondition struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_binding#expression CloudRunV2InstanceIamBinding#expression}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_binding#expression CloudRunV2InstanceIamBinding#expression}.
 	Expression *string `field:"required" json:"expression" yaml:"expression"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_binding#title CloudRunV2InstanceIamBinding#title}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_binding#title CloudRunV2InstanceIamBinding#title}.
 	Title *string `field:"required" json:"title" yaml:"title"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_binding#description CloudRunV2InstanceIamBinding#description}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_binding#description CloudRunV2InstanceIamBinding#description}.
 	Description *string `field:"optional" json:"description" yaml:"description"`
 }
 

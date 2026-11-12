@@ -30,6 +30,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
 			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
 			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "disallowUnspecifiedMode", GoGetter: "DisallowUnspecifiedMode"},
+			_jsii_.MemberProperty{JsiiProperty: "disallowUnspecifiedModeInput", GoGetter: "DisallowUnspecifiedModeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dockerConfig", GoGetter: "DockerConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "dockerConfigInput", GoGetter: "DockerConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "effectiveLabels", GoGetter: "EffectiveLabels"},
@@ -70,6 +72,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "platformLogsConfig", GoGetter: "PlatformLogsConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "platformLogsConfigInput", GoGetter: "PlatformLogsConfigInput"},
 			_jsii_.MemberProperty{JsiiProperty: "project", GoGetter: "Project"},
 			_jsii_.MemberProperty{JsiiProperty: "projectInput", GoGetter: "ProjectInput"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
@@ -77,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putCleanupPolicies", GoMethod: "PutCleanupPolicies"},
 			_jsii_.MemberMethod{JsiiMethod: "putDockerConfig", GoMethod: "PutDockerConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putMavenConfig", GoMethod: "PutMavenConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "putPlatformLogsConfig", GoMethod: "PutPlatformLogsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putRemoteRepositoryConfig", GoMethod: "PutRemoteRepositoryConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "putVirtualRepositoryConfig", GoMethod: "PutVirtualRepositoryConfig"},
@@ -92,6 +97,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetCleanupPolicyDryRun", GoMethod: "ResetCleanupPolicyDryRun"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDeletionPolicy", GoMethod: "ResetDeletionPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDisallowUnspecifiedMode", GoMethod: "ResetDisallowUnspecifiedMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDockerConfig", GoMethod: "ResetDockerConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKmsKeyName", GoMethod: "ResetKmsKeyName"},
@@ -100,6 +106,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetMavenConfig", GoMethod: "ResetMavenConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMode", GoMethod: "ResetMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPlatformLogsConfig", GoMethod: "ResetPlatformLogsConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRemoteRepositoryConfig", GoMethod: "ResetRemoteRepositoryConfig"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
@@ -378,6 +385,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_ArtifactRegistryRepositoryMavenConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.artifactRegistryRepository.ArtifactRegistryRepositoryPlatformLogsConfig",
+		reflect.TypeOf((*ArtifactRegistryRepositoryPlatformLogsConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.artifactRegistryRepository.ArtifactRegistryRepositoryPlatformLogsConfigOutputReference",
+		reflect.TypeOf((*ArtifactRegistryRepositoryPlatformLogsConfigOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "loggingState", GoGetter: "LoggingState"},
+			_jsii_.MemberProperty{JsiiProperty: "loggingStateInput", GoGetter: "LoggingStateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLoggingState", GoMethod: "ResetLoggingState"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSeverityLevel", GoMethod: "ResetSeverityLevel"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "severityLevel", GoGetter: "SeverityLevel"},
+			_jsii_.MemberProperty{JsiiProperty: "severityLevelInput", GoGetter: "SeverityLevelInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_ArtifactRegistryRepositoryPlatformLogsConfigOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

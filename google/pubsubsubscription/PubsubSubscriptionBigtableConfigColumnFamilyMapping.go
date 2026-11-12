@@ -7,11 +7,11 @@ package pubsubsubscription
 type PubsubSubscriptionBigtableConfigColumnFamilyMapping struct {
 	// delimited_key block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/pubsub_subscription#delimited_key PubsubSubscription#delimited_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/pubsub_subscription#delimited_key PubsubSubscription#delimited_key}
 	DelimitedKey *PubsubSubscriptionBigtableConfigColumnFamilyMappingDelimitedKey `field:"optional" json:"delimitedKey" yaml:"delimitedKey"`
 	// row_key_schema block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/pubsub_subscription#row_key_schema PubsubSubscription#row_key_schema}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/pubsub_subscription#row_key_schema PubsubSubscription#row_key_schema}
 	RowKeySchema *PubsubSubscriptionBigtableConfigColumnFamilyMappingRowKeySchema `field:"optional" json:"rowKeySchema" yaml:"rowKeySchema"`
 }
 

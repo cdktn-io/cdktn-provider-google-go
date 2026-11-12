@@ -79,6 +79,10 @@ func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) validateSetZonesParameters(val *[]*string) error {
+	return nil
+}
+
 func validateNewRedisClusterZoneDistributionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

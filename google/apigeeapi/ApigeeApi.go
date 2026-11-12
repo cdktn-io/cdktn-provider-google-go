@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apigee_api google_apigee_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/apigee_api google_apigee_api}.
 type ApigeeApi interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -40,6 +40,7 @@ type ApigeeApi interface {
 	DetectMd5Hash() *string
 	SetDetectMd5Hash(val *string)
 	DetectMd5HashInput() *string
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -51,6 +52,9 @@ type ApigeeApi interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	LatestRevisionId() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -79,6 +83,7 @@ type ApigeeApi interface {
 	Revision() *[]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -181,6 +186,7 @@ type ApigeeApi interface {
 	ResetDeletionPolicy()
 	ResetDetectMd5Hash()
 	ResetId()
+	ResetLabels()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -322,6 +328,16 @@ func (j *jsiiProxy_ApigeeApi) DetectMd5HashInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ApigeeApi) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApigeeApi) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -367,6 +383,26 @@ func (j *jsiiProxy_ApigeeApi) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeApi) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApigeeApi) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -512,6 +548,16 @@ func (j *jsiiProxy_ApigeeApi) TerraformGeneratorMetadata() *cdktn.TerraformProvi
 	return returns
 }
 
+func (j *jsiiProxy_ApigeeApi) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApigeeApi) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -553,7 +599,7 @@ func (j *jsiiProxy_ApigeeApi) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apigee_api google_apigee_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/apigee_api google_apigee_api} Resource.
 func NewApigeeApi(scope constructs.Construct, id *string, config *ApigeeApiConfig) ApigeeApi {
 	_init_.Initialize()
 
@@ -571,7 +617,7 @@ func NewApigeeApi(scope constructs.Construct, id *string, config *ApigeeApiConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/apigee_api google_apigee_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/apigee_api google_apigee_api} Resource.
 func NewApigeeApi_Override(a ApigeeApi, scope constructs.Construct, id *string, config *ApigeeApiConfig) {
 	_init_.Initialize()
 
@@ -660,6 +706,17 @@ func (j *jsiiProxy_ApigeeApi)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApigeeApi)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -1127,6 +1184,14 @@ func (a *jsiiProxy_ApigeeApi) ResetId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApigeeApi) ResetLabels() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

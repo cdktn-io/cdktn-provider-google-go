@@ -131,6 +131,10 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetGeminiGcpEnablem
 	return nil
 }
 
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetHasCustomInstructionsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) validateSetIdParameters(val *string) error {
 	return nil
 }

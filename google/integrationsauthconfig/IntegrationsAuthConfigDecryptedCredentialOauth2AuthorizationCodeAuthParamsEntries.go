@@ -1,0 +1,17 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package integrationsauthconfig
+
+
+type IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntries struct {
+	// key block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/integrations_auth_config#key IntegrationsAuthConfig#key}
+	Key *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesKey `field:"optional" json:"key" yaml:"key"`
+	// value block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/integrations_auth_config#value IntegrationsAuthConfig#value}
+	Value *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsEntriesValue `field:"optional" json:"value" yaml:"value"`
+}
+

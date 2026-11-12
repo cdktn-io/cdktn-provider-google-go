@@ -139,6 +139,10 @@ func (j *jsiiProxy_BigqueryDataset) validateSetDefaultPartitionExpirationMsParam
 	return nil
 }
 
+func (j *jsiiProxy_BigqueryDataset) validateSetDefaultRoundingModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BigqueryDataset) validateSetDefaultTableExpirationMsParameters(val *float64) error {
 	return nil
 }

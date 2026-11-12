@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy}.
 type NetworkSecurityTlsInspectionPolicy interface {
 	cdktn.TerraformResource
 	CaPool() *string
@@ -20,6 +20,9 @@ type NetworkSecurityTlsInspectionPolicy interface {
 	CaPoolInput() *string
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	CertificateIssuanceMode() *string
+	SetCertificateIssuanceMode(val *string)
+	CertificateIssuanceModeInput() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -194,6 +197,7 @@ type NetworkSecurityTlsInspectionPolicy interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetCertificateIssuanceMode()
 	ResetCustomTlsFeatures()
 	ResetDeletionPolicy()
 	ResetDescription()
@@ -260,6 +264,26 @@ func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) CdktfStack() cdktn.Terraf
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) CertificateIssuanceMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"certificateIssuanceMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) CertificateIssuanceModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"certificateIssuanceModeInput",
 		&returns,
 	)
 	return returns
@@ -676,7 +700,7 @@ func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
 func NewNetworkSecurityTlsInspectionPolicy(scope constructs.Construct, id *string, config *NetworkSecurityTlsInspectionPolicyConfig) NetworkSecurityTlsInspectionPolicy {
 	_init_.Initialize()
 
@@ -694,7 +718,7 @@ func NewNetworkSecurityTlsInspectionPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_security_tls_inspection_policy google_network_security_tls_inspection_policy} Resource.
 func NewNetworkSecurityTlsInspectionPolicy_Override(n NetworkSecurityTlsInspectionPolicy, scope constructs.Construct, id *string, config *NetworkSecurityTlsInspectionPolicyConfig) {
 	_init_.Initialize()
 
@@ -712,6 +736,17 @@ func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy)SetCaPool(val *string) {
 	_jsii_.Set(
 		j,
 		"caPool",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy)SetCertificateIssuanceMode(val *string) {
+	if err := j.validateSetCertificateIssuanceModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"certificateIssuanceMode",
 		val,
 	)
 }
@@ -1293,6 +1328,14 @@ func (n *jsiiProxy_NetworkSecurityTlsInspectionPolicy) RegisterProviderFeatureUs
 		n,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityTlsInspectionPolicy) ResetCertificateIssuanceMode() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetCertificateIssuanceMode",
+		nil, // no parameters
 	)
 }
 

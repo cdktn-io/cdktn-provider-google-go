@@ -34,6 +34,8 @@ type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DebugQueries() DataplexDatascanDataQualitySpecRulesDebugQueriesList
+	DebugQueriesInput() interface{}
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
@@ -108,6 +110,7 @@ type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDebugQueries(value interface{})
 	PutNonNullExpectation(value *DataplexDatascanDataQualitySpecRulesNonNullExpectation)
 	PutRangeExpectation(value *DataplexDatascanDataQualitySpecRulesRangeExpectation)
 	PutRegexExpectation(value *DataplexDatascanDataQualitySpecRulesRegexExpectation)
@@ -120,6 +123,7 @@ type DataplexDatascanDataQualitySpecRulesOutputReference interface {
 	PutUniquenessExpectation(value *DataplexDatascanDataQualitySpecRulesUniquenessExpectation)
 	ResetAttributes()
 	ResetColumn()
+	ResetDebugQueries()
 	ResetDescription()
 	ResetIgnoreNull()
 	ResetName()
@@ -215,6 +219,26 @@ func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) Creation
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) DebugQueries() DataplexDatascanDataQualitySpecRulesDebugQueriesList {
+	var returns DataplexDatascanDataQualitySpecRulesDebugQueriesList
+	_jsii_.Get(
+		j,
+		"debugQueries",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) DebugQueriesInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"debugQueriesInput",
 		&returns,
 	)
 	return returns
@@ -937,6 +961,17 @@ func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) Interpol
 	return returns
 }
 
+func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) PutDebugQueries(value interface{}) {
+	if err := d.validatePutDebugQueriesParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putDebugQueries",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) PutNonNullExpectation(value *DataplexDatascanDataQualitySpecRulesNonNullExpectation) {
 	if err := d.validatePutNonNullExpectationParameters(value); err != nil {
 		panic(err)
@@ -1059,6 +1094,14 @@ func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) ResetCol
 	_jsii_.InvokeVoid(
 		d,
 		"resetColumn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) ResetDebugQueries() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDebugQueries",
 		nil, // no parameters
 	)
 }

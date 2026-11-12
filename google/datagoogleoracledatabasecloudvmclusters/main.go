@@ -187,6 +187,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "location", GoGetter: "Location"},
 			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
 			_jsii_.MemberProperty{JsiiProperty: "network", GoGetter: "Network"},
+			_jsii_.MemberProperty{JsiiProperty: "odbDnsZone", GoGetter: "OdbDnsZone"},
 			_jsii_.MemberProperty{JsiiProperty: "odbNetwork", GoGetter: "OdbNetwork"},
 			_jsii_.MemberProperty{JsiiProperty: "odbSubnet", GoGetter: "OdbSubnet"},
 			_jsii_.MemberProperty{JsiiProperty: "project", GoGetter: "Project"},

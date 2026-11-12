@@ -186,6 +186,14 @@ func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validateSetGenerationScopesParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validateSetInternalValueParameters(val *DataplexDatascanDataDocumentationSpec) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err

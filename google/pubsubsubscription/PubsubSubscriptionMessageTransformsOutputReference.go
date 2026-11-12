@@ -25,6 +25,8 @@ type PubsubSubscriptionMessageTransformsOutputReference interface {
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
+	Compression() PubsubSubscriptionMessageTransformsCompressionOutputReference
+	CompressionInput() *PubsubSubscriptionMessageTransformsCompression
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -72,8 +74,10 @@ type PubsubSubscriptionMessageTransformsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAiInference(value *PubsubSubscriptionMessageTransformsAiInference)
+	PutCompression(value *PubsubSubscriptionMessageTransformsCompression)
 	PutJavascriptUdf(value *PubsubSubscriptionMessageTransformsJavascriptUdf)
 	ResetAiInference()
+	ResetCompression()
 	ResetDisabled()
 	ResetJavascriptUdf()
 	// Produce the Token's value at resolution time.
@@ -126,6 +130,26 @@ func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) ComplexOb
 	_jsii_.Get(
 		j,
 		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) Compression() PubsubSubscriptionMessageTransformsCompressionOutputReference {
+	var returns PubsubSubscriptionMessageTransformsCompressionOutputReference
+	_jsii_.Get(
+		j,
+		"compression",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) CompressionInput() *PubsubSubscriptionMessageTransformsCompression {
+	var returns *PubsubSubscriptionMessageTransformsCompression
+	_jsii_.Get(
+		j,
+		"compressionInput",
 		&returns,
 	)
 	return returns
@@ -512,6 +536,17 @@ func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) PutAiInfe
 	)
 }
 
+func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) PutCompression(value *PubsubSubscriptionMessageTransformsCompression) {
+	if err := p.validatePutCompressionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putCompression",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) PutJavascriptUdf(value *PubsubSubscriptionMessageTransformsJavascriptUdf) {
 	if err := p.validatePutJavascriptUdfParameters(value); err != nil {
 		panic(err)
@@ -527,6 +562,14 @@ func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) ResetAiIn
 	_jsii_.InvokeVoid(
 		p,
 		"resetAiInference",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PubsubSubscriptionMessageTransformsOutputReference) ResetCompression() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetCompression",
 		nil, // no parameters
 	)
 }

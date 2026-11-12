@@ -71,6 +71,10 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) validateSetIdleTimeoutParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesGrpcRouteRulesActionOutputReference) validateSetInternalValueParameters(val *NetworkServicesGrpcRouteRulesAction) error {
 	return nil
 }

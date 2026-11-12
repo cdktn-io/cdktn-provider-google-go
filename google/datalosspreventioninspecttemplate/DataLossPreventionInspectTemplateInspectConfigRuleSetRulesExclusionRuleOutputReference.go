@@ -32,6 +32,8 @@ type DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutp
 	DictionaryInput() *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionary
 	ExcludeByHotword() DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotwordOutputReference
 	ExcludeByHotwordInput() *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotword
+	ExcludeByImageFindings() DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsOutputReference
+	ExcludeByImageFindingsInput() *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings
 	ExcludeInfoTypes() DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypesOutputReference
 	ExcludeInfoTypesInput() *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypes
 	// Experimental.
@@ -77,10 +79,12 @@ type DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutp
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDictionary(value *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleDictionary)
 	PutExcludeByHotword(value *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByHotword)
+	PutExcludeByImageFindings(value *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings)
 	PutExcludeInfoTypes(value *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypes)
 	PutRegex(value *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleRegex)
 	ResetDictionary()
 	ResetExcludeByHotword()
+	ResetExcludeByImageFindings()
 	ResetExcludeInfoTypes()
 	ResetRegex()
 	// Produce the Token's value at resolution time.
@@ -163,6 +167,26 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
 	_jsii_.Get(
 		j,
 		"excludeByHotwordInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutputReference) ExcludeByImageFindings() DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsOutputReference {
+	var returns DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindingsOutputReference
+	_jsii_.Get(
+		j,
+		"excludeByImageFindings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutputReference) ExcludeByImageFindingsInput() *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings {
+	var returns *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings
+	_jsii_.Get(
+		j,
+		"excludeByImageFindingsInput",
 		&returns,
 	)
 	return returns
@@ -570,6 +594,17 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
 	)
 }
 
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutputReference) PutExcludeByImageFindings(value *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeByImageFindings) {
+	if err := d.validatePutExcludeByImageFindingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putExcludeByImageFindings",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutputReference) PutExcludeInfoTypes(value *DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleExcludeInfoTypes) {
 	if err := d.validatePutExcludeInfoTypesParameters(value); err != nil {
 		panic(err)
@@ -604,6 +639,14 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExc
 	_jsii_.InvokeVoid(
 		d,
 		"resetExcludeByHotword",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigRuleSetRulesExclusionRuleOutputReference) ResetExcludeByImageFindings() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetExcludeByImageFindings",
 		nil, // no parameters
 	)
 }

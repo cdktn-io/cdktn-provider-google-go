@@ -46,6 +46,8 @@ type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGener
 	InlineDataInput() *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsInlineData
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
+	SpeechMetadata() VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadataOutputReference
+	SpeechMetadataInput() *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadata
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -93,6 +95,7 @@ type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGener
 	PutFunctionCall(value *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsFunctionCall)
 	PutFunctionResponse(value *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsFunctionResponse)
 	PutInlineData(value *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsInlineData)
+	PutSpeechMetadata(value *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadata)
 	PutVideoMetadata(value *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsVideoMetadata)
 	ResetAudioTranscription()
 	ResetCodeExecutionResult()
@@ -101,6 +104,7 @@ type VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGener
 	ResetFunctionCall()
 	ResetFunctionResponse()
 	ResetInlineData()
+	ResetSpeechMetadata()
 	ResetText()
 	ResetThought()
 	ResetVideoMetadata()
@@ -304,6 +308,26 @@ func (j *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsOutputReference) SpeechMetadata() VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadataOutputReference {
+	var returns VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadataOutputReference
+	_jsii_.Get(
+		j,
+		"speechMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsOutputReference) SpeechMetadataInput() *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadata {
+	var returns *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadata
+	_jsii_.Get(
+		j,
+		"speechMetadataInput",
 		&returns,
 	)
 	return returns
@@ -757,6 +781,17 @@ func (v *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
 	)
 }
 
+func (v *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsOutputReference) PutSpeechMetadata(value *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadata) {
+	if err := v.validatePutSpeechMetadataParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		v,
+		"putSpeechMetadata",
+		[]interface{}{value},
+	)
+}
+
 func (v *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsOutputReference) PutVideoMetadata(value *VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsVideoMetadata) {
 	if err := v.validatePutVideoMetadataParameters(value); err != nil {
 		panic(err)
@@ -820,6 +855,14 @@ func (v *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizati
 	_jsii_.InvokeVoid(
 		v,
 		"resetInlineData",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsOutputReference) ResetSpeechMetadata() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetSpeechMetadata",
 		nil, // no parameters
 	)
 }

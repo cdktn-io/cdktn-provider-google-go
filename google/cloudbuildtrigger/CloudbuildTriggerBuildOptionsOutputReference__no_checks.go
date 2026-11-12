@@ -119,6 +119,10 @@ func (j *jsiiProxy_CloudbuildTriggerBuildOptionsOutputReference) validateSetWork
 	return nil
 }
 
+func (j *jsiiProxy_CloudbuildTriggerBuildOptionsOutputReference) validateSetWorkerReleaseParameters(val *string) error {
+	return nil
+}
+
 func validateNewCloudbuildTriggerBuildOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

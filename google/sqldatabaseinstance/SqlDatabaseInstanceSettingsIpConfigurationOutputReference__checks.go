@@ -124,32 +124,12 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) validatePutPscConfigParameters(value interface{}) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) validatePutPscConfigParameters(value *SqlDatabaseInstanceSettingsIpConfigurationPscConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
-	switch value.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *[]*SqlDatabaseInstanceSettingsIpConfigurationPscConfig:
-		value := value.(*[]*SqlDatabaseInstanceSettingsIpConfigurationPscConfig)
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	case []*SqlDatabaseInstanceSettingsIpConfigurationPscConfig:
-		value_ := value.([]*SqlDatabaseInstanceSettingsIpConfigurationPscConfig)
-		value := &value_
-		for idx_cd4240, v := range *value {
-			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
-				return err
-			}
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SqlDatabaseInstanceSettingsIpConfigurationPscConfig; received %#v (a %T)", value, value)
-		}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
 	}
 
 	return nil

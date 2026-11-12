@@ -46,6 +46,8 @@ type DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference interfa
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TransformationErrorHandling() DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandlingOutputReference
+	TransformationErrorHandlingInput() *DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandling
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -73,9 +75,11 @@ type DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference interfa
 	PutImageTransformations(value *DataLossPreventionDeidentifyTemplateDeidentifyConfigImageTransformations)
 	PutInfoTypeTransformations(value *DataLossPreventionDeidentifyTemplateDeidentifyConfigInfoTypeTransformations)
 	PutRecordTransformations(value *DataLossPreventionDeidentifyTemplateDeidentifyConfigRecordTransformations)
+	PutTransformationErrorHandling(value *DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandling)
 	ResetImageTransformations()
 	ResetInfoTypeTransformations()
 	ResetRecordTransformations()
+	ResetTransformationErrorHandling()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -216,6 +220,26 @@ func (j *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputRef
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference) TransformationErrorHandling() DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandlingOutputReference {
+	var returns DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandlingOutputReference
+	_jsii_.Get(
+		j,
+		"transformationErrorHandling",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference) TransformationErrorHandlingInput() *DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandling {
+	var returns *DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandling
+	_jsii_.Get(
+		j,
+		"transformationErrorHandlingInput",
 		&returns,
 	)
 	return returns
@@ -523,6 +547,17 @@ func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputRef
 	)
 }
 
+func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference) PutTransformationErrorHandling(value *DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandling) {
+	if err := d.validatePutTransformationErrorHandlingParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putTransformationErrorHandling",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference) ResetImageTransformations() {
 	_jsii_.InvokeVoid(
 		d,
@@ -543,6 +578,14 @@ func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputRef
 	_jsii_.InvokeVoid(
 		d,
 		"resetRecordTransformations",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference) ResetTransformationErrorHandling() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTransformationErrorHandling",
 		nil, // no parameters
 	)
 }

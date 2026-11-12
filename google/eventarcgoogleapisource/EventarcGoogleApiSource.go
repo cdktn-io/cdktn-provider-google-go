@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_google_api_source google_eventarc_google_api_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/eventarc_google_api_source google_eventarc_google_api_source}.
 type EventarcGoogleApiSource interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -79,9 +79,13 @@ type EventarcGoogleApiSource interface {
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	OrganizationSubscription() EventarcGoogleApiSourceOrganizationSubscriptionOutputReference
+	OrganizationSubscriptionInput() *EventarcGoogleApiSourceOrganizationSubscription
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
+	ProjectSubscriptions() EventarcGoogleApiSourceProjectSubscriptionsOutputReference
+	ProjectSubscriptionsInput() *EventarcGoogleApiSourceProjectSubscriptions
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -183,6 +187,8 @@ type EventarcGoogleApiSource interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutLoggingConfig(value *EventarcGoogleApiSourceLoggingConfig)
+	PutOrganizationSubscription(value *EventarcGoogleApiSourceOrganizationSubscription)
+	PutProjectSubscriptions(value *EventarcGoogleApiSourceProjectSubscriptions)
 	PutTimeouts(value *EventarcGoogleApiSourceTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -204,10 +210,12 @@ type EventarcGoogleApiSource interface {
 	ResetId()
 	ResetLabels()
 	ResetLoggingConfig()
+	ResetOrganizationSubscription()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetProject()
+	ResetProjectSubscriptions()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -586,6 +594,26 @@ func (j *jsiiProxy_EventarcGoogleApiSource) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_EventarcGoogleApiSource) OrganizationSubscription() EventarcGoogleApiSourceOrganizationSubscriptionOutputReference {
+	var returns EventarcGoogleApiSourceOrganizationSubscriptionOutputReference
+	_jsii_.Get(
+		j,
+		"organizationSubscription",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcGoogleApiSource) OrganizationSubscriptionInput() *EventarcGoogleApiSourceOrganizationSubscription {
+	var returns *EventarcGoogleApiSourceOrganizationSubscription
+	_jsii_.Get(
+		j,
+		"organizationSubscriptionInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EventarcGoogleApiSource) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -601,6 +629,26 @@ func (j *jsiiProxy_EventarcGoogleApiSource) ProjectInput() *string {
 	_jsii_.Get(
 		j,
 		"projectInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcGoogleApiSource) ProjectSubscriptions() EventarcGoogleApiSourceProjectSubscriptionsOutputReference {
+	var returns EventarcGoogleApiSourceProjectSubscriptionsOutputReference
+	_jsii_.Get(
+		j,
+		"projectSubscriptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventarcGoogleApiSource) ProjectSubscriptionsInput() *EventarcGoogleApiSourceProjectSubscriptions {
+	var returns *EventarcGoogleApiSourceProjectSubscriptions
+	_jsii_.Get(
+		j,
+		"projectSubscriptionsInput",
 		&returns,
 	)
 	return returns
@@ -717,7 +765,7 @@ func (j *jsiiProxy_EventarcGoogleApiSource) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_google_api_source google_eventarc_google_api_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/eventarc_google_api_source google_eventarc_google_api_source} Resource.
 func NewEventarcGoogleApiSource(scope constructs.Construct, id *string, config *EventarcGoogleApiSourceConfig) EventarcGoogleApiSource {
 	_init_.Initialize()
 
@@ -735,7 +783,7 @@ func NewEventarcGoogleApiSource(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/eventarc_google_api_source google_eventarc_google_api_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/eventarc_google_api_source google_eventarc_google_api_source} Resource.
 func NewEventarcGoogleApiSource_Override(e EventarcGoogleApiSource, scope constructs.Construct, id *string, config *EventarcGoogleApiSourceConfig) {
 	_init_.Initialize()
 
@@ -1304,6 +1352,28 @@ func (e *jsiiProxy_EventarcGoogleApiSource) PutLoggingConfig(value *EventarcGoog
 	)
 }
 
+func (e *jsiiProxy_EventarcGoogleApiSource) PutOrganizationSubscription(value *EventarcGoogleApiSourceOrganizationSubscription) {
+	if err := e.validatePutOrganizationSubscriptionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putOrganizationSubscription",
+		[]interface{}{value},
+	)
+}
+
+func (e *jsiiProxy_EventarcGoogleApiSource) PutProjectSubscriptions(value *EventarcGoogleApiSourceProjectSubscriptions) {
+	if err := e.validatePutProjectSubscriptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		e,
+		"putProjectSubscriptions",
+		[]interface{}{value},
+	)
+}
+
 func (e *jsiiProxy_EventarcGoogleApiSource) PutTimeouts(value *EventarcGoogleApiSourceTimeouts) {
 	if err := e.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1382,6 +1452,14 @@ func (e *jsiiProxy_EventarcGoogleApiSource) ResetLoggingConfig() {
 	)
 }
 
+func (e *jsiiProxy_EventarcGoogleApiSource) ResetOrganizationSubscription() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetOrganizationSubscription",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_EventarcGoogleApiSource) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		e,
@@ -1394,6 +1472,14 @@ func (e *jsiiProxy_EventarcGoogleApiSource) ResetProject() {
 	_jsii_.InvokeVoid(
 		e,
 		"resetProject",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventarcGoogleApiSource) ResetProjectSubscriptions() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetProjectSubscriptions",
 		nil, // no parameters
 	)
 }

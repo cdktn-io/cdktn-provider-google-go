@@ -59,6 +59,10 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionOutputReference) va
 	return nil
 }
 
+func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionOutputReference) validatePutImageOptimizationPolicyParameters(value *ComputeUrlMapPathMatcherDefaultRouteActionImageOptimizationPolicy) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeUrlMapPathMatcherDefaultRouteActionOutputReference) validatePutMaxStreamDurationParameters(value *ComputeUrlMapPathMatcherDefaultRouteActionMaxStreamDuration) error {
 	return nil
 }

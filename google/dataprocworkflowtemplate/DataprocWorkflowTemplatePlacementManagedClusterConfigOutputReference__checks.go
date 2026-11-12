@@ -190,7 +190,29 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	return nil
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutMasterFlexibleConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutSecondaryWorkerConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutSecondaryWorkerFlexibleConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
@@ -224,6 +246,17 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 }
 
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutWorkerConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutWorkerFlexibleConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}

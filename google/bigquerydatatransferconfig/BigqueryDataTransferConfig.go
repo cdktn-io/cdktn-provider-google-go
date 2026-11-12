@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_data_transfer_config google_bigquery_data_transfer_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/bigquery_data_transfer_config google_bigquery_data_transfer_config}.
 type BigqueryDataTransferConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -98,6 +98,8 @@ type BigqueryDataTransferConfig interface {
 	ScheduleInput() *string
 	ScheduleOptions() BigqueryDataTransferConfigScheduleOptionsOutputReference
 	ScheduleOptionsInput() *BigqueryDataTransferConfigScheduleOptions
+	ScheduleOptionsV2() BigqueryDataTransferConfigScheduleOptionsV2OutputReference
+	ScheduleOptionsV2Input() *BigqueryDataTransferConfigScheduleOptionsV2
 	SensitiveParams() BigqueryDataTransferConfigSensitiveParamsOutputReference
 	SensitiveParamsInput() *BigqueryDataTransferConfigSensitiveParams
 	ServiceAccountName() *string
@@ -193,6 +195,7 @@ type BigqueryDataTransferConfig interface {
 	PutEmailPreferences(value *BigqueryDataTransferConfigEmailPreferences)
 	PutEncryptionConfiguration(value *BigqueryDataTransferConfigEncryptionConfiguration)
 	PutScheduleOptions(value *BigqueryDataTransferConfigScheduleOptions)
+	PutScheduleOptionsV2(value *BigqueryDataTransferConfigScheduleOptionsV2)
 	PutSensitiveParams(value *BigqueryDataTransferConfigSensitiveParams)
 	PutTimeouts(value *BigqueryDataTransferConfigTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -223,6 +226,7 @@ type BigqueryDataTransferConfig interface {
 	ResetProject()
 	ResetSchedule()
 	ResetScheduleOptions()
+	ResetScheduleOptionsV2()
 	ResetSensitiveParams()
 	ResetServiceAccountName()
 	ResetTimeouts()
@@ -693,6 +697,26 @@ func (j *jsiiProxy_BigqueryDataTransferConfig) ScheduleOptionsInput() *BigqueryD
 	return returns
 }
 
+func (j *jsiiProxy_BigqueryDataTransferConfig) ScheduleOptionsV2() BigqueryDataTransferConfigScheduleOptionsV2OutputReference {
+	var returns BigqueryDataTransferConfigScheduleOptionsV2OutputReference
+	_jsii_.Get(
+		j,
+		"scheduleOptionsV2",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BigqueryDataTransferConfig) ScheduleOptionsV2Input() *BigqueryDataTransferConfigScheduleOptionsV2 {
+	var returns *BigqueryDataTransferConfigScheduleOptionsV2
+	_jsii_.Get(
+		j,
+		"scheduleOptionsV2Input",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BigqueryDataTransferConfig) SensitiveParams() BigqueryDataTransferConfigSensitiveParamsOutputReference {
 	var returns BigqueryDataTransferConfigSensitiveParamsOutputReference
 	_jsii_.Get(
@@ -784,7 +808,7 @@ func (j *jsiiProxy_BigqueryDataTransferConfig) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
 func NewBigqueryDataTransferConfig(scope constructs.Construct, id *string, config *BigqueryDataTransferConfigConfig) BigqueryDataTransferConfig {
 	_init_.Initialize()
 
@@ -802,7 +826,7 @@ func NewBigqueryDataTransferConfig(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/bigquery_data_transfer_config google_bigquery_data_transfer_config} Resource.
 func NewBigqueryDataTransferConfig_Override(b BigqueryDataTransferConfig, scope constructs.Construct, id *string, config *BigqueryDataTransferConfigConfig) {
 	_init_.Initialize()
 
@@ -1426,6 +1450,17 @@ func (b *jsiiProxy_BigqueryDataTransferConfig) PutScheduleOptions(value *Bigquer
 	)
 }
 
+func (b *jsiiProxy_BigqueryDataTransferConfig) PutScheduleOptionsV2(value *BigqueryDataTransferConfigScheduleOptionsV2) {
+	if err := b.validatePutScheduleOptionsV2Parameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		b,
+		"putScheduleOptionsV2",
+		[]interface{}{value},
+	)
+}
+
 func (b *jsiiProxy_BigqueryDataTransferConfig) PutSensitiveParams(value *BigqueryDataTransferConfigSensitiveParams) {
 	if err := b.validatePutSensitiveParamsParameters(value); err != nil {
 		panic(err)
@@ -1559,6 +1594,14 @@ func (b *jsiiProxy_BigqueryDataTransferConfig) ResetScheduleOptions() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetScheduleOptions",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BigqueryDataTransferConfig) ResetScheduleOptionsV2() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetScheduleOptionsV2",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan}.
 type BackupDrBackupPlan interface {
 	cdktn.TerraformResource
 	BackupPlanId() *string
@@ -51,6 +51,7 @@ type BackupDrBackupPlan interface {
 	DescriptionInput() *string
 	DiskBackupPlanProperties() BackupDrBackupPlanDiskBackupPlanPropertiesOutputReference
 	DiskBackupPlanPropertiesInput() *BackupDrBackupPlanDiskBackupPlanProperties
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -62,6 +63,9 @@ type BackupDrBackupPlan interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Labels() *map[string]*string
+	SetLabels(val *map[string]*string)
+	LabelsInput() *map[string]*string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -97,6 +101,7 @@ type BackupDrBackupPlan interface {
 	SupportedResourceTypes() *[]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -206,6 +211,7 @@ type BackupDrBackupPlan interface {
 	ResetDescription()
 	ResetDiskBackupPlanProperties()
 	ResetId()
+	ResetLabels()
 	ResetLogRetentionDays()
 	ResetMaxCustomOnDemandRetentionDays()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -450,6 +456,16 @@ func (j *jsiiProxy_BackupDrBackupPlan) DiskBackupPlanPropertiesInput() *BackupDr
 	return returns
 }
 
+func (j *jsiiProxy_BackupDrBackupPlan) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BackupDrBackupPlan) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -495,6 +511,26 @@ func (j *jsiiProxy_BackupDrBackupPlan) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan) Labels() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labels",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan) LabelsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"labelsInput",
 		&returns,
 	)
 	return returns
@@ -680,6 +716,16 @@ func (j *jsiiProxy_BackupDrBackupPlan) TerraformGeneratorMetadata() *cdktn.Terra
 	return returns
 }
 
+func (j *jsiiProxy_BackupDrBackupPlan) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BackupDrBackupPlan) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -731,7 +777,7 @@ func (j *jsiiProxy_BackupDrBackupPlan) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
 func NewBackupDrBackupPlan(scope constructs.Construct, id *string, config *BackupDrBackupPlanConfig) BackupDrBackupPlan {
 	_init_.Initialize()
 
@@ -749,7 +795,7 @@ func NewBackupDrBackupPlan(scope constructs.Construct, id *string, config *Backu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/backup_dr_backup_plan google_backup_dr_backup_plan} Resource.
 func NewBackupDrBackupPlan_Override(b BackupDrBackupPlan, scope constructs.Construct, id *string, config *BackupDrBackupPlanConfig) {
 	_init_.Initialize()
 
@@ -849,6 +895,17 @@ func (j *jsiiProxy_BackupDrBackupPlan)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BackupDrBackupPlan)SetLabels(val *map[string]*string) {
+	if err := j.validateSetLabelsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"labels",
 		val,
 	)
 }
@@ -1406,6 +1463,14 @@ func (b *jsiiProxy_BackupDrBackupPlan) ResetId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BackupDrBackupPlan) ResetLabels() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetLabels",
 		nil, // no parameters
 	)
 }

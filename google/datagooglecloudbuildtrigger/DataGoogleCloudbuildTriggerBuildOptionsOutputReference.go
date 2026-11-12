@@ -52,6 +52,7 @@ type DataGoogleCloudbuildTriggerBuildOptionsOutputReference interface {
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Volumes() DataGoogleCloudbuildTriggerBuildOptionsVolumesList
 	WorkerPool() *string
+	WorkerRelease() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -276,6 +277,16 @@ func (j *jsiiProxy_DataGoogleCloudbuildTriggerBuildOptionsOutputReference) Worke
 	_jsii_.Get(
 		j,
 		"workerPool",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleCloudbuildTriggerBuildOptionsOutputReference) WorkerRelease() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workerRelease",
 		&returns,
 	)
 	return returns

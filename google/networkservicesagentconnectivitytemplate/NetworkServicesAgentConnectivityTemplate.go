@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_agent_connectivity_template google_network_services_agent_connectivity_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_agent_connectivity_template google_network_services_agent_connectivity_template}.
 type NetworkServicesAgentConnectivityTemplate interface {
 	cdktn.TerraformResource
 	AccessPath() *string
@@ -719,7 +719,7 @@ func (j *jsiiProxy_NetworkServicesAgentConnectivityTemplate) UpdateTime() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
 func NewNetworkServicesAgentConnectivityTemplate(scope constructs.Construct, id *string, config *NetworkServicesAgentConnectivityTemplateConfig) NetworkServicesAgentConnectivityTemplate {
 	_init_.Initialize()
 
@@ -737,7 +737,7 @@ func NewNetworkServicesAgentConnectivityTemplate(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_agent_connectivity_template google_network_services_agent_connectivity_template} Resource.
 func NewNetworkServicesAgentConnectivityTemplate_Override(n NetworkServicesAgentConnectivityTemplate, scope constructs.Construct, id *string, config *NetworkServicesAgentConnectivityTemplateConfig) {
 	_init_.Initialize()
 

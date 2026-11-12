@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant}.
 type DiscoveryEngineAssistant interface {
 	cdktn.TerraformResource
 	AssistantId() *string
@@ -35,6 +35,9 @@ type DiscoveryEngineAssistant interface {
 	SetCount(val interface{})
 	CustomerPolicy() DiscoveryEngineAssistantCustomerPolicyOutputReference
 	CustomerPolicyInput() *DiscoveryEngineAssistantCustomerPolicy
+	DefaultWebGroundingToggleOff() interface{}
+	SetDefaultWebGroundingToggleOff(val interface{})
+	DefaultWebGroundingToggleOffInput() interface{}
 	DeletionPolicy() *string
 	SetDeletionPolicy(val *string)
 	DeletionPolicyInput() *string
@@ -194,6 +197,7 @@ type DiscoveryEngineAssistant interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCustomerPolicy()
+	ResetDefaultWebGroundingToggleOff()
 	ResetDeletionPolicy()
 	ResetDescription()
 	ResetGenerationConfig()
@@ -326,6 +330,26 @@ func (j *jsiiProxy_DiscoveryEngineAssistant) CustomerPolicyInput() *DiscoveryEng
 	_jsii_.Get(
 		j,
 		"customerPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineAssistant) DefaultWebGroundingToggleOff() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"defaultWebGroundingToggleOff",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DiscoveryEngineAssistant) DefaultWebGroundingToggleOffInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"defaultWebGroundingToggleOffInput",
 		&returns,
 	)
 	return returns
@@ -662,7 +686,7 @@ func (j *jsiiProxy_DiscoveryEngineAssistant) WebGroundingTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewDiscoveryEngineAssistant(scope constructs.Construct, id *string, config *DiscoveryEngineAssistantConfig) DiscoveryEngineAssistant {
 	_init_.Initialize()
 
@@ -680,7 +704,7 @@ func NewDiscoveryEngineAssistant(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/discovery_engine_assistant google_discovery_engine_assistant} Resource.
 func NewDiscoveryEngineAssistant_Override(d DiscoveryEngineAssistant, scope constructs.Construct, id *string, config *DiscoveryEngineAssistantConfig) {
 	_init_.Initialize()
 
@@ -731,6 +755,17 @@ func (j *jsiiProxy_DiscoveryEngineAssistant)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DiscoveryEngineAssistant)SetDefaultWebGroundingToggleOff(val interface{}) {
+	if err := j.validateSetDefaultWebGroundingToggleOffParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"defaultWebGroundingToggleOff",
 		val,
 	)
 }
@@ -1286,6 +1321,14 @@ func (d *jsiiProxy_DiscoveryEngineAssistant) ResetCustomerPolicy() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetCustomerPolicy",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DiscoveryEngineAssistant) ResetDefaultWebGroundingToggleOff() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDefaultWebGroundingToggleOff",
 		nil, // no parameters
 	)
 }

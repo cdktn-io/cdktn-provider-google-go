@@ -47,7 +47,19 @@ func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	return nil
 }
 
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validatePutAuthParamsParameters(value *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams) error {
+	return nil
+}
+
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validatePutTokenParamsParameters(value *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams) error {
+	return nil
+}
+
 func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateSetApplyReauthPolicyParameters(val interface{}) error {
 	return nil
 }
 
@@ -72,6 +84,10 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 }
 
 func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateSetInternalValueParameters(val *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode) error {
+	return nil
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) validateSetRequestTypeParameters(val *string) error {
 	return nil
 }
 

@@ -15,6 +15,9 @@ type IntegrationConnectorsConnectionEventingConfigOutputReference interface {
 	cdktn.ComplexObject
 	AdditionalVariable() IntegrationConnectorsConnectionEventingConfigAdditionalVariableList
 	AdditionalVariableInput() interface{}
+	AllowedEventTypes() *[]*string
+	SetAllowedEventTypes(val *[]*string)
+	AllowedEventTypesInput() *[]*string
 	AuthConfig() IntegrationConnectorsConnectionEventingConfigAuthConfigOutputReference
 	AuthConfigInput() *IntegrationConnectorsConnectionEventingConfigAuthConfig
 	// the index of the complex object in a list.
@@ -32,11 +35,18 @@ type IntegrationConnectorsConnectionEventingConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DeadLetterConfig() IntegrationConnectorsConnectionEventingConfigDeadLetterConfigOutputReference
+	DeadLetterConfigInput() *IntegrationConnectorsConnectionEventingConfigDeadLetterConfig
+	EnrichmentConfig() IntegrationConnectorsConnectionEventingConfigEnrichmentConfigOutputReference
+	EnrichmentConfigInput() *IntegrationConnectorsConnectionEventingConfigEnrichmentConfig
 	EnrichmentEnabled() interface{}
 	SetEnrichmentEnabled(val interface{})
 	EnrichmentEnabledInput() interface{}
 	// Experimental.
 	Fqn() *string
+	GlobalEventFilter() *string
+	SetGlobalEventFilter(val *string)
+	GlobalEventFilterInput() *string
 	InternalValue() *IntegrationConnectorsConnectionEventingConfig
 	SetInternalValue(val *IntegrationConnectorsConnectionEventingConfig)
 	RegistrationDestinationConfig() IntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfigOutputReference
@@ -75,10 +85,16 @@ type IntegrationConnectorsConnectionEventingConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAdditionalVariable(value interface{})
 	PutAuthConfig(value *IntegrationConnectorsConnectionEventingConfigAuthConfig)
+	PutDeadLetterConfig(value *IntegrationConnectorsConnectionEventingConfigDeadLetterConfig)
+	PutEnrichmentConfig(value *IntegrationConnectorsConnectionEventingConfigEnrichmentConfig)
 	PutRegistrationDestinationConfig(value *IntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfig)
 	ResetAdditionalVariable()
+	ResetAllowedEventTypes()
 	ResetAuthConfig()
+	ResetDeadLetterConfig()
+	ResetEnrichmentConfig()
 	ResetEnrichmentEnabled()
+	ResetGlobalEventFilter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -109,6 +125,26 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	_jsii_.Get(
 		j,
 		"additionalVariableInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) AllowedEventTypes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"allowedEventTypes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) AllowedEventTypesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"allowedEventTypesInput",
 		&returns,
 	)
 	return returns
@@ -164,6 +200,46 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	return returns
 }
 
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) DeadLetterConfig() IntegrationConnectorsConnectionEventingConfigDeadLetterConfigOutputReference {
+	var returns IntegrationConnectorsConnectionEventingConfigDeadLetterConfigOutputReference
+	_jsii_.Get(
+		j,
+		"deadLetterConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) DeadLetterConfigInput() *IntegrationConnectorsConnectionEventingConfigDeadLetterConfig {
+	var returns *IntegrationConnectorsConnectionEventingConfigDeadLetterConfig
+	_jsii_.Get(
+		j,
+		"deadLetterConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) EnrichmentConfig() IntegrationConnectorsConnectionEventingConfigEnrichmentConfigOutputReference {
+	var returns IntegrationConnectorsConnectionEventingConfigEnrichmentConfigOutputReference
+	_jsii_.Get(
+		j,
+		"enrichmentConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) EnrichmentConfigInput() *IntegrationConnectorsConnectionEventingConfigEnrichmentConfig {
+	var returns *IntegrationConnectorsConnectionEventingConfigEnrichmentConfig
+	_jsii_.Get(
+		j,
+		"enrichmentConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) EnrichmentEnabled() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -189,6 +265,26 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) GlobalEventFilter() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"globalEventFilter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) GlobalEventFilterInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"globalEventFilterInput",
 		&returns,
 	)
 	return returns
@@ -272,6 +368,17 @@ func NewIntegrationConnectorsConnectionEventingConfigOutputReference_Override(i 
 	)
 }
 
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)SetAllowedEventTypes(val *[]*string) {
+	if err := j.validateSetAllowedEventTypesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"allowedEventTypes",
+		val,
+	)
+}
+
 func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)SetComplexObjectIndex(val interface{}) {
 	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
 		panic(err)
@@ -301,6 +408,17 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	_jsii_.Set(
 		j,
 		"enrichmentEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)SetGlobalEventFilter(val *string) {
+	if err := j.validateSetGlobalEventFilterParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"globalEventFilter",
 		val,
 	)
 }
@@ -546,6 +664,28 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	)
 }
 
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) PutDeadLetterConfig(value *IntegrationConnectorsConnectionEventingConfigDeadLetterConfig) {
+	if err := i.validatePutDeadLetterConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putDeadLetterConfig",
+		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) PutEnrichmentConfig(value *IntegrationConnectorsConnectionEventingConfigEnrichmentConfig) {
+	if err := i.validatePutEnrichmentConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putEnrichmentConfig",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) PutRegistrationDestinationConfig(value *IntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfig) {
 	if err := i.validatePutRegistrationDestinationConfigParameters(value); err != nil {
 		panic(err)
@@ -565,6 +705,14 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	)
 }
 
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) ResetAllowedEventTypes() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetAllowedEventTypes",
+		nil, // no parameters
+	)
+}
+
 func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) ResetAuthConfig() {
 	_jsii_.InvokeVoid(
 		i,
@@ -573,10 +721,34 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	)
 }
 
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) ResetDeadLetterConfig() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetDeadLetterConfig",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) ResetEnrichmentConfig() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetEnrichmentConfig",
+		nil, // no parameters
+	)
+}
+
 func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) ResetEnrichmentEnabled() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetEnrichmentEnabled",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) ResetGlobalEventFilter() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetGlobalEventFilter",
 		nil, // no parameters
 	)
 }

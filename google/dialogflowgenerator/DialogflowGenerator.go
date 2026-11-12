@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_generator google_dialogflow_generator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dialogflow_generator google_dialogflow_generator}.
 type DialogflowGenerator interface {
 	cdktn.TerraformResource
 	AgentCoachingContext() DialogflowGeneratorAgentCoachingContextOutputReference
@@ -690,7 +690,7 @@ func (j *jsiiProxy_DialogflowGenerator) TriggerEventInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_generator google_dialogflow_generator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dialogflow_generator google_dialogflow_generator} Resource.
 func NewDialogflowGenerator(scope constructs.Construct, id *string, config *DialogflowGeneratorConfig) DialogflowGenerator {
 	_init_.Initialize()
 
@@ -708,7 +708,7 @@ func NewDialogflowGenerator(scope constructs.Construct, id *string, config *Dial
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dialogflow_generator google_dialogflow_generator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dialogflow_generator google_dialogflow_generator} Resource.
 func NewDialogflowGenerator_Override(d DialogflowGenerator, scope constructs.Construct, id *string, config *DialogflowGeneratorConfig) {
 	_init_.Initialize()
 

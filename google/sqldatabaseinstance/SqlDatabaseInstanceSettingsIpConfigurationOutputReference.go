@@ -49,8 +49,8 @@ type SqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 	PrivateNetwork() *string
 	SetPrivateNetwork(val *string)
 	PrivateNetworkInput() *string
-	PscConfig() SqlDatabaseInstanceSettingsIpConfigurationPscConfigList
-	PscConfigInput() interface{}
+	PscConfig() SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference
+	PscConfigInput() *SqlDatabaseInstanceSettingsIpConfigurationPscConfig
 	ServerCaMode() *string
 	SetServerCaMode(val *string)
 	ServerCaModeInput() *string
@@ -96,7 +96,7 @@ type SqlDatabaseInstanceSettingsIpConfigurationOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuthorizedNetworks(value interface{})
-	PutPscConfig(value interface{})
+	PutPscConfig(value *SqlDatabaseInstanceSettingsIpConfigurationPscConfig)
 	ResetAllocatedIpRange()
 	ResetAuthorizedNetworks()
 	ResetCustomSubjectAlternativeNames()
@@ -293,8 +293,8 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Pr
 	return returns
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) PscConfig() SqlDatabaseInstanceSettingsIpConfigurationPscConfigList {
-	var returns SqlDatabaseInstanceSettingsIpConfigurationPscConfigList
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) PscConfig() SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference {
+	var returns SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference
 	_jsii_.Get(
 		j,
 		"pscConfig",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Ps
 	return returns
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) PscConfigInput() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) PscConfigInput() *SqlDatabaseInstanceSettingsIpConfigurationPscConfig {
+	var returns *SqlDatabaseInstanceSettingsIpConfigurationPscConfig
 	_jsii_.Get(
 		j,
 		"pscConfigInput",
@@ -792,7 +792,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) Pu
 	)
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) PutPscConfig(value interface{}) {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) PutPscConfig(value *SqlDatabaseInstanceSettingsIpConfigurationPscConfig) {
 	if err := s.validatePutPscConfigParameters(value); err != nil {
 		panic(err)
 	}

@@ -268,6 +268,17 @@ func (a *jsiiProxy_ArtifactRegistryRepository) validatePutMavenConfigParameters(
 	return nil
 }
 
+func (a *jsiiProxy_ArtifactRegistryRepository) validatePutPlatformLogsConfigParameters(value *ArtifactRegistryRepositoryPlatformLogsConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (a *jsiiProxy_ArtifactRegistryRepository) validatePutRemoteRepositoryConfigParameters(value *ArtifactRegistryRepositoryRemoteRepositoryConfig) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -481,6 +492,26 @@ func (j *jsiiProxy_ArtifactRegistryRepository) validateSetDeletionPolicyParamete
 func (j *jsiiProxy_ArtifactRegistryRepository) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepository) validateSetDisallowUnspecifiedModeParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil

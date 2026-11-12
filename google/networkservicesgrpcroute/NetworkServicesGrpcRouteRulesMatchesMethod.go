@@ -7,15 +7,21 @@ package networkservicesgrpcroute
 type NetworkServicesGrpcRouteRulesMatchesMethod struct {
 	// Required. Name of the method to match against.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_grpc_route#grpc_method NetworkServicesGrpcRoute#grpc_method}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_grpc_route#grpc_method NetworkServicesGrpcRoute#grpc_method}
 	GrpcMethod *string `field:"required" json:"grpcMethod" yaml:"grpcMethod"`
 	// Required. Name of the service to match against.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_grpc_route#grpc_service NetworkServicesGrpcRoute#grpc_service}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_grpc_route#grpc_service NetworkServicesGrpcRoute#grpc_service}
 	GrpcService *string `field:"required" json:"grpcService" yaml:"grpcService"`
 	// Specifies that matches are case sensitive. The default value is true.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_services_grpc_route#case_sensitive NetworkServicesGrpcRoute#case_sensitive}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_grpc_route#case_sensitive NetworkServicesGrpcRoute#case_sensitive}
 	CaseSensitive interface{} `field:"optional" json:"caseSensitive" yaml:"caseSensitive"`
+	// Specifies how to match against the name.
+	//
+	// If not specified, a default value of "EXACT" is used. Default value: "EXACT" Possible values: ["EXACT", "REGULAR_EXPRESSION"]
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_services_grpc_route#type NetworkServicesGrpcRoute#type}
+	Type *string `field:"optional" json:"type" yaml:"type"`
 }
 

@@ -42,6 +42,8 @@ type DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReferenc
 	Likelihood() *string
 	SetLikelihood(val *string)
 	LikelihoodInput() *string
+	MetadataKeyValueExpression() DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionOutputReference
+	MetadataKeyValueExpressionInput() *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression
 	Regex() DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegexOutputReference
 	RegexInput() *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex
 	SensitivityScore() DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScoreOutputReference
@@ -84,6 +86,7 @@ type DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReferenc
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDictionary(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesDictionary)
 	PutInfoType(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesInfoType)
+	PutMetadataKeyValueExpression(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression)
 	PutRegex(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex)
 	PutSensitivityScore(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesSensitivityScore)
 	PutStoredType(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesStoredType)
@@ -91,6 +94,7 @@ type DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReferenc
 	ResetDictionary()
 	ResetExclusionType()
 	ResetLikelihood()
+	ResetMetadataKeyValueExpression()
 	ResetRegex()
 	ResetSensitivityScore()
 	ResetStoredType()
@@ -235,6 +239,26 @@ func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
 	_jsii_.Get(
 		j,
 		"likelihoodInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReference) MetadataKeyValueExpression() DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionOutputReference {
+	var returns DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpressionOutputReference
+	_jsii_.Get(
+		j,
+		"metadataKeyValueExpression",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReference) MetadataKeyValueExpressionInput() *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression {
+	var returns *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression
+	_jsii_.Get(
+		j,
+		"metadataKeyValueExpressionInput",
 		&returns,
 	)
 	return returns
@@ -653,6 +677,17 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
 	)
 }
 
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReference) PutMetadataKeyValueExpression(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression) {
+	if err := d.validatePutMetadataKeyValueExpressionParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putMetadataKeyValueExpression",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReference) PutRegex(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex) {
 	if err := d.validatePutRegexParameters(value); err != nil {
 		panic(err)
@@ -717,6 +752,14 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
 	_jsii_.InvokeVoid(
 		d,
 		"resetLikelihood",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReference) ResetMetadataKeyValueExpression() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMetadataKeyValueExpression",
 		nil, // no parameters
 	)
 }

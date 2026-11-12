@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/artifact_registry_repository google_artifact_registry_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/artifact_registry_repository google_artifact_registry_repository}.
 type DataGoogleArtifactRegistryRepository interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -32,6 +32,7 @@ type DataGoogleArtifactRegistryRepository interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	Description() *string
+	DisallowUnspecifiedMode() cdktn.IResolvable
 	DockerConfig() DataGoogleArtifactRegistryRepositoryDockerConfigList
 	EffectiveLabels() cdktn.StringMap
 	// Experimental.
@@ -60,6 +61,7 @@ type DataGoogleArtifactRegistryRepository interface {
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	PlatformLogsConfig() DataGoogleArtifactRegistryRepositoryPlatformLogsConfigList
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -245,6 +247,16 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryRepository) Description() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleArtifactRegistryRepository) DisallowUnspecifiedMode() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"disallowUnspecifiedMode",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleArtifactRegistryRepository) DockerConfig() DataGoogleArtifactRegistryRepositoryDockerConfigList {
 	var returns DataGoogleArtifactRegistryRepositoryDockerConfigList
 	_jsii_.Get(
@@ -415,6 +427,16 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryRepository) Node() constructs.Node 
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleArtifactRegistryRepository) PlatformLogsConfig() DataGoogleArtifactRegistryRepositoryPlatformLogsConfigList {
+	var returns DataGoogleArtifactRegistryRepositoryPlatformLogsConfigList
+	_jsii_.Get(
+		j,
+		"platformLogsConfig",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleArtifactRegistryRepository) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -566,7 +588,7 @@ func (j *jsiiProxy_DataGoogleArtifactRegistryRepository) VulnerabilityScanningCo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/artifact_registry_repository google_artifact_registry_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/artifact_registry_repository google_artifact_registry_repository} Data Source.
 func NewDataGoogleArtifactRegistryRepository(scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryRepositoryConfig) DataGoogleArtifactRegistryRepository {
 	_init_.Initialize()
 
@@ -584,7 +606,7 @@ func NewDataGoogleArtifactRegistryRepository(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/artifact_registry_repository google_artifact_registry_repository} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/artifact_registry_repository google_artifact_registry_repository} Data Source.
 func NewDataGoogleArtifactRegistryRepository_Override(d DataGoogleArtifactRegistryRepository, scope constructs.Construct, id *string, config *DataGoogleArtifactRegistryRepositoryConfig) {
 	_init_.Initialize()
 

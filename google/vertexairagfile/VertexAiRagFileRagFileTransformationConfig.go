@@ -7,7 +7,7 @@ package vertexairagfile
 type VertexAiRagFileRagFileTransformationConfig struct {
 	// rag_file_chunking_config block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_file#rag_file_chunking_config VertexAiRagFile#rag_file_chunking_config}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_rag_file#rag_file_chunking_config VertexAiRagFile#rag_file_chunking_config}
 	RagFileChunkingConfig *VertexAiRagFileRagFileTransformationConfigRagFileChunkingConfig `field:"optional" json:"ragFileChunkingConfig" yaml:"ragFileChunkingConfig"`
 }
 

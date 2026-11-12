@@ -895,6 +895,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberProperty{JsiiProperty: "volumes", GoGetter: "Volumes"},
 			_jsii_.MemberProperty{JsiiProperty: "workerPool", GoGetter: "WorkerPool"},
+			_jsii_.MemberProperty{JsiiProperty: "workerRelease", GoGetter: "WorkerRelease"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataGoogleCloudbuildTriggerBuildOptionsOutputReference{}

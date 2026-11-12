@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/agent_identity_auth_provider_iam_policy google_agent_identity_auth_provider_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/agent_identity_auth_provider_iam_policy google_agent_identity_auth_provider_iam_policy}.
 type AgentIdentityAuthProviderIamPolicy interface {
 	cdktn.TerraformResource
 	AuthProviderId() *string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_AgentIdentityAuthProviderIamPolicy) TerraformResourceType() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/agent_identity_auth_provider_iam_policy google_agent_identity_auth_provider_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/agent_identity_auth_provider_iam_policy google_agent_identity_auth_provider_iam_policy} Resource.
 func NewAgentIdentityAuthProviderIamPolicy(scope constructs.Construct, id *string, config *AgentIdentityAuthProviderIamPolicyConfig) AgentIdentityAuthProviderIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewAgentIdentityAuthProviderIamPolicy(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/agent_identity_auth_provider_iam_policy google_agent_identity_auth_provider_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/agent_identity_auth_provider_iam_policy google_agent_identity_auth_provider_iam_policy} Resource.
 func NewAgentIdentityAuthProviderIamPolicy_Override(a AgentIdentityAuthProviderIamPolicy, scope constructs.Construct, id *string, config *AgentIdentityAuthProviderIamPolicyConfig) {
 	_init_.Initialize()
 

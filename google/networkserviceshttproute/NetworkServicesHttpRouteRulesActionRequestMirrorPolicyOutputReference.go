@@ -34,6 +34,9 @@ type NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference inter
 	Fqn() *string
 	InternalValue() *NetworkServicesHttpRouteRulesActionRequestMirrorPolicy
 	SetInternalValue(val *NetworkServicesHttpRouteRulesActionRequestMirrorPolicy)
+	MirrorPercent() *float64
+	SetMirrorPercent(val *float64)
+	MirrorPercentInput() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -68,6 +71,7 @@ type NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference inter
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDestination(value *NetworkServicesHttpRouteRulesActionRequestMirrorPolicyDestination)
 	ResetDestination()
+	ResetMirrorPercent()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -153,6 +157,26 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	return returns
 }
 
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) MirrorPercent() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"mirrorPercent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) MirrorPercentInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"mirrorPercentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -230,6 +254,17 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference)SetMirrorPercent(val *float64) {
+	if err := j.validateSetMirrorPercentParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mirrorPercent",
 		val,
 	)
 }
@@ -457,6 +492,14 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	_jsii_.InvokeVoid(
 		n,
 		"resetDestination",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) ResetMirrorPercent() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetMirrorPercent",
 		nil, // no parameters
 	)
 }

@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putEmailPreferences", GoMethod: "PutEmailPreferences"},
 			_jsii_.MemberMethod{JsiiMethod: "putEncryptionConfiguration", GoMethod: "PutEncryptionConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putScheduleOptions", GoMethod: "PutScheduleOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "putScheduleOptionsV2", GoMethod: "PutScheduleOptionsV2"},
 			_jsii_.MemberMethod{JsiiMethod: "putSensitiveParams", GoMethod: "PutSensitiveParams"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -92,6 +93,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSchedule", GoMethod: "ResetSchedule"},
 			_jsii_.MemberMethod{JsiiMethod: "resetScheduleOptions", GoMethod: "ResetScheduleOptions"},
+			_jsii_.MemberMethod{JsiiMethod: "resetScheduleOptionsV2", GoMethod: "ResetScheduleOptionsV2"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSensitiveParams", GoMethod: "ResetSensitiveParams"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceAccountName", GoMethod: "ResetServiceAccountName"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
@@ -99,6 +101,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "scheduleInput", GoGetter: "ScheduleInput"},
 			_jsii_.MemberProperty{JsiiProperty: "scheduleOptions", GoGetter: "ScheduleOptions"},
 			_jsii_.MemberProperty{JsiiProperty: "scheduleOptionsInput", GoGetter: "ScheduleOptionsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "scheduleOptionsV2", GoGetter: "ScheduleOptionsV2"},
+			_jsii_.MemberProperty{JsiiProperty: "scheduleOptionsV2Input", GoGetter: "ScheduleOptionsV2Input"},
 			_jsii_.MemberProperty{JsiiProperty: "sensitiveParams", GoGetter: "SensitiveParams"},
 			_jsii_.MemberProperty{JsiiProperty: "sensitiveParamsInput", GoGetter: "SensitiveParamsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceAccountName", GoGetter: "ServiceAccountName"},
@@ -243,6 +247,83 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_BigqueryDataTransferConfigScheduleOptionsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfigScheduleOptionsV2",
+		reflect.TypeOf((*BigqueryDataTransferConfigScheduleOptionsV2)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfigScheduleOptionsV2EventDrivenSchedule",
+		reflect.TypeOf((*BigqueryDataTransferConfigScheduleOptionsV2EventDrivenSchedule)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfigScheduleOptionsV2EventDrivenScheduleOutputReference",
+		reflect.TypeOf((*BigqueryDataTransferConfigScheduleOptionsV2EventDrivenScheduleOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "pubsubSubscription", GoGetter: "PubsubSubscription"},
+			_jsii_.MemberProperty{JsiiProperty: "pubsubSubscriptionInput", GoGetter: "PubsubSubscriptionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BigqueryDataTransferConfigScheduleOptionsV2EventDrivenScheduleOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.bigqueryDataTransferConfig.BigqueryDataTransferConfigScheduleOptionsV2OutputReference",
+		reflect.TypeOf((*BigqueryDataTransferConfigScheduleOptionsV2OutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "eventDrivenSchedule", GoGetter: "EventDrivenSchedule"},
+			_jsii_.MemberProperty{JsiiProperty: "eventDrivenScheduleInput", GoGetter: "EventDrivenScheduleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putEventDrivenSchedule", GoMethod: "PutEventDrivenSchedule"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_BigqueryDataTransferConfigScheduleOptionsV2OutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

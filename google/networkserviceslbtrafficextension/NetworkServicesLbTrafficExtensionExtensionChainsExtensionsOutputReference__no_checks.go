@@ -87,6 +87,10 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOut
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference) validateSetObservabilityModeParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference) validateSetServiceParameters(val *string) error {
 	return nil
 }

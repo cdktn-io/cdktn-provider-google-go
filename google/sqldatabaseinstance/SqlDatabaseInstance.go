@@ -12,13 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/sql_database_instance google_sql_database_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/sql_database_instance google_sql_database_instance}.
 type SqlDatabaseInstance interface {
 	cdktn.TerraformResource
 	AvailableMaintenanceVersions() *[]*string
 	BackupdrBackup() *string
 	SetBackupdrBackup(val *string)
 	BackupdrBackupInput() *string
+	BlueGreenDeployment() SqlDatabaseInstanceBlueGreenDeploymentOutputReference
+	BlueGreenDeploymentInput() *SqlDatabaseInstanceBlueGreenDeployment
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	Clone() SqlDatabaseInstanceCloneOutputReference
@@ -34,6 +36,9 @@ type SqlDatabaseInstance interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DatabaseCenterIntegration() *string
+	SetDatabaseCenterIntegration(val *string)
+	DatabaseCenterIntegrationInput() *string
 	DatabaseVersion() *string
 	SetDatabaseVersion(val *string)
 	DatabaseVersionInput() *string
@@ -234,6 +239,7 @@ type SqlDatabaseInstance interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutBlueGreenDeployment(value *SqlDatabaseInstanceBlueGreenDeployment)
 	PutClone(value *SqlDatabaseInstanceClone)
 	PutPointInTimeRestoreContext(value *SqlDatabaseInstancePointInTimeRestoreContext)
 	PutReplicaConfiguration(value *SqlDatabaseInstanceReplicaConfiguration)
@@ -255,7 +261,9 @@ type SqlDatabaseInstance interface {
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetBackupdrBackup()
+	ResetBlueGreenDeployment()
 	ResetClone()
+	ResetDatabaseCenterIntegration()
 	ResetDeletionPolicy()
 	ResetDeletionProtection()
 	ResetEncryptionConfidentialMode()
@@ -342,6 +350,26 @@ func (j *jsiiProxy_SqlDatabaseInstance) BackupdrBackupInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_SqlDatabaseInstance) BlueGreenDeployment() SqlDatabaseInstanceBlueGreenDeploymentOutputReference {
+	var returns SqlDatabaseInstanceBlueGreenDeploymentOutputReference
+	_jsii_.Get(
+		j,
+		"blueGreenDeployment",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) BlueGreenDeploymentInput() *SqlDatabaseInstanceBlueGreenDeployment {
+	var returns *SqlDatabaseInstanceBlueGreenDeployment
+	_jsii_.Get(
+		j,
+		"blueGreenDeploymentInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SqlDatabaseInstance) CdktfStack() cdktn.TerraformStack {
 	var returns cdktn.TerraformStack
 	_jsii_.Get(
@@ -407,6 +435,26 @@ func (j *jsiiProxy_SqlDatabaseInstance) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) DatabaseCenterIntegration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseCenterIntegration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) DatabaseCenterIntegrationInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseCenterIntegrationInput",
 		&returns,
 	)
 	return returns
@@ -1173,7 +1221,7 @@ func (j *jsiiProxy_SqlDatabaseInstance) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) SqlDatabaseInstance {
 	_init_.Initialize()
 
@@ -1191,7 +1239,7 @@ func NewSqlDatabaseInstance(scope constructs.Construct, id *string, config *SqlD
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/sql_database_instance google_sql_database_instance} Resource.
 func NewSqlDatabaseInstance_Override(s SqlDatabaseInstance, scope constructs.Construct, id *string, config *SqlDatabaseInstanceConfig) {
 	_init_.Initialize()
 
@@ -1231,6 +1279,17 @@ func (j *jsiiProxy_SqlDatabaseInstance)SetCount(val interface{}) {
 	_jsii_.Set(
 		j,
 		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance)SetDatabaseCenterIntegration(val *string) {
+	if err := j.validateSetDatabaseCenterIntegrationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"databaseCenterIntegration",
 		val,
 	)
 }
@@ -1881,6 +1940,17 @@ func (s *jsiiProxy_SqlDatabaseInstance) OverrideLogicalId(newLogicalId *string) 
 	)
 }
 
+func (s *jsiiProxy_SqlDatabaseInstance) PutBlueGreenDeployment(value *SqlDatabaseInstanceBlueGreenDeployment) {
+	if err := s.validatePutBlueGreenDeploymentParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putBlueGreenDeployment",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_SqlDatabaseInstance) PutClone(value *SqlDatabaseInstanceClone) {
 	if err := s.validatePutCloneParameters(value); err != nil {
 		panic(err)
@@ -1977,10 +2047,26 @@ func (s *jsiiProxy_SqlDatabaseInstance) ResetBackupdrBackup() {
 	)
 }
 
+func (s *jsiiProxy_SqlDatabaseInstance) ResetBlueGreenDeployment() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetBlueGreenDeployment",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_SqlDatabaseInstance) ResetClone() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetClone",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_SqlDatabaseInstance) ResetDatabaseCenterIntegration() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDatabaseCenterIntegration",
 		nil, // no parameters
 	)
 }

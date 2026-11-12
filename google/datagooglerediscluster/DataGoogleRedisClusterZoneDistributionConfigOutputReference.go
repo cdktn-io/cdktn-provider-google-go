@@ -13,6 +13,7 @@ import (
 
 type DataGoogleRedisClusterZoneDistributionConfigOutputReference interface {
 	cdktn.ComplexObject
+	ActiveZones() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,6 +43,7 @@ type DataGoogleRedisClusterZoneDistributionConfigOutputReference interface {
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Zone() *string
+	Zones() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -79,6 +81,16 @@ type DataGoogleRedisClusterZoneDistributionConfigOutputReference interface {
 // The jsii proxy struct for DataGoogleRedisClusterZoneDistributionConfigOutputReference
 type jsiiProxy_DataGoogleRedisClusterZoneDistributionConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleRedisClusterZoneDistributionConfigOutputReference) ActiveZones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"activeZones",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleRedisClusterZoneDistributionConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -166,6 +178,16 @@ func (j *jsiiProxy_DataGoogleRedisClusterZoneDistributionConfigOutputReference) 
 	_jsii_.Get(
 		j,
 		"zone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleRedisClusterZoneDistributionConfigOutputReference) Zones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"zones",
 		&returns,
 	)
 	return returns

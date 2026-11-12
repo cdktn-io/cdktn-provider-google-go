@@ -39,6 +39,9 @@ type DataplexDatascanDataProfileSpecOutputReference interface {
 	IncludeFieldsInput() *DataplexDatascanDataProfileSpecIncludeFields
 	InternalValue() *DataplexDatascanDataProfileSpec
 	SetInternalValue(val *DataplexDatascanDataProfileSpec)
+	Mode() *string
+	SetMode(val *string)
+	ModeInput() *string
 	PostScanActions() DataplexDatascanDataProfileSpecPostScanActionsOutputReference
 	PostScanActionsInput() *DataplexDatascanDataProfileSpecPostScanActions
 	RowFilter() *string
@@ -85,6 +88,7 @@ type DataplexDatascanDataProfileSpecOutputReference interface {
 	ResetCatalogPublishingEnabled()
 	ResetExcludeFields()
 	ResetIncludeFields()
+	ResetMode()
 	ResetPostScanActions()
 	ResetRowFilter()
 	ResetSamplingPercent()
@@ -208,6 +212,26 @@ func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) InternalValue
 	_jsii_.Get(
 		j,
 		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) Mode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"mode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) ModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modeInput",
 		&returns,
 	)
 	return returns
@@ -361,6 +385,17 @@ func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference)SetInternalVal
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference)SetMode(val *string) {
+	if err := j.validateSetModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"mode",
 		val,
 	)
 }
@@ -648,6 +683,14 @@ func (d *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) ResetIncludeF
 	_jsii_.InvokeVoid(
 		d,
 		"resetIncludeFields",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) ResetMode() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMode",
 		nil, // no parameters
 	)
 }

@@ -33,6 +33,9 @@ type NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputRefere
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	HotTierBypassModeEnabled() interface{}
+	SetHotTierBypassModeEnabled(val interface{})
+	HotTierBypassModeEnabledInput() interface{}
 	InternalValue() *NetappVolumeReplicationDestinationVolumeParametersTieringPolicy
 	SetInternalValue(val *NetappVolumeReplicationDestinationVolumeParametersTieringPolicy)
 	// Experimental.
@@ -71,6 +74,7 @@ type NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputRefere
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCoolingThresholdDays()
+	ResetHotTierBypassModeEnabled()
 	ResetTierAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -142,6 +146,26 @@ func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPoli
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) HotTierBypassModeEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hotTierBypassModeEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) HotTierBypassModeEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hotTierBypassModeEnabledInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPoli
 	_jsii_.Set(
 		j,
 		"coolingThresholdDays",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference)SetHotTierBypassModeEnabled(val interface{}) {
+	if err := j.validateSetHotTierBypassModeEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"hotTierBypassModeEnabled",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (n *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPoli
 	_jsii_.InvokeVoid(
 		n,
 		"resetCoolingThresholdDays",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) ResetHotTierBypassModeEnabled() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetHotTierBypassModeEnabled",
 		nil, // no parameters
 	)
 }

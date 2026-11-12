@@ -63,6 +63,10 @@ func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validateSetGenerationScopesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) validateSetInternalValueParameters(val *DataplexDatascanDataDocumentationSpec) error {
 	return nil
 }

@@ -50,6 +50,9 @@ type NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference i
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	ObservabilityMode() interface{}
+	SetObservabilityMode(val interface{})
+	ObservabilityModeInput() interface{}
 	Service() *string
 	SetService(val *string)
 	ServiceInput() *string
@@ -96,6 +99,7 @@ type NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference i
 	ResetForwardAttributes()
 	ResetForwardHeaders()
 	ResetMetadata()
+	ResetObservabilityMode()
 	ResetSupportedEvents()
 	ResetTimeout()
 	// Produce the Token's value at resolution time.
@@ -278,6 +282,26 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOut
 	_jsii_.Get(
 		j,
 		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference) ObservabilityMode() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"observabilityMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference) ObservabilityModeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"observabilityModeInput",
 		&returns,
 	)
 	return returns
@@ -486,6 +510,17 @@ func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOut
 	_jsii_.Set(
 		j,
 		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference)SetObservabilityMode(val interface{}) {
+	if err := j.validateSetObservabilityModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"observabilityMode",
 		val,
 	)
 }
@@ -767,6 +802,14 @@ func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOut
 	_jsii_.InvokeVoid(
 		n,
 		"resetMetadata",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesLbTrafficExtensionExtensionChainsExtensionsOutputReference) ResetObservabilityMode() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetObservabilityMode",
 		nil, // no parameters
 	)
 }

@@ -205,25 +205,9 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
-	switch val.(type) {
-	case cdktn.IResolvable:
-		// ok
-	case *SqlDatabaseInstanceSettingsIpConfigurationPscConfig:
-		val := val.(*SqlDatabaseInstanceSettingsIpConfigurationPscConfig)
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	case SqlDatabaseInstanceSettingsIpConfigurationPscConfig:
-		val_ := val.(SqlDatabaseInstanceSettingsIpConfigurationPscConfig)
-		val := &val_
-		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
-			return err
-		}
-	default:
-		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SqlDatabaseInstanceSettingsIpConfigurationPscConfig; received %#v (a %T)", val, val)
-		}
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) validateSetInternalValueParameters(val *SqlDatabaseInstanceSettingsIpConfigurationPscConfig) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
 	}
 
 	return nil
@@ -333,21 +317,13 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}
 
 	if terraformAttribute == nil {
 		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
-	}
-
-	if complexObjectIndex == nil {
-		return fmt.Errorf("parameter complexObjectIndex is required, but nil was provided")
-	}
-
-	if complexObjectIsFromSet == nil {
-		return fmt.Errorf("parameter complexObjectIsFromSet is required, but nil was provided")
 	}
 
 	return nil

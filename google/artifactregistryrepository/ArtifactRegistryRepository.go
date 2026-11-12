@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/artifact_registry_repository google_artifact_registry_repository}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/artifact_registry_repository google_artifact_registry_repository}.
 type ArtifactRegistryRepository interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -43,6 +43,9 @@ type ArtifactRegistryRepository interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DisallowUnspecifiedMode() interface{}
+	SetDisallowUnspecifiedMode(val interface{})
+	DisallowUnspecifiedModeInput() interface{}
 	DockerConfig() ArtifactRegistryRepositoryDockerConfigOutputReference
 	DockerConfigInput() *ArtifactRegistryRepositoryDockerConfig
 	EffectiveLabels() cdktn.StringMap
@@ -81,6 +84,8 @@ type ArtifactRegistryRepository interface {
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	PlatformLogsConfig() ArtifactRegistryRepositoryPlatformLogsConfigOutputReference
+	PlatformLogsConfigInput() *ArtifactRegistryRepositoryPlatformLogsConfig
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -196,6 +201,7 @@ type ArtifactRegistryRepository interface {
 	PutCleanupPolicies(value interface{})
 	PutDockerConfig(value *ArtifactRegistryRepositoryDockerConfig)
 	PutMavenConfig(value *ArtifactRegistryRepositoryMavenConfig)
+	PutPlatformLogsConfig(value *ArtifactRegistryRepositoryPlatformLogsConfig)
 	PutRemoteRepositoryConfig(value *ArtifactRegistryRepositoryRemoteRepositoryConfig)
 	PutTimeouts(value *ArtifactRegistryRepositoryTimeouts)
 	PutVirtualRepositoryConfig(value *ArtifactRegistryRepositoryVirtualRepositoryConfig)
@@ -217,6 +223,7 @@ type ArtifactRegistryRepository interface {
 	ResetCleanupPolicyDryRun()
 	ResetDeletionPolicy()
 	ResetDescription()
+	ResetDisallowUnspecifiedMode()
 	ResetDockerConfig()
 	ResetId()
 	ResetKmsKeyName()
@@ -227,6 +234,7 @@ type ArtifactRegistryRepository interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPlatformLogsConfig()
 	ResetProject()
 	ResetRemoteRepositoryConfig()
 	ResetTimeouts()
@@ -394,6 +402,26 @@ func (j *jsiiProxy_ArtifactRegistryRepository) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepository) DisallowUnspecifiedMode() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disallowUnspecifiedMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepository) DisallowUnspecifiedModeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"disallowUnspecifiedModeInput",
 		&returns,
 	)
 	return returns
@@ -629,6 +657,26 @@ func (j *jsiiProxy_ArtifactRegistryRepository) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_ArtifactRegistryRepository) PlatformLogsConfig() ArtifactRegistryRepositoryPlatformLogsConfigOutputReference {
+	var returns ArtifactRegistryRepositoryPlatformLogsConfigOutputReference
+	_jsii_.Get(
+		j,
+		"platformLogsConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepository) PlatformLogsConfigInput() *ArtifactRegistryRepositoryPlatformLogsConfig {
+	var returns *ArtifactRegistryRepositoryPlatformLogsConfig
+	_jsii_.Get(
+		j,
+		"platformLogsConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ArtifactRegistryRepository) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -840,7 +888,7 @@ func (j *jsiiProxy_ArtifactRegistryRepository) VulnerabilityScanningConfigInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/artifact_registry_repository google_artifact_registry_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/artifact_registry_repository google_artifact_registry_repository} Resource.
 func NewArtifactRegistryRepository(scope constructs.Construct, id *string, config *ArtifactRegistryRepositoryConfig) ArtifactRegistryRepository {
 	_init_.Initialize()
 
@@ -858,7 +906,7 @@ func NewArtifactRegistryRepository(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/artifact_registry_repository google_artifact_registry_repository} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/artifact_registry_repository google_artifact_registry_repository} Resource.
 func NewArtifactRegistryRepository_Override(a ArtifactRegistryRepository, scope constructs.Construct, id *string, config *ArtifactRegistryRepositoryConfig) {
 	_init_.Initialize()
 
@@ -928,6 +976,17 @@ func (j *jsiiProxy_ArtifactRegistryRepository)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepository)SetDisallowUnspecifiedMode(val interface{}) {
+	if err := j.validateSetDisallowUnspecifiedModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"disallowUnspecifiedMode",
 		val,
 	)
 }
@@ -1460,6 +1519,17 @@ func (a *jsiiProxy_ArtifactRegistryRepository) PutMavenConfig(value *ArtifactReg
 	)
 }
 
+func (a *jsiiProxy_ArtifactRegistryRepository) PutPlatformLogsConfig(value *ArtifactRegistryRepositoryPlatformLogsConfig) {
+	if err := a.validatePutPlatformLogsConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putPlatformLogsConfig",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ArtifactRegistryRepository) PutRemoteRepositoryConfig(value *ArtifactRegistryRepositoryRemoteRepositoryConfig) {
 	if err := a.validatePutRemoteRepositoryConfigParameters(value); err != nil {
 		panic(err)
@@ -1547,6 +1617,14 @@ func (a *jsiiProxy_ArtifactRegistryRepository) ResetDescription() {
 	)
 }
 
+func (a *jsiiProxy_ArtifactRegistryRepository) ResetDisallowUnspecifiedMode() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDisallowUnspecifiedMode",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ArtifactRegistryRepository) ResetDockerConfig() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1607,6 +1685,14 @@ func (a *jsiiProxy_ArtifactRegistryRepository) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ArtifactRegistryRepository) ResetPlatformLogsConfig() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPlatformLogsConfig",
 		nil, // no parameters
 	)
 }

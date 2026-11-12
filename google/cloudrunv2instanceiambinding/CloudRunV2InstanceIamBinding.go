@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_binding google_cloud_run_v2_instance_iam_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_binding google_cloud_run_v2_instance_iam_binding}.
 type CloudRunV2InstanceIamBinding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_CloudRunV2InstanceIamBinding) TerraformResourceType() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_binding google_cloud_run_v2_instance_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_binding google_cloud_run_v2_instance_iam_binding} Resource.
 func NewCloudRunV2InstanceIamBinding(scope constructs.Construct, id *string, config *CloudRunV2InstanceIamBindingConfig) CloudRunV2InstanceIamBinding {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewCloudRunV2InstanceIamBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance_iam_binding google_cloud_run_v2_instance_iam_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance_iam_binding google_cloud_run_v2_instance_iam_binding} Resource.
 func NewCloudRunV2InstanceIamBinding_Override(c CloudRunV2InstanceIamBinding, scope constructs.Construct, id *string, config *CloudRunV2InstanceIamBindingConfig) {
 	_init_.Initialize()
 

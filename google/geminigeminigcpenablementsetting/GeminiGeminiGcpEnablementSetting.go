@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting}.
 type GeminiGeminiGcpEnablementSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -56,6 +56,9 @@ type GeminiGeminiGcpEnablementSetting interface {
 	GeminiGcpEnablementSettingId() *string
 	SetGeminiGcpEnablementSettingId(val *string)
 	GeminiGcpEnablementSettingIdInput() *string
+	HasCustomInstructions() interface{}
+	SetHasCustomInstructions(val interface{})
+	HasCustomInstructionsInput() interface{}
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -201,6 +204,7 @@ type GeminiGeminiGcpEnablementSetting interface {
 	ResetDisableWebGrounding()
 	ResetEnableCustomerDataSharing()
 	ResetGeminiEnterpriseProject()
+	ResetHasCustomInstructions()
 	ResetId()
 	ResetLabels()
 	ResetMutationsEnabled()
@@ -433,6 +437,26 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) GeminiGcpEnablementSettingI
 	_jsii_.Get(
 		j,
 		"geminiGcpEnablementSettingIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) HasCustomInstructions() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hasCustomInstructions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) HasCustomInstructionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"hasCustomInstructionsInput",
 		&returns,
 	)
 	return returns
@@ -709,7 +733,7 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting) WebGroundingTypeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingConfig) GeminiGeminiGcpEnablementSetting {
 	_init_.Initialize()
 
@@ -727,7 +751,7 @@ func NewGeminiGeminiGcpEnablementSetting(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/gemini_gemini_gcp_enablement_setting google_gemini_gemini_gcp_enablement_setting} Resource.
 func NewGeminiGeminiGcpEnablementSetting_Override(g GeminiGeminiGcpEnablementSetting, scope constructs.Construct, id *string, config *GeminiGeminiGcpEnablementSettingConfig) {
 	_init_.Initialize()
 
@@ -827,6 +851,17 @@ func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetGeminiGcpEnablementSettin
 	_jsii_.Set(
 		j,
 		"geminiGcpEnablementSettingId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_GeminiGeminiGcpEnablementSetting)SetHasCustomInstructions(val interface{}) {
+	if err := j.validateSetHasCustomInstructionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"hasCustomInstructions",
 		val,
 	)
 }
@@ -1357,6 +1392,14 @@ func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetGeminiEnterpriseProjec
 	_jsii_.InvokeVoid(
 		g,
 		"resetGeminiEnterpriseProject",
+		nil, // no parameters
+	)
+}
+
+func (g *jsiiProxy_GeminiGeminiGcpEnablementSetting) ResetHasCustomInstructions() {
+	_jsii_.InvokeVoid(
+		g,
+		"resetHasCustomInstructions",
 		nil, // no parameters
 	)
 }

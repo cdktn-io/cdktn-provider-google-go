@@ -7,11 +7,11 @@ package networksecuritysecurityprofile
 type NetworkSecuritySecurityProfileWildfireAnalysisProfileWildfireInlineMlSettingInlineMlConfigs struct {
 	// The action to take for a file type. Possible values: ["DISABLE", "ALERT", "ENABLE"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_security_profile#action NetworkSecuritySecurityProfile#action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_security_security_profile#action NetworkSecuritySecurityProfile#action}
 	Action *string `field:"required" json:"action" yaml:"action"`
 	// The file type to match. For allowed values, see [API docs](https://docs.cloud.google.com/firewall/docs/reference/network-security/rest/v1beta1/organizations.locations.securityProfiles#inlinemlfiletype).
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/network_security_security_profile#file_type NetworkSecuritySecurityProfile#file_type}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/network_security_security_profile#file_type NetworkSecuritySecurityProfile#file_type}
 	FileType *string `field:"required" json:"fileType" yaml:"fileType"`
 }
 

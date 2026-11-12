@@ -13,9 +13,14 @@ import (
 
 type IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference interface {
 	cdktn.ComplexObject
+	ApplyReauthPolicy() interface{}
+	SetApplyReauthPolicy(val interface{})
+	ApplyReauthPolicyInput() interface{}
 	AuthEndpoint() *string
 	SetAuthEndpoint(val *string)
 	AuthEndpointInput() *string
+	AuthParams() IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsOutputReference
+	AuthParamsInput() *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -41,6 +46,9 @@ type IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputRefer
 	Fqn() *string
 	InternalValue() *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode
 	SetInternalValue(val *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCode)
+	RequestType() *string
+	SetRequestType(val *string)
+	RequestTypeInput() *string
 	Scope() *string
 	SetScope(val *string)
 	ScopeInput() *string
@@ -55,6 +63,8 @@ type IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputRefer
 	TokenEndpoint() *string
 	SetTokenEndpoint(val *string)
 	TokenEndpointInput() *string
+	TokenParams() IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsOutputReference
+	TokenParamsInput() *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -79,11 +89,17 @@ type IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputRefer
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutAuthParams(value *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams)
+	PutTokenParams(value *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams)
+	ResetApplyReauthPolicy()
 	ResetAuthEndpoint()
+	ResetAuthParams()
 	ResetClientId()
 	ResetClientSecret()
+	ResetRequestType()
 	ResetScope()
 	ResetTokenEndpoint()
+	ResetTokenParams()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -97,6 +113,26 @@ type IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputRefer
 // The jsii proxy struct for IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference
 type jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ApplyReauthPolicy() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"applyReauthPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ApplyReauthPolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"applyReauthPolicyInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) AuthEndpoint() *string {
@@ -114,6 +150,26 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	_jsii_.Get(
 		j,
 		"authEndpointInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) AuthParams() IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsOutputReference {
+	var returns IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParamsOutputReference
+	_jsii_.Get(
+		j,
+		"authParams",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) AuthParamsInput() *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams {
+	var returns *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams
+	_jsii_.Get(
+		j,
+		"authParamsInput",
 		&returns,
 	)
 	return returns
@@ -209,6 +265,26 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	return returns
 }
 
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) RequestType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) RequestTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"requestTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) Scope() *string {
 	var returns *string
 	_jsii_.Get(
@@ -269,6 +345,26 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	return returns
 }
 
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) TokenParams() IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsOutputReference {
+	var returns IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParamsOutputReference
+	_jsii_.Get(
+		j,
+		"tokenParams",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) TokenParamsInput() *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams {
+	var returns *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams
+	_jsii_.Get(
+		j,
+		"tokenParamsInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference {
 	_init_.Initialize()
@@ -294,6 +390,17 @@ func NewIntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputRe
 		"@cdktn/provider-google.integrationsAuthConfig.IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference",
 		[]interface{}{terraformResource, terraformAttribute},
 		i,
+	)
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference)SetApplyReauthPolicy(val interface{}) {
+	if err := j.validateSetApplyReauthPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"applyReauthPolicy",
+		val,
 	)
 }
 
@@ -359,6 +466,17 @@ func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	_jsii_.Set(
 		j,
 		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference)SetRequestType(val *string) {
+	if err := j.validateSetRequestTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"requestType",
 		val,
 	)
 }
@@ -593,10 +711,48 @@ func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	return returns
 }
 
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) PutAuthParams(value *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeAuthParams) {
+	if err := i.validatePutAuthParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putAuthParams",
+		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) PutTokenParams(value *IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeTokenParams) {
+	if err := i.validatePutTokenParamsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putTokenParams",
+		[]interface{}{value},
+	)
+}
+
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ResetApplyReauthPolicy() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetApplyReauthPolicy",
+		nil, // no parameters
+	)
+}
+
 func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ResetAuthEndpoint() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetAuthEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ResetAuthParams() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetAuthParams",
 		nil, // no parameters
 	)
 }
@@ -617,6 +773,14 @@ func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	)
 }
 
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ResetRequestType() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetRequestType",
+		nil, // no parameters
+	)
+}
+
 func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ResetScope() {
 	_jsii_.InvokeVoid(
 		i,
@@ -629,6 +793,14 @@ func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationC
 	_jsii_.InvokeVoid(
 		i,
 		"resetTokenEndpoint",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationsAuthConfigDecryptedCredentialOauth2AuthorizationCodeOutputReference) ResetTokenParams() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetTokenParams",
 		nil, // no parameters
 	)
 }

@@ -79,6 +79,10 @@ func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) validateSetIn
 	return nil
 }
 
+func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) validateSetModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataplexDatascanDataProfileSpecOutputReference) validateSetRowFilterParameters(val *string) error {
 	return nil
 }

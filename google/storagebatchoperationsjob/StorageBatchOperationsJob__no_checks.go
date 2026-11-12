@@ -87,6 +87,10 @@ func (s *jsiiProxy_StorageBatchOperationsJob) validatePutDeleteObjectParameters(
 	return nil
 }
 
+func (s *jsiiProxy_StorageBatchOperationsJob) validatePutLoggingConfigParameters(value *StorageBatchOperationsJobLoggingConfig) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageBatchOperationsJob) validatePutPutMetadataParameters(value *StorageBatchOperationsJobPutMetadata) error {
 	return nil
 }
@@ -140,6 +144,10 @@ func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDeletionPolicyParameter
 }
 
 func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDryRunParameters(val interface{}) error {
 	return nil
 }
 

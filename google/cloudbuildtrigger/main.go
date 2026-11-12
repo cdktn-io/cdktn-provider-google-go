@@ -853,6 +853,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetSubstitutionOption", GoMethod: "ResetSubstitutionOption"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVolumes", GoMethod: "ResetVolumes"},
 			_jsii_.MemberMethod{JsiiMethod: "resetWorkerPool", GoMethod: "ResetWorkerPool"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWorkerRelease", GoMethod: "ResetWorkerRelease"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "secretEnv", GoGetter: "SecretEnv"},
 			_jsii_.MemberProperty{JsiiProperty: "secretEnvInput", GoGetter: "SecretEnvInput"},
@@ -867,6 +868,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumesInput", GoGetter: "VolumesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "workerPool", GoGetter: "WorkerPool"},
 			_jsii_.MemberProperty{JsiiProperty: "workerPoolInput", GoGetter: "WorkerPoolInput"},
+			_jsii_.MemberProperty{JsiiProperty: "workerRelease", GoGetter: "WorkerRelease"},
+			_jsii_.MemberProperty{JsiiProperty: "workerReleaseInput", GoGetter: "WorkerReleaseInput"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CloudbuildTriggerBuildOptionsOutputReference{}

@@ -13,6 +13,7 @@ import (
 
 type MemorystoreInstanceZoneDistributionConfigOutputReference interface {
 	cdktn.ComplexObject
+	ActiveZones() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,6 +47,9 @@ type MemorystoreInstanceZoneDistributionConfigOutputReference interface {
 	Zone() *string
 	SetZone(val *string)
 	ZoneInput() *string
+	Zones() *[]*string
+	SetZones(val *[]*string)
+	ZonesInput() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +76,7 @@ type MemorystoreInstanceZoneDistributionConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMode()
 	ResetZone()
+	ResetZones()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -85,6 +90,16 @@ type MemorystoreInstanceZoneDistributionConfigOutputReference interface {
 // The jsii proxy struct for MemorystoreInstanceZoneDistributionConfigOutputReference
 type jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) ActiveZones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"activeZones",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -197,6 +212,26 @@ func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) Zon
 	return returns
 }
 
+func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) Zones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"zones",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) ZonesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"zonesInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewMemorystoreInstanceZoneDistributionConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MemorystoreInstanceZoneDistributionConfigOutputReference {
 	_init_.Initialize()
@@ -298,6 +333,17 @@ func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference)SetZ
 	_jsii_.Set(
 		j,
 		"zone",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference)SetZones(val *[]*string) {
+	if err := j.validateSetZonesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"zones",
 		val,
 	)
 }
@@ -500,6 +546,14 @@ func (m *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) Res
 	_jsii_.InvokeVoid(
 		m,
 		"resetZone",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) ResetZones() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetZones",
 		nil, // no parameters
 	)
 }

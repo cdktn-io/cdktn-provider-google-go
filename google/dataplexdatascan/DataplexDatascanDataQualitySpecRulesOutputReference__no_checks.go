@@ -47,6 +47,10 @@ func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) validate
 	return nil
 }
 
+func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) validatePutDebugQueriesParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataplexDatascanDataQualitySpecRulesOutputReference) validatePutNonNullExpectationParameters(value *DataplexDatascanDataQualitySpecRulesNonNullExpectation) error {
 	return nil
 }

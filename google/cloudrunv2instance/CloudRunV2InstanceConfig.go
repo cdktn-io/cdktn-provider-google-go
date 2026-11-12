@@ -24,15 +24,15 @@ type CloudRunV2InstanceConfig struct {
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
 	// containers block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#containers CloudRunV2Instance#containers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#containers CloudRunV2Instance#containers}
 	Containers interface{} `field:"required" json:"containers" yaml:"containers"`
 	// The location of the cloud run instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#location CloudRunV2Instance#location}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#location CloudRunV2Instance#location}
 	Location *string `field:"required" json:"location" yaml:"location"`
 	// Name of the Instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#name CloudRunV2Instance#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#name CloudRunV2Instance#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 	// Unstructured key value map that may be set by external tools to store and arbitrary metadata.
 	//
@@ -43,19 +43,19 @@ type CloudRunV2InstanceConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the annotations present in your configuration.
 	// Please refer to the field 'effective_annotations' for all of the annotations present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#annotations CloudRunV2Instance#annotations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#annotations CloudRunV2Instance#annotations}
 	Annotations *map[string]*string `field:"optional" json:"annotations" yaml:"annotations"`
 	// Arbitrary identifier for the API client.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#client CloudRunV2Instance#client}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#client CloudRunV2Instance#client}
 	Client *string `field:"optional" json:"client" yaml:"client"`
 	// Arbitrary version identifier for the API client.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#client_version CloudRunV2Instance#client_version}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#client_version CloudRunV2Instance#client_version}
 	ClientVersion *string `field:"optional" json:"clientVersion" yaml:"clientVersion"`
 	// Disables public resolution of the default URI of this Instance.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#default_uri_disabled CloudRunV2Instance#default_uri_disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#default_uri_disabled CloudRunV2Instance#default_uri_disabled}
 	DefaultUriDisabled interface{} `field:"optional" json:"defaultUriDisabled" yaml:"defaultUriDisabled"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -67,26 +67,26 @@ type CloudRunV2InstanceConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#deletion_policy CloudRunV2Instance#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#deletion_policy CloudRunV2Instance#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// A reference to a customer managed encryption key (CMEK) to use to encrypt this container image.
 	//
 	// For more information, go to https://cloud.google.com/run/docs/securing/using-cmek
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#encryption_key CloudRunV2Instance#encryption_key}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#encryption_key CloudRunV2Instance#encryption_key}
 	EncryptionKey *string `field:"optional" json:"encryptionKey" yaml:"encryptionKey"`
 	// The action to take if the encryption key is revoked. Possible values: ["PREVENT_NEW", "SHUTDOWN"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#encryption_key_revocation_action CloudRunV2Instance#encryption_key_revocation_action}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#encryption_key_revocation_action CloudRunV2Instance#encryption_key_revocation_action}
 	EncryptionKeyRevocationAction *string `field:"optional" json:"encryptionKeyRevocationAction" yaml:"encryptionKeyRevocationAction"`
 	// If encryptionKeyRevocationAction is SHUTDOWN, the duration before shutting down all instances.
 	//
 	// The minimum increment is 1 hour.
 	// A duration in seconds with up to nine fractional digits, ending with 's'. Example: "3.5s".
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#encryption_key_shutdown_duration CloudRunV2Instance#encryption_key_shutdown_duration}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#encryption_key_shutdown_duration CloudRunV2Instance#encryption_key_shutdown_duration}
 	EncryptionKeyShutdownDuration *string `field:"optional" json:"encryptionKeyShutdownDuration" yaml:"encryptionKeyShutdownDuration"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#id CloudRunV2Instance#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#id CloudRunV2Instance#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,11 +95,11 @@ type CloudRunV2InstanceConfig struct {
 	//
 	// On output, returns the currently observed ingress settings, or INGRESS_TRAFFIC_UNSPECIFIED if no revision is active. Possible values: ["INGRESS_TRAFFIC_ALL", "INGRESS_TRAFFIC_INTERNAL_ONLY", "INGRESS_TRAFFIC_INTERNAL_LOAD_BALANCER"]
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#ingress CloudRunV2Instance#ingress}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#ingress CloudRunV2Instance#ingress}
 	Ingress *string `field:"optional" json:"ingress" yaml:"ingress"`
 	// Disables IAM permission check for run.routes.invoke for callers of this Instance. For more information, visit https://cloud.google.com/run/docs/securing/managing-access#invoker_check.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#invoker_iam_disabled CloudRunV2Instance#invoker_iam_disabled}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#invoker_iam_disabled CloudRunV2Instance#invoker_iam_disabled}
 	InvokerIamDisabled interface{} `field:"optional" json:"invokerIamDisabled" yaml:"invokerIamDisabled"`
 	// Unstructured key value map that can be used to organize and categorize objects.
 	//
@@ -110,31 +110,31 @@ type CloudRunV2InstanceConfig struct {
 	// **Note**: This field is non-authoritative, and will only manage the labels present in your configuration.
 	// Please refer to the field 'effective_labels' for all of the labels present on the resource.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#labels CloudRunV2Instance#labels}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#labels CloudRunV2Instance#labels}
 	Labels *map[string]*string `field:"optional" json:"labels" yaml:"labels"`
 	// The launch stage as defined by [Google Cloud Platform Launch Stages](https://cloud.google.com/products#product-launch-stages). Cloud Run supports ALPHA, BETA, and GA. If no value is specified, GA is assumed. Set the launch stage to a preview stage on input to allow use of preview features in that stage. On read (or output), describes whether the resource uses preview features. For example, if ALPHA is provided as input, but only BETA and GA-level features are used, this field will be BETA on output. Possible values: ["UNIMPLEMENTED", "PRELAUNCH", "EARLY_ACCESS", "ALPHA", "BETA", "GA", "DEPRECATED"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#launch_stage CloudRunV2Instance#launch_stage}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#launch_stage CloudRunV2Instance#launch_stage}
 	LaunchStage *string `field:"optional" json:"launchStage" yaml:"launchStage"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#project CloudRunV2Instance#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#project CloudRunV2Instance#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 	// Restart policy for the Instance. If not provided, the default is ON_FAILURE. Possible values: ["ALWAYS", "ON_FAILURE", "NEVER"].
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#restart_policy CloudRunV2Instance#restart_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#restart_policy CloudRunV2Instance#restart_policy}
 	RestartPolicy *string `field:"optional" json:"restartPolicy" yaml:"restartPolicy"`
 	// Email address of the IAM service account associated with the Instance.
 	//
 	// The service account represents the identity of the running Instance, and determines what permissions the instance has.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#service_account CloudRunV2Instance#service_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#service_account CloudRunV2Instance#service_account}
 	ServiceAccount *string `field:"optional" json:"serviceAccount" yaml:"serviceAccount"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#timeouts CloudRunV2Instance#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#timeouts CloudRunV2Instance#timeouts}
 	Timeouts *CloudRunV2InstanceTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 	// volumes block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/cloud_run_v2_instance#volumes CloudRunV2Instance#volumes}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/cloud_run_v2_instance#volumes CloudRunV2Instance#volumes}
 	Volumes interface{} `field:"optional" json:"volumes" yaml:"volumes"`
 }
 

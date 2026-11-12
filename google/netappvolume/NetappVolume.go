@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/netapp_volume google_netapp_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/netapp_volume google_netapp_volume}.
 type NetappVolume interface {
 	cdktn.TerraformResource
 	ActiveDirectory() *string
@@ -131,6 +131,9 @@ type NetappVolume interface {
 	SmbSettings() *[]*string
 	SetSmbSettings(val *[]*string)
 	SmbSettingsInput() *[]*string
+	SnapReserve() *float64
+	SetSnapReserve(val *float64)
+	SnapReserveInput() *float64
 	SnapshotDirectory() interface{}
 	SetSnapshotDirectory(val interface{})
 	SnapshotDirectoryInput() interface{}
@@ -284,6 +287,7 @@ type NetappVolume interface {
 	ResetSecurityStyle()
 	ResetShareName()
 	ResetSmbSettings()
+	ResetSnapReserve()
 	ResetSnapshotDirectory()
 	ResetSnapshotPolicy()
 	ResetThroughputMibps()
@@ -1047,6 +1051,26 @@ func (j *jsiiProxy_NetappVolume) SmbSettingsInput() *[]*string {
 	return returns
 }
 
+func (j *jsiiProxy_NetappVolume) SnapReserve() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"snapReserve",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolume) SnapReserveInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"snapReserveInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetappVolume) SnapshotDirectory() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -1268,7 +1292,7 @@ func (j *jsiiProxy_NetappVolume) Zone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/netapp_volume google_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/netapp_volume google_netapp_volume} Resource.
 func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolumeConfig) NetappVolume {
 	_init_.Initialize()
 
@@ -1286,7 +1310,7 @@ func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolum
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/netapp_volume google_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/netapp_volume google_netapp_volume} Resource.
 func NewNetappVolume_Override(n NetappVolume, scope constructs.Construct, id *string, config *NetappVolumeConfig) {
 	_init_.Initialize()
 
@@ -1537,6 +1561,17 @@ func (j *jsiiProxy_NetappVolume)SetSmbSettings(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"smbSettings",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetappVolume)SetSnapReserve(val *float64) {
+	if err := j.validateSetSnapReserveParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"snapReserve",
 		val,
 	)
 }
@@ -2231,6 +2266,14 @@ func (n *jsiiProxy_NetappVolume) ResetSmbSettings() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetSmbSettings",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolume) ResetSnapReserve() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetSnapReserve",
 		nil, // no parameters
 	)
 }

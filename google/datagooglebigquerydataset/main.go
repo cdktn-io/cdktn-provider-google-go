@@ -25,6 +25,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "defaultCollation", GoGetter: "DefaultCollation"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultEncryptionConfiguration", GoGetter: "DefaultEncryptionConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultPartitionExpirationMs", GoGetter: "DefaultPartitionExpirationMs"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultRoundingMode", GoGetter: "DefaultRoundingMode"},
 			_jsii_.MemberProperty{JsiiProperty: "defaultTableExpirationMs", GoGetter: "DefaultTableExpirationMs"},
 			_jsii_.MemberProperty{JsiiProperty: "deleteContentsOnDestroy", GoGetter: "DeleteContentsOnDestroy"},
 			_jsii_.MemberProperty{JsiiProperty: "deletionPolicy", GoGetter: "DeletionPolicy"},

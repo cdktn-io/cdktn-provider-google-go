@@ -1,0 +1,19 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package computeinterconnect
+
+
+type ComputeInterconnectApplicationAwareInterconnectShapeAveragePercentage struct {
+	// Bandwidth percentage for a specific traffic class.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/compute_interconnect#percentage ComputeInterconnect#percentage}
+	Percentage *float64 `field:"optional" json:"percentage" yaml:"percentage"`
+	// Enum representing the various traffic classes offered by AAI.
+	//
+	// Default value: "TC_UNSPECIFIED" Possible values: ["TC_UNSPECIFIED", "TC1", "TC2", "TC3", "TC4", "TC5", "TC6"]
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/compute_interconnect#traffic_class ComputeInterconnect#traffic_class}
+	TrafficClass *string `field:"optional" json:"trafficClass" yaml:"trafficClass"`
+}
+

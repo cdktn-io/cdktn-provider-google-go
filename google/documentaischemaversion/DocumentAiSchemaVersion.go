@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/document_ai_schema_version google_document_ai_schema_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/document_ai_schema_version google_document_ai_schema_version}.
 type DocumentAiSchemaVersion interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -600,7 +600,7 @@ func (j *jsiiProxy_DocumentAiSchemaVersion) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/document_ai_schema_version google_document_ai_schema_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/document_ai_schema_version google_document_ai_schema_version} Resource.
 func NewDocumentAiSchemaVersion(scope constructs.Construct, id *string, config *DocumentAiSchemaVersionConfig) DocumentAiSchemaVersion {
 	_init_.Initialize()
 
@@ -618,7 +618,7 @@ func NewDocumentAiSchemaVersion(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/document_ai_schema_version google_document_ai_schema_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/document_ai_schema_version google_document_ai_schema_version} Resource.
 func NewDocumentAiSchemaVersion_Override(d DocumentAiSchemaVersion, scope constructs.Construct, id *string, config *DocumentAiSchemaVersionConfig) {
 	_init_.Initialize()
 

@@ -75,7 +75,15 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 	return nil
 }
 
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutMasterFlexibleConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigMasterFlexibleConfig) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutSecondaryWorkerConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutSecondaryWorkerFlexibleConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigSecondaryWorkerFlexibleConfig) error {
 	return nil
 }
 
@@ -88,6 +96,10 @@ func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputRe
 }
 
 func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutWorkerConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerConfig) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataprocWorkflowTemplatePlacementManagedClusterConfigOutputReference) validatePutWorkerFlexibleConfigParameters(value *DataprocWorkflowTemplatePlacementManagedClusterConfigWorkerFlexibleConfig) error {
 	return nil
 }
 

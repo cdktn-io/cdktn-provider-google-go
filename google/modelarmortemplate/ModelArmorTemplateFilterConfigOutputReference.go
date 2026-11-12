@@ -28,6 +28,8 @@ type ModelArmorTemplateFilterConfigOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	FilterRuleSettings() ModelArmorTemplateFilterConfigFilterRuleSettingsOutputReference
+	FilterRuleSettingsInput() *ModelArmorTemplateFilterConfigFilterRuleSettings
 	// Experimental.
 	Fqn() *string
 	InternalValue() *ModelArmorTemplateFilterConfig
@@ -72,10 +74,12 @@ type ModelArmorTemplateFilterConfigOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutFilterRuleSettings(value *ModelArmorTemplateFilterConfigFilterRuleSettings)
 	PutMaliciousUriFilterSettings(value *ModelArmorTemplateFilterConfigMaliciousUriFilterSettings)
 	PutPiAndJailbreakFilterSettings(value *ModelArmorTemplateFilterConfigPiAndJailbreakFilterSettings)
 	PutRaiSettings(value *ModelArmorTemplateFilterConfigRaiSettings)
 	PutSdpSettings(value *ModelArmorTemplateFilterConfigSdpSettings)
+	ResetFilterRuleSettings()
 	ResetMaliciousUriFilterSettings()
 	ResetPiAndJailbreakFilterSettings()
 	ResetRaiSettings()
@@ -120,6 +124,26 @@ func (j *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) CreationStack(
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) FilterRuleSettings() ModelArmorTemplateFilterConfigFilterRuleSettingsOutputReference {
+	var returns ModelArmorTemplateFilterConfigFilterRuleSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"filterRuleSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) FilterRuleSettingsInput() *ModelArmorTemplateFilterConfigFilterRuleSettings {
+	var returns *ModelArmorTemplateFilterConfigFilterRuleSettings
+	_jsii_.Get(
+		j,
+		"filterRuleSettingsInput",
 		&returns,
 	)
 	return returns
@@ -514,6 +538,17 @@ func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) InterpolationF
 	return returns
 }
 
+func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) PutFilterRuleSettings(value *ModelArmorTemplateFilterConfigFilterRuleSettings) {
+	if err := m.validatePutFilterRuleSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		m,
+		"putFilterRuleSettings",
+		[]interface{}{value},
+	)
+}
+
 func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) PutMaliciousUriFilterSettings(value *ModelArmorTemplateFilterConfigMaliciousUriFilterSettings) {
 	if err := m.validatePutMaliciousUriFilterSettingsParameters(value); err != nil {
 		panic(err)
@@ -555,6 +590,14 @@ func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) PutSdpSettings
 		m,
 		"putSdpSettings",
 		[]interface{}{value},
+	)
+}
+
+func (m *jsiiProxy_ModelArmorTemplateFilterConfigOutputReference) ResetFilterRuleSettings() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetFilterRuleSettings",
+		nil, // no parameters
 	)
 }
 

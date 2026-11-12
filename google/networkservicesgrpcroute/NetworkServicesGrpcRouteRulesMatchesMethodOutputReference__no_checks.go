@@ -83,6 +83,10 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference) va
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
 func validateNewNetworkServicesGrpcRouteRulesMatchesMethodOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

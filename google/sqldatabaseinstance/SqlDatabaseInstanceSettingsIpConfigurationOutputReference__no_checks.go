@@ -51,7 +51,7 @@ func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) validatePutPscConfigParameters(value interface{}) error {
+func (s *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationOutputReference) validatePutPscConfigParameters(value *SqlDatabaseInstanceSettingsIpConfigurationPscConfig) error {
 	return nil
 }
 

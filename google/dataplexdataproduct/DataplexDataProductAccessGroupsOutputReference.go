@@ -28,6 +28,8 @@ type DataplexDataProductAccessGroupsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DefaultIamRoleConfig() DataplexDataProductAccessGroupsDefaultIamRoleConfigOutputReference
+	DefaultIamRoleConfigInput() *DataplexDataProductAccessGroupsDefaultIamRoleConfig
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
@@ -78,7 +80,9 @@ type DataplexDataProductAccessGroupsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutDefaultIamRoleConfig(value *DataplexDataProductAccessGroupsDefaultIamRoleConfig)
 	PutPrincipal(value *DataplexDataProductAccessGroupsPrincipal)
+	ResetDefaultIamRoleConfig()
 	ResetDescription()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -120,6 +124,26 @@ func (j *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) CreationStack
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) DefaultIamRoleConfig() DataplexDataProductAccessGroupsDefaultIamRoleConfigOutputReference {
+	var returns DataplexDataProductAccessGroupsDefaultIamRoleConfigOutputReference
+	_jsii_.Get(
+		j,
+		"defaultIamRoleConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) DefaultIamRoleConfigInput() *DataplexDataProductAccessGroupsDefaultIamRoleConfig {
+	var returns *DataplexDataProductAccessGroupsDefaultIamRoleConfig
+	_jsii_.Get(
+		j,
+		"defaultIamRoleConfigInput",
 		&returns,
 	)
 	return returns
@@ -578,6 +602,17 @@ func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) Interpolation
 	return returns
 }
 
+func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) PutDefaultIamRoleConfig(value *DataplexDataProductAccessGroupsDefaultIamRoleConfig) {
+	if err := d.validatePutDefaultIamRoleConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putDefaultIamRoleConfig",
+		[]interface{}{value},
+	)
+}
+
 func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) PutPrincipal(value *DataplexDataProductAccessGroupsPrincipal) {
 	if err := d.validatePutPrincipalParameters(value); err != nil {
 		panic(err)
@@ -586,6 +621,14 @@ func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) PutPrincipal(
 		d,
 		"putPrincipal",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataplexDataProductAccessGroupsOutputReference) ResetDefaultIamRoleConfig() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDefaultIamRoleConfig",
+		nil, // no parameters
 	)
 }
 

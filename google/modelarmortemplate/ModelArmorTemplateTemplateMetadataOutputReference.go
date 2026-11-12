@@ -40,6 +40,9 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	CustomPromptSafetyErrorMessage() *string
 	SetCustomPromptSafetyErrorMessage(val *string)
 	CustomPromptSafetyErrorMessageInput() *string
+	DataResidencyCompliant() interface{}
+	SetDataResidencyCompliant(val interface{})
+	DataResidencyCompliantInput() interface{}
 	EnforcementType() *string
 	SetEnforcementType(val *string)
 	EnforcementTypeInput() *string
@@ -101,6 +104,7 @@ type ModelArmorTemplateTemplateMetadataOutputReference interface {
 	ResetCustomLlmResponseSafetyErrorMessage()
 	ResetCustomPromptSafetyErrorCode()
 	ResetCustomPromptSafetyErrorMessage()
+	ResetDataResidencyCompliant()
 	ResetEnforcementType()
 	ResetFilterVersionSelector()
 	ResetIgnorePartialInvocationFailures()
@@ -228,6 +232,26 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) CustomProm
 	_jsii_.Get(
 		j,
 		"customPromptSafetyErrorMessageInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) DataResidencyCompliant() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dataResidencyCompliant",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) DataResidencyCompliantInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dataResidencyCompliantInput",
 		&returns,
 	)
 	return returns
@@ -503,6 +527,17 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference)SetCustomPr
 	_jsii_.Set(
 		j,
 		"customPromptSafetyErrorMessage",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference)SetDataResidencyCompliant(val interface{}) {
+	if err := j.validateSetDataResidencyCompliantParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dataResidencyCompliant",
 		val,
 	)
 }
@@ -831,6 +866,14 @@ func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ResetCusto
 	_jsii_.InvokeVoid(
 		m,
 		"resetCustomPromptSafetyErrorMessage",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) ResetDataResidencyCompliant() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetDataResidencyCompliant",
 		nil, // no parameters
 	)
 }

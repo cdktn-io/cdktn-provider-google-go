@@ -22,16 +22,16 @@ type DataGoogleCloudRunV2InstanceIamPolicyConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/cloud_run_v2_instance_iam_policy#name DataGoogleCloudRunV2InstanceIamPolicy#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/cloud_run_v2_instance_iam_policy#name DataGoogleCloudRunV2InstanceIamPolicy#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/cloud_run_v2_instance_iam_policy#id DataGoogleCloudRunV2InstanceIamPolicy#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/cloud_run_v2_instance_iam_policy#id DataGoogleCloudRunV2InstanceIamPolicy#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/cloud_run_v2_instance_iam_policy#location DataGoogleCloudRunV2InstanceIamPolicy#location}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/cloud_run_v2_instance_iam_policy#location DataGoogleCloudRunV2InstanceIamPolicy#location}.
 	Location *string `field:"optional" json:"location" yaml:"location"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/cloud_run_v2_instance_iam_policy#project DataGoogleCloudRunV2InstanceIamPolicy#project}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/cloud_run_v2_instance_iam_policy#project DataGoogleCloudRunV2InstanceIamPolicy#project}.
 	Project *string `field:"optional" json:"project" yaml:"project"`
 }
 

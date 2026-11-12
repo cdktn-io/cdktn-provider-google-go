@@ -115,6 +115,10 @@ func (i *jsiiProxy_IntegrationConnectorsConnection) validatePutTimeoutsParameter
 	return nil
 }
 
+func (i *jsiiProxy_IntegrationConnectorsConnection) validatePutTrafficShapingConfigsParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IntegrationConnectorsConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
@@ -132,6 +136,14 @@ func validateIntegrationConnectorsConnection_IsTerraformElementParameters(x inte
 }
 
 func validateIntegrationConnectorsConnection_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) validateSetAsyncOperationsEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) validateSetAuthOverrideEnabledParameters(val interface{}) error {
 	return nil
 }
 

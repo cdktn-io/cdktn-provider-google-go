@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary_config google_resource_manager_boundary_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary_config google_resource_manager_boundary_config}.
 type ResourceManagerBoundaryConfigA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_ResourceManagerBoundaryConfigA) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary_config google_resource_manager_boundary_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary_config google_resource_manager_boundary_config} Resource.
 func NewResourceManagerBoundaryConfigA(scope constructs.Construct, id *string, config *ResourceManagerBoundaryConfigAConfig) ResourceManagerBoundaryConfigA {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewResourceManagerBoundaryConfigA(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary_config google_resource_manager_boundary_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary_config google_resource_manager_boundary_config} Resource.
 func NewResourceManagerBoundaryConfigA_Override(r ResourceManagerBoundaryConfigA, scope constructs.Construct, id *string, config *ResourceManagerBoundaryConfigAConfig) {
 	_init_.Initialize()
 

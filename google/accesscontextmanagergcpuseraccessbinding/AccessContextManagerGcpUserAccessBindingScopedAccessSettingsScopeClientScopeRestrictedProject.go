@@ -7,7 +7,7 @@ package accesscontextmanagergcpuseraccessbinding
 type AccessContextManagerGcpUserAccessBindingScopedAccessSettingsScopeClientScopeRestrictedProject struct {
 	// The Google Cloud project resource name. Format: 'projects/{project_number}'. Only the project number is supported. Example: 'projects/1234567890'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/access_context_manager_gcp_user_access_binding#name AccessContextManagerGcpUserAccessBinding#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/access_context_manager_gcp_user_access_binding#name AccessContextManagerGcpUserAccessBinding#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

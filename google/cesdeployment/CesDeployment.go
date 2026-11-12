@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_deployment google_ces_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/ces_deployment google_ces_deployment}.
 type CesDeployment interface {
 	cdktn.TerraformResource
 	App() *string
@@ -67,6 +67,11 @@ type CesDeployment interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	Modality() *string
+	SetModality(val *string)
+	ModalityInput() *string
+	ModelSettings() CesDeploymentModelSettingsOutputReference
+	ModelSettingsInput() *CesDeploymentModelSettings
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
@@ -175,6 +180,7 @@ type CesDeployment interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutChannelProfile(value *CesDeploymentChannelProfile)
 	PutInstagramCredentials(value *CesDeploymentInstagramCredentials)
+	PutModelSettings(value *CesDeploymentModelSettings)
 	PutTimeouts(value *CesDeploymentTimeouts)
 	PutWhatsappCredentials(value *CesDeploymentWhatsappCredentials)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
@@ -193,6 +199,8 @@ type CesDeployment interface {
 	ResetDeletionPolicy()
 	ResetId()
 	ResetInstagramCredentials()
+	ResetModality()
+	ResetModelSettings()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -496,6 +504,46 @@ func (j *jsiiProxy_CesDeployment) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_CesDeployment) Modality() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modality",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeployment) ModalityInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"modalityInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeployment) ModelSettings() CesDeploymentModelSettingsOutputReference {
+	var returns CesDeploymentModelSettingsOutputReference
+	_jsii_.Get(
+		j,
+		"modelSettings",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CesDeployment) ModelSettingsInput() *CesDeploymentModelSettings {
+	var returns *CesDeploymentModelSettings
+	_jsii_.Get(
+		j,
+		"modelSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CesDeployment) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -647,7 +695,7 @@ func (j *jsiiProxy_CesDeployment) WhatsappCredentialsInput() *CesDeploymentWhats
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_deployment google_ces_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploymentConfig) CesDeployment {
 	_init_.Initialize()
 
@@ -665,7 +713,7 @@ func NewCesDeployment(scope constructs.Construct, id *string, config *CesDeploym
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/ces_deployment google_ces_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/ces_deployment google_ces_deployment} Resource.
 func NewCesDeployment_Override(c CesDeployment, scope constructs.Construct, id *string, config *CesDeploymentConfig) {
 	_init_.Initialize()
 
@@ -787,6 +835,17 @@ func (j *jsiiProxy_CesDeployment)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CesDeployment)SetModality(val *string) {
+	if err := j.validateSetModalityParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"modality",
 		val,
 	)
 }
@@ -1212,6 +1271,17 @@ func (c *jsiiProxy_CesDeployment) PutInstagramCredentials(value *CesDeploymentIn
 	)
 }
 
+func (c *jsiiProxy_CesDeployment) PutModelSettings(value *CesDeploymentModelSettings) {
+	if err := c.validatePutModelSettingsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putModelSettings",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CesDeployment) PutTimeouts(value *CesDeploymentTimeouts) {
 	if err := c.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1265,6 +1335,22 @@ func (c *jsiiProxy_CesDeployment) ResetInstagramCredentials() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetInstagramCredentials",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesDeployment) ResetModality() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetModality",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CesDeployment) ResetModelSettings() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetModelSettings",
 		nil, // no parameters
 	)
 }

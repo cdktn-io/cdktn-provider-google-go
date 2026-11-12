@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputRef
 	return nil
 }
 
+func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference) validatePutTransformationErrorHandlingParameters(value *DataLossPreventionDeidentifyTemplateDeidentifyConfigTransformationErrorHandling) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataLossPreventionDeidentifyTemplateDeidentifyConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

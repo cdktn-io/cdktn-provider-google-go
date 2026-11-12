@@ -83,6 +83,10 @@ func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSe
 	return nil
 }
 
+func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetDataResidencyCompliantParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ModelArmorTemplateTemplateMetadataOutputReference) validateSetEnforcementTypeParameters(val *string) error {
 	return nil
 }

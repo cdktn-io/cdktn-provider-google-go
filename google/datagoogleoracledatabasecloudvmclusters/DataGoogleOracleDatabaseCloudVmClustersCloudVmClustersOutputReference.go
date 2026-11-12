@@ -49,6 +49,7 @@ type DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference inter
 	Location() *string
 	Name() *string
 	Network() *string
+	OdbDnsZone() *string
 	OdbNetwork() *string
 	OdbSubnet() *string
 	Project() *string
@@ -316,6 +317,16 @@ func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputR
 	_jsii_.Get(
 		j,
 		"network",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleOracleDatabaseCloudVmClustersCloudVmClustersOutputReference) OdbDnsZone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbDnsZone",
 		&returns,
 	)
 	return returns

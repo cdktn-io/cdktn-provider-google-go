@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version}.
 type AppEngineStandardAppVersion interface {
 	cdktn.TerraformResource
 	AppEngineApis() interface{}
@@ -126,8 +126,10 @@ type AppEngineStandardAppVersion interface {
 	VersionId() *string
 	SetVersionId(val *string)
 	VersionIdInput() *string
+	VpcAccess() AppEngineStandardAppVersionVpcAccessOutputReference
 	VpcAccessConnector() AppEngineStandardAppVersionVpcAccessConnectorOutputReference
 	VpcAccessConnectorInput() *AppEngineStandardAppVersionVpcAccessConnector
+	VpcAccessInput() *AppEngineStandardAppVersionVpcAccess
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -215,6 +217,7 @@ type AppEngineStandardAppVersion interface {
 	PutLibraries(value interface{})
 	PutManualScaling(value *AppEngineStandardAppVersionManualScaling)
 	PutTimeouts(value *AppEngineStandardAppVersionTimeouts)
+	PutVpcAccess(value *AppEngineStandardAppVersionVpcAccess)
 	PutVpcAccessConnector(value *AppEngineStandardAppVersionVpcAccessConnector)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -252,6 +255,7 @@ type AppEngineStandardAppVersion interface {
 	ResetThreadsafe()
 	ResetTimeouts()
 	ResetVersionId()
+	ResetVpcAccess()
 	ResetVpcAccessConnector()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -930,6 +934,16 @@ func (j *jsiiProxy_AppEngineStandardAppVersion) VersionIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_AppEngineStandardAppVersion) VpcAccess() AppEngineStandardAppVersionVpcAccessOutputReference {
+	var returns AppEngineStandardAppVersionVpcAccessOutputReference
+	_jsii_.Get(
+		j,
+		"vpcAccess",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AppEngineStandardAppVersion) VpcAccessConnector() AppEngineStandardAppVersionVpcAccessConnectorOutputReference {
 	var returns AppEngineStandardAppVersionVpcAccessConnectorOutputReference
 	_jsii_.Get(
@@ -950,8 +964,18 @@ func (j *jsiiProxy_AppEngineStandardAppVersion) VpcAccessConnectorInput() *AppEn
 	return returns
 }
 
+func (j *jsiiProxy_AppEngineStandardAppVersion) VpcAccessInput() *AppEngineStandardAppVersionVpcAccess {
+	var returns *AppEngineStandardAppVersionVpcAccess
+	_jsii_.Get(
+		j,
+		"vpcAccessInput",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewAppEngineStandardAppVersion(scope constructs.Construct, id *string, config *AppEngineStandardAppVersionConfig) AppEngineStandardAppVersion {
 	_init_.Initialize()
 
@@ -969,7 +993,7 @@ func NewAppEngineStandardAppVersion(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/app_engine_standard_app_version google_app_engine_standard_app_version} Resource.
 func NewAppEngineStandardAppVersion_Override(a AppEngineStandardAppVersion, scope constructs.Construct, id *string, config *AppEngineStandardAppVersionConfig) {
 	_init_.Initialize()
 
@@ -1681,6 +1705,17 @@ func (a *jsiiProxy_AppEngineStandardAppVersion) PutTimeouts(value *AppEngineStan
 	)
 }
 
+func (a *jsiiProxy_AppEngineStandardAppVersion) PutVpcAccess(value *AppEngineStandardAppVersionVpcAccess) {
+	if err := a.validatePutVpcAccessParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putVpcAccess",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AppEngineStandardAppVersion) PutVpcAccessConnector(value *AppEngineStandardAppVersionVpcAccessConnector) {
 	if err := a.validatePutVpcAccessConnectorParameters(value); err != nil {
 		panic(err)
@@ -1867,6 +1902,14 @@ func (a *jsiiProxy_AppEngineStandardAppVersion) ResetVersionId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetVersionId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AppEngineStandardAppVersion) ResetVpcAccess() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetVpcAccess",
 		nil, // no parameters
 	)
 }

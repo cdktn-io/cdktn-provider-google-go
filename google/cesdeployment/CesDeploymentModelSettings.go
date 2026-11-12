@@ -1,0 +1,28 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package cesdeployment
+
+
+type CesDeploymentModelSettings struct {
+	// The LLM model that the agent should use.
+	//
+	// If not set, the agent will inherit the model from its parent agent.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/ces_deployment#model CesDeployment#model}
+	Model *string `field:"optional" json:"model" yaml:"model"`
+	// If set, this temperature will be used for the LLM model.
+	//
+	// Temperature
+	// controls the randomness of the model's responses. Lower temperatures
+	// produce responses that are more predictable. Higher temperatures produce
+	// responses that are more creative.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/ces_deployment#temperature CesDeployment#temperature}
+	Temperature *float64 `field:"optional" json:"temperature" yaml:"temperature"`
+	// The thinking level of the model. Possible values: ["DEFAULT", "LOW", "MEDIUM", "HIGH"].
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/ces_deployment#thinking_level CesDeployment#thinking_level}
+	ThinkingLevel *string `field:"optional" json:"thinkingLevel" yaml:"thinkingLevel"`
+}
+

@@ -143,6 +143,10 @@ func (j *jsiiProxy_BackupDrBackupPlan) validateSetIdParameters(val *string) erro
 	return nil
 }
 
+func (j *jsiiProxy_BackupDrBackupPlan) validateSetLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BackupDrBackupPlan) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

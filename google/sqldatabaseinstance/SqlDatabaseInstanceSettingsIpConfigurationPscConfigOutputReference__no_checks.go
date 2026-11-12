@@ -67,7 +67,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) validateSetInternalValueParameters(val *SqlDatabaseInstanceSettingsIpConfigurationPscConfig) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	return nil
 }
 
-func validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

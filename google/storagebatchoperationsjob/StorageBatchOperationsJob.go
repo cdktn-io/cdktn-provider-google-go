@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job}.
 type StorageBatchOperationsJob interface {
 	cdktn.TerraformResource
 	BucketList() StorageBatchOperationsJobBucketListStructOutputReference
@@ -46,6 +46,9 @@ type StorageBatchOperationsJob interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DryRun() interface{}
+	SetDryRun(val interface{})
+	DryRunInput() interface{}
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -64,6 +67,8 @@ type StorageBatchOperationsJob interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LoggingConfig() StorageBatchOperationsJobLoggingConfigOutputReference
+	LoggingConfigInput() *StorageBatchOperationsJobLoggingConfig
 	// The tree node.
 	Node() constructs.Node
 	Project() *string
@@ -177,6 +182,7 @@ type StorageBatchOperationsJob interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutBucketList(value *StorageBatchOperationsJobBucketListStruct)
 	PutDeleteObject(value *StorageBatchOperationsJobDeleteObject)
+	PutLoggingConfig(value *StorageBatchOperationsJobLoggingConfig)
 	PutPutMetadata(value *StorageBatchOperationsJobPutMetadata)
 	PutPutObjectHold(value *StorageBatchOperationsJobPutObjectHold)
 	PutRewriteObject(value *StorageBatchOperationsJobRewriteObject)
@@ -199,8 +205,10 @@ type StorageBatchOperationsJob interface {
 	ResetDeleteProtection()
 	ResetDeletionPolicy()
 	ResetDescription()
+	ResetDryRun()
 	ResetId()
 	ResetJobId()
+	ResetLoggingConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -406,6 +414,26 @@ func (j *jsiiProxy_StorageBatchOperationsJob) DescriptionInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_StorageBatchOperationsJob) DryRun() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dryRun",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) DryRunInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dryRunInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageBatchOperationsJob) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -481,6 +509,26 @@ func (j *jsiiProxy_StorageBatchOperationsJob) Lifecycle() *cdktn.TerraformResour
 	_jsii_.Get(
 		j,
 		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) LoggingConfig() StorageBatchOperationsJobLoggingConfigOutputReference {
+	var returns StorageBatchOperationsJobLoggingConfigOutputReference
+	_jsii_.Get(
+		j,
+		"loggingConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) LoggingConfigInput() *StorageBatchOperationsJobLoggingConfig {
+	var returns *StorageBatchOperationsJobLoggingConfig
+	_jsii_.Get(
+		j,
+		"loggingConfigInput",
 		&returns,
 	)
 	return returns
@@ -687,7 +735,7 @@ func (j *jsiiProxy_StorageBatchOperationsJob) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
 func NewStorageBatchOperationsJob(scope constructs.Construct, id *string, config *StorageBatchOperationsJobConfig) StorageBatchOperationsJob {
 	_init_.Initialize()
 
@@ -705,7 +753,7 @@ func NewStorageBatchOperationsJob(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_batch_operations_job google_storage_batch_operations_job} Resource.
 func NewStorageBatchOperationsJob_Override(s StorageBatchOperationsJob, scope constructs.Construct, id *string, config *StorageBatchOperationsJobConfig) {
 	_init_.Initialize()
 
@@ -775,6 +823,17 @@ func (j *jsiiProxy_StorageBatchOperationsJob)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob)SetDryRun(val interface{}) {
+	if err := j.validateSetDryRunParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dryRun",
 		val,
 	)
 }
@@ -1241,6 +1300,17 @@ func (s *jsiiProxy_StorageBatchOperationsJob) PutDeleteObject(value *StorageBatc
 	)
 }
 
+func (s *jsiiProxy_StorageBatchOperationsJob) PutLoggingConfig(value *StorageBatchOperationsJobLoggingConfig) {
+	if err := s.validatePutLoggingConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putLoggingConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_StorageBatchOperationsJob) PutPutMetadata(value *StorageBatchOperationsJobPutMetadata) {
 	if err := s.validatePutPutMetadataParameters(value); err != nil {
 		panic(err)
@@ -1336,6 +1406,14 @@ func (s *jsiiProxy_StorageBatchOperationsJob) ResetDescription() {
 	)
 }
 
+func (s *jsiiProxy_StorageBatchOperationsJob) ResetDryRun() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetDryRun",
+		nil, // no parameters
+	)
+}
+
 func (s *jsiiProxy_StorageBatchOperationsJob) ResetId() {
 	_jsii_.InvokeVoid(
 		s,
@@ -1348,6 +1426,14 @@ func (s *jsiiProxy_StorageBatchOperationsJob) ResetJobId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetJobId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageBatchOperationsJob) ResetLoggingConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetLoggingConfig",
 		nil, // no parameters
 	)
 }

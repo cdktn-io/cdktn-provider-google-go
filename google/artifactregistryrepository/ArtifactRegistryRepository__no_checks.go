@@ -91,6 +91,10 @@ func (a *jsiiProxy_ArtifactRegistryRepository) validatePutMavenConfigParameters(
 	return nil
 }
 
+func (a *jsiiProxy_ArtifactRegistryRepository) validatePutPlatformLogsConfigParameters(value *ArtifactRegistryRepositoryPlatformLogsConfig) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArtifactRegistryRepository) validatePutRemoteRepositoryConfigParameters(value *ArtifactRegistryRepositoryRemoteRepositoryConfig) error {
 	return nil
 }
@@ -144,6 +148,10 @@ func (j *jsiiProxy_ArtifactRegistryRepository) validateSetDeletionPolicyParamete
 }
 
 func (j *jsiiProxy_ArtifactRegistryRepository) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ArtifactRegistryRepository) validateSetDisallowUnspecifiedModeParameters(val interface{}) error {
 	return nil
 }
 

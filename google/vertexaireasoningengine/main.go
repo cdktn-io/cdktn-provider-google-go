@@ -650,6 +650,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putFunctionCall", GoMethod: "PutFunctionCall"},
 			_jsii_.MemberMethod{JsiiMethod: "putFunctionResponse", GoMethod: "PutFunctionResponse"},
 			_jsii_.MemberMethod{JsiiMethod: "putInlineData", GoMethod: "PutInlineData"},
+			_jsii_.MemberMethod{JsiiMethod: "putSpeechMetadata", GoMethod: "PutSpeechMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "putVideoMetadata", GoMethod: "PutVideoMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAudioTranscription", GoMethod: "ResetAudioTranscription"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCodeExecutionResult", GoMethod: "ResetCodeExecutionResult"},
@@ -658,10 +659,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetFunctionCall", GoMethod: "ResetFunctionCall"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFunctionResponse", GoMethod: "ResetFunctionResponse"},
 			_jsii_.MemberMethod{JsiiMethod: "resetInlineData", GoMethod: "ResetInlineData"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSpeechMetadata", GoMethod: "ResetSpeechMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "resetText", GoMethod: "ResetText"},
 			_jsii_.MemberMethod{JsiiMethod: "resetThought", GoMethod: "ResetThought"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVideoMetadata", GoMethod: "ResetVideoMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "speechMetadata", GoGetter: "SpeechMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "speechMetadataInput", GoGetter: "SpeechMetadataInput"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberProperty{JsiiProperty: "text", GoGetter: "Text"},
@@ -674,6 +678,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.vertexAiReasoningEngine.VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadata",
+		reflect.TypeOf((*VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadata)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.vertexAiReasoningEngine.VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadataOutputReference",
+		reflect.TypeOf((*VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadataOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSpeaker", GoMethod: "ResetSpeaker"},
+			_jsii_.MemberMethod{JsiiMethod: "resetStyle", GoMethod: "ResetStyle"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "speaker", GoGetter: "Speaker"},
+			_jsii_.MemberProperty{JsiiProperty: "speakerInput", GoGetter: "SpeakerInput"},
+			_jsii_.MemberProperty{JsiiProperty: "style", GoGetter: "Style"},
+			_jsii_.MemberProperty{JsiiProperty: "styleInput", GoGetter: "StyleInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_VertexAiReasoningEngineContextSpecMemoryBankConfigCustomizationConfigsGenerateMemoriesExamplesConversationSourceEventsContentPartsSpeechMetadataOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

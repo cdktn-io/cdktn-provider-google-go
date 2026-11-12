@@ -143,6 +143,10 @@ func (j *jsiiProxy_StorageInsightsReportConfig) validateSetIdParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_StorageInsightsReportConfig) validateSetLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageInsightsReportConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

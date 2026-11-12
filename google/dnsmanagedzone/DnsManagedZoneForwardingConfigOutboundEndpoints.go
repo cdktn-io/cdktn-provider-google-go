@@ -7,7 +7,7 @@ package dnsmanagedzone
 type DnsManagedZoneForwardingConfigOutboundEndpoints struct {
 	// Specified as a resource path including project and region. This should be formatted like 'projects/{project}/locations/{location}/outboundEndpoints/{endpoint}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dns_managed_zone#name DnsManagedZone#name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dns_managed_zone#name DnsManagedZone#name}
 	Name *string `field:"required" json:"name" yaml:"name"`
 }
 

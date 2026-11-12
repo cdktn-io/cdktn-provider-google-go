@@ -111,6 +111,10 @@ func (a *jsiiProxy_AppEngineStandardAppVersion) validatePutTimeoutsParameters(va
 	return nil
 }
 
+func (a *jsiiProxy_AppEngineStandardAppVersion) validatePutVpcAccessParameters(value *AppEngineStandardAppVersionVpcAccess) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppEngineStandardAppVersion) validatePutVpcAccessConnectorParameters(value *AppEngineStandardAppVersionVpcAccessConnector) error {
 	return nil
 }

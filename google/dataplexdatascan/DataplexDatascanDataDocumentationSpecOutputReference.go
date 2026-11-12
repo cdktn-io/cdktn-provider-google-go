@@ -33,6 +33,9 @@ type DataplexDatascanDataDocumentationSpecOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	GenerationScopes() *[]*string
+	SetGenerationScopes(val *[]*string)
+	GenerationScopesInput() *[]*string
 	InternalValue() *DataplexDatascanDataDocumentationSpec
 	SetInternalValue(val *DataplexDatascanDataDocumentationSpec)
 	SqlDialect() *string
@@ -71,6 +74,7 @@ type DataplexDatascanDataDocumentationSpecOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCatalogPublishingEnabled()
+	ResetGenerationScopes()
 	ResetSqlDialect()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -142,6 +146,26 @@ func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) Fqn() *
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) GenerationScopes() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"generationScopes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) GenerationScopesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"generationScopesInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference)SetCompl
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference)SetGenerationScopes(val *[]*string) {
+	if err := j.validateSetGenerationScopesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"generationScopes",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (d *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) ResetCa
 	_jsii_.InvokeVoid(
 		d,
 		"resetCatalogPublishingEnabled",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataplexDatascanDataDocumentationSpecOutputReference) ResetGenerationScopes() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetGenerationScopes",
 		nil, // no parameters
 	)
 }

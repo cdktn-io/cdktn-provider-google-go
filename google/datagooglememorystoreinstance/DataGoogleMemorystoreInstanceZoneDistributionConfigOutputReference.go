@@ -13,6 +13,7 @@ import (
 
 type DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference interface {
 	cdktn.ComplexObject
+	ActiveZones() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,6 +43,7 @@ type DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference interfac
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Zone() *string
+	Zones() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -79,6 +81,16 @@ type DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference interfac
 // The jsii proxy struct for DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference
 type jsiiProxy_DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference) ActiveZones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"activeZones",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -166,6 +178,16 @@ func (j *jsiiProxy_DataGoogleMemorystoreInstanceZoneDistributionConfigOutputRefe
 	_jsii_.Get(
 		j,
 		"zone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleMemorystoreInstanceZoneDistributionConfigOutputReference) Zones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"zones",
 		&returns,
 	)
 	return returns

@@ -219,6 +219,10 @@ func (j *jsiiProxy_NetappVolume) validateSetSmbSettingsParameters(val *[]*string
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolume) validateSetSnapReserveParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolume) validateSetSnapshotDirectoryParameters(val interface{}) error {
 	return nil
 }

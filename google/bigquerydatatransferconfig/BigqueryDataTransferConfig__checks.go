@@ -248,6 +248,17 @@ func (b *jsiiProxy_BigqueryDataTransferConfig) validatePutScheduleOptionsParamet
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryDataTransferConfig) validatePutScheduleOptionsV2Parameters(value *BigqueryDataTransferConfigScheduleOptionsV2) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryDataTransferConfig) validatePutSensitiveParamsParameters(value *BigqueryDataTransferConfigSensitiveParams) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")

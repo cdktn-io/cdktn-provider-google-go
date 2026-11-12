@@ -21,7 +21,7 @@ type AccessContextManagerGcpUserAccessBindingPrincipal struct {
 	// client scope and active 'session_settings'. No other configurations are
 	// allowed.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/access_context_manager_gcp_user_access_binding#federated_principal AccessContextManagerGcpUserAccessBinding#federated_principal}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/access_context_manager_gcp_user_access_binding#federated_principal AccessContextManagerGcpUserAccessBinding#federated_principal}
 	FederatedPrincipal *string `field:"optional" json:"federatedPrincipal" yaml:"federatedPrincipal"`
 	// Immutable.
 	//
@@ -31,11 +31,11 @@ type AccessContextManagerGcpUserAccessBindingPrincipal struct {
 	// the most specific) dry-run policy will be used for the dry-run functionality and the
 	// closest policy will be used for the enforcement.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/access_context_manager_gcp_user_access_binding#service_account AccessContextManagerGcpUserAccessBinding#service_account}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/access_context_manager_gcp_user_access_binding#service_account AccessContextManagerGcpUserAccessBinding#service_account}
 	ServiceAccount *string `field:"optional" json:"serviceAccount" yaml:"serviceAccount"`
 	// Immutable. Cloud project number used to assign policies to all service accounts owned by the project.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/access_context_manager_gcp_user_access_binding#service_account_project_number AccessContextManagerGcpUserAccessBinding#service_account_project_number}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/access_context_manager_gcp_user_access_binding#service_account_project_number AccessContextManagerGcpUserAccessBinding#service_account_project_number}
 	ServiceAccountProjectNumber *string `field:"optional" json:"serviceAccountProjectNumber" yaml:"serviceAccountProjectNumber"`
 }
 

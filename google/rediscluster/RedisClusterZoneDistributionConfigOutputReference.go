@@ -13,6 +13,7 @@ import (
 
 type RedisClusterZoneDistributionConfigOutputReference interface {
 	cdktn.ComplexObject
+	ActiveZones() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,6 +47,9 @@ type RedisClusterZoneDistributionConfigOutputReference interface {
 	Zone() *string
 	SetZone(val *string)
 	ZoneInput() *string
+	Zones() *[]*string
+	SetZones(val *[]*string)
+	ZonesInput() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -72,6 +76,7 @@ type RedisClusterZoneDistributionConfigOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMode()
 	ResetZone()
+	ResetZones()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -85,6 +90,16 @@ type RedisClusterZoneDistributionConfigOutputReference interface {
 // The jsii proxy struct for RedisClusterZoneDistributionConfigOutputReference
 type jsiiProxy_RedisClusterZoneDistributionConfigOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) ActiveZones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"activeZones",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -197,6 +212,26 @@ func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) ZoneInput(
 	return returns
 }
 
+func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) Zones() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"zones",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) ZonesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"zonesInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewRedisClusterZoneDistributionConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RedisClusterZoneDistributionConfigOutputReference {
 	_init_.Initialize()
@@ -298,6 +333,17 @@ func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference)SetZone(val
 	_jsii_.Set(
 		j,
 		"zone",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference)SetZones(val *[]*string) {
+	if err := j.validateSetZonesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"zones",
 		val,
 	)
 }
@@ -500,6 +546,14 @@ func (r *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) ResetZone(
 	_jsii_.InvokeVoid(
 		r,
 		"resetZone",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RedisClusterZoneDistributionConfigOutputReference) ResetZones() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetZones",
 		nil, // no parameters
 	)
 }

@@ -103,6 +103,10 @@ func validateResourceManagerCapabilityConfigA_IsTerraformResourceParameters(x in
 	return nil
 }
 
+func (j *jsiiProxy_ResourceManagerCapabilityConfigA) validateSetBoundariesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ResourceManagerCapabilityConfigA) validateSetCapabilityConfigIdParameters(val *string) error {
 	return nil
 }

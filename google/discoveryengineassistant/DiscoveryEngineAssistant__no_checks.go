@@ -127,6 +127,10 @@ func (j *jsiiProxy_DiscoveryEngineAssistant) validateSetCountParameters(val inte
 	return nil
 }
 
+func (j *jsiiProxy_DiscoveryEngineAssistant) validateSetDefaultWebGroundingToggleOffParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DiscoveryEngineAssistant) validateSetDeletionPolicyParameters(val *string) error {
 	return nil
 }

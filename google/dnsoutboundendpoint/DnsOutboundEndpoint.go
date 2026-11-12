@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dns_outbound_endpoint google_dns_outbound_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dns_outbound_endpoint google_dns_outbound_endpoint}.
 type DnsOutboundEndpoint interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -683,7 +683,7 @@ func (j *jsiiProxy_DnsOutboundEndpoint) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dns_outbound_endpoint google_dns_outbound_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dns_outbound_endpoint google_dns_outbound_endpoint} Resource.
 func NewDnsOutboundEndpoint(scope constructs.Construct, id *string, config *DnsOutboundEndpointConfig) DnsOutboundEndpoint {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewDnsOutboundEndpoint(scope constructs.Construct, id *string, config *DnsO
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dns_outbound_endpoint google_dns_outbound_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dns_outbound_endpoint google_dns_outbound_endpoint} Resource.
 func NewDnsOutboundEndpoint_Override(d DnsOutboundEndpoint, scope constructs.Construct, id *string, config *DnsOutboundEndpointConfig) {
 	_init_.Initialize()
 

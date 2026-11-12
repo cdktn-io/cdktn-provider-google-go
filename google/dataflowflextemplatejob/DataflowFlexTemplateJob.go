@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dataflow_flex_template_job google_dataflow_flex_template_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dataflow_flex_template_job google_dataflow_flex_template_job}.
 type DataflowFlexTemplateJob interface {
 	cdktn.TerraformResource
 	AdditionalExperiments() *[]*string
@@ -1069,7 +1069,7 @@ func (j *jsiiProxy_DataflowFlexTemplateJob) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewDataflowFlexTemplateJob(scope constructs.Construct, id *string, config *DataflowFlexTemplateJobConfig) DataflowFlexTemplateJob {
 	_init_.Initialize()
 
@@ -1087,7 +1087,7 @@ func NewDataflowFlexTemplateJob(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/dataflow_flex_template_job google_dataflow_flex_template_job} Resource.
 func NewDataflowFlexTemplateJob_Override(d DataflowFlexTemplateJob, scope constructs.Construct, id *string, config *DataflowFlexTemplateJobConfig) {
 	_init_.Initialize()
 

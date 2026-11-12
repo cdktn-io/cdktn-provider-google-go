@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster}.
 type OracleDatabaseCloudVmCluster interface {
 	cdktn.TerraformResource
 	BackupOdbSubnet() *string
@@ -89,6 +89,9 @@ type OracleDatabaseCloudVmCluster interface {
 	NetworkInput() *string
 	// The tree node.
 	Node() constructs.Node
+	OdbDnsZone() *string
+	SetOdbDnsZone(val *string)
+	OdbDnsZoneInput() *string
 	OdbNetwork() *string
 	SetOdbNetwork(val *string)
 	OdbNetworkInput() *string
@@ -223,6 +226,7 @@ type OracleDatabaseCloudVmCluster interface {
 	ResetId()
 	ResetLabels()
 	ResetNetwork()
+	ResetOdbDnsZone()
 	ResetOdbNetwork()
 	ResetOdbSubnet()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -668,6 +672,26 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) OdbDnsZone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbDnsZone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) OdbDnsZoneInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbDnsZoneInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OracleDatabaseCloudVmCluster) OdbNetwork() *string {
 	var returns *string
 	_jsii_.Get(
@@ -839,7 +863,7 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewOracleDatabaseCloudVmCluster(scope constructs.Construct, id *string, config *OracleDatabaseCloudVmClusterConfig) OracleDatabaseCloudVmCluster {
 	_init_.Initialize()
 
@@ -857,7 +881,7 @@ func NewOracleDatabaseCloudVmCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/oracle_database_cloud_vm_cluster google_oracle_database_cloud_vm_cluster} Resource.
 func NewOracleDatabaseCloudVmCluster_Override(o OracleDatabaseCloudVmCluster, scope constructs.Construct, id *string, config *OracleDatabaseCloudVmClusterConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1080,17 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetNetwork(val *string) {
 	_jsii_.Set(
 		j,
 		"network",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster)SetOdbDnsZone(val *string) {
+	if err := j.validateSetOdbDnsZoneParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"odbDnsZone",
 		val,
 	)
 }
@@ -1590,6 +1625,14 @@ func (o *jsiiProxy_OracleDatabaseCloudVmCluster) ResetNetwork() {
 	_jsii_.InvokeVoid(
 		o,
 		"resetNetwork",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OracleDatabaseCloudVmCluster) ResetOdbDnsZone() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetOdbDnsZone",
 		nil, // no parameters
 	)
 }

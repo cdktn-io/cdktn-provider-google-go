@@ -33,8 +33,8 @@ type SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference interfac
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
-	InternalValue() interface{}
-	SetInternalValue(val interface{})
+	InternalValue() *SqlDatabaseInstanceSettingsIpConfigurationPscConfig
+	SetInternalValue(val *SqlDatabaseInstanceSettingsIpConfigurationPscConfig)
 	NetworkAttachmentUri() *string
 	SetNetworkAttachmentUri(val *string)
 	NetworkAttachmentUriInput() *string
@@ -167,8 +167,8 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) InternalValue() interface{} {
-	var returns interface{}
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference) InternalValue() *SqlDatabaseInstanceSettingsIpConfigurationPscConfig {
+	var returns *SqlDatabaseInstanceSettingsIpConfigurationPscConfig
 	_jsii_.Get(
 		j,
 		"internalValue",
@@ -318,29 +318,29 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 }
 
 
-func NewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference {
+func NewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference {
 	_init_.Initialize()
 
-	if err := validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
+	if err := validateNewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
 		panic(err)
 	}
 	j := jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference{}
 
 	_jsii_.Create(
 		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		&j,
 	)
 
 	return &j
 }
 
-func NewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference_Override(s SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference_Override(s SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
 		"@cdktn/provider-google.sqlDatabaseInstance.SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference",
-		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		[]interface{}{terraformResource, terraformAttribute},
 		s,
 	)
 }
@@ -378,7 +378,7 @@ func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputRefe
 	)
 }
 
-func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetInternalValue(val interface{}) {
+func (j *jsiiProxy_SqlDatabaseInstanceSettingsIpConfigurationPscConfigOutputReference)SetInternalValue(val *SqlDatabaseInstanceSettingsIpConfigurationPscConfig) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
 	}

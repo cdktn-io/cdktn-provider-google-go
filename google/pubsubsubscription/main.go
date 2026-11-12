@@ -686,6 +686,46 @@ func init() {
 		},
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsCompression",
+		reflect.TypeOf((*PubsubSubscriptionMessageTransformsCompression)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsCompressionOutputReference",
+		reflect.TypeOf((*PubsubSubscriptionMessageTransformsCompressionOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberProperty{JsiiProperty: "compressionAlgorithm", GoGetter: "CompressionAlgorithm"},
+			_jsii_.MemberProperty{JsiiProperty: "compressionAlgorithmInput", GoGetter: "CompressionAlgorithmInput"},
+			_jsii_.MemberProperty{JsiiProperty: "compressionMode", GoGetter: "CompressionMode"},
+			_jsii_.MemberProperty{JsiiProperty: "compressionModeInput", GoGetter: "CompressionModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_PubsubSubscriptionMessageTransformsCompressionOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-google.pubsubSubscription.PubsubSubscriptionMessageTransformsJavascriptUdf",
 		reflect.TypeOf((*PubsubSubscriptionMessageTransformsJavascriptUdf)(nil)).Elem(),
 	)
@@ -755,6 +795,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "aiInferenceInput", GoGetter: "AiInferenceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberProperty{JsiiProperty: "compression", GoGetter: "Compression"},
+			_jsii_.MemberProperty{JsiiProperty: "compressionInput", GoGetter: "CompressionInput"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
 			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
 			_jsii_.MemberProperty{JsiiProperty: "disabled", GoGetter: "Disabled"},
@@ -775,8 +817,10 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "javascriptUdf", GoGetter: "JavascriptUdf"},
 			_jsii_.MemberProperty{JsiiProperty: "javascriptUdfInput", GoGetter: "JavascriptUdfInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putAiInference", GoMethod: "PutAiInference"},
+			_jsii_.MemberMethod{JsiiMethod: "putCompression", GoMethod: "PutCompression"},
 			_jsii_.MemberMethod{JsiiMethod: "putJavascriptUdf", GoMethod: "PutJavascriptUdf"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAiInference", GoMethod: "ResetAiInference"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCompression", GoMethod: "ResetCompression"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisabled", GoMethod: "ResetDisabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetJavascriptUdf", GoMethod: "ResetJavascriptUdf"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},

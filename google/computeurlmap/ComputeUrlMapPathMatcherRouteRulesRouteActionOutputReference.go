@@ -36,6 +36,8 @@ type ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference interface {
 	FaultInjectionPolicyInput() *ComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy
 	// Experimental.
 	Fqn() *string
+	ImageOptimizationPolicy() ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference
+	ImageOptimizationPolicyInput() *ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy
 	InternalValue() *ComputeUrlMapPathMatcherRouteRulesRouteAction
 	SetInternalValue(val *ComputeUrlMapPathMatcherRouteRulesRouteAction)
 	MaxStreamDuration() ComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDurationOutputReference
@@ -85,6 +87,7 @@ type ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference interface {
 	PutCachePolicy(value *ComputeUrlMapPathMatcherRouteRulesRouteActionCachePolicy)
 	PutCorsPolicy(value *ComputeUrlMapPathMatcherRouteRulesRouteActionCorsPolicy)
 	PutFaultInjectionPolicy(value *ComputeUrlMapPathMatcherRouteRulesRouteActionFaultInjectionPolicy)
+	PutImageOptimizationPolicy(value *ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy)
 	PutMaxStreamDuration(value *ComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration)
 	PutRequestMirrorPolicy(value *ComputeUrlMapPathMatcherRouteRulesRouteActionRequestMirrorPolicy)
 	PutRetryPolicy(value *ComputeUrlMapPathMatcherRouteRulesRouteActionRetryPolicy)
@@ -94,6 +97,7 @@ type ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference interface {
 	ResetCachePolicy()
 	ResetCorsPolicy()
 	ResetFaultInjectionPolicy()
+	ResetImageOptimizationPolicy()
 	ResetMaxStreamDuration()
 	ResetRequestMirrorPolicy()
 	ResetRetryPolicy()
@@ -210,6 +214,26 @@ func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference)
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) ImageOptimizationPolicy() ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference {
+	var returns ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicyOutputReference
+	_jsii_.Get(
+		j,
+		"imageOptimizationPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) ImageOptimizationPolicyInput() *ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy {
+	var returns *ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy
+	_jsii_.Get(
+		j,
+		"imageOptimizationPolicyInput",
 		&returns,
 	)
 	return returns
@@ -667,6 +691,17 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference)
 	)
 }
 
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) PutImageOptimizationPolicy(value *ComputeUrlMapPathMatcherRouteRulesRouteActionImageOptimizationPolicy) {
+	if err := c.validatePutImageOptimizationPolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putImageOptimizationPolicy",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) PutMaxStreamDuration(value *ComputeUrlMapPathMatcherRouteRulesRouteActionMaxStreamDuration) {
 	if err := c.validatePutMaxStreamDurationParameters(value); err != nil {
 		panic(err)
@@ -753,6 +788,14 @@ func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference)
 	_jsii_.InvokeVoid(
 		c,
 		"resetFaultInjectionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ComputeUrlMapPathMatcherRouteRulesRouteActionOutputReference) ResetImageOptimizationPolicy() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetImageOptimizationPolicy",
 		nil, // no parameters
 	)
 }

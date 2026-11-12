@@ -43,6 +43,7 @@ type DataGoogleSecretManagerRegionalSecretsSecretsOutputReference interface {
 	Labels() cdktn.StringMap
 	Location() *string
 	Name() *string
+	PolicyMember() DataGoogleSecretManagerRegionalSecretsSecretsPolicyMemberList
 	Project() *string
 	Rotation() DataGoogleSecretManagerRegionalSecretsSecretsRotationList
 	SecretId() *string
@@ -255,6 +256,16 @@ func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretsSecretsOutputReference)
 	_jsii_.Get(
 		j,
 		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSecretManagerRegionalSecretsSecretsOutputReference) PolicyMember() DataGoogleSecretManagerRegionalSecretsSecretsPolicyMemberList {
+	var returns DataGoogleSecretManagerRegionalSecretsSecretsPolicyMemberList
+	_jsii_.Get(
+		j,
+		"policyMember",
 		&returns,
 	)
 	return returns

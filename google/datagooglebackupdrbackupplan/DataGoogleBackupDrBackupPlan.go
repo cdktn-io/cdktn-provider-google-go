@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/backup_dr_backup_plan google_backup_dr_backup_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/backup_dr_backup_plan google_backup_dr_backup_plan}.
 type DataGoogleBackupDrBackupPlan interface {
 	cdktn.TerraformDataSource
 	BackupPlanId() *string
@@ -38,6 +38,7 @@ type DataGoogleBackupDrBackupPlan interface {
 	SetDependsOn(val *[]*string)
 	Description() *string
 	DiskBackupPlanProperties() DataGoogleBackupDrBackupPlanDiskBackupPlanPropertiesList
+	EffectiveLabels() cdktn.StringMap
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -49,6 +50,7 @@ type DataGoogleBackupDrBackupPlan interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	Labels() cdktn.StringMap
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -74,6 +76,7 @@ type DataGoogleBackupDrBackupPlan interface {
 	SupportedResourceTypes() *[]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	TerraformLabels() cdktn.StringMap
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -290,6 +293,16 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) DiskBackupPlanProperties() Data
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) EffectiveLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"effectiveLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) ForEach() cdktn.ITerraformIterator {
 	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
@@ -335,6 +348,16 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) Labels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"labels",
 		&returns,
 	)
 	return returns
@@ -480,6 +503,16 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) TerraformGeneratorMetadata() *c
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) TerraformLabels() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"terraformLabels",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) TerraformMetaArguments() *map[string]interface{} {
 	var returns *map[string]interface{}
 	_jsii_.Get(
@@ -511,7 +544,7 @@ func (j *jsiiProxy_DataGoogleBackupDrBackupPlan) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/backup_dr_backup_plan google_backup_dr_backup_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/backup_dr_backup_plan google_backup_dr_backup_plan} Data Source.
 func NewDataGoogleBackupDrBackupPlan(scope constructs.Construct, id *string, config *DataGoogleBackupDrBackupPlanConfig) DataGoogleBackupDrBackupPlan {
 	_init_.Initialize()
 
@@ -529,7 +562,7 @@ func NewDataGoogleBackupDrBackupPlan(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/data-sources/backup_dr_backup_plan google_backup_dr_backup_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/data-sources/backup_dr_backup_plan google_backup_dr_backup_plan} Data Source.
 func NewDataGoogleBackupDrBackupPlan_Override(d DataGoogleBackupDrBackupPlan, scope constructs.Construct, id *string, config *DataGoogleBackupDrBackupPlanConfig) {
 	_init_.Initialize()
 

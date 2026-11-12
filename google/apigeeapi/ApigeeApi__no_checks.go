@@ -127,6 +127,10 @@ func (j *jsiiProxy_ApigeeApi) validateSetIdParameters(val *string) error {
 	return nil
 }
 
+func (j *jsiiProxy_ApigeeApi) validateSetLabelsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApigeeApi) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

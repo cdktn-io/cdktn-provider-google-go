@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/firestore_index google_firestore_index}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/firestore_index google_firestore_index}.
 type FirestoreIndex interface {
 	cdktn.TerraformResource
 	ApiScope() *string
@@ -85,6 +85,8 @@ type FirestoreIndex interface {
 	QueryScopeInput() *string
 	// Experimental.
 	RawOverrides() interface{}
+	SearchIndexOptions() FirestoreIndexSearchIndexOptionsOutputReference
+	SearchIndexOptionsInput() *FirestoreIndexSearchIndexOptions
 	SkipWait() interface{}
 	SetSkipWait(val interface{})
 	SkipWaitInput() interface{}
@@ -179,6 +181,7 @@ type FirestoreIndex interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutFields(value interface{})
+	PutSearchIndexOptions(value *FirestoreIndexSearchIndexOptions)
 	PutTimeouts(value *FirestoreIndexTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -204,6 +207,7 @@ type FirestoreIndex interface {
 	ResetOverrideLogicalId()
 	ResetProject()
 	ResetQueryScope()
+	ResetSearchIndexOptions()
 	ResetSkipWait()
 	ResetTimeouts()
 	ResetUnique()
@@ -574,6 +578,26 @@ func (j *jsiiProxy_FirestoreIndex) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_FirestoreIndex) SearchIndexOptions() FirestoreIndexSearchIndexOptionsOutputReference {
+	var returns FirestoreIndexSearchIndexOptionsOutputReference
+	_jsii_.Get(
+		j,
+		"searchIndexOptions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_FirestoreIndex) SearchIndexOptionsInput() *FirestoreIndexSearchIndexOptions {
+	var returns *FirestoreIndexSearchIndexOptions
+	_jsii_.Get(
+		j,
+		"searchIndexOptionsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_FirestoreIndex) SkipWait() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -665,7 +689,7 @@ func (j *jsiiProxy_FirestoreIndex) UniqueInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/firestore_index google_firestore_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/firestore_index google_firestore_index} Resource.
 func NewFirestoreIndex(scope constructs.Construct, id *string, config *FirestoreIndexConfig) FirestoreIndex {
 	_init_.Initialize()
 
@@ -683,7 +707,7 @@ func NewFirestoreIndex(scope constructs.Construct, id *string, config *Firestore
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/firestore_index google_firestore_index} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/firestore_index google_firestore_index} Resource.
 func NewFirestoreIndex_Override(f FirestoreIndex, scope constructs.Construct, id *string, config *FirestoreIndexConfig) {
 	_init_.Initialize()
 
@@ -1263,6 +1287,17 @@ func (f *jsiiProxy_FirestoreIndex) PutFields(value interface{}) {
 	)
 }
 
+func (f *jsiiProxy_FirestoreIndex) PutSearchIndexOptions(value *FirestoreIndexSearchIndexOptions) {
+	if err := f.validatePutSearchIndexOptionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		f,
+		"putSearchIndexOptions",
+		[]interface{}{value},
+	)
+}
+
 func (f *jsiiProxy_FirestoreIndex) PutTimeouts(value *FirestoreIndexTimeouts) {
 	if err := f.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1353,6 +1388,14 @@ func (f *jsiiProxy_FirestoreIndex) ResetQueryScope() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetQueryScope",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FirestoreIndex) ResetSearchIndexOptions() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetSearchIndexOptions",
 		nil, // no parameters
 	)
 }

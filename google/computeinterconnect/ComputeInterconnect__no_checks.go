@@ -79,6 +79,10 @@ func (c *jsiiProxy_ComputeInterconnect) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (c *jsiiProxy_ComputeInterconnect) validatePutApplicationAwareInterconnectParameters(value *ComputeInterconnectApplicationAwareInterconnect) error {
+	return nil
+}
+
 func (c *jsiiProxy_ComputeInterconnect) validatePutMacsecParameters(value *ComputeInterconnectMacsec) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func validateComputeInterconnect_IsTerraformElementParameters(x interface{}) err
 }
 
 func validateComputeInterconnect_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_ComputeInterconnect) validateSetAaiEnabledParameters(val interface{}) error {
 	return nil
 }
 

@@ -49,6 +49,9 @@ type NetworkServicesGrpcRouteRulesMatchesMethodOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Type() *string
+	SetType(val *string)
+	TypeInput() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
@@ -74,6 +77,7 @@ type NetworkServicesGrpcRouteRulesMatchesMethodOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCaseSensitive()
+	ResetType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -219,6 +223,26 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference) Te
 	return returns
 }
 
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference) Type() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"type",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference) TypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"typeInput",
+		&returns,
+	)
+	return returns
+}
+
 
 func NewNetworkServicesGrpcRouteRulesMatchesMethodOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkServicesGrpcRouteRulesMatchesMethodOutputReference {
 	_init_.Initialize()
@@ -331,6 +355,17 @@ func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference)Set
 	_jsii_.Set(
 		j,
 		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference)SetType(val *string) {
+	if err := j.validateSetTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"type",
 		val,
 	)
 }
@@ -525,6 +560,14 @@ func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference) Re
 	_jsii_.InvokeVoid(
 		n,
 		"resetCaseSensitive",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesGrpcRouteRulesMatchesMethodOutputReference) ResetType() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetType",
 		nil, // no parameters
 	)
 }

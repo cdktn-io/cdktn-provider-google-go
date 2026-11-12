@@ -87,6 +87,10 @@ func (c *jsiiProxy_CesDeployment) validatePutInstagramCredentialsParameters(valu
 	return nil
 }
 
+func (c *jsiiProxy_CesDeployment) validatePutModelSettingsParameters(value *CesDeploymentModelSettings) error {
+	return nil
+}
+
 func (c *jsiiProxy_CesDeployment) validatePutTimeoutsParameters(value *CesDeploymentTimeouts) error {
 	return nil
 }
@@ -148,6 +152,10 @@ func (j *jsiiProxy_CesDeployment) validateSetLifecycleParameters(val *cdktn.Terr
 }
 
 func (j *jsiiProxy_CesDeployment) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CesDeployment) validateSetModalityParameters(val *string) error {
 	return nil
 }
 

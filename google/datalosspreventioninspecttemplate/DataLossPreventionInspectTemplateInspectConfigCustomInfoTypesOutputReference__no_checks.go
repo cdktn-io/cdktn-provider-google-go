@@ -55,6 +55,10 @@ func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypes
 	return nil
 }
 
+func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReference) validatePutMetadataKeyValueExpressionParameters(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesMetadataKeyValueExpression) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesOutputReference) validatePutRegexParameters(value *DataLossPreventionInspectTemplateInspectConfigCustomInfoTypesRegex) error {
 	return nil
 }

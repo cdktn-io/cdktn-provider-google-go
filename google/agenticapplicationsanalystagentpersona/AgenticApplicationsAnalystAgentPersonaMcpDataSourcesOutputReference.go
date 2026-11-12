@@ -65,6 +65,12 @@ type AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference interfa
 	ServerUrl() *string
 	SetServerUrl(val *string)
 	ServerUrlInput() *string
+	SessionIdHeader() *string
+	SetSessionIdHeader(val *string)
+	SessionIdHeaderInput() *string
+	TaskIdHeader() *string
+	SetTaskIdHeader(val *string)
+	TaskIdHeaderInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -104,6 +110,8 @@ type AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference interfa
 	ResetClientSecret()
 	ResetOauthTokenUrl()
 	ResetPrompt()
+	ResetSessionIdHeader()
+	ResetTaskIdHeader()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -389,6 +397,46 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputRef
 	return returns
 }
 
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) SessionIdHeader() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sessionIdHeader",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) SessionIdHeaderInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sessionIdHeaderInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) TaskIdHeader() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"taskIdHeader",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) TaskIdHeaderInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"taskIdHeaderInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -587,6 +635,28 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputRef
 	_jsii_.Set(
 		j,
 		"serverUrl",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference)SetSessionIdHeader(val *string) {
+	if err := j.validateSetSessionIdHeaderParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sessionIdHeader",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference)SetTaskIdHeader(val *string) {
+	if err := j.validateSetTaskIdHeaderParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"taskIdHeader",
 		val,
 	)
 }
@@ -851,6 +921,22 @@ func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputRef
 	_jsii_.InvokeVoid(
 		a,
 		"resetPrompt",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) ResetSessionIdHeader() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetSessionIdHeader",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) ResetTaskIdHeader() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetTaskIdHeader",
 		nil, // no parameters
 	)
 }

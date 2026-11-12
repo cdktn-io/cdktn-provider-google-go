@@ -65,6 +65,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putFields", GoMethod: "PutFields"},
+			_jsii_.MemberMethod{JsiiMethod: "putSearchIndexOptions", GoMethod: "PutSearchIndexOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "queryScope", GoGetter: "QueryScope"},
 			_jsii_.MemberProperty{JsiiProperty: "queryScopeInput", GoGetter: "QueryScopeInput"},
@@ -79,9 +80,12 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetProject", GoMethod: "ResetProject"},
 			_jsii_.MemberMethod{JsiiMethod: "resetQueryScope", GoMethod: "ResetQueryScope"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSearchIndexOptions", GoMethod: "ResetSearchIndexOptions"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSkipWait", GoMethod: "ResetSkipWait"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUnique", GoMethod: "ResetUnique"},
+			_jsii_.MemberProperty{JsiiProperty: "searchIndexOptions", GoGetter: "SearchIndexOptions"},
+			_jsii_.MemberProperty{JsiiProperty: "searchIndexOptionsInput", GoGetter: "SearchIndexOptionsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "skipWait", GoGetter: "SkipWait"},
 			_jsii_.MemberProperty{JsiiProperty: "skipWaitInput", GoGetter: "SkipWaitInput"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
@@ -444,6 +448,48 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_FirestoreIndexFieldsVectorConfigOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexSearchIndexOptions",
+		reflect.TypeOf((*FirestoreIndexSearchIndexOptions)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-google.firestoreIndex.FirestoreIndexSearchIndexOptionsOutputReference",
+		reflect.TypeOf((*FirestoreIndexSearchIndexOptionsOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTextLanguage", GoMethod: "ResetTextLanguage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTextLanguageOverrideFieldPath", GoMethod: "ResetTextLanguageOverrideFieldPath"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "textLanguage", GoGetter: "TextLanguage"},
+			_jsii_.MemberProperty{JsiiProperty: "textLanguageInput", GoGetter: "TextLanguageInput"},
+			_jsii_.MemberProperty{JsiiProperty: "textLanguageOverrideFieldPath", GoGetter: "TextLanguageOverrideFieldPath"},
+			_jsii_.MemberProperty{JsiiProperty: "textLanguageOverrideFieldPathInput", GoGetter: "TextLanguageOverrideFieldPathInput"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_FirestoreIndexSearchIndexOptionsOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret}.
 type SecretManagerRegionalSecret interface {
 	cdktn.TerraformResource
 	Annotations() *map[string]*string
@@ -72,6 +72,7 @@ type SecretManagerRegionalSecret interface {
 	Name() *string
 	// The tree node.
 	Node() constructs.Node
+	PolicyMember() SecretManagerRegionalSecretPolicyMemberList
 	Project() *string
 	SetProject(val *string)
 	ProjectInput() *string
@@ -558,6 +559,16 @@ func (j *jsiiProxy_SecretManagerRegionalSecret) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_SecretManagerRegionalSecret) PolicyMember() SecretManagerRegionalSecretPolicyMemberList {
+	var returns SecretManagerRegionalSecretPolicyMemberList
+	_jsii_.Get(
+		j,
+		"policyMember",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_SecretManagerRegionalSecret) Project() *string {
 	var returns *string
 	_jsii_.Get(
@@ -829,7 +840,7 @@ func (j *jsiiProxy_SecretManagerRegionalSecret) VersionDestroyTtlInput() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
 func NewSecretManagerRegionalSecret(scope constructs.Construct, id *string, config *SecretManagerRegionalSecretConfig) SecretManagerRegionalSecret {
 	_init_.Initialize()
 
@@ -847,7 +858,7 @@ func NewSecretManagerRegionalSecret(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/secret_manager_regional_secret google_secret_manager_regional_secret} Resource.
 func NewSecretManagerRegionalSecret_Override(s SecretManagerRegionalSecret, scope constructs.Construct, id *string, config *SecretManagerRegionalSecretConfig) {
 	_init_.Initialize()
 

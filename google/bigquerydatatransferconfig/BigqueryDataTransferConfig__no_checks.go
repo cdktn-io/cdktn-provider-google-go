@@ -91,6 +91,10 @@ func (b *jsiiProxy_BigqueryDataTransferConfig) validatePutScheduleOptionsParamet
 	return nil
 }
 
+func (b *jsiiProxy_BigqueryDataTransferConfig) validatePutScheduleOptionsV2Parameters(value *BigqueryDataTransferConfigScheduleOptionsV2) error {
+	return nil
+}
+
 func (b *jsiiProxy_BigqueryDataTransferConfig) validatePutSensitiveParamsParameters(value *BigqueryDataTransferConfigSensitiveParams) error {
 	return nil
 }

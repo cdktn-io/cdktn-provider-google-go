@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_file google_vertex_ai_rag_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_rag_file google_vertex_ai_rag_file}.
 type VertexAiRagFile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -683,7 +683,7 @@ func (j *jsiiProxy_VertexAiRagFile) UserMetadata() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_file google_vertex_ai_rag_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_rag_file google_vertex_ai_rag_file} Resource.
 func NewVertexAiRagFile(scope constructs.Construct, id *string, config *VertexAiRagFileConfig) VertexAiRagFile {
 	_init_.Initialize()
 
@@ -701,7 +701,7 @@ func NewVertexAiRagFile(scope constructs.Construct, id *string, config *VertexAi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_file google_vertex_ai_rag_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_rag_file google_vertex_ai_rag_file} Resource.
 func NewVertexAiRagFile_Override(v VertexAiRagFile, scope constructs.Construct, id *string, config *VertexAiRagFileConfig) {
 	_init_.Initialize()
 

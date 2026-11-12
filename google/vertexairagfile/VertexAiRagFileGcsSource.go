@@ -7,7 +7,7 @@ package vertexairagfile
 type VertexAiRagFileGcsSource struct {
 	// The Cloud Storage URI of the file to import, for example 'gs://my-bucket/my-file.pdf'. Must reference a single file; directories and wildcards are not supported because each resource manages one RagFile.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_file#uris VertexAiRagFile#uris}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_rag_file#uris VertexAiRagFile#uris}
 	Uris *[]*string `field:"required" json:"uris" yaml:"uris"`
 }
 

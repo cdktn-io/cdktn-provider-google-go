@@ -107,6 +107,10 @@ func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) validateSetCaPoolParamete
 	return nil
 }
 
+func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) validateSetCertificateIssuanceModeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkSecurityTlsInspectionPolicy) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

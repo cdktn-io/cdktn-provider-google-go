@@ -15,6 +15,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	cdktn.ComplexObject
 	AvailableMaintenanceVersions() *[]*string
 	BackupdrBackup() *string
+	BlueGreenDeployment() DataGoogleSqlDatabaseInstancesInstancesBlueGreenDeploymentList
 	Clone() DataGoogleSqlDatabaseInstancesInstancesCloneList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -32,6 +33,7 @@ type DataGoogleSqlDatabaseInstancesInstancesOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	DatabaseCenterIntegration() *string
 	DatabaseVersion() *string
 	DeletionPolicy() *string
 	DeletionProtection() cdktn.IResolvable
@@ -138,6 +140,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Backu
 	return returns
 }
 
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) BlueGreenDeployment() DataGoogleSqlDatabaseInstancesInstancesBlueGreenDeploymentList {
+	var returns DataGoogleSqlDatabaseInstancesInstancesBlueGreenDeploymentList
+	_jsii_.Get(
+		j,
+		"blueGreenDeployment",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Clone() DataGoogleSqlDatabaseInstancesInstancesCloneList {
 	var returns DataGoogleSqlDatabaseInstancesInstancesCloneList
 	_jsii_.Get(
@@ -183,6 +195,16 @@ func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) Creat
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataGoogleSqlDatabaseInstancesInstancesOutputReference) DatabaseCenterIntegration() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseCenterIntegration",
 		&returns,
 	)
 	return returns

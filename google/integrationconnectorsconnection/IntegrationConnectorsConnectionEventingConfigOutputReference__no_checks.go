@@ -55,11 +55,23 @@ func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 	return nil
 }
 
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) validatePutDeadLetterConfigParameters(value *IntegrationConnectorsConnectionEventingConfigDeadLetterConfig) error {
+	return nil
+}
+
+func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) validatePutEnrichmentConfigParameters(value *IntegrationConnectorsConnectionEventingConfigEnrichmentConfig) error {
+	return nil
+}
+
 func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) validatePutRegistrationDestinationConfigParameters(value *IntegrationConnectorsConnectionEventingConfigRegistrationDestinationConfig) error {
 	return nil
 }
 
 func (i *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) validateSetAllowedEventTypesParameters(val *[]*string) error {
 	return nil
 }
 
@@ -72,6 +84,10 @@ func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference)
 }
 
 func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) validateSetEnrichmentEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnectionEventingConfigOutputReference) validateSetGlobalEventFilterParameters(val *string) error {
 	return nil
 }
 

@@ -171,6 +171,10 @@ func (j *jsiiProxy_OracleDatabaseCloudVmCluster) validateSetNetworkParameters(va
 	return nil
 }
 
+func (j *jsiiProxy_OracleDatabaseCloudVmCluster) validateSetOdbDnsZoneParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OracleDatabaseCloudVmCluster) validateSetOdbNetworkParameters(val *string) error {
 	return nil
 }

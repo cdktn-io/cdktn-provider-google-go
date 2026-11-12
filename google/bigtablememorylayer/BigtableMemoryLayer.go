@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigtable_memory_layer google_bigtable_memory_layer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/bigtable_memory_layer google_bigtable_memory_layer}.
 type BigtableMemoryLayer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -530,7 +530,7 @@ func (j *jsiiProxy_BigtableMemoryLayer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigtable_memory_layer google_bigtable_memory_layer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/bigtable_memory_layer google_bigtable_memory_layer} Resource.
 func NewBigtableMemoryLayer(scope constructs.Construct, id *string, config *BigtableMemoryLayerConfig) BigtableMemoryLayer {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewBigtableMemoryLayer(scope constructs.Construct, id *string, config *Bigt
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/bigtable_memory_layer google_bigtable_memory_layer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/bigtable_memory_layer google_bigtable_memory_layer} Resource.
 func NewBigtableMemoryLayer_Override(b BigtableMemoryLayer, scope constructs.Construct, id *string, config *BigtableMemoryLayerConfig) {
 	_init_.Initialize()
 

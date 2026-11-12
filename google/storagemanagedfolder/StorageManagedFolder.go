@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_managed_folder google_storage_managed_folder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_managed_folder google_storage_managed_folder}.
 type StorageManagedFolder interface {
 	cdktn.TerraformResource
 	Bucket() *string
@@ -70,6 +70,8 @@ type StorageManagedFolder interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	RapidCacheConfig() StorageManagedFolderRapidCacheConfigOutputReference
+	RapidCacheConfigInput() *StorageManagedFolderRapidCacheConfig
 	// Experimental.
 	RawOverrides() interface{}
 	SelfLink() *string
@@ -161,6 +163,7 @@ type StorageManagedFolder interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutRapidCacheConfig(value *StorageManagedFolderRapidCacheConfig)
 	PutTimeouts(value *StorageManagedFolderTimeouts)
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
@@ -181,6 +184,7 @@ type StorageManagedFolder interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetRapidCacheConfig()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -449,6 +453,26 @@ func (j *jsiiProxy_StorageManagedFolder) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_StorageManagedFolder) RapidCacheConfig() StorageManagedFolderRapidCacheConfigOutputReference {
+	var returns StorageManagedFolderRapidCacheConfigOutputReference
+	_jsii_.Get(
+		j,
+		"rapidCacheConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageManagedFolder) RapidCacheConfigInput() *StorageManagedFolderRapidCacheConfig {
+	var returns *StorageManagedFolderRapidCacheConfig
+	_jsii_.Get(
+		j,
+		"rapidCacheConfigInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageManagedFolder) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -530,7 +554,7 @@ func (j *jsiiProxy_StorageManagedFolder) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_managed_folder google_storage_managed_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_managed_folder google_storage_managed_folder} Resource.
 func NewStorageManagedFolder(scope constructs.Construct, id *string, config *StorageManagedFolderConfig) StorageManagedFolder {
 	_init_.Initialize()
 
@@ -548,7 +572,7 @@ func NewStorageManagedFolder(scope constructs.Construct, id *string, config *Sto
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/storage_managed_folder google_storage_managed_folder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/storage_managed_folder google_storage_managed_folder} Resource.
 func NewStorageManagedFolder_Override(s StorageManagedFolder, scope constructs.Construct, id *string, config *StorageManagedFolderConfig) {
 	_init_.Initialize()
 
@@ -1051,6 +1075,17 @@ func (s *jsiiProxy_StorageManagedFolder) OverrideLogicalId(newLogicalId *string)
 	)
 }
 
+func (s *jsiiProxy_StorageManagedFolder) PutRapidCacheConfig(value *StorageManagedFolderRapidCacheConfig) {
+	if err := s.validatePutRapidCacheConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		s,
+		"putRapidCacheConfig",
+		[]interface{}{value},
+	)
+}
+
 func (s *jsiiProxy_StorageManagedFolder) PutTimeouts(value *StorageManagedFolderTimeouts) {
 	if err := s.validatePutTimeoutsParameters(value); err != nil {
 		panic(err)
@@ -1101,6 +1136,14 @@ func (s *jsiiProxy_StorageManagedFolder) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageManagedFolder) ResetRapidCacheConfig() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetRapidCacheConfig",
 		nil, // no parameters
 	)
 }

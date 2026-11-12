@@ -7,11 +7,11 @@ package vertexairagfile
 type VertexAiRagFileRagFileParsingConfig struct {
 	// layout_parser block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_file#layout_parser VertexAiRagFile#layout_parser}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_rag_file#layout_parser VertexAiRagFile#layout_parser}
 	LayoutParser *VertexAiRagFileRagFileParsingConfigLayoutParser `field:"optional" json:"layoutParser" yaml:"layoutParser"`
 	// llm_parser block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_rag_file#llm_parser VertexAiRagFile#llm_parser}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_rag_file#llm_parser VertexAiRagFile#llm_parser}
 	LlmParser *VertexAiRagFileRagFileParsingConfigLlmParser `field:"optional" json:"llmParser" yaml:"llmParser"`
 }
 

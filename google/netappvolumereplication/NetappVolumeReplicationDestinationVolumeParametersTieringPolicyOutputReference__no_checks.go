@@ -63,6 +63,10 @@ func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPoli
 	return nil
 }
 
+func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) validateSetHotTierBypassModeEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetappVolumeReplicationDestinationVolumeParametersTieringPolicyOutputReference) validateSetInternalValueParameters(val *NetappVolumeReplicationDestinationVolumeParametersTieringPolicy) error {
 	return nil
 }

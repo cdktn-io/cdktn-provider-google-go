@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_custom_job google_vertex_ai_custom_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_custom_job google_vertex_ai_custom_job}.
 type VertexAiCustomJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -667,7 +667,7 @@ func (j *jsiiProxy_VertexAiCustomJob) WebAccessUris() cdktn.StringMap {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_custom_job google_vertex_ai_custom_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_custom_job google_vertex_ai_custom_job} Resource.
 func NewVertexAiCustomJob(scope constructs.Construct, id *string, config *VertexAiCustomJobConfig) VertexAiCustomJob {
 	_init_.Initialize()
 
@@ -685,7 +685,7 @@ func NewVertexAiCustomJob(scope constructs.Construct, id *string, config *Vertex
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_custom_job google_vertex_ai_custom_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_custom_job google_vertex_ai_custom_job} Resource.
 func NewVertexAiCustomJob_Override(v VertexAiCustomJob, scope constructs.Construct, id *string, config *VertexAiCustomJobConfig) {
 	_init_.Initialize()
 

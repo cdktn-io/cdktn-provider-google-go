@@ -67,6 +67,10 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputR
 	return nil
 }
 
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) validateSetMirrorPercentParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionRequestMirrorPolicyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

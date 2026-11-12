@@ -79,6 +79,10 @@ func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_MemorystoreInstanceZoneDistributionConfigOutputReference) validateSetZonesParameters(val *[]*string) error {
+	return nil
+}
+
 func validateNewMemorystoreInstanceZoneDistributionConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }

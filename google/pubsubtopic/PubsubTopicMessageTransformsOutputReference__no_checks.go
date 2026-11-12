@@ -51,6 +51,10 @@ func (p *jsiiProxy_PubsubTopicMessageTransformsOutputReference) validatePutAiInf
 	return nil
 }
 
+func (p *jsiiProxy_PubsubTopicMessageTransformsOutputReference) validatePutCompressionParameters(value *PubsubTopicMessageTransformsCompression) error {
+	return nil
+}
+
 func (p *jsiiProxy_PubsubTopicMessageTransformsOutputReference) validatePutJavascriptUdfParameters(value *PubsubTopicMessageTransformsJavascriptUdf) error {
 	return nil
 }

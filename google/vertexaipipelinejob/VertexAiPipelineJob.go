@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_pipeline_job google_vertex_ai_pipeline_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_pipeline_job google_vertex_ai_pipeline_job}.
 type VertexAiPipelineJob interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -884,7 +884,7 @@ func (j *jsiiProxy_VertexAiPipelineJob) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_pipeline_job google_vertex_ai_pipeline_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_pipeline_job google_vertex_ai_pipeline_job} Resource.
 func NewVertexAiPipelineJob(scope constructs.Construct, id *string, config *VertexAiPipelineJobConfig) VertexAiPipelineJob {
 	_init_.Initialize()
 
@@ -902,7 +902,7 @@ func NewVertexAiPipelineJob(scope constructs.Construct, id *string, config *Vert
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/vertex_ai_pipeline_job google_vertex_ai_pipeline_job} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/vertex_ai_pipeline_job google_vertex_ai_pipeline_job} Resource.
 func NewVertexAiPipelineJob_Override(v VertexAiPipelineJob, scope constructs.Construct, id *string, config *VertexAiPipelineJobConfig) {
 	_init_.Initialize()
 

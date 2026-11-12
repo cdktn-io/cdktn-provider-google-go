@@ -79,6 +79,10 @@ func (s *jsiiProxy_SqlDatabaseInstance) validateOverrideLogicalIdParameters(newL
 	return nil
 }
 
+func (s *jsiiProxy_SqlDatabaseInstance) validatePutBlueGreenDeploymentParameters(value *SqlDatabaseInstanceBlueGreenDeployment) error {
+	return nil
+}
+
 func (s *jsiiProxy_SqlDatabaseInstance) validatePutCloneParameters(value *SqlDatabaseInstanceClone) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (j *jsiiProxy_SqlDatabaseInstance) validateSetConnectionParameters(val inte
 }
 
 func (j *jsiiProxy_SqlDatabaseInstance) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_SqlDatabaseInstance) validateSetDatabaseCenterIntegrationParameters(val *string) error {
 	return nil
 }
 

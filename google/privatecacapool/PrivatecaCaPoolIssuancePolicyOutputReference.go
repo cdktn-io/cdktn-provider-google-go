@@ -49,6 +49,8 @@ type PrivatecaCaPoolIssuancePolicyOutputReference interface {
 	MaximumLifetime() *string
 	SetMaximumLifetime(val *string)
 	MaximumLifetimeInput() *string
+	PassthroughExtensions() PrivatecaCaPoolIssuancePolicyPassthroughExtensionsOutputReference
+	PassthroughExtensionsInput() *PrivatecaCaPoolIssuancePolicyPassthroughExtensions
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -85,6 +87,7 @@ type PrivatecaCaPoolIssuancePolicyOutputReference interface {
 	PutAllowedKeyTypes(value interface{})
 	PutBaselineValues(value *PrivatecaCaPoolIssuancePolicyBaselineValues)
 	PutIdentityConstraints(value *PrivatecaCaPoolIssuancePolicyIdentityConstraints)
+	PutPassthroughExtensions(value *PrivatecaCaPoolIssuancePolicyPassthroughExtensions)
 	ResetAllowedIssuanceModes()
 	ResetAllowedKeyTypes()
 	ResetAllowRequesterSpecifiedNotBeforeTime()
@@ -92,6 +95,7 @@ type PrivatecaCaPoolIssuancePolicyOutputReference interface {
 	ResetBaselineValues()
 	ResetIdentityConstraints()
 	ResetMaximumLifetime()
+	ResetPassthroughExtensions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -292,6 +296,26 @@ func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) MaximumLifetime
 	_jsii_.Get(
 		j,
 		"maximumLifetimeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) PassthroughExtensions() PrivatecaCaPoolIssuancePolicyPassthroughExtensionsOutputReference {
+	var returns PrivatecaCaPoolIssuancePolicyPassthroughExtensionsOutputReference
+	_jsii_.Get(
+		j,
+		"passthroughExtensions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) PassthroughExtensionsInput() *PrivatecaCaPoolIssuancePolicyPassthroughExtensions {
+	var returns *PrivatecaCaPoolIssuancePolicyPassthroughExtensions
+	_jsii_.Get(
+		j,
+		"passthroughExtensionsInput",
 		&returns,
 	)
 	return returns
@@ -663,6 +687,17 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) PutIdentityCons
 	)
 }
 
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) PutPassthroughExtensions(value *PrivatecaCaPoolIssuancePolicyPassthroughExtensions) {
+	if err := p.validatePutPassthroughExtensionsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		p,
+		"putPassthroughExtensions",
+		[]interface{}{value},
+	)
+}
+
 func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) ResetAllowedIssuanceModes() {
 	_jsii_.InvokeVoid(
 		p,
@@ -715,6 +750,14 @@ func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) ResetMaximumLif
 	_jsii_.InvokeVoid(
 		p,
 		"resetMaximumLifetime",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrivatecaCaPoolIssuancePolicyOutputReference) ResetPassthroughExtensions() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetPassthroughExtensions",
 		nil, // no parameters
 	)
 }

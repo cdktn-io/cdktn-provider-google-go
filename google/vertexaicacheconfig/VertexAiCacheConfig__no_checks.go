@@ -131,6 +131,10 @@ func (j *jsiiProxy_VertexAiCacheConfig) validateSetProvisionersParameters(val *[
 	return nil
 }
 
+func (j *jsiiProxy_VertexAiCacheConfig) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
 func validateNewVertexAiCacheConfigParameters(scope constructs.Construct, id *string, config *VertexAiCacheConfigConfig) error {
 	return nil
 }

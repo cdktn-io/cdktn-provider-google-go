@@ -237,6 +237,17 @@ func (s *jsiiProxy_StorageBatchOperationsJob) validatePutDeleteObjectParameters(
 	return nil
 }
 
+func (s *jsiiProxy_StorageBatchOperationsJob) validatePutLoggingConfigParameters(value *StorageBatchOperationsJobLoggingConfig) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_StorageBatchOperationsJob) validatePutPutMetadataParameters(value *StorageBatchOperationsJobPutMetadata) error {
 	if value == nil {
 		return fmt.Errorf("parameter value is required, but nil was provided")
@@ -450,6 +461,26 @@ func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDeletionPolicyParameter
 func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDescriptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_StorageBatchOperationsJob) validateSetDryRunParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
 	}
 
 	return nil

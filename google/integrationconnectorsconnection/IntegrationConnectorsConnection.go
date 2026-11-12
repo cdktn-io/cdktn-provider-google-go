@@ -12,11 +12,17 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/integration_connectors_connection google_integration_connectors_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/integration_connectors_connection google_integration_connectors_connection}.
 type IntegrationConnectorsConnection interface {
 	cdktn.TerraformResource
+	AsyncOperationsEnabled() interface{}
+	SetAsyncOperationsEnabled(val interface{})
+	AsyncOperationsEnabledInput() interface{}
 	AuthConfig() IntegrationConnectorsConnectionAuthConfigOutputReference
 	AuthConfigInput() *IntegrationConnectorsConnectionAuthConfig
+	AuthOverrideEnabled() interface{}
+	SetAuthOverrideEnabled(val interface{})
+	AuthOverrideEnabledInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	ConfigVariable() IntegrationConnectorsConnectionConfigVariableList
@@ -122,6 +128,8 @@ type IntegrationConnectorsConnection interface {
 	TerraformResourceType() *string
 	Timeouts() IntegrationConnectorsConnectionTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	TrafficShapingConfigs() IntegrationConnectorsConnectionTrafficShapingConfigsList
+	TrafficShapingConfigsInput() interface{}
 	UpdateTime() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
@@ -211,6 +219,7 @@ type IntegrationConnectorsConnection interface {
 	PutNodeConfig(value *IntegrationConnectorsConnectionNodeConfig)
 	PutSslConfig(value *IntegrationConnectorsConnectionSslConfig)
 	PutTimeouts(value *IntegrationConnectorsConnectionTimeouts)
+	PutTrafficShapingConfigs(value interface{})
 	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
 	//
 	// Called by generated provider bindings when a versioned feature is
@@ -224,7 +233,9 @@ type IntegrationConnectorsConnection interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetAsyncOperationsEnabled()
 	ResetAuthConfig()
+	ResetAuthOverrideEnabled()
 	ResetConfigVariable()
 	ResetDeletionPolicy()
 	ResetDescription()
@@ -244,6 +255,7 @@ type IntegrationConnectorsConnection interface {
 	ResetSslConfig()
 	ResetSuspended()
 	ResetTimeouts()
+	ResetTrafficShapingConfigs()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -271,6 +283,26 @@ type jsiiProxy_IntegrationConnectorsConnection struct {
 	internal.Type__cdktnTerraformResource
 }
 
+func (j *jsiiProxy_IntegrationConnectorsConnection) AsyncOperationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"asyncOperationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) AsyncOperationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"asyncOperationsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IntegrationConnectorsConnection) AuthConfig() IntegrationConnectorsConnectionAuthConfigOutputReference {
 	var returns IntegrationConnectorsConnectionAuthConfigOutputReference
 	_jsii_.Get(
@@ -286,6 +318,26 @@ func (j *jsiiProxy_IntegrationConnectorsConnection) AuthConfigInput() *Integrati
 	_jsii_.Get(
 		j,
 		"authConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) AuthOverrideEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"authOverrideEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) AuthOverrideEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"authOverrideEnabledInput",
 		&returns,
 	)
 	return returns
@@ -931,6 +983,26 @@ func (j *jsiiProxy_IntegrationConnectorsConnection) TimeoutsInput() interface{} 
 	return returns
 }
 
+func (j *jsiiProxy_IntegrationConnectorsConnection) TrafficShapingConfigs() IntegrationConnectorsConnectionTrafficShapingConfigsList {
+	var returns IntegrationConnectorsConnectionTrafficShapingConfigsList
+	_jsii_.Get(
+		j,
+		"trafficShapingConfigs",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection) TrafficShapingConfigsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"trafficShapingConfigsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_IntegrationConnectorsConnection) UpdateTime() *string {
 	var returns *string
 	_jsii_.Get(
@@ -942,7 +1014,7 @@ func (j *jsiiProxy_IntegrationConnectorsConnection) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
 func NewIntegrationConnectorsConnection(scope constructs.Construct, id *string, config *IntegrationConnectorsConnectionConfig) IntegrationConnectorsConnection {
 	_init_.Initialize()
 
@@ -960,7 +1032,7 @@ func NewIntegrationConnectorsConnection(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/integration_connectors_connection google_integration_connectors_connection} Resource.
 func NewIntegrationConnectorsConnection_Override(i IntegrationConnectorsConnection, scope constructs.Construct, id *string, config *IntegrationConnectorsConnectionConfig) {
 	_init_.Initialize()
 
@@ -968,6 +1040,28 @@ func NewIntegrationConnectorsConnection_Override(i IntegrationConnectorsConnecti
 		"@cdktn/provider-google.integrationConnectorsConnection.IntegrationConnectorsConnection",
 		[]interface{}{scope, id, config},
 		i,
+	)
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection)SetAsyncOperationsEnabled(val interface{}) {
+	if err := j.validateSetAsyncOperationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"asyncOperationsEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_IntegrationConnectorsConnection)SetAuthOverrideEnabled(val interface{}) {
+	if err := j.validateSetAuthOverrideEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"authOverrideEnabled",
+		val,
 	)
 }
 
@@ -1628,6 +1722,17 @@ func (i *jsiiProxy_IntegrationConnectorsConnection) PutTimeouts(value *Integrati
 	)
 }
 
+func (i *jsiiProxy_IntegrationConnectorsConnection) PutTrafficShapingConfigs(value interface{}) {
+	if err := i.validatePutTrafficShapingConfigsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		i,
+		"putTrafficShapingConfigs",
+		[]interface{}{value},
+	)
+}
+
 func (i *jsiiProxy_IntegrationConnectorsConnection) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
 	if err := i.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
 		panic(err)
@@ -1639,10 +1744,26 @@ func (i *jsiiProxy_IntegrationConnectorsConnection) RegisterProviderFeatureUsage
 	)
 }
 
+func (i *jsiiProxy_IntegrationConnectorsConnection) ResetAsyncOperationsEnabled() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetAsyncOperationsEnabled",
+		nil, // no parameters
+	)
+}
+
 func (i *jsiiProxy_IntegrationConnectorsConnection) ResetAuthConfig() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetAuthConfig",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationConnectorsConnection) ResetAuthOverrideEnabled() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetAuthOverrideEnabled",
 		nil, // no parameters
 	)
 }
@@ -1779,6 +1900,14 @@ func (i *jsiiProxy_IntegrationConnectorsConnection) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		i,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (i *jsiiProxy_IntegrationConnectorsConnection) ResetTrafficShapingConfigs() {
+	_jsii_.InvokeVoid(
+		i,
+		"resetTrafficShapingConfigs",
 		nil, // no parameters
 	)
 }

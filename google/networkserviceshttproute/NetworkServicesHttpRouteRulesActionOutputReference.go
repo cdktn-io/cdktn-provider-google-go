@@ -32,10 +32,15 @@ type NetworkServicesHttpRouteRulesActionOutputReference interface {
 	CreationStack() *[]*string
 	Destinations() NetworkServicesHttpRouteRulesActionDestinationsList
 	DestinationsInput() interface{}
+	DirectResponse() NetworkServicesHttpRouteRulesActionDirectResponseOutputReference
+	DirectResponseInput() *NetworkServicesHttpRouteRulesActionDirectResponse
 	FaultInjectionPolicy() NetworkServicesHttpRouteRulesActionFaultInjectionPolicyOutputReference
 	FaultInjectionPolicyInput() *NetworkServicesHttpRouteRulesActionFaultInjectionPolicy
 	// Experimental.
 	Fqn() *string
+	IdleTimeout() *string
+	SetIdleTimeout(val *string)
+	IdleTimeoutInput() *string
 	InternalValue() *NetworkServicesHttpRouteRulesAction
 	SetInternalValue(val *NetworkServicesHttpRouteRulesAction)
 	Redirect() NetworkServicesHttpRouteRulesActionRedirectOutputReference
@@ -87,6 +92,7 @@ type NetworkServicesHttpRouteRulesActionOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCorsPolicy(value *NetworkServicesHttpRouteRulesActionCorsPolicy)
 	PutDestinations(value interface{})
+	PutDirectResponse(value *NetworkServicesHttpRouteRulesActionDirectResponse)
 	PutFaultInjectionPolicy(value *NetworkServicesHttpRouteRulesActionFaultInjectionPolicy)
 	PutRedirect(value *NetworkServicesHttpRouteRulesActionRedirect)
 	PutRequestHeaderModifier(value *NetworkServicesHttpRouteRulesActionRequestHeaderModifier)
@@ -96,7 +102,9 @@ type NetworkServicesHttpRouteRulesActionOutputReference interface {
 	PutUrlRewrite(value *NetworkServicesHttpRouteRulesActionUrlRewrite)
 	ResetCorsPolicy()
 	ResetDestinations()
+	ResetDirectResponse()
 	ResetFaultInjectionPolicy()
+	ResetIdleTimeout()
 	ResetRedirect()
 	ResetRequestHeaderModifier()
 	ResetRequestMirrorPolicy()
@@ -189,6 +197,26 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) Destinati
 	return returns
 }
 
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) DirectResponse() NetworkServicesHttpRouteRulesActionDirectResponseOutputReference {
+	var returns NetworkServicesHttpRouteRulesActionDirectResponseOutputReference
+	_jsii_.Get(
+		j,
+		"directResponse",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) DirectResponseInput() *NetworkServicesHttpRouteRulesActionDirectResponse {
+	var returns *NetworkServicesHttpRouteRulesActionDirectResponse
+	_jsii_.Get(
+		j,
+		"directResponseInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) FaultInjectionPolicy() NetworkServicesHttpRouteRulesActionFaultInjectionPolicyOutputReference {
 	var returns NetworkServicesHttpRouteRulesActionFaultInjectionPolicyOutputReference
 	_jsii_.Get(
@@ -214,6 +242,26 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) Fqn() *st
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) IdleTimeout() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idleTimeout",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) IdleTimeoutInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idleTimeoutInput",
 		&returns,
 	)
 	return returns
@@ -435,6 +483,17 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference)SetComplex
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference)SetIdleTimeout(val *string) {
+	if err := j.validateSetIdleTimeoutParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"idleTimeout",
 		val,
 	)
 }
@@ -691,6 +750,17 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) PutDestin
 	)
 }
 
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) PutDirectResponse(value *NetworkServicesHttpRouteRulesActionDirectResponse) {
+	if err := n.validatePutDirectResponseParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putDirectResponse",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) PutFaultInjectionPolicy(value *NetworkServicesHttpRouteRulesActionFaultInjectionPolicy) {
 	if err := n.validatePutFaultInjectionPolicyParameters(value); err != nil {
 		panic(err)
@@ -784,10 +854,26 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) ResetDest
 	)
 }
 
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) ResetDirectResponse() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDirectResponse",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) ResetFaultInjectionPolicy() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetFaultInjectionPolicy",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) ResetIdleTimeout() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetIdleTimeout",
 		nil, // no parameters
 	)
 }

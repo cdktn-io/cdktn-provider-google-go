@@ -12,9 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_capability_config google_resource_manager_capability_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_capability_config google_resource_manager_capability_config}.
 type ResourceManagerCapabilityConfigA interface {
 	cdktn.TerraformResource
+	Boundaries() *[]*string
+	SetBoundaries(val *[]*string)
+	BoundariesInput() *[]*string
 	CapabilityConfigId() *string
 	SetCapabilityConfigId(val *string)
 	CapabilityConfigIdInput() *string
@@ -182,6 +185,7 @@ type ResourceManagerCapabilityConfigA interface {
 	// that needs it.
 	// Experimental.
 	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	ResetBoundaries()
 	ResetDeletionPolicy()
 	ResetDisplayName()
 	ResetId()
@@ -215,6 +219,26 @@ type ResourceManagerCapabilityConfigA interface {
 // The jsii proxy struct for ResourceManagerCapabilityConfigA
 type jsiiProxy_ResourceManagerCapabilityConfigA struct {
 	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_ResourceManagerCapabilityConfigA) Boundaries() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"boundaries",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ResourceManagerCapabilityConfigA) BoundariesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"boundariesInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_ResourceManagerCapabilityConfigA) CapabilityConfigId() *string {
@@ -588,7 +612,7 @@ func (j *jsiiProxy_ResourceManagerCapabilityConfigA) UpdateTime() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_capability_config google_resource_manager_capability_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_capability_config google_resource_manager_capability_config} Resource.
 func NewResourceManagerCapabilityConfigA(scope constructs.Construct, id *string, config *ResourceManagerCapabilityConfigAConfig) ResourceManagerCapabilityConfigA {
 	_init_.Initialize()
 
@@ -606,7 +630,7 @@ func NewResourceManagerCapabilityConfigA(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_capability_config google_resource_manager_capability_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_capability_config google_resource_manager_capability_config} Resource.
 func NewResourceManagerCapabilityConfigA_Override(r ResourceManagerCapabilityConfigA, scope constructs.Construct, id *string, config *ResourceManagerCapabilityConfigAConfig) {
 	_init_.Initialize()
 
@@ -614,6 +638,17 @@ func NewResourceManagerCapabilityConfigA_Override(r ResourceManagerCapabilityCon
 		"@cdktn/provider-google.resourceManagerCapabilityConfig.ResourceManagerCapabilityConfigA",
 		[]interface{}{scope, id, config},
 		r,
+	)
+}
+
+func (j *jsiiProxy_ResourceManagerCapabilityConfigA)SetBoundaries(val *[]*string) {
+	if err := j.validateSetBoundariesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"boundaries",
+		val,
 	)
 }
 
@@ -1150,6 +1185,14 @@ func (r *jsiiProxy_ResourceManagerCapabilityConfigA) RegisterProviderFeatureUsag
 		r,
 		"registerProviderFeatureUsage",
 		[]interface{}{feature},
+	)
+}
+
+func (r *jsiiProxy_ResourceManagerCapabilityConfigA) ResetBoundaries() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetBoundaries",
+		nil, // no parameters
 	)
 }
 

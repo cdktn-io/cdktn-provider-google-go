@@ -55,6 +55,10 @@ func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) validateP
 	return nil
 }
 
+func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) validatePutDirectResponseParameters(value *NetworkServicesHttpRouteRulesActionDirectResponse) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) validatePutFaultInjectionPolicyParameters(value *NetworkServicesHttpRouteRulesActionFaultInjectionPolicy) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) validateS
 }
 
 func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkServicesHttpRouteRulesActionOutputReference) validateSetIdleTimeoutParameters(val *string) error {
 	return nil
 }
 

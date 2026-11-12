@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent_iam_policy google_gemini_data_analytics_data_agent_iam_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/gemini_data_analytics_data_agent_iam_policy google_gemini_data_analytics_data_agent_iam_policy}.
 type GeminiDataAnalyticsDataAgentIamPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_GeminiDataAnalyticsDataAgentIamPolicy) TerraformResourceType(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent_iam_policy google_gemini_data_analytics_data_agent_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/gemini_data_analytics_data_agent_iam_policy google_gemini_data_analytics_data_agent_iam_policy} Resource.
 func NewGeminiDataAnalyticsDataAgentIamPolicy(scope constructs.Construct, id *string, config *GeminiDataAnalyticsDataAgentIamPolicyConfig) GeminiDataAnalyticsDataAgentIamPolicy {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewGeminiDataAnalyticsDataAgentIamPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/gemini_data_analytics_data_agent_iam_policy google_gemini_data_analytics_data_agent_iam_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/gemini_data_analytics_data_agent_iam_policy google_gemini_data_analytics_data_agent_iam_policy} Resource.
 func NewGeminiDataAnalyticsDataAgentIamPolicy_Override(g GeminiDataAnalyticsDataAgentIamPolicy, scope constructs.Construct, id *string, config *GeminiDataAnalyticsDataAgentIamPolicyConfig) {
 	_init_.Initialize()
 

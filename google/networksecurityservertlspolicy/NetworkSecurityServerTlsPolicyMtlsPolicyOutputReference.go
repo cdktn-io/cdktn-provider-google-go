@@ -18,6 +18,9 @@ type NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference interface {
 	ClientValidationMode() *string
 	SetClientValidationMode(val *string)
 	ClientValidationModeInput() *string
+	ClientValidationRelaxations() *[]*string
+	SetClientValidationRelaxations(val *[]*string)
+	ClientValidationRelaxationsInput() *[]*string
 	ClientValidationTrustConfig() *string
 	SetClientValidationTrustConfig(val *string)
 	ClientValidationTrustConfigInput() *string
@@ -75,6 +78,7 @@ type NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference interface {
 	PutClientValidationCa(value interface{})
 	ResetClientValidationCa()
 	ResetClientValidationMode()
+	ResetClientValidationRelaxations()
 	ResetClientValidationTrustConfig()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -126,6 +130,26 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) Clie
 	_jsii_.Get(
 		j,
 		"clientValidationModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) ClientValidationRelaxations() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"clientValidationRelaxations",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) ClientValidationRelaxationsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"clientValidationRelaxationsInput",
 		&returns,
 	)
 	return returns
@@ -256,6 +280,17 @@ func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference)SetCl
 	_jsii_.Set(
 		j,
 		"clientValidationMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference)SetClientValidationRelaxations(val *[]*string) {
+	if err := j.validateSetClientValidationRelaxationsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"clientValidationRelaxations",
 		val,
 	)
 }
@@ -535,6 +570,14 @@ func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) Rese
 	_jsii_.InvokeVoid(
 		n,
 		"resetClientValidationMode",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkSecurityServerTlsPolicyMtlsPolicyOutputReference) ResetClientValidationRelaxations() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetClientValidationRelaxations",
 		nil, // no parameters
 	)
 }

@@ -107,6 +107,14 @@ func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputRef
 	return nil
 }
 
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) validateSetSessionIdHeaderParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) validateSetTaskIdHeaderParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_AgenticApplicationsAnalystAgentPersonaMcpDataSourcesOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

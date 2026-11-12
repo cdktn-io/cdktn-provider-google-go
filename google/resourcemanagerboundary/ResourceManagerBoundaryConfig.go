@@ -28,11 +28,11 @@ type ResourceManagerBoundaryConfig struct {
 	// Must be 6 to 30 lowercase ASCII letters, digits, or hyphens, must start
 	// with a letter, and may not end with a hyphen.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary#boundary_id ResourceManagerBoundary#boundary_id}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary#boundary_id ResourceManagerBoundary#boundary_id}
 	BoundaryId *string `field:"required" json:"boundaryId" yaml:"boundaryId"`
 	// The parent resource under which the Boundary is created. Must be of the form 'organizations/{organization_id}' or 'folders/{folder_id}'.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary#parent ResourceManagerBoundary#parent}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary#parent ResourceManagerBoundary#parent}
 	Parent *string `field:"required" json:"parent" yaml:"parent"`
 	// Whether Terraform will be prevented from destroying the instance.
 	//
@@ -44,7 +44,7 @@ type ResourceManagerBoundaryConfig struct {
 	// When set to "DELETE", deleting the resource is allowed.
 	//
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary#deletion_policy ResourceManagerBoundary#deletion_policy}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary#deletion_policy ResourceManagerBoundary#deletion_policy}
 	DeletionPolicy *string `field:"optional" json:"deletionPolicy" yaml:"deletionPolicy"`
 	// Human-readable display name of the Boundary.
 	//
@@ -53,20 +53,20 @@ type ResourceManagerBoundaryConfig struct {
 	// uppercase letters, numbers, hyphen, single-quote, double-quote, space,
 	// and exclamation point.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary#display_name ResourceManagerBoundary#display_name}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary#display_name ResourceManagerBoundary#display_name}
 	DisplayName *string `field:"optional" json:"displayName" yaml:"displayName"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary#id ResourceManagerBoundary#id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary#id ResourceManagerBoundary#id}.
 	//
 	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 	Id *string `field:"optional" json:"id" yaml:"id"`
 	// resource_filter block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary#resource_filter ResourceManagerBoundary#resource_filter}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary#resource_filter ResourceManagerBoundary#resource_filter}
 	ResourceFilter *ResourceManagerBoundaryResourceFilter `field:"optional" json:"resourceFilter" yaml:"resourceFilter"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.9.0/docs/resources/resource_manager_boundary#timeouts ResourceManagerBoundary#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/google/8.11.0/docs/resources/resource_manager_boundary#timeouts ResourceManagerBoundary#timeouts}
 	Timeouts *ResourceManagerBoundaryTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

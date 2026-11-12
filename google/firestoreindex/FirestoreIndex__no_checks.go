@@ -83,6 +83,10 @@ func (f *jsiiProxy_FirestoreIndex) validatePutFieldsParameters(value interface{}
 	return nil
 }
 
+func (f *jsiiProxy_FirestoreIndex) validatePutSearchIndexOptionsParameters(value *FirestoreIndexSearchIndexOptions) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirestoreIndex) validatePutTimeoutsParameters(value *FirestoreIndexTimeouts) error {
 	return nil
 }

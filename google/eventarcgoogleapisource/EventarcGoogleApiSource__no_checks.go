@@ -83,6 +83,14 @@ func (e *jsiiProxy_EventarcGoogleApiSource) validatePutLoggingConfigParameters(v
 	return nil
 }
 
+func (e *jsiiProxy_EventarcGoogleApiSource) validatePutOrganizationSubscriptionParameters(value *EventarcGoogleApiSourceOrganizationSubscription) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventarcGoogleApiSource) validatePutProjectSubscriptionsParameters(value *EventarcGoogleApiSourceProjectSubscriptions) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventarcGoogleApiSource) validatePutTimeoutsParameters(value *EventarcGoogleApiSourceTimeouts) error {
 	return nil
 }
